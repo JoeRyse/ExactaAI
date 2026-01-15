@@ -86,6 +86,49 @@
             border-bottom-color: #1a1a1a;
         }
 
+        /* Race Selector */
+        .race-selector {
+            background: white;
+            border-bottom: 1px solid #e5e5e5;
+            padding: 0.75rem 2rem;
+            position: sticky;
+            top: 118px;
+            z-index: 98;
+        }
+
+        .race-selector-inner {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .race-selector-label {
+            font-size: 0.85rem;
+            color: #666;
+            font-weight: 600;
+            margin-right: 0.5rem;
+        }
+
+        .race-jump-btn {
+            background: white;
+            border: 1px solid #e5e5e5;
+            color: #666;
+            padding: 0.4rem 0.75rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .race-jump-btn:hover {
+            border-color: #1a1a1a;
+            color: #1a1a1a;
+        }
+
         /* Main Container */
         .container {
             max-width: 1400px;
@@ -328,6 +371,13 @@
 
     <div class="track-tabs">
         <div class="track-tabs-inner" id="trackTabs"></div>
+    </div>
+
+    <div class="race-selector" id="raceSelector" style="display: none;">
+        <div class="race-selector-inner">
+            <span class="race-selector-label">Jump to Race:</span>
+            <div id="raceJumpButtons"></div>
+        </div>
     </div>
 
     <div class="container">
@@ -730,18 +780,29 @@
         function renderRaces() {
             const container = document.getElementById('racesGrid');
             const races = trackData[currentTrack].races;
+            const raceSelector = document.getElementById('raceSelector');
+            const jumpButtonsContainer = document.getElementById('raceJumpButtons');
 
             if (races.length === 0) {
                 container.innerHTML = '<div class="empty-state">Analysis coming soon for this track</div>';
+                raceSelector.style.display = 'none';
                 return;
             }
+
+            // Show race selector
+            raceSelector.style.display = 'block';
+
+            // Generate race jump buttons
+            jumpButtonsContainer.innerHTML = races.map(race => 
+                `<button class="race-jump-btn" onclick="jumpToRace(${race.number})">R${race.number}</button>`
+            ).join('');
 
             container.innerHTML = races.map(race => {
                 const surfaceClass = `surface-${race.surface.toLowerCase()}`;
                 const starsHTML = (count) => '★'.repeat(count) + '☆'.repeat(5 - count);
 
                 return `
-                    <div class="race-card">
+                    <div class="race-card" id="race-${race.number}">
                         <div class="race-header">
                             <div class="race-title">
                                 <div class="race-number">Race ${race.number}</div>
@@ -786,6 +847,20 @@
                     </div>
                 `;
             }).join('');
+        }
+
+        function jumpToRace(raceNumber) {
+            const raceCard = document.getElementById(`race-${raceNumber}`);
+            if (raceCard) {
+                const offset = 190; // Account for sticky headers
+                const elementPosition = raceCard.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            }
         }
 
         // Initialize the app
