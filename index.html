@@ -3,512 +3,793 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pro Handicapper | Daily Analysis</title>
+    <title>Professional Handicapping Analysis</title>
     <style>
-        :root {
-            --bg-dark: #111827;
-            --bg-card: #1f2937;
-            --accent: #3b82f6;
-            --text-main: #f3f4f6;
-            --text-muted: #9ca3af;
-            --border: #374151;
-            --gold: #fbbf24;
-            --green: #10b981;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-dark);
-            color: var(--text-main);
+        * {
             margin: 0;
-            display: flex;
-            height: 100vh;
-            overflow: hidden;
-        }
-
-        /* Sidebar (Tracks) */
-        .sidebar {
-            width: 260px;
-            background-color: #0f172a;
-            border-right: 1px solid var(--border);
-            display: flex;
-            flex-direction: column;
-            padding: 20px;
-            flex-shrink: 0;
-        }
-
-        .logo {
-            font-size: 1.25rem;
-            font-weight: 800;
-            color: var(--text-main);
-            margin-bottom: 30px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .logo span { color: var(--accent); }
-
-        .track-btn {
-            background: transparent;
-            border: 1px solid transparent;
-            color: var(--text-muted);
-            padding: 12px 16px;
-            text-align: left;
-            border-radius: 8px;
-            cursor: pointer;
-            font-weight: 600;
-            margin-bottom: 8px;
-            transition: all 0.2s;
-        }
-
-        .track-btn:hover {
-            background: rgba(255,255,255,0.05);
-            color: var(--text-main);
-        }
-
-        .track-btn.active {
-            background: var(--accent);
-            color: white;
-            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
-        }
-
-        /* Main Content */
-        .main-content {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            overflow: hidden;
-        }
-
-        /* Race Selector Bar */
-        .race-nav {
-            background-color: var(--bg-card);
-            border-bottom: 1px solid var(--border);
-            padding: 15px 30px;
-            display: flex;
-            gap: 10px;
-            overflow-x: auto;
-            white-space: nowrap;
-        }
-
-        .race-btn {
-            background: var(--bg-dark);
-            border: 1px solid var(--border);
-            color: var(--text-muted);
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            cursor: pointer;
-            font-weight: bold;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: all 0.2s;
-        }
-
-        .race-btn:hover { border-color: var(--accent); color: var(--accent); }
-        .race-btn.active { background: var(--accent); color: white; border-color: var(--accent); }
-
-        /* Analysis Area */
-        .analysis-container {
-            flex: 1;
-            overflow-y: auto;
-            padding: 30px;
-            max-width: 1000px;
-            margin: 0 auto;
-            width: 100%;
+            padding: 0;
             box-sizing: border-box;
         }
 
-        /* Cards */
-        .card {
-            background-color: var(--bg-card);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 24px;
-            margin-bottom: 24px;
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Inter", sans-serif;
+            background: #fafafa;
+            color: #1a1a1a;
+            line-height: 1.6;
         }
 
-        .header-card {
-            border-left: 5px solid var(--accent);
+        /* Header */
+        .header {
+            background: white;
+            border-bottom: 1px solid #e5e5e5;
+            padding: 1.5rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
         }
 
-        h1 { margin: 0 0 5px 0; font-size: 1.8rem; }
-        h2 { font-size: 1.1rem; color: var(--accent); margin-top: 0; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px; }
-        h3 { margin: 0 0 10px 0; font-size: 1.2rem; }
-        
-        .meta { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 15px; }
-        .badge { 
-            display: inline-block; 
-            padding: 4px 8px; 
-            border-radius: 4px; 
-            font-size: 0.8rem; 
-            font-weight: bold; 
-            margin-right: 8px;
-        }
-        .badge-dirt { background: #78350f; color: #fcd34d; }
-        .badge-turf { background: #064e3b; color: #6ee7b7; }
-        .badge-tapeta { background: #374151; color: #e5e7eb; }
-
-        /* Contender List */
-        .contender-row {
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
             display: flex;
-            border-bottom: 1px solid var(--border);
-            padding: 15px 0;
+            justify-content: space-between;
+            align-items: center;
         }
-        .contender-row:last-child { border-bottom: none; }
-        
-        .horse-num {
-            width: 40px;
-            height: 40px;
-            background: #374151;
+
+        .brand {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .date {
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        /* Track Tabs */
+        .track-tabs {
+            background: white;
+            border-bottom: 1px solid #e5e5e5;
+            padding: 0 2rem;
+            position: sticky;
+            top: 69px;
+            z-index: 99;
+        }
+
+        .track-tabs-inner {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            gap: 2rem;
+        }
+
+        .track-tab {
+            background: none;
+            border: none;
+            padding: 1rem 0;
+            color: #666;
+            font-size: 0.95rem;
+            font-weight: 500;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s;
+        }
+
+        .track-tab:hover {
+            color: #1a1a1a;
+        }
+
+        .track-tab.active {
+            color: #1a1a1a;
+            border-bottom-color: #1a1a1a;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Race Grid */
+        .races-grid {
+            display: grid;
+            gap: 1.5rem;
+        }
+
+        /* Race Card */
+        .race-card {
+            background: white;
+            border-radius: 8px;
+            border: 1px solid #e5e5e5;
+            overflow: hidden;
+            transition: box-shadow 0.2s;
+        }
+
+        .race-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        .race-header {
+            padding: 1.5rem;
+            border-bottom: 1px solid #e5e5e5;
+            background: #fafafa;
+        }
+
+        .race-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 0.5rem;
+        }
+
+        .race-number {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .race-conditions {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .race-surface {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-top: 0.5rem;
+        }
+
+        .surface-dirt { background: #fef3c7; color: #92400e; }
+        .surface-turf { background: #d1fae5; color: #065f46; }
+        .surface-tapeta { background: #e5e7eb; color: #374151; }
+
+        .race-body {
+            padding: 1.5rem;
+        }
+
+        .pace-section {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .section-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #666;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .pace-text {
+            color: #333;
+            font-size: 0.95rem;
+        }
+
+        /* Contenders */
+        .contenders {
+            margin-bottom: 1.5rem;
+        }
+
+        .contender {
+            display: grid;
+            grid-template-columns: auto 1fr auto;
+            gap: 1rem;
+            padding: 1rem 0;
+            border-bottom: 1px solid #f3f4f6;
+            align-items: start;
+        }
+
+        .contender:last-child {
+            border-bottom: none;
+        }
+
+        .horse-number {
+            width: 36px;
+            height: 36px;
+            background: #1a1a1a;
             color: white;
-            font-weight: bold;
             display: flex;
             align-items: center;
             justify-content: center;
-            border-radius: 4px;
-            margin-right: 15px;
-            flex-shrink: 0;
+            border-radius: 6px;
+            font-weight: 700;
+            font-size: 1rem;
         }
-        
-        .horse-details { flex: 1; }
-        .horse-name { font-size: 1.1rem; font-weight: bold; color: var(--text-main); }
-        .horse-connections { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 6px; }
-        .horse-analysis { font-size: 0.95rem; line-height: 1.5; color: #d1d5db; }
-        
-        .odds-box {
-            text-align: right;
-            min-width: 80px;
-        }
-        .ml-odds { font-size: 0.9rem; color: var(--text-muted); }
-        .star-rating { color: var(--gold); font-size: 0.9rem; margin-bottom: 4px; }
 
-        /* Betting Section */
-        .bet-box {
-            background: rgba(16, 185, 129, 0.1);
-            border: 1px solid rgba(16, 185, 129, 0.3);
-            border-radius: 8px;
-            padding: 15px;
-            margin-top: 10px;
+        .horse-info {
+            min-width: 0;
         }
-        .bet-line {
+
+        .horse-name {
+            font-weight: 700;
+            font-size: 1.05rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .horse-connections {
+            color: #666;
+            font-size: 0.85rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .horse-analysis {
+            color: #333;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        .horse-rating {
+            text-align: right;
+            white-space: nowrap;
+        }
+
+        .stars {
+            color: #fbbf24;
+            font-size: 0.9rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .odds {
+            color: #666;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        /* Betting */
+        .betting-section {
+            background: #f9fafb;
+            border-radius: 6px;
+            padding: 1rem;
+        }
+
+        .bet-row {
             display: flex;
             justify-content: space-between;
-            margin-bottom: 8px;
-            font-family: monospace;
-            font-size: 1.1rem;
+            padding: 0.5rem 0;
+            font-size: 0.95rem;
         }
-        .bet-line:last-child { margin-bottom: 0; }
-        .bet-label { font-weight: bold; color: var(--green); }
 
-        /* Mobile Responsive */
+        .bet-type {
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+
+        .bet-selection {
+            color: #333;
+            font-family: ui-monospace, monospace;
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: #666;
+        }
+
+        /* Highlight Classes */
+        .lock {
+            background: #fef3c7;
+            padding: 0.15rem 0.5rem;
+            border-radius: 3px;
+            font-weight: 600;
+        }
+
+        .value {
+            background: #dbeafe;
+            padding: 0.15rem 0.5rem;
+            border-radius: 3px;
+            font-weight: 600;
+        }
+
+        /* Responsive */
         @media (max-width: 768px) {
-            body { flex-direction: column; height: auto; overflow: auto; }
-            .sidebar { width: 100%; padding: 15px; box-sizing: border-box; }
-            .main-content { height: auto; }
-            .analysis-container { padding: 15px; }
+            .container {
+                padding: 1rem;
+            }
+            
+            .header-content {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+
+            .track-tabs-inner {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+
+            .contender {
+                grid-template-columns: auto 1fr;
+                gap: 0.75rem;
+            }
+
+            .horse-rating {
+                grid-column: 2;
+                text-align: left;
+                margin-top: 0.5rem;
+            }
         }
     </style>
 </head>
 <body>
-
-    <!-- Sidebar: Track Selection -->
-    <div class="sidebar">
-        <div class="logo">🏇 PRO<span>HANDICAPPER</span></div>
-        <div style="margin-bottom: 10px; color: #6b7280; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px;">Select Track</div>
-        <button class="track-btn active" onclick="loadTrack('gp')">Gulfstream Park</button>
-        <button class="track-btn" onclick="loadTrack('sa')">Santa Anita</button>
-        <button class="track-btn" onclick="loadTrack('aqu')">Aqueduct</button>
+    <div class="header">
+        <div class="header-content">
+            <div class="brand">Professional Handicapping</div>
+            <div class="date" id="displayDate"></div>
+        </div>
     </div>
 
-    <!-- Main Content -->
-    <div class="main-content">
-        <!-- Race Selector -->
-        <div class="race-nav" id="raceNav">
-            <!-- Buttons injected via JS -->
-        </div>
+    <div class="track-tabs">
+        <div class="track-tabs-inner" id="trackTabs"></div>
+    </div>
 
-        <!-- Analysis Display -->
-        <div class="analysis-container" id="analysisDisplay">
-            <!-- Content injected via JS -->
-        </div>
+    <div class="container">
+        <div class="races-grid" id="racesGrid"></div>
     </div>
 
     <script>
-        // --- DATA SOURCE ---
-        // This data reflects the analysis generated in our previous conversation
-        const racingData = {
-            "gp": {
+        // ============================================================================
+        // DATA STRUCTURE - Add your analyses here
+        // ============================================================================
+        const trackData = {
+            "gulfstream": {
                 name: "Gulfstream Park",
-                date: "Thursday, Jan 15, 2026",
+                date: "Thursday, January 15, 2026",
                 races: [
                     {
                         number: 1,
-                        conditions: "5 Furlongs • Turf • MOC $50,000",
-                        pace: "<strong>CONTESTED SPEED:</strong> #1 Magic Solar has the rail and must send. #10 Fuoco Vivo has exceptional gate speed from the outside. The pace will be hot (:21/:44).",
+                        distance: "5 Furlongs",
+                        surface: "Turf",
+                        conditions: "MOC $50,000",
+                        pace: "CONTESTED SPEED: #1 Magic Solar has the rail and must send. #10 Fuoco Vivo has exceptional gate speed from the outside. The pace will be hot (:21/:44).",
                         contenders: [
-                            { num: "10", name: "FUOCO VIVO", conn: "L. Saez / R. Crichton", odds: "7/2", stars: "★★★★", note: "Drops from MSW to MOC. Superior speed figures (74) and ideal outside post for a sprint to stay clear of traffic." },
-                            { num: "1", name: "MAGIC SOLAR", conn: "Y. Torres / O. Gonzalez", odds: "5/1", stars: "★★★", note: "Rail speed. Ran a 72 on turf two back. Must commit early to hold position." },
-                            { num: "2", name: "RIGHTEOUS", conn: "T. Gaffalione / M. Maker", odds: "6/1", stars: "★★", note: "First time turf but bred for it. Gaffalione/Maker is a dangerous angle." }
+                            {
+                                number: "10",
+                                name: "FUOCO VIVO",
+                                jockey: "L. Saez",
+                                trainer: "R. Crichton",
+                                odds: "7/2",
+                                stars: 4,
+                                analysis: "Drops from MSW to MOC. Superior speed figures (74) and ideal outside post for a sprint to stay clear of traffic."
+                            },
+                            {
+                                number: "1",
+                                name: "MAGIC SOLAR",
+                                jockey: "Y. Torres",
+                                trainer: "O. Gonzalez",
+                                odds: "5/1",
+                                stars: 3,
+                                analysis: "Rail speed. Ran a 72 on turf two back. Must commit early to hold position."
+                            },
+                            {
+                                number: "2",
+                                name: "RIGHTEOUS",
+                                jockey: "T. Gaffalione",
+                                trainer: "M. Maker",
+                                odds: "6/1",
+                                stars: 2,
+                                analysis: "First time turf but bred for it. Gaffalione/Maker is a dangerous angle."
+                            }
                         ],
                         bets: [
-                            { type: "WIN", play: "#10 Fuoco Vivo" },
-                            { type: "EXACTA", play: "10 over 1, 2, 5" }
+                            { type: "WIN", selection: "#10 Fuoco Vivo" },
+                            { type: "EXACTA", selection: "10 over 1, 2, 5" }
                         ]
                     },
                     {
                         number: 2,
-                        conditions: "1 1/16 Miles • Tapeta • Maiden Claiming $17.5k",
-                        pace: "<strong>CONTROLLED:</strong> With scratches of #1, #4, #7, and #8, the field is decimated. #2 Herbstreit controls this.",
+                        distance: "1 1/16 Miles",
+                        surface: "Tapeta",
+                        conditions: "Maiden Claiming $17.5k",
+                        pace: "CONTROLLED: With scratches of #1, #4, #7, and #8, the field is decimated. #2 Herbstreit controls this.",
                         contenders: [
-                            { num: "2", name: "HERBSTREIT", conn: "I. Ortiz Jr. / B. Cox", odds: "1/5", stars: "★★★★★", note: "<strong>LOCK OF THE DAY.</strong> Brad Cox/Irad Ortiz dropping from MSW to $17.5k MCL. The field collapsed via scratches. A paid workout." },
-                            { num: "3", name: "MAGNETO", conn: "E. Zayas / J. Delgado", odds: "5/1", stars: "★★", note: "Inherits 2nd place by default. Delgado barn is 18%." }
+                            {
+                                number: "2",
+                                name: "HERBSTREIT",
+                                jockey: "I. Ortiz Jr.",
+                                trainer: "B. Cox",
+                                odds: "1/5",
+                                stars: 5,
+                                analysis: "<span class='lock'>LOCK OF THE DAY</span> Brad Cox/Irad Ortiz dropping from MSW to $17.5k MCL. The field collapsed via scratches. A paid workout.",
+                                highlight: "lock"
+                            },
+                            {
+                                number: "3",
+                                name: "MAGNETO",
+                                jockey: "E. Zayas",
+                                trainer: "J. Delgado",
+                                odds: "5/1",
+                                stars: 2,
+                                analysis: "Inherits 2nd place by default. Delgado barn is 18%."
+                            }
                         ],
                         bets: [
-                            { type: "WIN", play: "PASS (Odds too low)" },
-                            { type: "EXACTA", play: "2 / 3 (Cold)" }
+                            { type: "WIN", selection: "PASS (Odds too low)" },
+                            { type: "EXACTA", selection: "2 / 3 (Cold)" }
                         ]
                     },
                     {
                         number: 3,
-                        conditions: "1 Mile • Dirt • Claiming $12,500",
-                        pace: "<strong>MODERATE:</strong> With #1 scratched, #2 The Prince's Spur becomes the controlling speed/presser.",
+                        distance: "1 Mile",
+                        surface: "Dirt",
+                        conditions: "Claiming $12,500",
+                        pace: "MODERATE: With #1 scratched, #2 The Prince's Spur becomes the controlling speed/presser.",
                         contenders: [
-                            { num: "2", name: "THE PRINCE'S SPUR", conn: "I. Ortiz Jr. / R. Crichton", odds: "4/5", stars: "★★★★★", note: "Massive figure advantage (97 BSF vs 80 avg). Class drop to $12.5k. Dominant on paper." },
-                            { num: "3", name: "PHILHARMONIC", conn: "N. Juarez / N. Zito", odds: "7/2", stars: "★★★", note: "Consistent high-80s figures. Clear second best in this reduced field." }
+                            {
+                                number: "2",
+                                name: "THE PRINCE'S SPUR",
+                                jockey: "I. Ortiz Jr.",
+                                trainer: "R. Crichton",
+                                odds: "4/5",
+                                stars: 5,
+                                analysis: "Massive figure advantage (97 BSF vs 80 avg). Class drop to $12.5k. Dominant on paper."
+                            },
+                            {
+                                number: "3",
+                                name: "PHILHARMONIC",
+                                jockey: "N. Juarez",
+                                trainer: "N. Zito",
+                                odds: "7/2",
+                                stars: 3,
+                                analysis: "Consistent high-80s figures. Clear second best in this reduced field."
+                            }
                         ],
                         bets: [
-                            { type: "WIN", play: "#2 The Prince's Spur" },
-                            { type: "EXACTA", play: "2 over 3" }
+                            { type: "WIN", selection: "#2 The Prince's Spur" },
+                            { type: "EXACTA", selection: "2 over 3" }
                         ]
                     },
                     {
                         number: 4,
-                        conditions: "5 1/2 Furlongs • Tapeta • Claiming $12,500",
-                        pace: "<strong>BALANCED:</strong> #3 New York New York has tactical speed to sit close. #5 G Speedy likely sends.",
+                        distance: "5 1/2 Furlongs",
+                        surface: "Tapeta",
+                        conditions: "Claiming $12,500",
+                        pace: "BALANCED: #3 New York New York has tactical speed to sit close. #5 G Speedy likely sends.",
                         contenders: [
-                            { num: "3", name: "NEW YORK NEW YORK", conn: "M. Vasquez / N. Ramsey", odds: "7/5", stars: "★★★★", note: "Speed figures (81/78) are tops. Proven affinity for Tapeta surface." },
-                            { num: "1", name: "MESSAGEFROMTHEKING", conn: "J. Morelos / H. Miller", odds: "7/2", stars: "★★★", note: "Consistent mid-70s figures. Reliable board hitter." }
+                            {
+                                number: "3",
+                                name: "NEW YORK NEW YORK",
+                                jockey: "M. Vasquez",
+                                trainer: "N. Ramsey",
+                                odds: "7/5",
+                                stars: 4,
+                                analysis: "Speed figures (81/78) are tops. Proven affinity for Tapeta surface."
+                            },
+                            {
+                                number: "1",
+                                name: "MESSAGEFROMTHEKING",
+                                jockey: "J. Morelos",
+                                trainer: "H. Miller",
+                                odds: "7/2",
+                                stars: 3,
+                                analysis: "Consistent mid-70s figures. Reliable board hitter."
+                            }
                         ],
                         bets: [
-                            { type: "WIN", play: "#3 New York New York" },
-                            { type: "EXACTA", play: "3 over 1, 6" }
+                            { type: "WIN", selection: "#3 New York New York" },
+                            { type: "EXACTA", selection: "3 over 1, 6" }
                         ]
                     },
                     {
                         number: 5,
-                        conditions: "5 Furlongs • Turf • MOC $50,000",
-                        pace: "<strong>FAST:</strong> Scratch of #1 opens up the rail, but #2 Ticket To Ride has tactical speed to secure position.",
+                        distance: "5 Furlongs",
+                        surface: "Turf",
+                        conditions: "MOC $50,000",
+                        pace: "FAST: Scratch of #1 opens up the rail, but #2 Ticket To Ride has tactical speed to secure position.",
                         contenders: [
-                            { num: "2", name: "TICKET TO RIDE", conn: "I. Ortiz Jr. / S. Joseph Jr.", odds: "8/5", stars: "★★★★", note: "Drops from NY MSW to MOC. Saffie Joseph/Irad Ortiz is a 29% win combo. The horse to beat." },
-                            { num: "5", name: "LUCKY WIN COCO", conn: "H. Figueroa / G. Morales", odds: "8/1", stars: "★★★", note: "Ran a 73 BSF over this course/distance in Oct. Forgive last route race." },
-                            { num: "9", name: "ROYAL RETINUE", conn: "T. Gaffalione / W. Mott", odds: "5/1", stars: "★★★", note: "Hidden 74 figure in last start. Mott/Gaffalione is Tier 1." }
+                            {
+                                number: "2",
+                                name: "TICKET TO RIDE",
+                                jockey: "I. Ortiz Jr.",
+                                trainer: "S. Joseph Jr.",
+                                odds: "8/5",
+                                stars: 4,
+                                analysis: "Drops from NY MSW to MOC. Saffie Joseph/Irad Ortiz is a 29% win combo. The horse to beat."
+                            },
+                            {
+                                number: "5",
+                                name: "LUCKY WIN COCO",
+                                jockey: "H. Figueroa",
+                                trainer: "G. Morales",
+                                odds: "8/1",
+                                stars: 3,
+                                analysis: "Ran a 73 BSF over this course/distance in Oct. Forgive last route race."
+                            },
+                            {
+                                number: "9",
+                                name: "ROYAL RETINUE",
+                                jockey: "T. Gaffalione",
+                                trainer: "W. Mott",
+                                odds: "5/1",
+                                stars: 3,
+                                analysis: "Hidden 74 figure in last start. Mott/Gaffalione is Tier 1."
+                            }
                         ],
                         bets: [
-                            { type: "WIN", play: "#2 Ticket To Ride" },
-                            { type: "EXACTA", play: "2 over 5, 9" }
+                            { type: "WIN", selection: "#2 Ticket To Ride" },
+                            { type: "EXACTA", selection: "2 over 5, 9" }
                         ]
                     },
                     {
                         number: 6,
-                        conditions: "6 Furlongs • Dirt • Claiming $8,000",
-                        pace: "<strong>CHAOTIC:</strong> Low-level claimers often produce erratic pace. #6 El Guty can rate.",
+                        distance: "6 Furlongs",
+                        surface: "Dirt",
+                        conditions: "Claiming $8,000",
+                        pace: "CHAOTIC: Low-level claimers often produce erratic pace. #6 El Guty can rate.",
                         contenders: [
-                            { num: "6", name: "EL GUTY", conn: "I. Ortiz Jr. / S. Santoro", odds: "2/1", stars: "★★★★", note: "Most consistent (67-77 figs). Irad Ortiz takes the mount, which is a huge signal at this level." },
-                            { num: "7", name: "SOUND OF THE BEAST", conn: "L. Saez / R. Crichton", odds: "5/1", stars: "★★★", note: "Back class (82/94 figs). Crichton/Saez team. Dangerous on the drop." }
+                            {
+                                number: "6",
+                                name: "EL GUTY",
+                                jockey: "I. Ortiz Jr.",
+                                trainer: "S. Santoro",
+                                odds: "2/1",
+                                stars: 4,
+                                analysis: "Most consistent (67-77 figs). Irad Ortiz takes the mount, which is a huge signal at this level."
+                            },
+                            {
+                                number: "7",
+                                name: "SOUND OF THE BEAST",
+                                jockey: "L. Saez",
+                                trainer: "R. Crichton",
+                                odds: "5/1",
+                                stars: 3,
+                                analysis: "Back class (82/94 figs). Crichton/Saez team. Dangerous on the drop."
+                            }
                         ],
                         bets: [
-                            { type: "WIN", play: "#6 El Guty" },
-                            { type: "EXACTA", play: "Box 6-7" }
+                            { type: "WIN", selection: "#6 El Guty" },
+                            { type: "EXACTA", selection: "Box 6-7" }
                         ]
                     },
                     {
                         number: 7,
-                        conditions: "1 Mile • Dirt • AOC $62,500",
-                        pace: "<strong>FAIR:</strong> #2 Senza Parole has tactical speed to stalk. #6 Anna's Promise may send.",
+                        distance: "1 Mile",
+                        surface: "Dirt",
+                        conditions: "AOC $62,500",
+                        pace: "FAIR: #2 Senza Parole has tactical speed to stalk. #6 Anna's Promise may send.",
                         contenders: [
-                            { num: "2", name: "SENZA PAROLE", conn: "I. Ortiz Jr. / C. Brown", odds: "5/2", stars: "★★★★★", note: "<strong>CLASS PLAY.</strong> Chad Brown shipper. G2/G3 quality running in optional claimer. Standout." },
-                            { num: "3", name: "JUST BASKING", conn: "J. Castellano / I. Wilkes", odds: "5/1", stars: "★★★★", note: "Proven router cutting back to one-turn mile. Will be running late." }
+                            {
+                                number: "2",
+                                name: "SENZA PAROLE",
+                                jockey: "I. Ortiz Jr.",
+                                trainer: "C. Brown",
+                                odds: "5/2",
+                                stars: 5,
+                                analysis: "<span class='lock'>CLASS PLAY</span> Chad Brown shipper. G2/G3 quality running in optional claimer. Standout."
+                            },
+                            {
+                                number: "3",
+                                name: "JUST BASKING",
+                                jockey: "J. Castellano",
+                                trainer: "I. Wilkes",
+                                odds: "5/1",
+                                stars: 4,
+                                analysis: "Proven router cutting back to one-turn mile. Will be running late."
+                            }
                         ],
                         bets: [
-                            { type: "WIN", play: "#2 Senza Parole" },
-                            { type: "EXACTA", play: "2 over 3, 6" }
+                            { type: "WIN", selection: "#2 Senza Parole" },
+                            { type: "EXACTA", selection: "2 over 3, 6" }
                         ]
                     },
                     {
                         number: 8,
-                        conditions: "5 Furlongs • Turf • AOC $20,000",
-                        pace: "<strong>CONTESTED:</strong> #4 Heir To The Roar has massive early pace figures (117). Must clear #1.",
+                        distance: "5 Furlongs",
+                        surface: "Turf",
+                        conditions: "AOC $20,000",
+                        pace: "CONTESTED: #4 Heir To The Roar has massive early pace figures (117). Must clear #1.",
                         contenders: [
-                            { num: "4", name: "HEIR TO THE ROAR", conn: "J. Alvarado / V. Barboza", odds: "10/1", stars: "★★★★", note: "<strong>VALUE PLAY.</strong> Huge early speed figures. Drawn outside the other speed allows for a tactical trip." },
-                            { num: "1", name: "BEEN BUSY", conn: "J. Velazquez / T. Pletcher", odds: "6/1", stars: "★★★", note: "Pletcher/Velazquez. Rail draw is tricky in 5f turf sprints; high risk." },
-                            { num: "9", name: "CITY MINUTE", conn: "M. Husbands / S. Joseph", odds: "10/1", stars: "★★★", note: "Saffie Joseph barn. Consistent mid-80s figures. Must use." }
+                            {
+                                number: "4",
+                                name: "HEIR TO THE ROAR",
+                                jockey: "J. Alvarado",
+                                trainer: "V. Barboza",
+                                odds: "10/1",
+                                stars: 4,
+                                analysis: "<span class='value'>VALUE PLAY</span> Huge early speed figures. Drawn outside the other speed allows for a tactical trip."
+                            },
+                            {
+                                number: "1",
+                                name: "BEEN BUSY",
+                                jockey: "J. Velazquez",
+                                trainer: "T. Pletcher",
+                                odds: "6/1",
+                                stars: 3,
+                                analysis: "Pletcher/Velazquez. Rail draw is tricky in 5f turf sprints; high risk."
+                            },
+                            {
+                                number: "9",
+                                name: "CITY MINUTE",
+                                jockey: "M. Husbands",
+                                trainer: "S. Joseph",
+                                odds: "10/1",
+                                stars: 3,
+                                analysis: "Saffie Joseph barn. Consistent mid-80s figures. Must use."
+                            }
                         ],
                         bets: [
-                            { type: "WIN", play: "#4 Heir To The Roar" },
-                            { type: "EXACTA", play: "4 over 1, 9" }
+                            { type: "WIN", selection: "#4 Heir To The Roar" },
+                            { type: "EXACTA", selection: "4 over 1, 9" }
                         ]
                     },
                     {
                         number: 9,
-                        conditions: "5 Furlongs • Turf • Starter $25,000",
-                        pace: "<strong>FAST:</strong> #1 My Perfect Lady sends from rail. #2 Neodera sits the trip.",
+                        distance: "5 Furlongs",
+                        surface: "Turf",
+                        conditions: "Starter $25,000",
+                        pace: "FAST: #1 My Perfect Lady sends from rail. #2 Neodera sits the trip.",
                         contenders: [
-                            { num: "2", name: "NEODERA", conn: "M. Gutierrez / M. Lerman", odds: "10/1", stars: "★★★★", note: "<strong>VALUE PLAY.</strong> Ran a 90 BSF last out on Tapeta. Transfers form well to turf." },
-                            { num: "3", name: "VUELA PALOMA", conn: "I. Ortiz Jr. / V. Barboza", odds: "9/5", stars: "★★★★", note: "Consistent mid-80s figures. Irad Ortiz stays aboard. The safe play." }
+                            {
+                                number: "2",
+                                name: "NEODERA",
+                                jockey: "M. Gutierrez",
+                                trainer: "M. Lerman",
+                                odds: "10/1",
+                                stars: 4,
+                                analysis: "<span class='value'>VALUE PLAY</span> Ran a 90 BSF last out on Tapeta. Transfers form well to turf."
+                            },
+                            {
+                                number: "3",
+                                name: "VUELA PALOMA",
+                                jockey: "I. Ortiz Jr.",
+                                trainer: "V. Barboza",
+                                odds: "9/5",
+                                stars: 4,
+                                analysis: "Consistent mid-80s figures. Irad Ortiz stays aboard. The safe play."
+                            }
                         ],
                         bets: [
-                            { type: "WIN", play: "#2 Neodera" },
-                            { type: "EXACTA", play: "Box 2-3" }
+                            { type: "WIN", selection: "#2 Neodera" },
+                            { type: "EXACTA", selection: "Box 2-3" }
                         ]
                     },
                     {
                         number: 10,
-                        conditions: "1 Mile • Turf • Maiden Claiming $17.5k",
-                        pace: "<strong>MODERATE:</strong> #4 Numinous has speed. #1 Conn Smythe saves ground.",
+                        distance: "1 Mile",
+                        surface: "Turf",
+                        conditions: "Maiden Claiming $17.5k",
+                        pace: "MODERATE: #4 Numinous has speed. #1 Conn Smythe saves ground.",
                         contenders: [
-                            { num: "1", name: "CONN SMYTHE", conn: "T. Gaffalione / W. Tharrenos", odds: "4/1", stars: "★★★★", note: "Consistent closer/stalker. Gaffalione fits this horse well." },
-                            { num: "4", name: "NUMINOUS", conn: "H. Figueroa / J. Catanese", odds: "12/1", stars: "★★★", note: "Speed threat. Figueroa fits this style." }
+                            {
+                                number: "1",
+                                name: "CONN SMYTHE",
+                                jockey: "T. Gaffalione",
+                                trainer: "W. Tharrenos",
+                                odds: "4/1",
+                                stars: 4,
+                                analysis: "Consistent closer/stalker. Gaffalione fits this horse well."
+                            },
+                            {
+                                number: "4",
+                                name: "NUMINOUS",
+                                jockey: "H. Figueroa",
+                                trainer: "J. Catanese",
+                                odds: "12/1",
+                                stars: 3,
+                                analysis: "Speed threat. Figueroa fits this style."
+                            }
                         ],
                         bets: [
-                            { type: "WIN", play: "#1 Conn Smythe" },
-                            { type: "EXACTA", play: "1 over 4, 6" }
+                            { type: "WIN", selection: "#1 Conn Smythe" },
+                            { type: "EXACTA", selection: "1 over 4, 6" }
                         ]
                     }
                 ]
             },
-            "sa": {
+            "santa_anita": {
                 name: "Santa Anita",
-                date: "Thursday, Jan 15, 2026",
-                races: [] // Placeholder
+                date: "Thursday, January 15, 2026",
+                races: []
             },
-            "aqu": {
+            "aqueduct": {
                 name: "Aqueduct",
-                date: "Thursday, Jan 15, 2026",
-                races: [] // Placeholder
+                date: "Thursday, January 15, 2026",
+                races: []
             }
         };
 
-        // --- APP LOGIC ---
+        // ============================================================================
+        // APPLICATION LOGIC
+        // ============================================================================
 
-        let currentTrack = 'gp';
-        let currentRaceIdx = 0;
+        let currentTrack = 'gulfstream';
 
-        function loadTrack(trackId) {
-            currentTrack = trackId;
-            currentRaceIdx = 0;
-            
-            // Update Sidebar UI
-            document.querySelectorAll('.track-btn').forEach(btn => btn.classList.remove('active'));
-            event.target.classList.add('active');
-
-            renderRaceNav();
-            renderAnalysis();
+        function init() {
+            renderTrackTabs();
+            renderRaces();
+            document.getElementById('displayDate').textContent = trackData[currentTrack].date;
         }
 
-        function loadRace(index) {
-            currentRaceIdx = index;
-            renderRaceNav();
-            renderAnalysis();
-        }
+        function renderTrackTabs() {
+            const container = document.getElementById('trackTabs');
+            container.innerHTML = '';
 
-        function renderRaceNav() {
-            const nav = document.getElementById('raceNav');
-            nav.innerHTML = '';
-            
-            const races = racingData[currentTrack].races;
-            
-            if(races.length === 0) {
-                nav.innerHTML = '<div style="color:#6b7280; padding:10px;">No races available for this track.</div>';
-                return;
-            }
-
-            races.forEach((race, index) => {
+            Object.keys(trackData).forEach(trackKey => {
                 const btn = document.createElement('button');
-                btn.className = `race-btn ${index === currentRaceIdx ? 'active' : ''}`;
-                btn.innerText = race.number;
-                btn.onclick = () => loadRace(index);
-                nav.appendChild(btn);
+                btn.className = `track-tab ${trackKey === currentTrack ? 'active' : ''}`;
+                btn.textContent = trackData[trackKey].name;
+                btn.onclick = () => selectTrack(trackKey);
+                container.appendChild(btn);
             });
         }
 
-        function renderAnalysis() {
-            const container = document.getElementById('analysisDisplay');
-            const track = racingData[currentTrack];
-            
-            if(track.races.length === 0) {
-                container.innerHTML = '<div style="text-align:center; color:#6b7280; margin-top:50px;">Analysis coming soon...</div>';
+        function selectTrack(trackKey) {
+            currentTrack = trackKey;
+            document.getElementById('displayDate').textContent = trackData[currentTrack].date;
+            renderTrackTabs();
+            renderRaces();
+        }
+
+        function renderRaces() {
+            const container = document.getElementById('racesGrid');
+            const races = trackData[currentTrack].races;
+
+            if (races.length === 0) {
+                container.innerHTML = '<div class="empty-state">Analysis coming soon for this track</div>';
                 return;
             }
 
-            const race = track.races[currentRaceIdx];
+            container.innerHTML = races.map(race => {
+                const surfaceClass = `surface-${race.surface.toLowerCase()}`;
+                const starsHTML = (count) => '★'.repeat(count) + '☆'.repeat(5 - count);
 
-            // Determine Badge Color based on surface text
-            let badgeClass = 'badge-dirt';
-            if(race.conditions.includes('Turf')) badgeClass = 'badge-turf';
-            if(race.conditions.includes('Tapeta')) badgeClass = 'badge-tapeta';
-
-            // Build Contenders HTML
-            let contendersHTML = '';
-            race.contenders.forEach(horse => {
-                contendersHTML += `
-                    <div class="contender-row">
-                        <div class="horse-num">${horse.num}</div>
-                        <div class="horse-details">
-                            <div class="horse-name">${horse.name}</div>
-                            <div class="horse-connections">${horse.conn}</div>
-                            <div class="horse-analysis">${horse.note}</div>
+                return `
+                    <div class="race-card">
+                        <div class="race-header">
+                            <div class="race-title">
+                                <div class="race-number">Race ${race.number}</div>
+                                <div class="race-conditions">${race.distance} • ${race.conditions}</div>
+                            </div>
+                            <span class="race-surface ${surfaceClass}">${race.surface}</span>
                         </div>
-                        <div class="odds-box">
-                            <div class="star-rating">${horse.stars}</div>
-                            <div class="ml-odds">${horse.odds}</div>
+                        <div class="race-body">
+                            <div class="pace-section">
+                                <div class="section-label">Pace Projection</div>
+                                <div class="pace-text">${race.pace}</div>
+                            </div>
+                            
+                            <div class="contenders">
+                                <div class="section-label">Top Contenders</div>
+                                ${race.contenders.map(horse => `
+                                    <div class="contender">
+                                        <div class="horse-number">${horse.number}</div>
+                                        <div class="horse-info">
+                                            <div class="horse-name">${horse.name}</div>
+                                            <div class="horse-connections">${horse.jockey} / ${horse.trainer}</div>
+                                            <div class="horse-analysis">${horse.analysis}</div>
+                                        </div>
+                                        <div class="horse-rating">
+                                            <div class="stars">${starsHTML(horse.stars)}</div>
+                                            <div class="odds">${horse.odds}</div>
+                                        </div>
+                                    </div>
+                                `).join('')}
+                            </div>
+
+                            <div class="betting-section">
+                                <div class="section-label">Wagering Strategy</div>
+                                ${race.bets.map(bet => `
+                                    <div class="bet-row">
+                                        <span class="bet-type">${bet.type}</span>
+                                        <span class="bet-selection">${bet.selection}</span>
+                                    </div>
+                                `).join('')}
+                            </div>
                         </div>
                     </div>
                 `;
-            });
-
-            // Build Bets HTML
-            let betsHTML = '';
-            race.bets.forEach(bet => {
-                betsHTML += `
-                    <div class="bet-line">
-                        <span class="bet-label">${bet.type}</span>
-                        <span>${bet.play}</span>
-                    </div>
-                `;
-            });
-
-            // Inject HTML
-            container.innerHTML = `
-                <div class="card header-card">
-                    <h1>Race ${race.number} Analysis</h1>
-                    <div class="meta">
-                        <span class="badge ${badgeClass}">${race.conditions}</span>
-                        <span>${track.name}</span>
-                    </div>
-                    <h2>Pace Projection</h2>
-                    <p style="line-height: 1.6;">${race.pace}</p>
-                </div>
-
-                <div class="card">
-                    <h2>Top Contenders</h2>
-                    ${contendersHTML}
-                </div>
-
-                <div class="card">
-                    <h2>Wagering Strategy</h2>
-                    <div class="bet-box">
-                        ${betsHTML}
-                    </div>
-                </div>
-            `;
+            }).join('');
         }
 
-        // Initialize
-        renderRaceNav();
-        renderAnalysis();
-
+        // Initialize the app
+        init();
     </script>
 </body>
 </html>
