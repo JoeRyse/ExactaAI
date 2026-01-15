@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExactaAI | Racing Analysis</title>
+    <style>
+        :root {
+            --bg-dark: #0f172a;
+            --bg-card: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent: #38bdf8; /* Light Blue */
+            --win: #4ade80;    /* Green */
+            --danger: #f87171; /* Red */
+            --gold: #fbbf24;   /* Gold */
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* Sidebar Navigation */
+        .sidebar {
+            width: 250px;
+            background-color: #111827;
+            border-right: 1px solid #334155;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            height: 100%;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 900;
+            color: var(--text-main);
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .logo span { color: var(--accent); }
+
+        .nav-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            text-align: left;
+            padding: 12px 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-bottom: 5px;
+            transition: 0.2s;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .nav-btn:hover { background: rgba(255,255,255,0.05); color: white; }
+        .nav-btn.active { background: var(--accent); color: #000; font-weight: bold; }
+
+        /* Main Content */
+        .main {
+            margin-left: 250px; /* Width of sidebar */
+            flex: 1;
+            padding: 40px;
+            max-width: 1000px;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .sidebar { width: 100%; height: auto; position: relative; padding: 15px; }
+            .main { margin-left: 0; padding: 20px; }
+            body { flex-direction: column; }
+        }
+
+        /* Typography */
+        h1 { font-size: 2.5rem; margin: 0 0 10px 0; }
+        .subtitle { color: var(--text-muted); margin-bottom: 30px; }
+        h2 { color: var(--accent); border-bottom: 1px solid #334155; padding-bottom: 10px; margin-top: 30px; }
+
+        /* Cards */
+        .card {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            border: 1px solid #334155;
+        }
+
+        .pace-box {
+            background: rgba(56, 189, 248, 0.1); /* Blue tint */
+            border-left: 4px solid var(--accent);
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+        }
+
+        /* Tables */
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th { text-align: left; color: var(--text-muted); font-size: 0.85rem; padding-bottom: 10px; text-transform: uppercase; }
+        td { padding: 12px 0; border-bottom: 1px solid #334155; }
+        tr:last-child td { border-bottom: none; }
+
+        .horse-badge {
+            background: #334155;
+            color: white;
+            width: 24px; height: 24px;
+            display: inline-flex; align-items: center; justify-content: center;
+            border-radius: 4px; margin-right: 10px; font-weight: bold; font-size: 0.8rem;
+        }
+
+        /* Betting Ticket */
+        .bet-ticket {
+            background: #1c1917;
+            border: 1px dashed #78716c;
+        }
+        .bet-row { display: flex; justify-content: space-between; margin-bottom: 10px; }
+        .bet-type { color: var(--gold); font-weight: bold; }
+        .bet-nums { font-family: monospace; font-size: 1.1rem; }
+
+        /* Helpers */
+        .hidden { display: none; }
+        .tag { padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: bold; }
+        .tag-win { background: rgba(74, 222, 128, 0.2); color: var(--win); }
+        .tag-danger { background: rgba(248, 113, 113, 0.2); color: var(--danger); }
+
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="logo">🎯 Exacta<span>AI</span></div>
+        <div id="navContainer">
+            <!-- Buttons will be injected here by JS -->
+        </div>
+        <div style="margin-top: auto; color: #475569; font-size: 0.8rem;">
+            Updated: <span id="lastUpdated"></span>
+        </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="main">
+        <div id="contentArea">
+            <!-- Content will be injected here by JS -->
+        </div>
+    </div>
+
+    <script>
+        /*******************************************************
+         *  🏁 EDIT YOUR RACES HERE 🏁
+         *  Only change the text inside the quotes " "
+         *******************************************************/
+        
+        const appData = {
+            "lastUpdated": "Jan 26, 2026",
+            
+            "tracks": [
+                {
+                    "id": "gulfstream",  // Unique ID (no spaces)
+                    "name": "Gulfstream Park",
+                    "conditions": "Race 9 • 1 Mile • Turf • Allowance",
+                    "pace_analysis": "This is a **Slow Pace** scenario. The #1 is the only true speed. If he gets loose on the lead, he could wire the field easily.",
+                    "contenders": [
+                        { "number": "1", "name": "Speedy Jack", "odds": "5-2", "notes": "Lone speed, dangerous wire-to-wire threat." },
+                        { "number": "4", "name": "Closer Dan", "odds": "4-1", "notes": "Huge late kick, but needs pace help." },
+                        { "number": "7", "name": "The Longshot", "odds": "12-1", "notes": "Sneaky good speed figures two races back." }
+                    ],
+                    "bets": [
+                        { "type": "WIN", "selection": "#1 Speedy Jack" },
+                        { "type": "EXACTA", "selection": "1 / 4,7" }
+                    ],
+                    "vulnerable_fav": "#2 Big Favorite (9-5) - Has never won on Turf."
+                },
+                {
+                    "id": "santaanita",
+                    "name": "Santa Anita",
+                    "conditions": "Race 1 • 6 Furlongs • Dirt",
+                    "pace_analysis": "🔥 **Hot Pace Alert!** Three horses (#2, #3, #6) all need the lead. They will likely burn each other out, setting it up for a closer.",
+                    "contenders": [
+                        { "number": "5", "name": "Stalking Sam", "odds": "3-1", "notes": "Sits the perfect trip behind the speed duel." },
+                        { "number": "8", "name": "Deep Closer", "odds": "6-1", "notes": "Will be flying late." }
+                    ],
+                    "bets": [
+                        { "type": "WIN", "selection": "#5" },
+                        { "type": "TRIFECTA", "selection": "5 / 2,3,8 / ALL" }
+                    ],
+                    "vulnerable_fav": "None today."
+                }
+            ]
+        };
+
+        /*******************************************************
+         *  ⛔ DO NOT EDIT BELOW THIS LINE ⛔
+         *  (Unless you know what you are doing!)
+         *******************************************************/
+
+        function renderApp() {
+            const navContainer = document.getElementById('navContainer');
+            const contentArea = document.getElementById('contentArea');
+            document.getElementById('lastUpdated').innerText = appData.lastUpdated;
+
+            // Clear previous
+            navContainer.innerHTML = "";
+            contentArea.innerHTML = "";
+
+            appData.tracks.forEach((track, index) => {
+                // 1. Create Nav Button
+                const btn = document.createElement('button');
+                btn.className = `nav-btn ${index === 0 ? 'active' : ''}`; // First one active by default
+                btn.innerHTML = `${track.name} <span>→</span>`;
+                btn.onclick = () => switchTab(track.id, btn);
+                navContainer.appendChild(btn);
+
+                // 2. Create Content Section
+                const section = document.createElement('div');
+                section.id = track.id;
+                section.className = `track-content ${index === 0 ? '' : 'hidden'}`;
+                
+                // Build HTML for the section
+                let contendersHTML = "";
+                track.contenders.forEach(h => {
+                    contendersHTML += `
+                        <tr>
+                            <td><span class="horse-badge">${h.number}</span> <strong>${h.name}</strong></td>
+                            <td><span class="tag tag-win">${h.odds}</span></td>
+                            <td style="color: #cbd5e1;">${h.notes}</td>
+                        </tr>
+                    `;
+                });
+
+                let betsHTML = "";
+                track.bets.forEach(b => {
+                    betsHTML += `
+                        <div class="bet-row">
+                            <span class="bet-type">${b.type}</span>
+                            <span class="bet-nums">${b.selection}</span>
+                        </div>
+                    `;
+                });
+
+                section.innerHTML = `
+                    <h1>${track.name}</h1>
+                    <div class="subtitle">${track.conditions}</div>
+
+                    <div class="card pace-box">
+                        <h3 style="margin-top:0; color:var(--accent);">⏱️ Pace Projection</h3>
+                        <p>${track.pace_analysis}</p>
+                    </div>
+
+                    <div class="card">
+                        <h3 style="margin-top:0;">🏆 Top Contenders</h3>
+                        <table>
+                            <thead><tr><th>Horse</th><th>Odds</th><th>Analysis</th></tr></thead>
+                            <tbody>${contendersHTML}</tbody>
+                        </table>
+                    </div>
+
+                    <div class="card bet-ticket">
+                        <h3 style="margin-top:0; color:var(--gold);">💰 Suggested Wagers</h3>
+                        ${betsHTML}
+                    </div>
+
+                    <div class="card" style="border-left: 4px solid var(--danger);">
+                        <h3 style="margin-top:0; color:var(--danger);">⚠️ Vulnerable Favorite</h3>
+                        <p>${track.vulnerable_fav}</p>
+                    </div>
+                `;
+
+                contentArea.appendChild(section);
+            });
+        }
+
+        function switchTab(trackId, btnElement) {
+            // Hide all contents
+            document.querySelectorAll('.track-content').forEach(el => el.classList.add('hidden'));
+            // Show target
+            document.getElementById(trackId).classList.remove('hidden');
+            
+            // Update buttons
+            document.querySelectorAll('.nav-btn').forEach(el => el.classList.remove('active'));
+            btnElement.classList.add('active');
+        }
+
+        // Run on load
+        renderApp();
+    </script>
+</body>
+</html>
