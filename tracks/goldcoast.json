@@ -1,0 +1,496 @@
+{
+  "name": "Gold Coast",
+  "date": "Saturday, January 17, 2026",
+  "races": [
+    {
+      "number": 1,
+      "distance": "1100m",
+      "surface": "Turf",
+      "conditions": "Maiden Plate",
+      "pace": "Soft 5 track; forward of midfield advantage.",
+      "contenders": [
+        {
+          "number": "2",
+          "name": "BUCKEYE",
+          "jockey": "N/A",
+          "trainer": "O'Shea/Charlton",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG BET</span> Strong NSW form (2nd Canterbury). The one to beat."
+        },
+        {
+          "number": "10",
+          "name": "SCRUMPTIOUS",
+          "jockey": "N/A",
+          "trainer": "Waterhouse/Bott",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Waterhouse/Bott 2YO. 4th at Warwick Farm. Respect."
+        },
+        {
+          "number": "13",
+          "name": "BOTTLES OF SHELLS",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "3rd at Randwick on debut. Will improve."
+        },
+        {
+          "number": "8",
+          "name": "ROYAL AIR FORCE",
+          "jockey": "J. McDonald",
+          "trainer": "C. Waller",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Waller/J-Mac combo. Watch for market moves."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#2" },
+        { "type": "EXACTA", "selection": "Box 2, 10, 13" }
+      ]
+    },
+    {
+      "number": 2,
+      "distance": "1200m",
+      "surface": "Turf",
+      "conditions": "Country Cup",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "KING GUTHO",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Proven weight carrier. Won BM85 last prep. Class runner."
+        },
+        {
+          "number": "2",
+          "name": "EARL OF BANTRY",
+          "jockey": "N/A",
+          "trainer": "C. Maher",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Maher stable. Consistent. 2nd at Toowoomba last start."
+        },
+        {
+          "number": "10",
+          "name": "OBEROI PRINCESS",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "3rd at this track/dist last start. Soft track suits."
+        },
+        {
+          "number": "3",
+          "name": "SIR CARTER",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Won well at Dalby. Steps up but in form."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" },
+        { "type": "SAVER", "selection": "#2" }
+      ]
+    },
+    {
+      "number": 3,
+      "distance": "1000m",
+      "surface": "Turf",
+      "conditions": "The Debut 2YO Plate",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "2",
+          "name": "PROFIT IN PARADISE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG BET</span> Won trial by 7 lengths. Looks rapid."
+        },
+        {
+          "number": "6",
+          "name": "LADY MOSCATO",
+          "jockey": "N/A",
+          "trainer": "Waterhouse/Bott",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Waterhouse/Bott 2YO. Trial winner. Big watch."
+        },
+        {
+          "number": "4",
+          "name": "WENDELL",
+          "jockey": "N/A",
+          "trainer": "Waterhouse/Bott",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Another Waterhouse/Bott trial winner."
+        },
+        {
+          "number": "5",
+          "name": "DOLLY BOOM",
+          "jockey": "N/A",
+          "trainer": "T. Gollan",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Gollan stable. Trial winner at home."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#2" },
+        { "type": "TRIFECTA", "selection": "2 over 4, 5, 6 over 4, 5, 6" }
+      ]
+    },
+    {
+      "number": 4,
+      "distance": "2200m",
+      "surface": "Turf",
+      "conditions": "Subzero",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "MISS JOELENE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>BEST BET</span> Won 'The Wave' here last week. Peak form."
+        },
+        {
+          "number": "2",
+          "name": "MAJOR BEEL",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "G1 winner. Class drop. Will stay all day."
+        },
+        {
+          "number": "10",
+          "name": "SUN WORSHIPPER",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Won 'Shoot Out'. Progressive stayer."
+        },
+        {
+          "number": "3",
+          "name": "ENCODER",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "2nd to Miss Joelene last start. Honest."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" },
+        { "type": "EXACTA", "selection": "1 over 2, 10" }
+      ]
+    },
+    {
+      "number": 5,
+      "distance": "1300m",
+      "surface": "Turf",
+      "conditions": "Fillies & Mares",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "3",
+          "name": "LONHRO'S QUEEN",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Won the Nudgee (key form race). Soft track tick."
+        },
+        {
+          "number": "5",
+          "name": "COUNTYOURBLESSINGS",
+          "jockey": "N/A",
+          "trainer": "O'Shea",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Won at Randwick. O'Shea polish. Big threat."
+        },
+        {
+          "number": "4",
+          "name": "JENNI THE FOX",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Victorian raider. Won well at Geelong."
+        },
+        {
+          "number": "9",
+          "name": "POSTER GIRL",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Won at this track last week. On the backup."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#3" },
+        { "type": "QUINELLA", "selection": "Box 3, 4, 5" }
+      ]
+    },
+    {
+      "number": 6,
+      "distance": "1200m",
+      "surface": "Turf",
+      "conditions": "Snippets",
+      "pace": "High pressure expected.",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "HIDDEN WEALTH",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG BET</span> Won LR Falvelon. Loves this track (3:1-0-0)."
+        },
+        {
+          "number": "6",
+          "name": "SPYWIRE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Won here last week. On the backup. Fast."
+        },
+        {
+          "number": "2",
+          "name": "THE INSTRUCTOR",
+          "jockey": "N/A",
+          "trainer": "Waterhouse/Bott",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Waterhouse/Bott speed. 2nd at Canterbury."
+        },
+        {
+          "number": "8",
+          "name": "GIN A TONIC",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Victorian form. Won at Caulfield."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" },
+        { "type": "EXACTA", "selection": "1 over 2, 6" }
+      ]
+    },
+    {
+      "number": 7,
+      "distance": "1200m",
+      "surface": "Turf",
+      "conditions": "2YO Classic",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "ZIP LOCK",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>BEST BET</span> Unbeaten. Won G3 McLachlan. The benchmark."
+        },
+        {
+          "number": "6",
+          "name": "KNIGHTSBRIDGE",
+          "jockey": "N/A",
+          "trainer": "Waterhouse/Bott",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Won well at Randwick. Waterhouse/Bott factor."
+        },
+        {
+          "number": "5",
+          "name": "UNIT FIVE",
+          "jockey": "N/A",
+          "trainer": "C. Maher",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Won at Caulfield. Maher stable."
+        },
+        {
+          "number": "7",
+          "name": "SHIKI",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Won at this track last week. Fit."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" },
+        { "type": "TRIFECTA", "selection": "1 over 5, 6, 7 over 5, 6, 7" }
+      ]
+    },
+    {
+      "number": 8,
+      "distance": "1400m",
+      "surface": "Turf",
+      "conditions": "3YO Guineas",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "NINJA",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Won G3 Vo Rogue. Peaking perfectly."
+        },
+        {
+          "number": "8",
+          "name": "CELLARMASTER",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Won at Randwick. Progressive type."
+        },
+        {
+          "number": "11",
+          "name": "ICARIAN DREAM",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Consistent. 3rd in Gold Edition."
+        },
+        {
+          "number": "10",
+          "name": "MEMO",
+          "jockey": "N/A",
+          "trainer": "Snowden",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Snowden runner. 3rd at Gosford."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" },
+        { "type": "EACH WAY", "selection": "#8" }
+      ]
+    },
+    {
+      "number": 9,
+      "distance": "1400m",
+      "surface": "Turf",
+      "conditions": "Magic Millions Cup",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "YELLOW BRICK",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG BET</span> Won here last week. Loves the Gold Coast."
+        },
+        {
+          "number": "4",
+          "name": "NEED SOME LUCK",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Won 'The Buffering'. Serious contender."
+        },
+        {
+          "number": "13",
+          "name": "MERIDIUS",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Won at Cranbourne. Victorian raider."
+        },
+        {
+          "number": "7",
+          "name": "WEST OF AFRICA",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Consistent. 4th at Randwick."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" },
+        { "type": "EXACTA", "selection": "1 over 4, 13" }
+      ]
+    },
+    {
+      "number": 10,
+      "distance": "1200m",
+      "surface": "Turf",
+      "conditions": "Class 6 Plate",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "15",
+          "name": "SYDNEY BOWLER",
+          "jockey": "N/A",
+          "trainer": "O'Shea",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "4th at Canterbury. O'Shea stable. Ready to peak."
+        },
+        {
+          "number": "12",
+          "name": "HAWKER HALL",
+          "jockey": "N/A",
+          "trainer": "K. Lees",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "4th at Randwick. Kris Lees stable."
+        },
+        {
+          "number": "7",
+          "name": "SILENTSAR",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "2nd at Randwick. Consistent."
+        },
+        {
+          "number": "3",
+          "name": "TALTARNI FIELDS",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "3rd at Eagle Farm. Local hope."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#15" },
+        { "type": "TRIFECTA", "selection": "12, 15 over 3, 7, 12, 15 over 3, 7, 12, 15" }
+      ]
+    }
+  ]
+}
