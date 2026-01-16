@@ -1,0 +1,153 @@
+{
+  "name": "Flemington",
+  "date": "Saturday, January 17, 2026",
+  "races": [
+    {
+      "number": 1,
+      "distance": "1000m",
+      "surface": "Turf",
+      "conditions": "Maiden Plate",
+      "pace": "Straight Six relies on straight-track experience or elite jumpout form.",
+      "contenders": [
+        {
+          "number": "6",
+          "name": "MIRADOR",
+          "jockey": "N/A",
+          "trainer": "Godolphin/Hayes",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Flemington jumpout winner. This is the gold standard for debutants at this track."
+        },
+        {
+          "number": "1",
+          "name": "BIG SKY",
+          "jockey": "N/A",
+          "trainer": "Price/Kent Jnr",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Won latest Cranbourne jumpout. Strong yard."
+        },
+        {
+          "number": "4",
+          "name": "ISLE OF MONA",
+          "jockey": "N/A",
+          "trainer": "Nick Ryan",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Won latest Flemington jumpout."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#6" },
+        { "type": "SAVER", "selection": "#4" }
+      ]
+    },
+    {
+      "number": 6,
+      "distance": "1600m",
+      "surface": "Turf",
+      "conditions": "VOBIS Gold Reef (SWP)",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "JIMMY THE BEAR",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>BEST BET</span> CLASS CRUSH ALERT. Rating 105 vs 80. Group-class horse in midweek grade."
+        },
+        {
+          "number": "2",
+          "name": "HARRY'S YACHT",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Tier 1 Winner. Good form, but outclassed here."
+        },
+        {
+          "number": "5",
+          "name": "SOMEWHERE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Track/Dist winner last start. Place hope."
+        },
+        {
+          "number": "3",
+          "name": "RESET THE JAZZ",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Honest, but lacks the elite turn of foot."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" }
+      ]
+    },
+    {
+      "number": 8,
+      "distance": "2000m",
+      "surface": "Turf",
+      "conditions": "BM100",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "BERKELEY SQUARE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>WIN PICK</span> Won Ballarat Cup. Big Track form translates perfectly."
+        },
+        {
+          "number": "2",
+          "name": "SAINT GEORGE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='value'>VALUE PLAY</span> Won Cranbourne Cup. Clear second pick."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" },
+        { "type": "EXACTA", "selection": "Box 1, 2" }
+      ]
+    },
+    {
+      "number": 9,
+      "distance": "N/A",
+      "surface": "Turf",
+      "conditions": "Handicap",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "NDOLA",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "Rating 89. The safer play over the favorite."
+        },
+        {
+          "number": "14",
+          "name": "BOTANICAL BOY",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Won Tier 1 well but steps up in class significantly."
+        }
+      ],
+      "bets": []
+    }
+  ]
+}
