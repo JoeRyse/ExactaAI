@@ -1,0 +1,268 @@
+{
+  "name": "Pakenham",
+  "date": "Friday, January 16, 2026",
+  "races": [
+    {
+      "number": 1,
+      "distance": "2500 Meters",
+      "surface": "Turf",
+      "conditions": "Maiden Plate",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "2",
+          "name": "DIAMOND FLASH ONE",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "TBD",
+          "stars": 3,
+          "analysis": "Best recent figures, finishing 2nd at Sale over 2200m. Step up in trip suits."
+        },
+        {
+          "number": "4",
+          "name": "PHOENICIAN",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "TBD",
+          "stars": 3,
+          "analysis": "The danger coming off a 2nd at Echuca, but Country form is inferior."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#2" },
+        { "type": "EXACTA", "selection": "Box 2, 4" }
+      ]
+    },
+    {
+      "number": 2,
+      "distance": "TBD",
+      "surface": "Turf",
+      "conditions": "Maiden Plate",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "8",
+          "name": "MISS MARANDA",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "TBD",
+          "stars": 5,
+          "analysis": "<span class='lock'>LOCK</span> Class Crush Active. Metro form from Sandown dominates this field."
+        },
+        {
+          "number": "5",
+          "name": "WATT ON EARTH",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "TBD",
+          "stars": 3,
+          "analysis": "Honest but brings Country form (Terang)."
+        },
+        {
+          "number": "3",
+          "name": "TRANSPACIFIC",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "TBD",
+          "stars": 2,
+          "analysis": "Needs to improve."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#8" }
+      ]
+    },
+    {
+      "number": 3,
+      "distance": "TBD",
+      "surface": "Turf",
+      "conditions": "BM62 Handicap",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "4",
+          "name": "SIDELINE",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "TBD",
+          "stars": 5,
+          "analysis": "<span class='lock'>LOCK</span> Class Crush Active. Resumes from Open 2YO company. Too fast, too classy."
+        },
+        {
+          "number": "1",
+          "name": "COOL CHARLIE",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "TBD",
+          "stars": 3,
+          "analysis": "Fit and handles grade, but lacks the class ceiling of the favorite."
+        },
+        {
+          "number": "6",
+          "name": "REGAL SECRET",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "TBD",
+          "stars": 2,
+          "analysis": "Watch for late money."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#4" }
+      ]
+    },
+    {
+      "number": 4,
+      "distance": "TBD",
+      "surface": "Turf",
+      "conditions": "Maiden Plate",
+      "pace": "Speed Rating Analysis: Ten Warriors (98), Louis Barthas (83)",
+      "contenders": [
+        {
+          "number": "5",
+          "name": "TEN WARRIORS",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "TBD",
+          "stars": 5,
+          "analysis": "<span class='lock'>LOCK</span> Golden Gap Qualifier. Massive data anomaly (98 rating). Huge class drop from CL3."
+        },
+        {
+          "number": "3",
+          "name": "LOUIS BARTHAS",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "TBD",
+          "stars": 3,
+          "analysis": "Honest, plays for 2nd."
+        },
+        {
+          "number": "2",
+          "name": "I SAID SO",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "TBD",
+          "stars": 2,
+          "analysis": "Place chance."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#5" }
+      ]
+    },
+    {
+      "number": 5,
+      "distance": "TBD",
+      "surface": "Turf",
+      "conditions": "Handicap",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "6",
+          "name": "THINKYAHOT",
+          "jockey": "TBD",
+          "trainer": "Moody/Coleman",
+          "odds": "TBD",
+          "stars": 3,
+          "analysis": "Hit the line hard for 2nd at Seymour. Ready to peak 3rd-up."
+        },
+        {
+          "number": "4",
+          "name": "MR INDEPENDENT",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "TBD",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Dropping from Metro maiden at Sandown."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#6" },
+        { "type": "SAVER", "selection": "#4" }
+      ]
+    },
+    {
+      "number": 6,
+      "distance": "1400 Meters",
+      "surface": "Turf",
+      "conditions": "BM66 Handicap",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "12",
+          "name": "BUTTERNUT PRINCESS",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "TBD",
+          "stars": 4,
+          "analysis": "Drops from a $175k race at Cranbourne. Form is superior to this grade."
+        },
+        {
+          "number": "3",
+          "name": "MATAWAI",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "TBD",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Distance specialist (1400m) dropping from BM70 grade."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#12" },
+        { "type": "EXACTA", "selection": "12 over 3" }
+      ]
+    },
+    {
+      "number": 7,
+      "distance": "TBD",
+      "surface": "Turf",
+      "conditions": "Restricted BM62",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "JAKIVY",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "TBD",
+          "stars": 4,
+          "analysis": "Drops from Metro BM66 at Flemington. Form is significantly stronger."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" }
+      ]
+    },
+    {
+      "number": 8,
+      "distance": "TBD",
+      "surface": "Turf",
+      "conditions": "BM62 Handicap",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "2",
+          "name": "STORM AHEAD",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "TBD",
+          "stars": 3,
+          "analysis": "Last-start winner at this track and grade. Proven form."
+        },
+        {
+          "number": "4",
+          "name": "PRINCE MAGNETITE",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "TBD",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Upside horse, won maiden well."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#2" },
+        { "type": "SAVER", "selection": "#4" }
+      ]
+    }
+  ]
+}
