@@ -1,0 +1,236 @@
+{
+  "name": "Santa Anita Park",
+  "date": "Friday, January 16, 2026",
+  "races": [
+    {
+      "number": 1,
+      "distance": "1 Mile",
+      "surface": "Turf",
+      "conditions": "SOC $50,000",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "REHEARSAL (IRE)",
+          "jockey": "N/A",
+          "trainer": "D'Amato",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>BEST BET</span> Elite D'Amato runner coming off a win. Winning Streak Bonus."
+        },
+        {
+          "number": "2",
+          "name": "GARDEN PARTY",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "Won last out with a 93 figure. The clear main threat."
+        },
+        {
+          "number": "5",
+          "name": "WILDFIRE PRINCESS",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Consistent, won last out. Good tactical speed."
+        }
+      ],
+      "bets": [
+        { "type": "EXACTA", "selection": "Box 1, 2" },
+        { "type": "TRIFECTA", "selection": "1 over 2, 5 over 2, 3, 5" }
+      ]
+    },
+    {
+      "number": 2,
+      "distance": "5 1/2 Furlongs",
+      "surface": "Dirt",
+      "conditions": "Maiden Claiming $50,000",
+      "pace": "#1 has the rail and the highest early pace figures. Should wire the field.",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "DELLA TERRA",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>LOCK</span> Massive figure advantage on dirt (91 vs field avg 60). Lone Speed."
+        },
+        {
+          "number": "2",
+          "name": "STUBBORN",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Turf form is okay, dirt form is weak (41, 60)."
+        },
+        {
+          "number": "4",
+          "name": "JENNYS WINE GIRL",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Decent turf form, but dirt figure (57) is poor."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" },
+        { "type": "DOUBLE", "selection": "1 / 1" }
+      ]
+    },
+    {
+      "number": 3,
+      "distance": "5 1/2 Furlongs",
+      "surface": "Dirt",
+      "conditions": "Claiming $10,000",
+      "pace": "#1 has tactical speed to sit just off the pace and pounce.",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "MANIAE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Most consistent recent figures (81, 85). Solid fit."
+        },
+        {
+          "number": "2",
+          "name": "ELTONSINGSANOTHER",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Has back class (92 in Oct), but recent form is dipping."
+        },
+        {
+          "number": "4",
+          "name": "TOULOUSE DETRAC",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Needs to improve significantly to challenge #1."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" },
+        { "type": "EXACTA", "selection": "1 over 2, 4" }
+      ]
+    },
+    {
+      "number": 4,
+      "distance": "1 Mile",
+      "surface": "Dirt",
+      "conditions": "Claiming $10,000",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "TYPHOON TOMMY",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Consistent 80+ figures. Drops in class but ran 7 days ago."
+        },
+        {
+          "number": "3",
+          "name": "GENTLEMEN'S CLUB",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Solid back figures (82, 85). A major player."
+        },
+        {
+          "number": "6",
+          "name": "UNCLE EVCO",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Consistent mid-70s/80s. In the mix."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" },
+        { "type": "TRIFECTA", "selection": "Box 1, 3, 6" }
+      ]
+    },
+    {
+      "number": 5,
+      "distance": "1 Mile",
+      "surface": "Turf",
+      "conditions": "STR $50,000",
+      "pace": "#1 has the rail and early speed, giving her the tactical advantage.",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "MISS MEAGHER (IRE)",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Won last out. Rail draw + Speed = Dangerous."
+        },
+        {
+          "number": "2",
+          "name": "MIYAKO",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "Also won last out with 99. The main danger."
+        },
+        {
+          "number": "5",
+          "name": "O K ROSE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Right there on figures. Must use in exotics."
+        }
+      ],
+      "bets": [
+        { "type": "EXACTA", "selection": "Box 1, 2" },
+        { "type": "PICK 3", "selection": "1 / 1 / 1" }
+      ]
+    },
+    {
+      "number": 6,
+      "distance": "7 Furlongs",
+      "surface": "Dirt",
+      "conditions": "AOC $80,000",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "WINTERFELL",
+          "jockey": "N/A",
+          "trainer": "Baffert",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>LOCK</span> G1 Malibu runner. 109 Beyer is elite. Standout."
+        },
+        {
+          "number": "3",
+          "name": "PILOT COMMANDER",
+          "jockey": "N/A",
+          "trainer": "Baffert",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "Fast, but 103 is a cut below #1's 109."
+        },
+        {
+          "number": "2",
+          "name": "MIDNIGHT MAMMOTH",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars
