@@ -1,0 +1,342 @@
+{
+  "name": "Gosford",
+  "date": "Friday, January 16, 2026",
+  "races": [
+    {
+      "number": 1,
+      "distance": "1200m",
+      "surface": "Turf",
+      "conditions": "Maiden Plate",
+      "pace": "On-pace advantage; Barrier 9 is a negative.",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "BRUNDEE TOM",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG BET</span> Clear top pick on figures (66-72). Drawn barrier 5."
+        },
+        {
+          "number": "3",
+          "name": "GO GLENN",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Improving type, place chance."
+        },
+        {
+          "number": "4",
+          "name": "STERN DISPUTE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Trialled well, watch market."
+        },
+        {
+          "number": "9",
+          "name": "YOU'RE THE CHOICE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 1,
+          "analysis": "Barrier 9 is a major negative here."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" }
+      ]
+    },
+    {
+      "number": 2,
+      "distance": "1200m",
+      "surface": "Turf",
+      "conditions": "Maiden Handicap",
+      "pace": "Tight turning track favors inside draws.",
+      "contenders": [
+        {
+          "number": "6",
+          "name": "GYRA",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Resumes with best exposed form (Class 72)."
+        },
+        {
+          "number": "1",
+          "name": "BONDASONG",
+          "jockey": "N/A",
+          "trainer": "Kim Waugh",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Local debutant, trials well. Kim Waugh runner."
+        },
+        {
+          "number": "3",
+          "name": "CANADIAN FLING",
+          "jockey": "N/A",
+          "trainer": "Waterhouse/Bott",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Waterhouse/Bott polish."
+        },
+        {
+          "number": "8",
+          "name": "TORREY PINES",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 1,
+          "analysis": "Needs to improve sharply."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#6" }
+      ]
+    },
+    {
+      "number": 3,
+      "distance": "1200m",
+      "surface": "Turf",
+      "conditions": "Class 1 Handicap",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "ALIGNED",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>BEST BET</span> Dominant figures (81). Massive class drop."
+        },
+        {
+          "number": "2",
+          "name": "MONTE VEEBEE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "Good fresh, clear second pick."
+        },
+        {
+          "number": "4",
+          "name": "PELOSA",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Resuming, place hope."
+        },
+        {
+          "number": "5",
+          "name": "SEASTRAAND",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 1,
+          "analysis": "Needs a personal best."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" }
+      ]
+    },
+    {
+      "number": 4,
+      "distance": "2100m",
+      "surface": "Turf",
+      "conditions": "Class 1 & Maiden Plate",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "3",
+          "name": "DEZIGNATION",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Last-start winner with rising figure (70). Stays well."
+        },
+        {
+          "number": "2",
+          "name": "SPENZALOT",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Consistent placer, lacks killer blow."
+        },
+        {
+          "number": "4",
+          "name": "CUESTA",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Good 2nd last start, in the mix."
+        },
+        {
+          "number": "6",
+          "name": "BABYFACED ASSASSIN",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Step up in trip suits, place."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#3" }
+      ]
+    },
+    {
+      "number": 5,
+      "distance": "1100m",
+      "surface": "Turf",
+      "conditions": "Benchmark 64 Handicap",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "3",
+          "name": "REMEMBER JACK",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG BET</span> Metro class dropping to Provincial."
+        },
+        {
+          "number": "6",
+          "name": "GAMBLER",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Fit, good figures, main danger."
+        },
+        {
+          "number": "5",
+          "name": "BOOMING BIANCA",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Honest, fighting for minors."
+        },
+        {
+          "number": "7",
+          "name": "ENSIGN PARKER",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 1,
+          "analysis": "Place chance at best."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#3" }
+      ]
+    },
+    {
+      "number": 6,
+      "distance": "1000m",
+      "surface": "Turf",
+      "conditions": "Super Maiden Plate",
+      "pace": "1000m at Gosford requires speed.",
+      "contenders": [
+        {
+          "number": "2",
+          "name": "BIVACCO",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG BET</span> Huge 67 rating last start. Clear top pick."
+        },
+        {
+          "number": "6",
+          "name": "ZO FRILLING",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Resuming, solid place hope."
+        },
+        {
+          "number": "4",
+          "name": "ZOUSARI",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Needs to improve to beat top pick."
+        },
+        {
+          "number": "1",
+          "name": "BLUE SUEDE HOOVES",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 1,
+          "analysis": "Figures too low."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#2" }
+      ]
+    },
+    {
+      "number": 7,
+      "distance": "1600m",
+      "surface": "Turf",
+      "conditions": "Midway Benchmark 64 Handicap",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "4",
+          "name": "RICO SUAVE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "<span class='value'>VALUE PLAY</span> Best of a moderate bunch. Rates highest (64)."
+        },
+        {
+          "number": "1",
+          "name": "CALL ME BASIL",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Winning form, respect."
+        },
+        {
+          "number": "7",
+          "name": "GALLAHOP",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Can improve second up."
+        },
+        {
+          "number": "2",
+          "name": "ALABAMA BLITZ",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Mixes form, place hope."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#4" }
+      ]
+    }
+  ]
+}
