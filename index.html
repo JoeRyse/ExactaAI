@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professional Handicapping Analysis</title>
     <style>
+        :root {
+            /* Heights used to position fixed header areas.
+               Tweak these if you change paddings/margins of header/track/race selector */
+            --header-height: 69px;
+            --track-tabs-height: 49px;
+            --race-selector-height: 49px;
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -18,14 +26,17 @@
             line-height: 1.6;
         }
 
-        /* Header */
+        /* Header (now fixed) */
         .header {
             background: white;
             border-bottom: 1px solid #e5e5e5;
             padding: 1.5rem 2rem;
-            position: sticky;
+            position: fixed;
             top: 0;
-            z-index: 100;
+            left: 0;
+            right: 0;
+            height: var(--header-height);
+            z-index: 200;
             box-shadow: 0 1px 3px rgba(0,0,0,0.05);
         }
 
@@ -35,6 +46,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            height: 100%;
         }
 
         .brand {
@@ -48,14 +60,19 @@
             font-size: 0.95rem;
         }
 
-        /* Track Tabs */
+        /* Track Tabs (now fixed below header) */
         .track-tabs {
             background: white;
             border-bottom: 1px solid #e5e5e5;
             padding: 0 2rem;
-            position: sticky;
-            top: 69px;
-            z-index: 99;
+            position: fixed;
+            top: var(--header-height);
+            left: 0;
+            right: 0;
+            height: var(--track-tabs-height);
+            z-index: 180;
+            display: flex;
+            align-items: center;
         }
 
         .track-tabs-inner {
@@ -63,6 +80,7 @@
             margin: 0 auto;
             display: flex;
             gap: 2rem;
+            width: 100%;
         }
 
         .track-tab {
@@ -86,14 +104,19 @@
             border-bottom-color: #1a1a1a;
         }
 
-        /* Race Selector */
+        /* Race Selector (now fixed below track tabs) */
         .race-selector {
             background: white;
             border-bottom: 1px solid #e5e5e5;
             padding: 0.75rem 2rem;
-            position: sticky;
-            top: 118px;
-            z-index: 98;
+            position: fixed;
+            top: calc(var(--header-height) + var(--track-tabs-height));
+            left: 0;
+            right: 0;
+            height: var(--race-selector-height);
+            z-index: 170;
+            display: flex;
+            align-items: center;
         }
 
         .race-selector-inner {
@@ -103,6 +126,7 @@
             gap: 0.5rem;
             align-items: center;
             flex-wrap: wrap;
+            width: 100%;
         }
 
         .race-selector-label {
@@ -129,11 +153,13 @@
             color: #1a1a1a;
         }
 
-        /* Main Container */
+        /* Main Container
+           Add top padding so content doesn't sit under the fixed header areas */
         .container {
             max-width: 1400px;
             margin: 0 auto;
             padding: 2rem;
+            padding-top: calc(var(--header-height) + var(--track-tabs-height) + var(--race-selector-height) + 2rem);
         }
 
         /* Race Grid */
@@ -339,6 +365,7 @@
         @media (max-width: 768px) {
             .container {
                 padding: 1rem;
+                padding-top: calc(var(--header-height) + var(--track-tabs-height) + var(--race-selector-height) + 1rem);
             }
             
             .header-content {
@@ -541,7 +568,17 @@
         function jumpToRace(raceNumber) {
             const raceCard = document.getElementById(`race-${raceNumber}`);
             if (raceCard) {
-                const offset = 190;
+                // Calculate current fixed header heights dynamically so the offset stays correct
+                const headerEl = document.querySelector('.header');
+                const tabsEl = document.querySelector('.track-tabs');
+                const selectorEl = document.querySelector('.race-selector');
+
+                const headerHeight = headerEl ? headerEl.getBoundingClientRect().height : 0;
+                const tabsHeight = tabsEl ? tabsEl.getBoundingClientRect().height : 0;
+                const selectorHeight = selectorEl && selectorEl.style.display !== 'none' ? selectorEl.getBoundingClientRect().height : 0;
+
+                const offset = headerHeight + tabsHeight + selectorHeight + 8; // small extra gap
+
                 const elementPosition = raceCard.getBoundingClientRect().top;
                 const offsetPosition = elementPosition + window.pageYOffset - offset;
 
