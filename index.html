@@ -36,7 +36,7 @@
             -webkit-font-smoothing: antialiased;
         }
 
-        /* Header - Clean and minimal */
+        /* Header - Elevated with subtle shadow */
         .header {
             background: white;
             border-bottom: 1px solid var(--border);
@@ -47,6 +47,7 @@
             right: 0;
             height: var(--header-height);
             z-index: 200;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.03);
         }
 
         .header-content {
@@ -74,13 +75,31 @@
             display: block;
         }
 
+        .logo-fallback {
+            display: none;
+        }
+
+        .logo:not([src]), .logo[src=""], .logo[src*="error"] {
+            display: none;
+        }
+
+        .logo:not([src]) ~ .logo-fallback, 
+        .logo[src=""] ~ .logo-fallback,
+        .logo[src*="error"] ~ .logo-fallback {
+            display: block;
+        }
+
         .date {
             color: var(--text-light);
             font-size: 0.9rem;
             font-weight: 500;
+            padding: 0.5rem 0.9rem;
+            background: var(--bg-light);
+            border-radius: 6px;
+            border: 1px solid var(--border);
         }
 
-        /* Track Tabs */
+        /* Track Tabs - Subtle elevation */
         .track-tabs {
             background: white;
             border-bottom: 1px solid var(--border);
@@ -93,6 +112,7 @@
             z-index: 180;
             display: flex;
             align-items: center;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
         }
 
         .track-tabs-inner {
@@ -125,6 +145,7 @@
             color: var(--primary);
             background: var(--bg-light);
             font-weight: 600;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
         }
 
         .track-tab.active::after {
@@ -150,6 +171,7 @@
             z-index: 170;
             display: flex;
             align-items: center;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.02);
         }
 
         .race-selector-inner {
@@ -182,18 +204,22 @@
             font-weight: 600;
             transition: all 0.15s ease;
             min-width: 44px;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.02);
         }
 
         .race-jump-btn:hover {
             border-color: var(--accent);
             color: var(--accent);
             background: #eff6ff;
+            box-shadow: 0 2px 4px 0 rgba(37, 99, 235, 0.1);
+            transform: translateY(-1px);
         }
 
         .race-jump-btn.active {
             background: var(--accent);
             border-color: var(--accent);
             color: white;
+            box-shadow: 0 2px 4px 0 rgba(37, 99, 235, 0.2), 0 1px 2px 0 rgba(37, 99, 235, 0.1);
         }
 
         /* Main Container */
@@ -210,18 +236,24 @@
             gap: 1.5rem;
         }
 
-        /* Race Card - Clean and professional */
+        /* Race Card - Elevated with layered shadows */
         .race-card {
             background: white;
             border-radius: 8px;
             border: 1px solid var(--border);
             overflow: hidden;
             transition: all 0.2s ease;
+            box-shadow: 
+                0 1px 3px 0 rgba(0, 0, 0, 0.05),
+                0 1px 2px 0 rgba(0, 0, 0, 0.03);
         }
 
         .race-card:hover {
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.06), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            box-shadow: 
+                0 10px 15px -3px rgba(0, 0, 0, 0.08),
+                0 4px 6px -2px rgba(0, 0, 0, 0.03);
             border-color: #cbd5e1;
+            transform: translateY(-2px);
         }
 
         .race-header {
@@ -258,6 +290,7 @@
             font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 0.3px;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
         }
 
         .surface-dirt { 
@@ -285,6 +318,7 @@
             background: var(--bg-light);
             border-radius: 6px;
             border-left: 3px solid var(--accent);
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.02);
         }
 
         .section-label {
@@ -311,9 +345,16 @@
             display: grid;
             grid-template-columns: auto 1fr auto;
             gap: 1.25rem;
-            padding: 1rem 0;
+            padding: 1rem;
             border-bottom: 1px solid var(--border);
             align-items: start;
+            border-radius: 6px;
+            transition: all 0.15s ease;
+        }
+
+        .contender:hover {
+            background: var(--bg-light);
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.02);
         }
 
         .contender:last-child {
@@ -331,6 +372,7 @@
             border-radius: 6px;
             font-weight: 700;
             font-size: 1rem;
+            box-shadow: 0 2px 4px 0 rgba(15, 23, 42, 0.2);
         }
 
         .horse-info {
@@ -370,6 +412,7 @@
 
         .stars .filled {
             color: #f59e0b;
+            text-shadow: 0 1px 2px rgba(245, 158, 11, 0.3);
         }
 
         .stars .empty {
@@ -380,6 +423,11 @@
             color: var(--text-light);
             font-size: 0.85rem;
             font-weight: 600;
+            padding: 0.25rem 0.6rem;
+            background: var(--bg-light);
+            border-radius: 4px;
+            border: 1px solid var(--border);
+            display: inline-block;
         }
 
         /* Betting section */
@@ -388,6 +436,7 @@
             border-radius: 6px;
             padding: 1rem;
             border: 1px solid var(--border);
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.02);
         }
 
         .bet-row {
@@ -409,6 +458,10 @@
             font-family: 'Inter', ui-monospace, monospace;
             font-weight: 600;
             font-size: 0.9rem;
+            padding: 0.25rem 0.6rem;
+            background: white;
+            border-radius: 4px;
+            border: 1px solid var(--border);
         }
 
         /* Loading & Empty States */
@@ -430,6 +483,7 @@
             border-radius: 3px;
             font-weight: 600;
             color: #92400e;
+            box-shadow: 0 1px 2px 0 rgba(146, 64, 14, 0.1);
         }
 
         .value {
@@ -438,6 +492,7 @@
             border-radius: 3px;
             font-weight: 600;
             color: #1e40af;
+            box-shadow: 0 1px 2px 0 rgba(30, 64, 175, 0.1);
         }
 
         html {
@@ -506,7 +561,10 @@
     <div class="header">
         <div class="header-content">
             <div class="brand">
-                <img src="https://raw.githubusercontent.com/JoeRyse/ExactaAI/main/logo.png" alt="Exacta AI" class="logo">
+                <img src="https://raw.githubusercontent.com/JoeRyse/ExactaAI/main/logo.png" 
+                     alt="Exacta AI" 
+                     class="logo"
+                     onerror="this.style.display='none'">
                 Exacta AI
             </div>
             <div class="date" id="displayDate"></div>
@@ -537,8 +595,7 @@
                 { key: 'Gulfstream Park', file: 'gulfstream.json' },
                 { key: 'Fair Grounds', file: 'fairgrounds.json' },
                 { key: 'Tampa Bay', file: 'tampabay.json' },
-                { key: 'Santa Anita', file: 'santa.json' },
-                { key: 'Santa Anita', file: 'santa.json' }
+                { key: 'Santa Anita', file: 'santa.json' }  // Try also: 'santa-anita.json' or 'SantaAnita.json'
             ]
         };
 
@@ -566,15 +623,17 @@
                     if (response.ok) {
                         const data = await response.json();
                         trackData[track.key] = data;
+                        console.log(`✓ Loaded ${track.file}`);
                     } else {
-                        console.warn(`Failed to load ${track.file}`);
+                        console.warn(`✗ Failed to load ${track.file} - Status: ${response.status}`);
                     }
                 } catch (error) {
-                    console.error(`Error loading ${track.file}:`, error);
+                    console.error(`✗ Error loading ${track.file}:`, error);
                 }
             });
             
             await Promise.all(loadPromises);
+            console.log('Loaded tracks:', Object.keys(trackData));
         }
 
         function renderTrackTabs() {
