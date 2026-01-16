@@ -11,11 +11,6 @@
             --header-height: 69px;
             --track-tabs-height: 49px;
             --race-selector-height: 49px;
-
-            /* Selected / active color (fog greyish blue) */
-            --selected-bg: #e6eef3;
-            --selected-border: #cbd9df;
-            --selected-ink: #0f1722;
         }
 
         * {
@@ -91,26 +86,22 @@
         .track-tab {
             background: none;
             border: none;
-            padding: 0.6rem 0.5rem;
+            padding: 1rem 0;
             color: #666;
             font-size: 0.95rem;
             font-weight: 500;
             cursor: pointer;
             border-bottom: 2px solid transparent;
-            transition: all 0.15s ease;
-            border-radius: 6px;
+            transition: all 0.2s;
         }
 
         .track-tab:hover {
             color: #1a1a1a;
         }
 
-        /* Active track tab gets a fog grey-blue shade */
         .track-tab.active {
-            color: var(--selected-ink);
-            background: var(--selected-bg);
-            border-bottom-color: transparent;
-            box-shadow: inset 0 0 0 1px var(--selected-border);
+            color: #1a1a1a;
+            border-bottom-color: #1a1a1a;
         }
 
         /* Race Selector (now fixed below track tabs) */
@@ -154,7 +145,7 @@
             cursor: pointer;
             font-size: 0.9rem;
             font-weight: 500;
-            transition: all 0.15s ease;
+            transition: all 0.2s;
         }
 
         .race-jump-btn:hover {
@@ -162,13 +153,444 @@
             color: #1a1a1a;
         }
 
-        /* Active race button gets the same fog grey-blue shade */
-        .race-jump-btn.active {
-            background: var(--selected-bg);
-            border-color: var(--selected-border);
-            color: var(--selected-ink);
-            box-shadow: inset 0 0 0 1px var(--selected-border);
+        /* Main Container
+           Add top padding so content doesn't sit under the fixed header areas */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+            padding-top: calc(var(--header-height) + var(--track-tabs-height) + var(--race-selector-height) + 2rem);
         }
 
-        /* Main Container
-           Add top padding so
+        /* Race Grid */
+        .races-grid {
+            display: grid;
+            gap: 1.5rem;
+        }
+
+        /* Race Card */
+        .race-card {
+            background: white;
+            border-radius: 8px;
+            border: 1px solid #e5e5e5;
+            overflow: hidden;
+            transition: box-shadow 0.2s;
+        }
+
+        .race-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        .race-header {
+            padding: 1.5rem;
+            border-bottom: 1px solid #e5e5e5;
+            background: #fafafa;
+        }
+
+        .race-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 0.5rem;
+        }
+
+        .race-number {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .race-conditions {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .race-surface {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-top: 0.5rem;
+        }
+
+        .surface-dirt { background: #fef3c7; color: #92400e; }
+        .surface-turf { background: #d1fae5; color: #065f46; }
+        .surface-tapeta { background: #e5e7eb; color: #374151; }
+
+        .race-body {
+            padding: 1.5rem;
+        }
+
+        .pace-section {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .section-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #666;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .pace-text {
+            color: #333;
+            font-size: 0.95rem;
+        }
+
+        /* Contenders */
+        .contenders {
+            margin-bottom: 1.5rem;
+        }
+
+        .contender {
+            display: grid;
+            grid-template-columns: auto 1fr auto;
+            gap: 1rem;
+            padding: 1rem 0;
+            border-bottom: 1px solid #f3f4f6;
+            align-items: start;
+        }
+
+        .contender:last-child {
+            border-bottom: none;
+        }
+
+        .horse-number {
+            width: 36px;
+            height: 36px;
+            background: #1a1a1a;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 6px;
+            font-weight: 700;
+            font-size: 1rem;
+        }
+
+        .horse-info {
+            min-width: 0;
+        }
+
+        .horse-name {
+            font-weight: 700;
+            font-size: 1.05rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .horse-connections {
+            color: #666;
+            font-size: 0.85rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .horse-analysis {
+            color: #333;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        .horse-rating {
+            text-align: right;
+            white-space: nowrap;
+        }
+
+        .stars {
+            color: #fbbf24;
+            font-size: 0.9rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .odds {
+            color: #666;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        /* Betting */
+        .betting-section {
+            background: #f9fafb;
+            border-radius: 6px;
+            padding: 1rem;
+        }
+
+        .bet-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem 0;
+            font-size: 0.95rem;
+        }
+
+        .bet-type {
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+
+        .bet-selection {
+            color: #333;
+            font-family: ui-monospace, monospace;
+        }
+
+        /* Loading & Empty States */
+        .loading-state, .empty-state, .error-state {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: #666;
+        }
+
+        .error-state {
+            color: #dc2626;
+        }
+
+        /* Highlight Classes */
+        .lock {
+            background: #fef3c7;
+            padding: 0.15rem 0.5rem;
+            border-radius: 3px;
+            font-weight: 600;
+        }
+
+        .value {
+            background: #dbeafe;
+            padding: 0.15rem 0.5rem;
+            border-radius: 3px;
+            font-weight: 600;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+                padding-top: calc(var(--header-height) + var(--track-tabs-height) + var(--race-selector-height) + 1rem);
+            }
+            
+            .header-content {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+
+            .track-tabs-inner {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+
+            .contender {
+                grid-template-columns: auto 1fr;
+                gap: 0.75rem;
+            }
+
+            .horse-rating {
+                grid-column: 2;
+                text-align: left;
+                margin-top: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <div class="brand">Exacta AI</div>
+            <div class="date" id="displayDate"></div>
+        </div>
+    </div>
+
+    <div class="track-tabs">
+        <div class="track-tabs-inner" id="trackTabs"></div>
+    </div>
+
+    <div class="race-selector" id="raceSelector" style="display: none;">
+        <div class="race-selector-inner">
+            <span class="race-selector-label">Jump to Race:</span>
+            <div id="raceJumpButtons"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="races-grid" id="racesGrid">
+            <div class="loading-state">Loading track data...</div>
+        </div>
+    </div>
+
+    <script>
+        // ============================================================================
+        // CONFIGURATION - Edit this section to add/remove tracks
+        // ============================================================================
+        
+        const CONFIG = {
+            // GitHub raw content URL base (replace with your repo)
+            dataSource: 'https://raw.githubusercontent.com/JoeRyse/ExactaAI/main/tracks/',
+            
+            // List of tracks to load
+            tracks: [
+                { key: 'AU - Townsville', file: 'townsville.json' },
+                { key: 'AU - Ballina', file: 'ballina.json' },
+                { key: 'AU - Canterbury', file: 'canterbury.json' },
+                { key: 'AU - Pakenham', file: 'pakenham.json' }
+            ]
+        };
+
+        // ============================================================================
+        // APPLICATION LOGIC - Don't edit below unless you know what you're doing
+        // ============================================================================
+
+        let trackData = {};
+        let currentTrack = null;
+
+        async function init() {
+            await loadAllTracks();
+            if (Object.keys(trackData).length > 0) {
+                currentTrack = Object.keys(trackData)[0];
+                renderTrackTabs();
+                renderRaces();
+            } else {
+                document.getElementById('racesGrid').innerHTML = 
+                    '<div class="error-state">No track data available. Please check your configuration.</div>';
+            }
+        }
+
+        async function loadAllTracks() {
+            const loadPromises = CONFIG.tracks.map(async track => {
+                try {
+                    const response = await fetch(CONFIG.dataSource + track.file);
+                    if (response.ok) {
+                        const data = await response.json();
+                        trackData[track.key] = data;
+                    } else {
+                        console.warn(`Failed to load ${track.file}`);
+                    }
+                } catch (error) {
+                    console.error(`Error loading ${track.file}:`, error);
+                }
+            });
+            
+            await Promise.all(loadPromises);
+        }
+
+        function renderTrackTabs() {
+            const container = document.getElementById('trackTabs');
+            container.innerHTML = '';
+
+            Object.keys(trackData).forEach(trackKey => {
+                const btn = document.createElement('button');
+                btn.className = `track-tab ${trackKey === currentTrack ? 'active' : ''}`;
+                btn.textContent = trackData[trackKey].name;
+                btn.onclick = () => selectTrack(trackKey);
+                container.appendChild(btn);
+            });
+        }
+
+        function selectTrack(trackKey) {
+            currentTrack = trackKey;
+            document.getElementById('displayDate').textContent = trackData[currentTrack].date;
+            renderTrackTabs();
+            renderRaces();
+        }
+
+        function renderRaces() {
+            const container = document.getElementById('racesGrid');
+            const races = trackData[currentTrack].races;
+            const raceSelector = document.getElementById('raceSelector');
+            const jumpButtonsContainer = document.getElementById('raceJumpButtons');
+
+            if (!races || races.length === 0) {
+                container.innerHTML = '<div class="empty-state">Analysis coming soon for this track</div>';
+                raceSelector.style.display = 'none';
+                return;
+            }
+
+            // Show race selector
+            raceSelector.style.display = 'block';
+            document.getElementById('displayDate').textContent = trackData[currentTrack].date;
+
+            // Generate race jump buttons
+            jumpButtonsContainer.innerHTML = races.map(race => 
+                `<button class="race-jump-btn" onclick="jumpToRace(${race.number})">R${race.number}</button>`
+            ).join('');
+
+            container.innerHTML = races.map(race => {
+                const surfaceClass = `surface-${race.surface.toLowerCase()}`;
+                const starsHTML = (count) => '★'.repeat(count) + '☆'.repeat(5 - count);
+
+                return `
+                    <div class="race-card" id="race-${race.number}">
+                        <div class="race-header">
+                            <div class="race-title">
+                                <div class="race-number">Race ${race.number}</div>
+                                <div class="race-conditions">${race.distance} • ${race.conditions}</div>
+                            </div>
+                            <span class="race-surface ${surfaceClass}">${race.surface}</span>
+                        </div>
+                        <div class="race-body">
+                            <div class="pace-section">
+                                <div class="section-label">Pace Projection</div>
+                                <div class="pace-text">${race.pace}</div>
+                            </div>
+                            
+                            <div class="contenders">
+                                <div class="section-label">Top Contenders</div>
+                                ${race.contenders.map(horse => `
+                                    <div class="contender">
+                                        <div class="horse-number">${horse.number}</div>
+                                        <div class="horse-info">
+                                            <div class="horse-name">${horse.name}</div>
+                                            <div class="horse-connections">${horse.jockey} / ${horse.trainer}</div>
+                                            <div class="horse-analysis">${horse.analysis}</div>
+                                        </div>
+                                        <div class="horse-rating">
+                                            <div class="stars">${starsHTML(horse.stars)}</div>
+                                            <div class="odds">${horse.odds}</div>
+                                        </div>
+                                    </div>
+                                `).join('')}
+                            </div>
+
+                            <div class="betting-section">
+                                <div class="section-label">Wagering Strategy</div>
+                                ${race.bets.map(bet => `
+                                    <div class="bet-row">
+                                        <span class="bet-type">${bet.type}</span>
+                                        <span class="bet-selection">${bet.selection}</span>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function jumpToRace(raceNumber) {
+            const raceCard = document.getElementById(`race-${raceNumber}`);
+            if (raceCard) {
+                // Calculate current fixed header heights dynamically so the offset stays correct
+                const headerEl = document.querySelector('.header');
+                const tabsEl = document.querySelector('.track-tabs');
+                const selectorEl = document.querySelector('.race-selector');
+
+                const headerHeight = headerEl ? headerEl.getBoundingClientRect().height : 0;
+                const tabsHeight = tabsEl ? tabsEl.getBoundingClientRect().height : 0;
+                const selectorHeight = selectorEl && selectorEl.style.display !== 'none' ? selectorEl.getBoundingClientRect().height : 0;
+
+                const offset = headerHeight + tabsHeight + selectorHeight + 8; // small extra gap
+
+                const elementPosition = raceCard.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        }
+
+        // Initialize on page load
+        init();
+    </script>
+</body>
+</html>
