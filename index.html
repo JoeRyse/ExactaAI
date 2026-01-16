@@ -309,11 +309,15 @@
             font-family: ui-monospace, monospace;
         }
 
-        /* Empty State */
-        .empty-state {
+        /* Loading & Empty States */
+        .loading-state, .empty-state, .error-state {
             text-align: center;
             padding: 4rem 2rem;
             color: #666;
+        }
+
+        .error-state {
+            color: #dc2626;
         }
 
         /* Highlight Classes */
@@ -381,1005 +385,65 @@
     </div>
 
     <div class="container">
-        <div class="races-grid" id="racesGrid"></div>
+        <div class="races-grid" id="racesGrid">
+            <div class="loading-state">Loading track data...</div>
+        </div>
     </div>
 
     <script>
         // ============================================================================
-        // DATA STRUCTURE - Add your analyses here
+        // CONFIGURATION - Edit this section to add/remove tracks
         // ============================================================================
-        const trackData = {
-            "gulfstream": {
-                name: "Gulfstream Park",
-                date: "Thursday, January 15, 2026",
-                races: [
-                    {
-                        number: 1,
-                        distance: "5 Furlongs",
-                        surface: "Turf",
-                        conditions: "MOC $50,000",
-                        pace: "CONTESTED SPEED: #1 Magic Solar has the rail and must send. #10 Fuoco Vivo has exceptional gate speed from the outside. The pace will be hot (:21/:44).",
-                        contenders: [
-                            {
-                                number: "10",
-                                name: "FUOCO VIVO",
-                                jockey: "L. Saez",
-                                trainer: "R. Crichton",
-                                odds: "7/2",
-                                stars: 4,
-                                analysis: "Drops from MSW to MOC. Superior speed figures (74) and ideal outside post for a sprint to stay clear of traffic."
-                            },
-                            {
-                                number: "1",
-                                name: "MAGIC SOLAR",
-                                jockey: "Y. Torres",
-                                trainer: "O. Gonzalez",
-                                odds: "5/1",
-                                stars: 3,
-                                analysis: "Rail speed. Ran a 72 on turf two back. Must commit early to hold position."
-                            },
-                            {
-                                number: "2",
-                                name: "RIGHTEOUS",
-                                jockey: "T. Gaffalione",
-                                trainer: "M. Maker",
-                                odds: "6/1",
-                                stars: 2,
-                                analysis: "First time turf but bred for it. Gaffalione/Maker is a dangerous angle."
-                            }
-                        ],
-                        bets: [
-                            { type: "WIN", selection: "#10 Fuoco Vivo" },
-                            { type: "EXACTA", selection: "10 over 1, 2, 5" }
-                        ]
-                    },
-                    {
-                        number: 2,
-                        distance: "1 1/16 Miles",
-                        surface: "Tapeta",
-                        conditions: "Maiden Claiming $17.5k",
-                        pace: "CONTROLLED: With scratches of #1, #4, #7, and #8, the field is decimated. #2 Herbstreit controls this.",
-                        contenders: [
-                            {
-                                number: "2",
-                                name: "HERBSTREIT",
-                                jockey: "I. Ortiz Jr.",
-                                trainer: "B. Cox",
-                                odds: "1/5",
-                                stars: 5,
-                                analysis: "<span class='lock'>LOCK OF THE DAY</span> Brad Cox/Irad Ortiz dropping from MSW to $17.5k MCL. The field collapsed via scratches. A paid workout.",
-                                highlight: "lock"
-                            },
-                            {
-                                number: "3",
-                                name: "MAGNETO",
-                                jockey: "E. Zayas",
-                                trainer: "J. Delgado",
-                                odds: "5/1",
-                                stars: 2,
-                                analysis: "Inherits 2nd place by default. Delgado barn is 18%."
-                            }
-                        ],
-                        bets: [
-                            { type: "WIN", selection: "PASS (Odds too low)" },
-                            { type: "EXACTA", selection: "2 / 3 (Cold)" }
-                        ]
-                    },
-                    {
-                        number: 3,
-                        distance: "1 Mile",
-                        surface: "Dirt",
-                        conditions: "Claiming $12,500",
-                        pace: "MODERATE: With #1 scratched, #2 The Prince's Spur becomes the controlling speed/presser.",
-                        contenders: [
-                            {
-                                number: "2",
-                                name: "THE PRINCE'S SPUR",
-                                jockey: "I. Ortiz Jr.",
-                                trainer: "R. Crichton",
-                                odds: "4/5",
-                                stars: 5,
-                                analysis: "Massive figure advantage (97 BSF vs 80 avg). Class drop to $12.5k. Dominant on paper."
-                            },
-                            {
-                                number: "3",
-                                name: "PHILHARMONIC",
-                                jockey: "N. Juarez",
-                                trainer: "N. Zito",
-                                odds: "7/2",
-                                stars: 3,
-                                analysis: "Consistent high-80s figures. Clear second best in this reduced field."
-                            }
-                        ],
-                        bets: [
-                            { type: "WIN", selection: "#2 The Prince's Spur" },
-                            { type: "EXACTA", selection: "2 over 3" }
-                        ]
-                    },
-                    {
-                        number: 4,
-                        distance: "5 1/2 Furlongs",
-                        surface: "Tapeta",
-                        conditions: "Claiming $12,500",
-                        pace: "BALANCED: #3 New York New York has tactical speed to sit close. #5 G Speedy likely sends.",
-                        contenders: [
-                            {
-                                number: "3",
-                                name: "NEW YORK NEW YORK",
-                                jockey: "M. Vasquez",
-                                trainer: "N. Ramsey",
-                                odds: "7/5",
-                                stars: 4,
-                                analysis: "Speed figures (81/78) are tops. Proven affinity for Tapeta surface."
-                            },
-                            {
-                                number: "1",
-                                name: "MESSAGEFROMTHEKING",
-                                jockey: "J. Morelos",
-                                trainer: "H. Miller",
-                                odds: "7/2",
-                                stars: 3,
-                                analysis: "Consistent mid-70s figures. Reliable board hitter."
-                            }
-                        ],
-                        bets: [
-                            { type: "WIN", selection: "#3 New York New York" },
-                            { type: "EXACTA", selection: "3 over 1, 6" }
-                        ]
-                    },
-                    {
-                        number: 5,
-                        distance: "5 Furlongs",
-                        surface: "Turf",
-                        conditions: "MOC $50,000",
-                        pace: "FAST: Scratch of #1 opens up the rail, but #2 Ticket To Ride has tactical speed to secure position.",
-                        contenders: [
-                            {
-                                number: "2",
-                                name: "TICKET TO RIDE",
-                                jockey: "I. Ortiz Jr.",
-                                trainer: "S. Joseph Jr.",
-                                odds: "8/5",
-                                stars: 4,
-                                analysis: "Drops from NY MSW to MOC. Saffie Joseph/Irad Ortiz is a 29% win combo. The horse to beat."
-                            },
-                            {
-                                number: "5",
-                                name: "LUCKY WIN COCO",
-                                jockey: "H. Figueroa",
-                                trainer: "G. Morales",
-                                odds: "8/1",
-                                stars: 3,
-                                analysis: "Ran a 73 BSF over this course/distance in Oct. Forgive last route race."
-                            },
-                            {
-                                number: "9",
-                                name: "ROYAL RETINUE",
-                                jockey: "T. Gaffalione",
-                                trainer: "W. Mott",
-                                odds: "5/1",
-                                stars: 3,
-                                analysis: "Hidden 74 figure in last start. Mott/Gaffalione is Tier 1."
-                            }
-                        ],
-                        bets: [
-                            { type: "WIN", selection: "#2 Ticket To Ride" },
-                            { type: "EXACTA", selection: "2 over 5, 9" }
-                        ]
-                    },
-                    {
-                        number: 6,
-                        distance: "6 Furlongs",
-                        surface: "Dirt",
-                        conditions: "Claiming $8,000",
-                        pace: "CHAOTIC: Low-level claimers often produce erratic pace. #6 El Guty can rate.",
-                        contenders: [
-                            {
-                                number: "6",
-                                name: "EL GUTY",
-                                jockey: "I. Ortiz Jr.",
-                                trainer: "S. Santoro",
-                                odds: "2/1",
-                                stars: 4,
-                                analysis: "Most consistent (67-77 figs). Irad Ortiz takes the mount, which is a huge signal at this level."
-                            },
-                            {
-                                number: "7",
-                                name: "SOUND OF THE BEAST",
-                                jockey: "L. Saez",
-                                trainer: "R. Crichton",
-                                odds: "5/1",
-                                stars: 3,
-                                analysis: "Back class (82/94 figs). Crichton/Saez team. Dangerous on the drop."
-                            }
-                        ],
-                        bets: [
-                            { type: "WIN", selection: "#6 El Guty" },
-                            { type: "EXACTA", selection: "Box 6-7" }
-                        ]
-                    },
-                    {
-                        number: 7,
-                        distance: "1 Mile",
-                        surface: "Dirt",
-                        conditions: "AOC $62,500",
-                        pace: "FAIR: #2 Senza Parole has tactical speed to stalk. #6 Anna's Promise may send.",
-                        contenders: [
-                            {
-                                number: "2",
-                                name: "SENZA PAROLE",
-                                jockey: "I. Ortiz Jr.",
-                                trainer: "C. Brown",
-                                odds: "5/2",
-                                stars: 5,
-                                analysis: "<span class='lock'>CLASS PLAY</span> Chad Brown shipper. G2/G3 quality running in optional claimer. Standout."
-                            },
-                            {
-                                number: "3",
-                                name: "JUST BASKING",
-                                jockey: "J. Castellano",
-                                trainer: "I. Wilkes",
-                                odds: "5/1",
-                                stars: 4,
-                                analysis: "Proven router cutting back to one-turn mile. Will be running late."
-                            }
-                        ],
-                        bets: [
-                            { type: "WIN", selection: "#2 Senza Parole" },
-                            { type: "EXACTA", selection: "2 over 3, 6" }
-                        ]
-                    },
-                    {
-                        number: 8,
-                        distance: "5 Furlongs",
-                        surface: "Turf",
-                        conditions: "AOC $20,000",
-                        pace: "CONTESTED: #4 Heir To The Roar has massive early pace figures (117). Must clear #1.",
-                        contenders: [
-                            {
-                                number: "4",
-                                name: "HEIR TO THE ROAR",
-                                jockey: "J. Alvarado",
-                                trainer: "V. Barboza",
-                                odds: "10/1",
-                                stars: 4,
-                                analysis: "<span class='value'>VALUE PLAY</span> Huge early speed figures. Drawn outside the other speed allows for a tactical trip."
-                            },
-                            {
-                                number: "1",
-                                name: "BEEN BUSY",
-                                jockey: "J. Velazquez",
-                                trainer: "T. Pletcher",
-                                odds: "6/1",
-                                stars: 3,
-                                analysis: "Pletcher/Velazquez. Rail draw is tricky in 5f turf sprints; high risk."
-                            },
-                            {
-                                number: "9",
-                                name: "CITY MINUTE",
-                                jockey: "M. Husbands",
-                                trainer: "S. Joseph",
-                                odds: "10/1",
-                                stars: 3,
-                                analysis: "Saffie Joseph barn. Consistent mid-80s figures. Must use."
-                            }
-                        ],
-                        bets: [
-                            { type: "WIN", selection: "#4 Heir To The Roar" },
-                            { type: "EXACTA", selection: "4 over 1, 9" }
-                        ]
-                    },
-                    {
-                        number: 9,
-                        distance: "5 Furlongs",
-                        surface: "Turf",
-                        conditions: "Starter $25,000",
-                        pace: "FAST: #1 My Perfect Lady sends from rail. #2 Neodera sits the trip.",
-                        contenders: [
-                            {
-                                number: "2",
-                                name: "NEODERA",
-                                jockey: "M. Gutierrez",
-                                trainer: "M. Lerman",
-                                odds: "10/1",
-                                stars: 4,
-                                analysis: "<span class='value'>VALUE PLAY</span> Ran a 90 BSF last out on Tapeta. Transfers form well to turf."
-                            },
-                            {
-                                number: "3",
-                                name: "VUELA PALOMA",
-                                jockey: "I. Ortiz Jr.",
-                                trainer: "V. Barboza",
-                                odds: "9/5",
-                                stars: 4,
-                                analysis: "Consistent mid-80s figures. Irad Ortiz stays aboard. The safe play."
-                            }
-                        ],
-                        bets: [
-                            { type: "WIN", selection: "#2 Neodera" },
-                            { type: "EXACTA", selection: "Box 2-3" }
-                        ]
-                    },
-                    {
-                        number: 10,
-                        distance: "1 Mile",
-                        surface: "Turf",
-                        conditions: "Maiden Claiming $17.5k",
-                        pace: "MODERATE: #4 Numinous has speed. #1 Conn Smythe saves ground.",
-                        contenders: [
-                            {
-                                number: "1",
-                                name: "CONN SMYTHE",
-                                jockey: "T. Gaffalione",
-                                trainer: "W. Tharrenos",
-                                odds: "4/1",
-                                stars: 4,
-                                analysis: "Consistent closer/stalker. Gaffalione fits this horse well."
-                            },
-                            {
-                                number: "4",
-                                name: "NUMINOUS",
-                                jockey: "H. Figueroa",
-                                trainer: "J. Catanese",
-                                odds: "12/1",
-                                stars: 3,
-                                analysis: "Speed threat. Figueroa fits this style."
-                            }
-                        ],
-                        bets: [
-                            { type: "WIN", selection: "#1 Conn Smythe" },
-                            { type: "EXACTA", selection: "1 over 4, 6" }
-                        ]
-                    }
-                ]
-            },
-            "fair_grounds": {
-                name: "Fair Grounds",
-                date: "Thursday, January 15, 2026",
-                races: [
-                    {
-                        number: 1,
-                        distance: "1 Mile",
-                        surface: "Dirt",
-                        conditions: "F&M Claiming $5,000",
-                        pace: "MODERATE: Inside tactical speed favored at the mile. #1 Spicy Italian (Rail speed), #5 Fret No More setting the tempo.",
-                        contenders: [
-                            {
-                                number: "6",
-                                name: "CAME UP ROSES",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "7/2",
-                                stars: 5,
-                                analysis: "<span class='value'>CLASS DROP</span> The class of the field. Drops to the $5k basement. Recent dirt figures (58, 69) significantly higher than par for this level. Has tactical speed to sit and pounce despite outside post."
-                            },
-                            {
-                                number: "1",
-                                name: "SPICY ITALIAN",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "3/1",
-                                stars: 3,
-                                analysis: "Inside speed play. If she breaks clean, controls the rail. Figures (46, 42) are light, but the trip could win it."
-                            },
-                            {
-                                number: "3",
-                                name: "SISTER SAINT",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "7/2",
-                                stars: 2,
-                                analysis: "Consistent plodder with figures in the 50s. Will be running late if the pace collapses."
-                            }
-                        ],
-                        bets: [
-                            { type: "WIN", selection: "#6 Came Up Roses" },
-                            { type: "EXACTA", selection: "6 over 1" }
-                        ]
-                    },
-                    {
-                        number: 4,
-                        distance: "1 Mile",
-                        surface: "Turf",
-                        conditions: "F&M Maiden Special Weight",
-                        pace: "CONTESTED: #4 Time Stone, #1 Buckeye Bombshell showing speed. Several stretching out.",
-                        contenders: [
-                            {
-                                number: "3",
-                                name: "CHANNEL CHECK (GB)",
-                                jockey: "TBD",
-                                trainer: "R. Diodoro",
-                                odds: "6/1",
-                                stars: 5,
-                                analysis: "<span class='value'>VALUE PLAY</span> Diodoro trainee posted massive 89 figure in last turf route at Fair Grounds (Dec 20). That number crushes recent form of favorites. The 6/1 ML is a gift."
-                            },
-                            {
-                                number: "5",
-                                name: "GOOD CONDUCT",
-                                jockey: "I. Ortiz",
-                                trainer: "M. DeVaux",
-                                odds: "4/1",
-                                stars: 4,
-                                analysis: "DeVaux/Ortiz combo. Consistent figures (77, 83). Must-use in exotics."
-                            },
-                            {
-                                number: "4",
-                                name: "TIME STONE",
-                                jockey: "J. Geroux",
-                                trainer: "M. DeVaux",
-                                odds: "9/2",
-                                stars: 3,
-                                analysis: "DeVaux/Geroux. Speed figures (70, 82) fit, but often fades. Distance question mark."
-                            },
-                            {
-                                number: "1",
-                                name: "BUCKEYE BOMBSHELL",
-                                jockey: "TBD",
-                                trainer: "K. McPeek",
-                                odds: "8/1",
-                                stars: 2,
-                                analysis: "McPeek runner with inside draw. Good exotic filler."
-                            }
-                        ],
-                        bets: [
-                            { type: "WIN", selection: "#3 Channel Check" },
-                            { type: "EXACTA", selection: "3 over 5, 4, 1" }
-                        ]
-                    },
-                    {
-                        number: 6,
-                        distance: "1 Mile",
-                        surface: "Turf",
-                        conditions: "AOC $35,000",
-                        pace: "FAIR: Turf course plays honest. Ground saving is key.",
-                        contenders: [
-                            {
-                                number: "8",
-                                name: "ALLNIGHT MOONLIGHT",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "7/5",
-                                stars: 5,
-                                analysis: "<span class='lock'>BEST BET</span> The 'Free Square.' Turf monster compared to this field. Recent figures of 94 and 79 (with 104 back class) are superior. Has tactical speed and can win from anywhere."
-                            },
-                            {
-                                number: "3",
-                                name: "GOOD AND STOUT",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "9/2",
-                                stars: 4,
-                                analysis: "Main danger. Posted 104 figure two starts back. If he repeats that, he wins. Inconsistent but dangerous."
-                            },
-                            {
-                                number: "2",
-                                name: "KENMORE WEST",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "5/1",
-                                stars: 3,
-                                analysis: "Solid figures (82, 88). Good underneath."
-                            }
-                        ],
-                        bets: [
-                            { type: "WIN", selection: "#8 Allnight Moonlight" }
-                        ]
-                    },
-                    {
-                        number: 7,
-                        distance: "6 Furlongs",
-                        surface: "Dirt",
-                        conditions: "AOC $50,000",
-                        pace: "FAST: #5 Banned For Life, #1 Attache, #7 Autodrive. EXTREME SPEED BIAS - 6F at FG demands speed.",
-                        contenders: [
-                            {
-                                number: "5",
-                                name: "BANNED FOR LIFE",
-                                jockey: "P. Lopez",
-                                trainer: "A. Stall Jr.",
-                                odds: "3/1",
-                                stars: 5,
-                                analysis: "<span class='lock'>TOP PICK</span> Al Stall Jr./Paco Lopez. Posted 101 figure recently and 95 before that. Perfect 'stalk and pounce' style for this track. Fair value at 3/1 ML."
-                            },
-                            {
-                                number: "1",
-                                name: "ATTACHE",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "8/1",
-                                stars: 4,
-                                analysis: "Rail horse with back class figures of 104 and 93. If he breaks running, could steal it on the bias."
-                            },
-                            {
-                                number: "7",
-                                name: "AUTODRIVE",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "9/2",
-                                stars: 3,
-                                analysis: "Coming off two wins with 93 figures. Improving 4YO."
-                            },
-                            {
-                                number: "4",
-                                name: "BERGEN",
-                                jockey: "D. Hernandez",
-                                trainer: "R. Diodoro",
-                                odds: "6/1",
-                                stars: 3,
-                                analysis: "Diodoro/Hernandez. Deep closer. Needs pace meltdown, which is possible here."
-                            }
-                        ],
-                        bets: [
-                            { type: "WIN", selection: "#5 Banned For Life" },
-                            { type: "EXACTA", selection: "5 over 1, 4, 7" },
-                            { type: "TRIFECTA", selection: "5 / 1, 4, 7 / 1, 2, 4, 7" }
-                        ]
-                    },
-                    {
-                        number: 9,
-                        distance: "6 Furlongs",
-                        surface: "Dirt",
-                        conditions: "3YO Fillies Maiden Claiming $15,000",
-                        pace: "STRONG SPEED: Bias favors early speed at 6F.",
-                        contenders: [
-                            {
-                                number: "9",
-                                name: "DANZIG'S DORA",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "7/2",
-                                stars: 5,
-                                analysis: "Drops from MSW/MCL30k levels. Figures (58, 63) are best in this weak field. Outside post okay in small field; can stalk and clear."
-                            },
-                            {
-                                number: "7",
-                                name: "M K'S ROCKETTE",
-                                jockey: "TBD",
-                                trainer: "B. Cox",
-                                odds: "9/2",
-                                stars: 3,
-                                analysis: "Brad Cox trainee with only one start (poor). Cox with 2nd start maiden dropper is 25%+ angle. Expect massive improvement."
-                            },
-                            {
-                                number: "4",
-                                name: "HONOR AND OBAY",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "6/1",
-                                stars: 2,
-                                analysis: "Figures (50) make her competitive for the minors."
-                            }
-                        ],
-                        bets: [
-                            { type: "WIN", selection: "#9 Danzig's Dora" },
-                            { type: "EXACTA", selection: "9 over 7" }
-                        ]
-                    }
-                ]
-            },
-            "ballina": {
-                name: "Ballina (NSW)",
-                date: "Friday, January 16, 2026",
-                trackCondition: "Good 4",
-                rail: "True",
-                races: [
-                    {
-                        number: 1,
-                        distance: "1300m",
-                        surface: "Turf",
-                        conditions: "Country Boosted Showcase Maiden Plate",
-                        pace: "MODERATE: Shredded has the class to control this from midfield.",
-                        contenders: [
-                            {
-                                number: "6",
-                                name: "SHREDDED",
-                                jockey: "Mallyon",
-                                trainer: "TBD",
-                                odds: "Top Pick",
-                                stars: 4,
-                                analysis: "Consistent mid-60s figures (60, 63). The one to beat. 3rd up peaking. Mallyon/Dunn combo is a bonus. Effective weight 57.5kg gives him competitive rank 2 advantage."
-                            },
-                            {
-                                number: "2",
-                                name: "BEEARETEE",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Place",
-                                stars: 3,
-                                analysis: "Honest placer (50 Speed) but lacks the winner's gear. Carries 59kg."
-                            },
-                            {
-                                number: "3",
-                                name: "GRAFTING",
-                                jockey: "Dunn",
-                                trainer: "TBD",
-                                odds: "Watch",
-                                stars: 2,
-                                analysis: "Dunn debutant. Trial only. Watch betting closely. 57.5kg."
-                            },
-                            {
-                                number: "4",
-                                name: "HOOLEY",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Outsider",
-                                stars: 1,
-                                analysis: "Speed 42 on debut. Needs significant improvement. 57.5kg."
-                            }
-                        ],
-                        bets: [
-                            { type: "WIN", selection: "#6 Shredded ($30)" }
-                        ]
-                    },
-                    {
-                        number: 2,
-                        distance: "1000m",
-                        surface: "Turf",
-                        conditions: "Benchmark 82 Handicap",
-                        pace: "FAST: Contested pace expected (:21/:44 projection). Tiger Tie has gate speed from outside.",
-                        contenders: [
-                            {
-                                number: "5",
-                                name: "TIGER TIE",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Top Pick",
-                                stars: 4,
-                                analysis: "Fast, light (56kg), and trialled well. Speed 79 with 'Unexposed Elite' potential resuming. Weight swing advantage - 6kg advantage over Skywolf. Won trial strong."
-                            },
-                            {
-                                number: "1",
-                                name: "SKYWOLF",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Danger",
-                                stars: 4,
-                                analysis: "Class runner (Speed 79) but the 62kg anchor is a worry first up. Equal top speed but concedes significant weight."
-                            },
-                            {
-                                number: "2",
-                                name: "DIS IS HEAVEN",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Place",
-                                stars: 3,
-                                analysis: "Fit and honest (Speed 71). Place chance. 59kg."
-                            },
-                            {
-                                number: "3",
-                                name: "LADY WARDELL",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Outsider",
-                                stars: 2,
-                                analysis: "Won well last start (Speed 69) but tougher here. 58.5kg."
-                            }
-                        ],
-                        bets: [
-                            { type: "WIN", selection: "#5 Tiger Tie ($25)" }
-                        ]
-                    },
-                    {
-                        number: 3,
-                        distance: "1000m",
-                        surface: "Turf",
-                        conditions: "Country Boosted Class 1 Showcase Handicap",
-                        pace: "MODERATE: Agent Max can sit handy and pounce.",
-                        contenders: [
-                            {
-                                number: "4",
-                                name: "AGENT MAX",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Top Pick",
-                                stars: 3,
-                                analysis: "Improving profile with consistent 60+ figures (recent avg 63). 3rd up peaking. Race-hardened and sets the standard in Class 1. 59kg."
-                            },
-                            {
-                                number: "6",
-                                name: "AUSTRALASIA",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Value",
-                                stars: 3,
-                                analysis: "Track winner last start (Speed 58). Light weight advantage (55kg). The value play."
-                            },
-                            {
-                                number: "1",
-                                name: "COCO DREAMING",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Risk",
-                                stars: 2,
-                                analysis: "Class dropper (Speed 48) but long layoff is a risk. 60kg."
-                            },
-                            {
-                                number: "3",
-                                name: "TOPHET",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Watch",
-                                stars: 2,
-                                analysis: "Resuming. Trial form only. Watch market. 59.5kg."
-                            }
-                        ],
-                        bets: [
-                            { type: "WIN", selection: "#4 Agent Max ($20)" },
-                            { type: "QUINELLA", selection: "4-6" }
-                        ]
-                    },
-                    {
-                        number: 4,
-                        distance: "1590m",
-                        surface: "Turf",
-                        conditions: "Inglis Xtra Maiden Showcase Plate",
-                        pace: "MODERATE: Tacitly will settle and unleash a devastating late run.",
-                        contenders: [
-                            {
-                                number: "8",
-                                name: "TACITLY",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Lock",
-                                stars: 5,
-                                analysis: "<span class='lock'>BEST BET</span> Ran 4th in Metro Maiden at Randwick last start (Speed 72). Dropping to Country Maiden is the definition of 'Class Crush.' 13 points superior to this field. 2nd up. Effective weight 57.5kg gives rank 1 advantage."
-                            },
-                            {
-                                number: "2",
-                                name: "CHIEF OF STAFF",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Danger",
-                                stars: 3,
-                                analysis: "Solid provincial form (Speed 59). The Quinella horse. 59kg."
-                            },
-                            {
-                                number: "6",
-                                name: "FIREY TRUTH",
-                                jockey: "TBD",
-                                trainer: "Lees",
-                                odds: "Place",
-                                stars: 2,
-                                analysis: "Lees runner (Speed 61). Can improve. 57.5kg."
-                            },
-                            {
-                                number: "1",
-                                name: "ANDROS",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Outsider",
-                                stars: 1,
-                                analysis: "Perennial maiden (Speed 48). Place at best. 59kg."
-                            }
-                        ],
-                        bets: [
-                            { type: "WIN", selection: "#8 Tacitly ($50)" }
-                        ]
-                    },
-                    {
-                        number: 5,
-                        distance: "1000m",
-                        surface: "Turf",
-                        conditions: "Super Maiden Showcase Handicap",
-                        pace: "UNKNOWN: Field depleted by 6 scratchings. Chaos race.",
-                        contenders: [
-                            {
-                                number: "11",
-                                name: "THE ROOKIE",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Top Pick",
-                                stars: 2,
-                                analysis: "Best of a depleted bunch (Speed 55). Default selection in chaos race. 55.5kg."
-                            },
-                            {
-                                number: "5",
-                                name: "TRIBBIANI",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Place",
-                                stars: 2,
-                                analysis: "Inconsistent (Speed 52) but rates 2nd best. 56.5kg."
-                            },
-                            {
-                                number: "2",
-                                name: "ABSOLUTELYSMASHING",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Outsider",
-                                stars: 1,
-                                analysis: "Resuming (Speed 45). Needs to lift. 57.5kg."
-                            },
-                            {
-                                number: "4",
-                                name: "BEE SUN",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Watch",
-                                stars: 1,
-                                analysis: "First starter (Trial form). Watch betting. 57kg."
-                            }
-                        ],
-                        bets: [
-                            { type: "WIN", selection: "#11 The Rookie (Small)" }
-                        ]
-                    },
-                    {
-                        number: 6,
-                        distance: "1900m",
-                        surface: "Turf",
-                        conditions: "Benchmark 66 Showcase Handicap",
-                        pace: "SLOW/MODERATE: Tietar can control from the front or stalk.",
-                        contenders: [
-                            {
-                                number: "1",
-                                name: "TIETAR",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Top Pick",
-                                stars: 3,
-                                analysis: "Consistent recent figures (65-70 range). Proven at this level. Meets field of non-winners. 61.5kg. Rank 3 effective weight."
-                            },
-                            {
-                                number: "3",
-                                name: "ALDEENAARY",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Risk",
-                                stars: 2,
-                                analysis: "Class dropper (Speed 65) but hard to trust. 60kg."
-                            },
-                            {
-                                number: "5",
-                                name: "FIVE RINGS",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Place",
-                                stars: 2,
-                                analysis: "Honest stayers run (Speed 67). 59kg."
-                            },
-                            {
-                                number: "8",
-                                name: "VERMEER",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Place",
-                                stars: 2,
-                                analysis: "Racing well (Speed 68). Place chance. 58kg."
-                            }
-                        ],
-                        bets: [
-                            { type: "WIN", selection: "#1 Tietar ($20)" }
-                        ]
-                    },
-                    {
-                        number: 7,
-                        distance: "1590m",
-                        surface: "Turf",
-                        conditions: "Ballina Cup",
-                        pace: "MODERATE: Hurstville Zagreb has the class to control from any position.",
-                        contenders: [
-                            {
-                                number: "5",
-                                name: "HURSTVILLE ZAGREB",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Top Pick",
-                                stars: 5,
-                                analysis: "Metro grade dropper (Speed 88). Brings Saturday Metro form to Country Cup. Clear class horse - 7 points superior. Class differential usually overcomes weight in these scenarios. 58kg peaking."
-                            },
-                            {
-                                number: "4",
-                                name: "TRIBECA STAR",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Danger",
-                                stars: 4,
-                                analysis: "Strong Eagle Farm form (Speed 87). Main danger. 58.5kg."
-                            },
-                            {
-                                number: "10",
-                                name: "CAPE CRUSADER",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Value",
-                                stars: 4,
-                                analysis: "Chasing hat-trick (Speed 68). Dangerous with light weight (54kg). <span class='value'>VALUE PLAY</span>"
-                            },
-                            {
-                                number: "1",
-                                name: "EDITED BY",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Risk",
-                                stars: 3,
-                                analysis: "Top class (Speed 92) but 62kg top weight makes it very hard."
-                            }
-                        ],
-                        bets: [
-                            { type: "WIN", selection: "#5 Hurstville Zagreb ($40)" },
-                            { type: "EXACTA", selection: "Box 4-5-10" }
-                        ]
-                    },
-                    {
-                        number: 8,
-                        distance: "1260m",
-                        surface: "Turf",
-                        conditions: "Class 2 Showcase Handicap",
-                        pace: "MODERATE: Oval Office can stalk and pounce.",
-                        contenders: [
-                            {
-                                number: "4",
-                                name: "OVAL OFFICE",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Top Pick",
-                                stars: 3,
-                                analysis: "Top rater on recent figures (Speed 68 career-best first-up). Natural improvement second-up makes him the horse to beat. 56kg effective weight rank 2."
-                            },
-                            {
-                                number: "2",
-                                name: "THE TORQUE XPRESS",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Danger",
-                                stars: 3,
-                                analysis: "Won last start (Speed 67). The danger. 58kg."
-                            },
-                            {
-                                number: "8",
-                                name: "VALOURI",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Place",
-                                stars: 2,
-                                analysis: "Nice maiden win (Speed 63) but harder here. 55kg."
-                            },
-                            {
-                                number: "10",
-                                name: "THUNDEROUS",
-                                jockey: "TBD",
-                                trainer: "TBD",
-                                odds: "Outsider",
-                                stars: 1,
-                                analysis: "Needs to improve (Speed 57). 55kg."
-                            }
-                        ],
-                        bets: [
-                            { type: "WIN", selection: "#4 Oval Office ($20)" },
-                            { type: "QUINELLA", selection: "2-4" }
-                        ]
-                    }
-                ]
-            },
-            "santa_anita": {
-                name: "Santa Anita",
-                date: "Thursday, January 15, 2026",
-                races: []
-            },
-            "aqueduct": {
-                name: "Aqueduct",
-                date: "Thursday, January 15, 2026",
-                races: []
-            }
+        
+        const CONFIG = {
+            // GitHub raw content URL base (replace with your repo)
+            dataSource: 'https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/tracks/',
+            
+            // List of tracks to load
+            tracks: [
+                { key: 'gulfstream', file: 'gulfstream.json' },
+                { key: 'fair_grounds', file: 'fair_grounds.json' },
+                { key: 'ballina', file: 'ballina.json' },
+                { key: 'santa_anita', file: 'santa_anita.json' },
+                { key: 'aqueduct', file: 'aqueduct.json' }
+            ]
         };
 
         // ============================================================================
-        // APPLICATION LOGIC
+        // APPLICATION LOGIC - Don't edit below unless you know what you're doing
         // ============================================================================
 
-        let currentTrack = 'gulfstream';
+        let trackData = {};
+        let currentTrack = null;
 
-        function init() {
-            renderTrackTabs();
-            renderRaces();
-            updateDateDisplay();
+        async function init() {
+            await loadAllTracks();
+            if (Object.keys(trackData).length > 0) {
+                currentTrack = Object.keys(trackData)[0];
+                renderTrackTabs();
+                renderRaces();
+            } else {
+                document.getElementById('racesGrid').innerHTML = 
+                    '<div class="error-state">No track data available. Please check your configuration.</div>';
+            }
         }
 
-        function updateDateDisplay() {
-            if (trackData[currentTrack]) {
-                document.getElementById('displayDate').textContent = trackData[currentTrack].date;
-            }
+        async function loadAllTracks() {
+            const loadPromises = CONFIG.tracks.map(async track => {
+                try {
+                    const response = await fetch(CONFIG.dataSource + track.file);
+                    if (response.ok) {
+                        const data = await response.json();
+                        trackData[track.key] = data;
+                    } else {
+                        console.warn(`Failed to load ${track.file}`);
+                    }
+                } catch (error) {
+                    console.error(`Error loading ${track.file}:`, error);
+                }
+            });
+            
+            await Promise.all(loadPromises);
         }
 
         function renderTrackTabs() {
@@ -1397,26 +461,26 @@
 
         function selectTrack(trackKey) {
             currentTrack = trackKey;
-            updateDateDisplay();
+            document.getElementById('displayDate').textContent = trackData[currentTrack].date;
             renderTrackTabs();
             renderRaces();
         }
 
         function renderRaces() {
             const container = document.getElementById('racesGrid');
+            const races = trackData[currentTrack].races;
             const raceSelector = document.getElementById('raceSelector');
             const jumpButtonsContainer = document.getElementById('raceJumpButtons');
 
-            if (!trackData[currentTrack] || trackData[currentTrack].races.length === 0) {
+            if (!races || races.length === 0) {
                 container.innerHTML = '<div class="empty-state">Analysis coming soon for this track</div>';
                 raceSelector.style.display = 'none';
                 return;
             }
 
-            const races = trackData[currentTrack].races;
-
             // Show race selector
             raceSelector.style.display = 'block';
+            document.getElementById('displayDate').textContent = trackData[currentTrack].date;
 
             // Generate race jump buttons
             jumpButtonsContainer.innerHTML = races.map(race => 
@@ -1424,7 +488,7 @@
             ).join('');
 
             container.innerHTML = races.map(race => {
-                const surfaceClass = `surface-${race.surface.split(' ')[0].toLowerCase()}`;
+                const surfaceClass = `surface-${race.surface.toLowerCase()}`;
                 const starsHTML = (count) => '★'.repeat(count) + '☆'.repeat(5 - count);
 
                 return `
@@ -1478,7 +542,7 @@
         function jumpToRace(raceNumber) {
             const raceCard = document.getElementById(`race-${raceNumber}`);
             if (raceCard) {
-                const offset = 190; // Account for sticky headers
+                const offset = 190;
                 const elementPosition = raceCard.getBoundingClientRect().top;
                 const offsetPosition = elementPosition + window.pageYOffset - offset;
 
@@ -1489,7 +553,7 @@
             }
         }
 
-        // Initialize the app
+        // Initialize on page load
         init();
     </script>
 </body>
