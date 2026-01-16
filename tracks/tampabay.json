@@ -1,0 +1,366 @@
+{
+  "name": "Tampa Bay Downs",
+  "date": "Friday, January 16, 2026",
+  "races": [
+    {
+      "number": 1,
+      "distance": "6 Furlongs",
+      "surface": "Dirt",
+      "conditions": "Claiming $10,000",
+      "pace": "#4 should sit a perfect stalking trip just off #1.",
+      "contenders": [
+        {
+          "number": "4",
+          "name": "EASY COME EASY GO",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Won last with authority; form cycle peaking. Winning Streak Bonus."
+        },
+        {
+          "number": "1",
+          "name": "HOT DANCE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Consistent figures; logical main danger."
+        },
+        {
+          "number": "7",
+          "name": "D' TIGER LILY",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Capable of hitting the board at a price."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#4" },
+        { "type": "EXACTA", "selection": "Box 1, 4" }
+      ]
+    },
+    {
+      "number": 2,
+      "distance": "1 Mile 40 Yards",
+      "surface": "Dirt",
+      "conditions": "Allowance Optional Claiming $75,000",
+      "pace": "Stretching out after a dominant sprint win.",
+      "contenders": [
+        {
+          "number": "6",
+          "name": "TALLMAR",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Highest recent dirt figure; stretching out."
+        },
+        {
+          "number": "3",
+          "name": "BULL BY THE HORNS",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Consistent; solid maiden winner."
+        },
+        {
+          "number": "4",
+          "name": "DAY ONE STARTER",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Class dropper but form is declining (90->67)."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#6" },
+        { "type": "EXACTA", "selection": "6 over 3, 4" }
+      ]
+    },
+    {
+      "number": 3,
+      "distance": "6 1/2 Furlongs",
+      "surface": "Dirt",
+      "conditions": "Claiming $5,000",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "7",
+          "name": "AUGER",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Massive speed figure advantage (82 vs field avg 65)."
+        },
+        {
+          "number": "4",
+          "name": "GUAPO AGAIN",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Consistent check-earner; hits the board."
+        },
+        {
+          "number": "6",
+          "name": "MR. SQUEAKY WHEELS",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Erratic form but capable of a number."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#7" },
+        { "type": "TRIFECTA", "selection": "7 over 4, 6 over 4, 6" }
+      ]
+    },
+    {
+      "number": 4,
+      "distance": "1 Mile 40 Yards",
+      "surface": "Dirt",
+      "conditions": "Claiming $8,000",
+      "pace": "Balanced pace favors a presser like #6.",
+      "contenders": [
+        {
+          "number": "6",
+          "name": "BREATH DEEPLY",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Recent 77 Beyer tops this group."
+        },
+        {
+          "number": "8",
+          "name": "TWELVE TREASURES",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Consistent; rarely runs a bad race."
+        },
+        {
+          "number": "5",
+          "name": "GAP TO GAP",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Competitive figures; must use."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#6" },
+        { "type": "EXACTA", "selection": "Box 6, 8" }
+      ]
+    },
+    {
+      "number": 5,
+      "distance": "1 Mile 40 Yards",
+      "surface": "Dirt",
+      "conditions": "Claiming $16,000 (OFF TURF)",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "10",
+          "name": "JUAN COLORADO",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Proven dirt form (84 Beyer); huge edge off turf."
+        },
+        {
+          "number": "6",
+          "name": "LOBO SALVAJE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Competent dirt runner in a field of turf horses."
+        },
+        {
+          "number": "8",
+          "name": "ENDLESS REIGN",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Turf form is okay; dirt is a question mark."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#10" },
+        { "type": "EXACTA", "selection": "10 over 6, 8" }
+      ]
+    },
+    {
+      "number": 6,
+      "distance": "5 1/2 Furlongs",
+      "surface": "Dirt",
+      "conditions": "Maiden Claiming $16,000",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "12",
+          "name": "MARLAS DREAM",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Best experienced runner; 55 Beyer is tops."
+        },
+        {
+          "number": "7",
+          "name": "LOOKIN LOVELY",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Improving form; logical contender."
+        },
+        {
+          "number": "6",
+          "name": "CRITICAL MAGIC",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Step slow but drops in class."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#12" },
+        { "type": "EXACTA", "selection": "Box 7, 12" }
+      ]
+    },
+    {
+      "number": 7,
+      "distance": "1 Mile 40 Yards",
+      "surface": "Dirt",
+      "conditions": "Claiming $16,000 (OFF TURF)",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "10",
+          "name": "TIGRE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>LOCK</span> Dirt specialist (93 Beyer); lays over field."
+        },
+        {
+          "number": "11",
+          "name": "STEAM POWERED",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Okay dirt form; runs for 2nd."
+        },
+        {
+          "number": "6",
+          "name": "SWEET TONE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Turf horse; dirt form is suspect."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#10" },
+        { "type": "EXACTA", "selection": "10 over 11" }
+      ]
+    },
+    {
+      "number": 8,
+      "distance": "7 Furlongs",
+      "surface": "Dirt",
+      "conditions": "Allowance Optional Claiming $32,000",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "CASTAGNA",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Recent 81 Beyer; active and fit."
+        },
+        {
+          "number": "5",
+          "name": "JUNTA",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Big 91 figure but off long layoff (May '25)."
+        },
+        {
+          "number": "4",
+          "name": "COSTA AMALFITANA",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Consistent mid-70s; hits the board."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" },
+        { "type": "EXACTA", "selection": "Box 1, 5" }
+      ]
+    },
+    {
+      "number": 9,
+      "distance": "1 Mile",
+      "surface": "Turf",
+      "conditions": "Maiden Claiming $16,000",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "4",
+          "name": "SUGAR MAGNOLIA",
+          "jockey": "N/A",
+          "trainer": "Delacour",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Best turf figure (68); Delacour barn."
+        },
+        {
+          "number": "2",
+          "name": "MOONSCAPE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Consistent; solid 2nd choice."
+        },
+        {
+          "number": "9",
+          "name": "PROMAJA",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Competitive figure; in the mix."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#4" },
+        { "type": "EXACTA", "selection": "4 over 2, 9" }
+      ]
+    }
+  ]
+}
