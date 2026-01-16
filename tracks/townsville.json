@@ -1,0 +1,446 @@
+{
+  "name": "Townsville",
+  "date": "Friday, January 16, 2026",
+  "races": [
+    {
+      "number": 1,
+      "distance": "1000m",
+      "surface": "Turf",
+      "conditions": "LADBROKES PUNTER ASSIST QTIS 2YO HANDICAP",
+      "pace": "Rail +4.5m likely to favor on-pace runners",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "GONE COUNTRY",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>WIN PICK</span> Impressive trial winner. The one to beat."
+        },
+        {
+          "number": "2",
+          "name": "SCARLENA",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Experience on Soft track is a big plus."
+        },
+        {
+          "number": "4",
+          "name": "MERSEY LASS",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Resuming. Needs to improve on debut figure."
+        },
+        {
+          "number": "6",
+          "name": "ANDERS KISS",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Has race fitness but figures are lower class."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" },
+        { "type": "EXACTA", "selection": "1 over 2" }
+      ]
+    },
+    {
+      "number": 2,
+      "distance": "1609m",
+      "surface": "Turf",
+      "conditions": "HYGAIN BENCHMARK 70 HANDICAP",
+      "pace": "Rail +4.5m likely to favor on-pace runners",
+      "contenders": [
+        {
+          "number": "5",
+          "name": "RELEASE LE MISSILE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>LOCK</span> Won track/dist on Soft last start. Clear top pick."
+        },
+        {
+          "number": "6",
+          "name": "PRINCE AKEEM",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Consistent and carries light weight."
+        },
+        {
+          "number": "1",
+          "name": "THE DRILLER",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Huge weight (138lbs) but dropping from Metro class."
+        },
+        {
+          "number": "3",
+          "name": "SIR ROCKET",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Mixes form, but figures stack up if ready."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#5" },
+        { "type": "TRIFECTA", "selection": "5 over 1, 6 over 1, 3, 6" }
+      ]
+    },
+    {
+      "number": 3,
+      "distance": "1200m",
+      "surface": "Turf",
+      "conditions": "LADBROKES ODDS SURGE MAIDEN PLATE",
+      "pace": "Rail +4.5m likely to favor on-pace runners",
+      "contenders": [
+        {
+          "number": "11",
+          "name": "SHE'S A SWEET STAR",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Improving filly, light weight, good speed fig."
+        },
+        {
+          "number": "2",
+          "name": "SMOKIN REELS",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Strong debut 2nd. The main danger."
+        },
+        {
+          "number": "1",
+          "name": "NIVEN",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Consistent but lacks the turn of foot of top 2."
+        },
+        {
+          "number": "7",
+          "name": "MIDDLE CHILD",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 1,
+          "analysis": "Needs to find a few lengths."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#11" },
+        { "type": "QUINELLA", "selection": "2, 11" }
+      ]
+    },
+    {
+      "number": 4,
+      "distance": "1200m",
+      "surface": "Turf",
+      "conditions": "LADBROKES ODDS SURGE MAIDEN PLATE",
+      "pace": "Rail +4.5m likely to favor on-pace runners",
+      "contenders": [
+        {
+          "number": "11",
+          "name": "MINNIE VEGAS",
+          "jockey": "L. Morrison",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "Top speed figure and gets L. Morrison."
+        },
+        {
+          "number": "3",
+          "name": "MARCH MADNESS",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Consistent placer. Will be in the finish."
+        },
+        {
+          "number": "5",
+          "name": "STORM CAPITAL",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Improved last start. Place chance."
+        },
+        {
+          "number": "1",
+          "name": "HERE'S MASON",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 1,
+          "analysis": "Needs to lift on recent figures."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#11" },
+        { "type": "EXACTA", "selection": "11 over 3, 5" }
+      ]
+    },
+    {
+      "number": 5,
+      "distance": "1609m",
+      "surface": "Turf",
+      "conditions": "BENCHMARK 55 HANDICAP",
+      "pace": "Rail +4.5m likely to favor on-pace runners",
+      "contenders": [
+        {
+          "number": "6",
+          "name": "SOUTHAVEN",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Consistent in higher grades. Solid pick."
+        },
+        {
+          "number": "1",
+          "name": "MOOLOOLABA",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Big weight but massive class drop. Threat."
+        },
+        {
+          "number": "14",
+          "name": "CHANCE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Light weight and improving. Dangerous."
+        },
+        {
+          "number": "13",
+          "name": "VALUBIOUS",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Honest runner, place claims."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#6" },
+        { "type": "TRIFECTA", "selection": "Box 1, 6, 14" }
+      ]
+    },
+    {
+      "number": 6,
+      "distance": "1200m",
+      "surface": "Turf",
+      "conditions": "CLASS 3 HANDICAP",
+      "pace": "Rail +4.5m likely to favor on-pace runners",
+      "contenders": [
+        {
+          "number": "14",
+          "name": "SUPER TWENTY THREE",
+          "jockey": "Wiggins",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "Strong 2nd last start. Rates highest."
+        },
+        {
+          "number": "9",
+          "name": "RUSSIAN SUMMER",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Good run last time. Main danger."
+        },
+        {
+          "number": "12",
+          "name": "HOT TORQUE INVEGAS",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Last start winner. stepping up but capable."
+        },
+        {
+          "number": "15",
+          "name": "BRAVE INTENT",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 1,
+          "analysis": "Figures too low to challenge top 2."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#14" },
+        { "type": "EXACTA", "selection": "14 over 9, 12" }
+      ]
+    },
+    {
+      "number": 7,
+      "distance": "1400m",
+      "surface": "Turf",
+      "conditions": "OPEN HANDICAP",
+      "pace": "Rail +4.5m likely to favor on-pace runners",
+      "contenders": [
+        {
+          "number": "7",
+          "name": "BURRANEER BUOY",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "Won BM70 with 68 speed. Hard to beat."
+        },
+        {
+          "number": "3",
+          "name": "ELLA TE AMA",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='value'>VALUE PLAY</span> Class runner (BM74 winner). Big threat."
+        },
+        {
+          "number": "8",
+          "name": "KING'S HALO",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Chased #7 home last time. Weight swing? No."
+        },
+        {
+          "number": "4",
+          "name": "SWEET KISSES",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Needs to improve on recent figures."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#7" },
+        { "type": "QUINELLA", "selection": "3, 7" }
+      ]
+    },
+    {
+      "number": 8,
+      "distance": "1400m",
+      "surface": "Turf",
+      "conditions": "BENCHMARK 62 HANDICAP",
+      "pace": "Rail +4.5m likely to favor on-pace runners",
+      "contenders": [
+        {
+          "number": "3",
+          "name": "KEEP ON RUNNING",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>LOCK</span> Clear top rater on speed. The one to beat."
+        },
+        {
+          "number": "5",
+          "name": "BUFFET BUSTER",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Won last start but figures lower than #3."
+        },
+        {
+          "number": "13",
+          "name": "KOBAYASTAR",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Scratched from R6 for this. Place hope."
+        },
+        {
+          "number": "15",
+          "name": "ULTIMATE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 1,
+          "analysis": "Needs to lift significantly."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#3" }
+      ]
+    },
+    {
+      "number": 9,
+      "distance": "1000m",
+      "surface": "Turf",
+      "conditions": "BENCHMARK 55 HANDICAP",
+      "pace": "Rail +4.5m likely to favor on-pace runners",
+      "contenders": [
+        {
+          "number": "10",
+          "name": "HELL OF A BENTLEY",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "3rd to #4 last time, meets better at weights."
+        },
+        {
+          "number": "4",
+          "name": "COPPABELLA ROAD",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Won last start. Hard to beat again."
+        },
+        {
+          "number": "12",
+          "name": "POWER PUFF",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Consistent. Place chance."
+        },
+        {
+          "number": "3",
+          "name": "TIME TO PROPHET",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Weight is a concern."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#10" },
+        { "type": "QUINELLA", "selection": "4, 10" }
+      ]
+    }
+  ]
+}
