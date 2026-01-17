@@ -1,0 +1,174 @@
+{
+  "name": "Southside Cranbourne",
+  "date": "Saturday, January 17, 2026",
+  "races": [
+    {
+      "number": 1,
+      "distance": "1000m",
+      "surface": "Turf",
+      "conditions": "Ladbrokes Big Bets 3YO Maiden Plate",
+      "pace": "Rail Out 3m favors on-pace/leaders",
+      "contenders": [
+        {
+          "number": "2",
+          "name": "MIGLIORARE",
+          "jockey": "N/A",
+          "trainer": "Hayes",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>TOP PICK</span> Jumpout Black Box: 'Won latest Pakenham jumpout'. Elite Stable."
+        },
+        {
+          "number": "5",
+          "name": "DAMA ROYALE",
+          "jockey": "N/A",
+          "trainer": "Busuttin",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='value'>VALUE PLAY</span> Track Form: 3rd at Cranbourne debut (Speed 0:59.5)."
+        },
+        {
+          "number": "1",
+          "name": "FULL OF KNOWLEDGE",
+          "jockey": "N/A",
+          "trainer": "Walker",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Speed: Ran 0:57.5 at Burrumbeet (Tier 2). Provincial Tax applies."
+        },
+        {
+          "number": "8",
+          "name": "INSPIRATIONAL LASS",
+          "jockey": "N/A",
+          "trainer": "Price/Kent",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Elite Trainer, but jumpout comment 'Just even'."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#2" },
+        { "type": "EXACTA", "selection": "2 over 5, 1" }
+      ]
+    },
+    {
+      "number": 3,
+      "distance": "1200m",
+      "surface": "Turf",
+      "conditions": "BetaVet Maiden Plate",
+      "pace": "Rail Out 3m favors on-pace/leaders",
+      "contenders": [
+        {
+          "number": "5",
+          "name": "MOUNT SABYINYO",
+          "jockey": "N/A",
+          "trainer": "Busuttin",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>TOP PICK</span> Form: 2nd at Track/Dist last start. Proven on Cranbourne turns."
+        },
+        {
+          "number": "11",
+          "name": "KIRKHOEPASSE",
+          "jockey": "N/A",
+          "trainer": "Maher",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Jumpout: 'Placed last two'. Respect stable intent if market moves."
+        },
+        {
+          "number": "3",
+          "name": "DAZZLING SECRET",
+          "jockey": "N/A",
+          "trainer": "Nolan",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "4th in same race as #5."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#5" },
+        { "type": "SAVER", "selection": "#11" }
+      ]
+    },
+    {
+      "number": 4,
+      "distance": "1000m",
+      "surface": "Turf",
+      "conditions": "Community Bank Beaconsfield District Handicap",
+      "pace": "Rail Out 3m favors on-pace/leaders",
+      "contenders": [
+        {
+          "number": "2",
+          "name": "NO LIMITATION",
+          "jockey": "N/A",
+          "trainer": "Hayes",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>TOP PICK</span> Class: 2nd at Seymour (Strong Form). Superior speed figures."
+        },
+        {
+          "number": "1",
+          "name": "FOXENBERG",
+          "jockey": "N/A",
+          "trainer": "Douglas",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Resuming off 'Picnic' jumpouts (Balnarring). Fitness fade risk."
+        },
+        {
+          "number": "5",
+          "name": "PACIFIC CHILL",
+          "jockey": "N/A",
+          "trainer": "Busuttin",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Won weak maiden at Yarra Valley."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#2" }
+      ]
+    },
+    {
+      "number": 6,
+      "distance": "1300m",
+      "surface": "Turf",
+      "conditions": "Frankston Sand Soil & Mini Mix Handicap",
+      "pace": "Rail Out 3m favors on-pace/leaders",
+      "contenders": [
+        {
+          "number": "4",
+          "name": "COSMIC CHARGER",
+          "jockey": "N/A",
+          "trainer": "Hayes",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>TOP PICK</span> Momentum: Won last start at this track."
+        },
+        {
+          "number": "6",
+          "name": "THE REAL MAHJONG",
+          "jockey": "N/A",
+          "trainer": "Maher",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Resuming. 'Resumes with a second... jumpout'. X-Factor."
+        },
+        {
+          "number": "7",
+          "name": "ZENACITY",
+          "jockey": "N/A",
+          "trainer": "Ryan",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Won at Echuca. Place chance."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#4" },
+        { "type": "QUINELLA", "selection": "4, 6" }
+      ]
+    }
+  ]
+}
