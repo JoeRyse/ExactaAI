@@ -6,8 +6,8 @@
       "number": 1,
       "distance": "1000m",
       "surface": "Turf",
-      "conditions": "Maiden Plate",
-      "pace": "Straight Six relies on straight-track experience or elite jumpout form.",
+      "conditions": "TAB We're On (2YO Sprint)",
+      "pace": "Straight Six relies on straight-track experience.",
       "contenders": [
         {
           "number": "6",
@@ -16,7 +16,16 @@
           "trainer": "Godolphin/Hayes",
           "odds": "N/A",
           "stars": 3,
-          "analysis": "Flemington jumpout winner. This is the gold standard for debutants at this track."
+          "analysis": "Flemington jumpout winner. Straight track experience in trials is gold here."
+        },
+        {
+          "number": "4",
+          "name": "ISLE OF MONA",
+          "jockey": "N/A",
+          "trainer": "Nick Ryan",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Also a Flemington jumpout winner. Strong saver."
         },
         {
           "number": "1",
@@ -25,21 +34,141 @@
           "trainer": "Price/Kent Jnr",
           "odds": "N/A",
           "stars": 2,
-          "analysis": "Won latest Cranbourne jumpout. Strong yard."
-        },
-        {
-          "number": "4",
-          "name": "ISLE OF MONA",
-          "jockey": "N/A",
-          "trainer": "Nick Ryan",
-          "odds": "N/A",
-          "stars": 2,
-          "analysis": "Won latest Flemington jumpout."
+          "analysis": "Won Cranbourne jumpout. Respect, but corner-track trial form is inferior."
         }
       ],
       "bets": [
         { "type": "WIN", "selection": "#6" },
         { "type": "SAVER", "selection": "#4" }
+      ]
+    },
+    {
+      "number": 2,
+      "distance": "1600m",
+      "surface": "Turf",
+      "conditions": "Victorian Bushfire Appeal Plate (BM78)",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "2",
+          "name": "EAGLE ANGEL",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Won two in a row (Pakenham/Geelong). Tier 1 form translates well to Metro."
+        },
+        {
+          "number": "3",
+          "name": "POLITELY DUN",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Flemington specialist (7:1-1-1). Drops back from 2000m."
+        },
+        {
+          "number": "1",
+          "name": "ZWEIG",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Import resuming. Colac jumpout suggests he might need the run."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#2" }
+      ]
+    },
+    {
+      "number": 3,
+      "distance": "1400m",
+      "surface": "Turf",
+      "conditions": "Australian Guineas Day (3yo Hcp)",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "WRIGLEY FIELD",
+          "jockey": "N/A",
+          "trainer": "McEvoy",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Won at Sandown (Metro) and placed in a $150k race. Superior form."
+        },
+        {
+          "number": "3",
+          "name": "OUR CHIEF",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Consistent, but often finds one better."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" }
+      ]
+    },
+    {
+      "number": 4,
+      "distance": "1800m",
+      "surface": "Turf",
+      "conditions": "Black Caviar Lightning Race Day (BM70)",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "2",
+          "name": "FIORENOT",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Won at this track and distance on Dec 31. Last Start Winner momentum."
+        },
+        {
+          "number": "1",
+          "name": "CHAKADO",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Pakenham form is solid, but giving weight to a last-start track winner is tough."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#2" }
+      ]
+    },
+    {
+      "number": 5,
+      "distance": "1200m",
+      "surface": "Turf",
+      "conditions": "VRC Super Saturday (BM78)",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "2",
+          "name": "OUT OF SQUARE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Won well at Geelong (Tier 1) and has fitness on side."
+        },
+        {
+          "number": "1",
+          "name": "LUNA CAT",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Resuming. Has a good fresh record but giving weight away."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#2" }
       ]
     },
     {
@@ -56,7 +185,7 @@
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 5,
-          "analysis": "<span class='lock'>BEST BET</span> CLASS CRUSH ALERT. Rating 105 vs 80. Group-class horse in midweek grade."
+          "analysis": "<span class='lock'>LOCK</span> Rating 105 vs 80. Class Crush Protocol activated. Best Bet."
         },
         {
           "number": "2",
@@ -65,25 +194,7 @@
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 3,
-          "analysis": "Tier 1 Winner. Good form, but outclassed here."
-        },
-        {
-          "number": "5",
-          "name": "SOMEWHERE",
-          "jockey": "N/A",
-          "trainer": "N/A",
-          "odds": "N/A",
-          "stars": 2,
-          "analysis": "Track/Dist winner last start. Place hope."
-        },
-        {
-          "number": "3",
-          "name": "RESET THE JAZZ",
-          "jockey": "N/A",
-          "trainer": "N/A",
-          "odds": "N/A",
-          "stars": 2,
-          "analysis": "Honest, but lacks the elite turn of foot."
+          "analysis": "Good horse, but meets a buffalo here."
         }
       ],
       "bets": [
@@ -91,10 +202,49 @@
       ]
     },
     {
+      "number": 7,
+      "distance": "1200m",
+      "surface": "Turf",
+      "conditions": "Thank You Emergency Services (BM84)",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "3",
+          "name": "STEEL MOVE",
+          "jockey": "N/A",
+          "trainer": "Godolphin",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Consistent. Won at Cranbourne and placed at Ballarat. Suits the wide open spaces."
+        },
+        {
+          "number": "1",
+          "name": "SUPARAZI",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "The class runner (Rating 90), but 7yo now."
+        },
+        {
+          "number": "4",
+          "name": "RED GALAXY",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Won well at Geelong. On the up."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#3" }
+      ]
+    },
+    {
       "number": 8,
       "distance": "2000m",
       "surface": "Turf",
-      "conditions": "BM100",
+      "conditions": "TAB Australian Cup Race Day (BM100)",
       "pace": "N/A",
       "contenders": [
         {
@@ -104,7 +254,7 @@
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 4,
-          "analysis": "<span class='lock'>WIN PICK</span> Won Ballarat Cup. Big Track form translates perfectly."
+          "analysis": "<span class='lock'>STRONG PLAY</span> Won Ballarat Cup ($500k) last start. Rating 102."
         },
         {
           "number": "2",
@@ -113,7 +263,7 @@
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 4,
-          "analysis": "<span class='value'>VALUE PLAY</span> Won Cranbourne Cup. Clear second pick."
+          "analysis": "<span class='value'>VALUE PLAY</span> Won Cranbourne Cup ($500k) last start. Rating 97."
         }
       ],
       "bets": [
@@ -123,19 +273,19 @@
     },
     {
       "number": 9,
-      "distance": "N/A",
+      "distance": "1400m",
       "surface": "Turf",
-      "conditions": "Handicap",
+      "conditions": "Thank You Volunteers Trophy (BM84)",
       "pace": "N/A",
       "contenders": [
         {
           "number": "1",
           "name": "NDOLA",
           "jockey": "N/A",
-          "trainer": "N/A",
+          "trainer": "Lindsay Park",
           "odds": "N/A",
           "stars": 4,
-          "analysis": "Rating 89. The safer play over the favorite."
+          "analysis": "<span class='lock'>STRONG PLAY</span> Rating 89. With main dangers scratched, this is much easier."
         },
         {
           "number": "14",
@@ -144,10 +294,42 @@
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 2,
-          "analysis": "Won Tier 1 well but steps up in class significantly."
+          "analysis": "Won well at Geelong, but the gap to BM84 is the hardest jump in VIC racing."
         }
       ],
-      "bets": []
+      "bets": [
+        { "type": "WIN", "selection": "#1" }
+      ]
+    },
+    {
+      "number": 10,
+      "distance": "1400m",
+      "surface": "Turf",
+      "conditions": "Thank You Firefighters Plate (3yo BM70)",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "BUCCLEUCH",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Won at Flemington over 1400m and 1600m as a 2yo. Course Specialist."
+        },
+        {
+          "number": "2",
+          "name": "JEWEL BANDIT",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Unbeaten (2 from 2). Could be anything, but Flemington 1400m is a different beast."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" }
+      ]
     }
   ]
 }
