@@ -16,7 +16,7 @@
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 3,
-          "analysis": "Posted a Speed Rating of 82 on debut. Experience + rating >80 is usually decisive."
+          "analysis": "SR 82. The only horse with a serious race figure. Experience > hidden promise."
         },
         {
           "number": "6",
@@ -25,7 +25,16 @@
           "trainer": "T. Andrews",
           "odds": "N/A",
           "stars": 3,
-          "analysis": "William Pike booking on a debutant is a massive 'Jumpout Black Box' signal."
+          "analysis": "Jumpout Black Box flashes red. Trial winner + Pike. Market danger."
+        },
+        {
+          "number": "2",
+          "name": "TEXAN DREAM",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 1,
+          "analysis": "Resuming. Needs to improve 15+ points to challenge."
         }
       ],
       "bets": [
@@ -47,7 +56,7 @@
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 4,
-          "analysis": "<span class='value'>VALUE PLAY</span> Class Crush Exception. Drops from Group 3 La Trice Classic."
+          "analysis": "<span class='value'>VALUE PLAY</span> Class Crush: Drops from G3 La Trice Classic. Massive grade drop."
         },
         {
           "number": "2",
@@ -56,12 +65,60 @@
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 3,
-          "analysis": "SR 92. The logical danger on current form."
+          "analysis": "SR 92. The form horse. Won last start with a high rating."
+        },
+        {
+          "number": "5",
+          "name": "SILVER EYE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "SR 92. Speed runner who will give a sight."
         }
       ],
       "bets": [
         { "type": "WIN", "selection": "#4" },
-        { "type": "EXACTA", "selection": "4 over 2, 3" }
+        { "type": "EXACTA", "selection": "4 over 2, 5" }
+      ]
+    },
+    {
+      "number": 3,
+      "distance": "1800m",
+      "surface": "Turf",
+      "conditions": "MCA Polytrack Handicap",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "3",
+          "name": "FLY WITH CAUTION",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "SR 92. Third-up today. Historically peaks at this stage."
+        },
+        {
+          "number": "7",
+          "name": "BATTLE COMMANDER",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "SR 90. Won last start beating #6. Consistent."
+        },
+        {
+          "number": "6",
+          "name": "OUR PALADIN AL",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "SR 92. Beaten 0.9L by #7 last time but meets him better at weights."
+        }
+      ],
+      "bets": [
+        { "type": "TRIFECTA", "selection": "Box 3, 6, 7" }
       ]
     },
     {
@@ -78,7 +135,7 @@
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 5,
-          "analysis": "<span class='lock'>LOCK OF THE DAY</span> Golden Gap Protocol. SR 98 vs next best 76. Massive disparity."
+          "analysis": "<span class='lock'>LOCK OF THE DAY</span> Golden Gap: SR 98 vs 76. 22-point disparity is massive."
         },
         {
           "number": "7",
@@ -87,21 +144,51 @@
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 2,
-          "analysis": "Next best on ratings (76). Place chance."
-        },
-        {
-          "number": "5",
-          "name": "BASSETT HOUND",
-          "jockey": "N/A",
-          "trainer": "N/A",
-          "odds": "N/A",
-          "stars": 1,
-          "analysis": "Trial form only. Watch."
+          "analysis": "Pike rides, but she needs to find 5 lengths to challenge the favorite."
         }
       ],
       "bets": [
-        { "type": "WIN", "selection": "#1" },
-        { "type": "TRIFECTA", "selection": "1 over 7 over 2, 5" }
+        { "type": "WIN", "selection": "#1" }
+      ]
+    },
+    {
+      "number": 5,
+      "distance": "1400m",
+      "surface": "Turf",
+      "conditions": "Tabtouch Platinum Handicap",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "4",
+          "name": "HELLUVA GODDESS",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Consistent figures (82, 77). Ran 3rd last start in a race that rated well."
+        },
+        {
+          "number": "5",
+          "name": "DESERT DANCING",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Right on the heels of the top pick ratings-wise (SR 81)."
+        },
+        {
+          "number": "6",
+          "name": "LATER ALLIGATOR",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Won last start but the figure was slightly lower (SR 79)."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#4" },
+        { "type": "QUINELLA", "selection": "Box 4, 5, 6" }
       ]
     },
     {
@@ -118,7 +205,7 @@
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 4,
-          "analysis": "SR 88. In peak form, winning last start."
+          "analysis": "<span class='lock'>STRONG BET</span> SR 88. Won last start with authority. Fit and in form."
         },
         {
           "number": "3",
@@ -127,12 +214,21 @@
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 3,
-          "analysis": "SR 87. Resumes with William Pike aboard. Class resumer."
+          "analysis": "SR 87. Resuming. Pike takes the ride. Class Resumer."
+        },
+        {
+          "number": "2",
+          "name": "SONOFTHEBOSS",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Honest, but lacks the 'X-Factor' of the top two."
         }
       ],
       "bets": [
         { "type": "WIN", "selection": "#1" },
-        { "type": "QUINELLA", "selection": "1, 3" }
+        { "type": "EXACTA", "selection": "1 over 3" }
       ]
     },
     {
@@ -149,7 +245,7 @@
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 4,
-          "analysis": "Won last start at this track/dist with Pike (SR 82). Elite Jockey signal."
+          "analysis": "<span class='lock'>STRONG BET</span> SR 82. Won last start at this track/dist. Pike sticks."
         },
         {
           "number": "2",
@@ -158,7 +254,16 @@
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 3,
-          "analysis": "Ran 2nd in a similar race but meets #3 at a weight disadvantage."
+          "analysis": "Rates higher (85) but has a wider draw and less momentum."
+        },
+        {
+          "number": "5",
+          "name": "CAMERA ACTION",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Third-up and ready to peak. The value knockout."
         }
       ],
       "bets": [
@@ -170,7 +275,7 @@
       "distance": "1800m",
       "surface": "Turf",
       "conditions": "Reliable Asset Maintenance Handicap",
-      "pace": "1800m start favors tactical speed or elite jockeys.",
+      "pace": "1800m at Ascot requires a good ride to overcome the barrier.",
       "contenders": [
         {
           "number": "1",
@@ -179,16 +284,7 @@
           "trainer": "Williams",
           "odds": "N/A",
           "stars": 5,
-          "analysis": "<span class='lock'>BEST BET</span> Golden Gap Protocol. SR 81 vs 67. Williams/Pike combo."
-        },
-        {
-          "number": "8",
-          "name": "SWEET SURRENDER",
-          "jockey": "N/A",
-          "trainer": "N/A",
-          "odds": "N/A",
-          "stars": 2,
-          "analysis": "Next best on ratings (67). Place chance."
+          "analysis": "<span class='lock'>BEST BET</span> Golden Gap: SR 81 vs 67. Williams/Pike combo."
         },
         {
           "number": "6",
@@ -197,7 +293,7 @@
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 2,
-          "analysis": "Class 3 runner. Place chance."
+          "analysis": "Next best established form (SR 67)."
         }
       ],
       "bets": [
