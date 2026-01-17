@@ -232,6 +232,7 @@
             box-shadow: 
                 0 1px 3px 0 rgba(0, 0, 0, 0.05),
                 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+            scroll-margin-top: 180px; /* Offset for sticky headers */
         }
 
         .race-card:hover {
@@ -289,7 +290,7 @@
             color: #065f46;
         }
         
-        .surface-tapeta { 
+        .surface-tapeta, .surface-synthetic { 
             background: #e5e7eb;
             color: #374151;
         }
@@ -431,6 +432,11 @@
             align-items: center;
             padding: 0.65rem 0;
             font-size: 0.9rem;
+            border-bottom: 1px dashed var(--border);
+        }
+
+        .bet-row:last-child {
+            border-bottom: none;
         }
 
         .bet-type {
@@ -546,32 +552,6 @@
                 font-size: 1.35rem;
             }
         }
-
-            .track-tabs-inner {
-                overflow-x: auto;
-                -webkit-overflow-scrolling: touch;
-                scrollbar-width: none;
-            }
-
-            .track-tabs-inner::-webkit-scrollbar {
-                display: none;
-            }
-
-            .contender {
-                grid-template-columns: auto 1fr;
-                gap: 1rem;
-            }
-
-            .horse-rating {
-                grid-column: 2;
-                text-align: left;
-                margin-top: 0.5rem;
-            }
-
-            .race-number {
-                font-size: 1.35rem;
-            }
-        }
     </style>
 </head>
 <body>
@@ -582,6 +562,7 @@
                      alt="Exacta AI" 
                      class="logo"
                      onerror="this.style.display='none'">
+                Exacta AI
             </div>
             <div class="date" id="displayDate"></div>
         </div>
@@ -594,7 +575,7 @@
     <div class="race-selector" id="raceSelector" style="display: none;">
         <div class="race-selector-inner">
             <span class="race-selector-label">Jump to Race:</span>
-            <div id="raceJumpButtons"></div>
+            <div id="raceJumpButtons" style="display:flex; gap:0.5rem; flex-wrap:wrap;"></div>
         </div>
     </div>
 
@@ -623,6 +604,10 @@
         let trackData = {};
         let currentTrack = null;
         let currentRace = null;
+        let observer = null;
+
+        // Initialize the app when the DOM is ready
+        document.addEventListener('DOMContentLoaded', init);
 
         async function init() {
             await loadAllTracks();
@@ -633,7 +618,7 @@
                 setupScrollObserver();
             } else {
                 document.getElementById('racesGrid').innerHTML = 
-                    '<div class="error-state">No track data available. Please check your configuration.</div>';
+                    '<div class="error-state">No track data available. Please check your configuration or internet connection.</div>';
             }
         }
 
@@ -654,7 +639,6 @@
             });
             
             await Promise.all(loadPromises);
-            console.log('Loaded tracks:', Object.keys(trackData));
         }
 
         function renderTrackTabs() {
@@ -664,7 +648,7 @@
             Object.keys(trackData).forEach(trackKey => {
                 const btn = document.createElement('button');
                 btn.className = `track-tab ${trackKey === currentTrack ? 'active' : ''}`;
-                btn.textContent = trackData[trackKey].name;
+                btn.textContent = trackData[trackKey].name || trackKey;
                 btn.onclick = () => selectTrack(trackKey);
                 container.appendChild(btn);
             });
@@ -673,10 +657,122 @@
         function selectTrack(trackKey) {
             currentTrack = trackKey;
             currentRace = null;
-            document.getElementById('displayDate').textContent = trackData[currentTrack].date;
+            document.getElementById('displayDate').textContent = trackData[currentTrack].date || '';
+            
             renderTrackTabs();
             renderRaces();
-            setupScrollObserver();
+            
+            // Scroll to top
+            window.scrollTo(0, 0);
+            
+            // Re-initialize observer for new content
+            setTimeout(setupScrollObserver, 100);
+        }
+
+        function renderRaces() {
+            const grid = document.getElementById('racesGrid');
+            const jumpContainer = document.getElementById('raceJumpButtons');
+            const raceSelector = document.getElementById('raceSelector');
+            const data = trackData[currentTrack];
+
+            grid.innerHTML = '';
+            jumpContainer.innerHTML = '';
+
+            if (!data || !data.races || data.races.length === 0) {
+                grid.innerHTML = '<div class="empty-state">No races found for this track.</div>';
+                raceSelector.style.display = 'none';
+                return;
+            }
+
+            raceSelector.style.display = 'flex';
+
+            data.races.forEach(race => {
+                // 1. Create Jump Button
+                const btn = document.createElement('button');
+                btn.className = 'race-jump-btn';
+                btn.textContent = `R${race.number}`;
+                btn.onclick = () => {
+                    const el = document.getElementById(`race-${race.number}`);
+                    if(el) {
+                        // Offset for fixed header
+                        const y = el.getBoundingClientRect().top + window.scrollY - 180;
+                        window.scrollTo({top: y, behavior: 'smooth'});
+                    }
+                };
+                jumpContainer.appendChild(btn);
+
+                // 2. Create Race Card
+                const card = document.createElement('div');
+                card.className = 'race-card';
+                card.id = `race-${race.number}`;
+
+                // --- Header ---
+                let surfaceClass = 'surface-dirt';
+                const surf = (race.surface || '').toLowerCase();
+                if(surf.includes('turf')) surfaceClass = 'surface-turf';
+                if(surf.includes('synth') || surf.includes('tapeta')) surfaceClass = 'surface-tapeta';
+
+                card.innerHTML = `
+                    <div class="race-header">
+                        <div class="race-title">
+                            <span class="race-number">Race ${race.number}</span>
+                            <span class="race-surface ${surfaceClass}">${race.surface || 'Dirt'}</span>
+                        </div>
+                        <div class="race-conditions">${race.conditions || ''}</div>
+                    </div>
+                    <div class="race-body">
+                        ${race.pace_analysis ? `
+                        <div class="pace-section">
+                            <div class="section-label">Pace Scenario</div>
+                            <div class="pace-text">${race.pace_analysis}</div>
+                        </div>` : ''}
+
+                        <div class="contenders">
+                            <div class="section-label">Top Contenders</div>
+                            ${(race.contenders || []).map(horse => renderHorse(horse)).join('')}
+                        </div>
+
+                        ${race.bets && race.bets.length > 0 ? `
+                        <div class="betting-section">
+                            <div class="section-label">Wagering Strategy</div>
+                            ${race.bets.map(bet => `
+                                <div class="bet-row">
+                                    <span class="bet-type">${bet.type}</span>
+                                    <span class="bet-selection">${bet.selection}</span>
+                                </div>
+                            `).join('')}
+                        </div>` : ''}
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function renderHorse(horse) {
+            // Helper to generate stars
+            const stars = (rating) => {
+                let html = '<div class="stars">';
+                for(let i=0; i<5; i++) {
+                    html += `<span class="${i < rating ? 'filled' : 'empty'}">★</span>`;
+                }
+                html += '</div>';
+                return html;
+            };
+
+            return `
+                <div class="contender">
+                    <div class="horse-number">${horse.number}</div>
+                    <div class="horse-info">
+                        <div class="horse-name">${horse.name}</div>
+                        <div class="horse-connections">J: ${horse.jockey || 'TBD'} / T: ${horse.trainer || 'TBD'}</div>
+                        <div class="horse-analysis">${horse.analysis || ''}</div>
+                    </div>
+                    <div class="horse-rating">
+                        ${stars(horse.rating || 0)}
+                        <div class="odds">${horse.odds || 'ML'}</div>
+                    </div>
+                </div>
+            `;
         }
 
         function updateRaceButtonSelection(raceNumber) {
@@ -688,16 +784,30 @@
         }
 
         function setupScrollObserver() {
-            const races = trackData[currentTrack]?.races;
-            if (!races || races.length === 0) return;
+            // Disconnect previous observer if exists
+            if(observer) observer.disconnect();
 
             const observerOptions = {
                 root: null,
-                rootMargin: '-200px 0px -50% 0px',
+                // Adjust margin to trigger active state when race is near top of viewport
+                rootMargin: '-150px 0px -60% 0px',
                 threshold: 0
             };
 
-            const observer = new IntersectionObserver((entries) => {
+            observer = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
-                        const raceNumber = parseInt(en
+                        const raceNumber = parseInt(entry.target.id.replace('race-', ''));
+                        updateRaceButtonSelection(raceNumber);
+                    }
+                });
+            }, observerOptions);
+
+            // Observe all race cards
+            document.querySelectorAll('.race-card').forEach(card => {
+                observer.observe(card);
+            });
+        }
+    </script>
+</body>
+</html>
