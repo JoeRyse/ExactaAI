@@ -1,0 +1,208 @@
+{
+  "name": "Ascot (WA)",
+  "date": "Saturday, January 17, 2026",
+  "races": [
+    {
+      "number": 1,
+      "distance": "1000m",
+      "surface": "Turf",
+      "conditions": "Magic Millions Plate (2yo)",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "BURNING BRIDGES",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Posted a Speed Rating of 82 on debut. Experience + rating >80 is usually decisive."
+        },
+        {
+          "number": "6",
+          "name": "DARYTE",
+          "jockey": "W. Pike",
+          "trainer": "T. Andrews",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "William Pike booking on a debutant is a massive 'Jumpout Black Box' signal."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" },
+        { "type": "SAVER", "selection": "#6" }
+      ]
+    },
+    {
+      "number": 2,
+      "distance": "1500m",
+      "surface": "Turf",
+      "conditions": "Celebration of Life Day Trophy",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "4",
+          "name": "NOTEWORTHY (NZ)",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='value'>VALUE PLAY</span> Class Crush Exception. Drops from Group 3 La Trice Classic."
+        },
+        {
+          "number": "2",
+          "name": "WITHOUT REG",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "SR 92. The logical danger on current form."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#4" },
+        { "type": "EXACTA", "selection": "4 over 2, 3" }
+      ]
+    },
+    {
+      "number": 4,
+      "distance": "1200m",
+      "surface": "Turf",
+      "conditions": "Swan Draught Plate (3yo)",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "PLAYIN'IT SWEET",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>LOCK OF THE DAY</span> Golden Gap Protocol. SR 98 vs next best 76. Massive disparity."
+        },
+        {
+          "number": "7",
+          "name": "SHE'S HOT",
+          "jockey": "W. Pike",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Next best on ratings (76). Place chance."
+        },
+        {
+          "number": "5",
+          "name": "BASSETT HOUND",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 1,
+          "analysis": "Trial form only. Watch."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" },
+        { "type": "TRIFECTA", "selection": "1 over 7 over 2, 5" }
+      ]
+    },
+    {
+      "number": 6,
+      "distance": "1200m",
+      "surface": "Turf",
+      "conditions": "Bisley Workwear Handicap",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "SUPERNATURAL",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "SR 88. In peak form, winning last start."
+        },
+        {
+          "number": "3",
+          "name": "FANCY RED",
+          "jockey": "W. Pike",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "SR 87. Resumes with William Pike aboard. Class resumer."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" },
+        { "type": "QUINELLA", "selection": "1, 3" }
+      ]
+    },
+    {
+      "number": 7,
+      "distance": "1500m",
+      "surface": "Turf",
+      "conditions": "Drummond Golf Handicap",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "3",
+          "name": "SOLDANELLE (IRE)",
+          "jockey": "W. Pike",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "Won last start at this track/dist with Pike (SR 82). Elite Jockey signal."
+        },
+        {
+          "number": "2",
+          "name": "DENNIS CHOUX",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Ran 2nd in a similar race but meets #3 at a weight disadvantage."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#3" }
+      ]
+    },
+    {
+      "number": 8,
+      "distance": "1800m",
+      "surface": "Turf",
+      "conditions": "Reliable Asset Maintenance Handicap",
+      "pace": "1800m start favors tactical speed or elite jockeys.",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "TERRITORY MAN",
+          "jockey": "W. Pike",
+          "trainer": "Williams",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>BEST BET</span> Golden Gap Protocol. SR 81 vs 67. Williams/Pike combo."
+        },
+        {
+          "number": "8",
+          "name": "SWEET SURRENDER",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Next best on ratings (67). Place chance."
+        },
+        {
+          "number": "6",
+          "name": "INVINCIBLE THIEF",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Class 3 runner. Place chance."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" }
+      ]
+    }
+  ]
+}
