@@ -69,24 +69,10 @@
             color: var(--primary);
         }
 
-        .logo {
-            height: 36px;
-            width: auto;
-            display: block;
-        }
-
-        .logo-fallback {
-            display: none;
-        }
-
-        .logo:not([src]), .logo[src=""], .logo[src*="error"] {
-            display: none;
-        }
-
-        .logo:not([src]) ~ .logo-fallback, 
-        .logo[src=""] ~ .logo-fallback,
-        .logo[src*="error"] ~ .logo-fallback {
-            display: block;
+        .logo-svg {
+            width: 40px;
+            height: 40px;
+            flex-shrink: 0;
         }
 
         .date {
@@ -502,7 +488,7 @@
         /* Responsive */
         @media (max-width: 768px) {
             :root {
-                --header-height: 64px;
+                --header-height: 56px;
                 --track-tabs-height: 52px;
                 --race-selector-height: 52px;
             }
@@ -513,21 +499,27 @@
             }
             
             .header {
-                padding: 1rem;
+                padding: 0.75rem 1rem;
             }
 
             .header-content {
-                flex-direction: column;
-                align-items: flex-start;
+                flex-direction: row;
+                align-items: center;
                 gap: 0.5rem;
             }
 
             .brand {
-                font-size: 1.1rem;
+                font-size: 1.05rem;
             }
 
-            .logo {
-                height: 30px;
+            .logo-svg {
+                width: 32px;
+                height: 32px;
+            }
+
+            /* Hide date on mobile to save space */
+            .date {
+                display: none;
             }
 
             .track-tabs-inner {
@@ -561,10 +553,43 @@
     <div class="header">
         <div class="header-content">
             <div class="brand">
-                <img src="https://raw.githubusercontent.com/JoeRyse/ExactaAI/main/logo.png" 
-                     alt="Exacta AI" 
-                     class="logo"
-                     onerror="this.style.display='none'">
+                <svg class="logo-svg" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Horse head silhouette -->
+                    <path d="M30 8L28 6L26 8L24 10C22 12 20 13 18 13C16 13 14 11 13 9L12 7C11 5 10 4 8 5C7 6 7 7 8 9L10 12C11 14 13 15 15 15C17 15 19 14 21 12L23 15C24 17 25 19 26 22L27 26C27 28 26 30 24 31C22 32 20 31 19 29L18 27C17 25 16 23 14 22C12 21 10 21 8 22C6 23 5 25 6 27C7 29 9 30 11 30C13 30 15 29 16 27L17 25C18 23 20 22 22 22C24 22 26 23 27 25L28 27C29 29 31 30 33 29C35 28 36 26 36 24L35 20C34 17 32 14 30 12V8Z" fill="url(#gradient1)"/>
+                    
+                    <!-- Ears -->
+                    <path d="M29 6L31 4L33 6" fill="url(#gradient1)"/>
+                    
+                    <!-- Circuit lines left side -->
+                    <line x1="8" y1="14" x2="2" y2="14" stroke="#4ade80" stroke-width="1.5" stroke-linecap="round"/>
+                    <circle cx="2" cy="14" r="1.5" fill="#4ade80"/>
+                    
+                    <line x1="10" y1="18" x2="3" y2="18" stroke="#22d3ee" stroke-width="1.5" stroke-linecap="round"/>
+                    <circle cx="3" cy="18" r="1.5" fill="#22d3ee"/>
+                    
+                    <line x1="12" y1="22" x2="4" y2="22" stroke="#4ade80" stroke-width="1.5" stroke-linecap="round"/>
+                    <circle cx="4" cy="22" r="1.5" fill="#4ade80"/>
+                    
+                    <line x1="11" y1="26" x2="3" y2="26" stroke="#22d3ee" stroke-width="1.5" stroke-linecap="round"/>
+                    <circle cx="3" cy="26" r="1.5" fill="#22d3ee"/>
+                    
+                    <!-- Inner circuit details -->
+                    <circle cx="20" cy="16" r="1.5" fill="#4ade80" opacity="0.8"/>
+                    <circle cx="23" cy="19" r="1.5" fill="#22d3ee" opacity="0.8"/>
+                    <circle cx="21" cy="23" r="1.5" fill="#4ade80" opacity="0.8"/>
+                    
+                    <path d="M19 17 L21 19 L23 20" stroke="#22d3ee" stroke-width="1" fill="none" opacity="0.6"/>
+                    <path d="M21 23 L23 21 L24 19" stroke="#4ade80" stroke-width="1" fill="none" opacity="0.6"/>
+                    
+                    <!-- Gradient definitions -->
+                    <defs>
+                        <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#0891b2;stop-opacity:1" />
+                            <stop offset="50%" style="stop-color:#0e7490;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#155e75;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                </svg>
                 Exacta AI
             </div>
             <div class="date" id="displayDate"></div>
@@ -595,12 +620,7 @@
                 { key: 'Gulfstream Park', file: 'gulfstream.json' },
                 { key: 'Fair Grounds', file: 'fairgrounds.json' },
                 { key: 'Tampa Bay', file: 'tampabay.json' },
-                { key: 'Santa Anita', file: 'santa.json' },
-                { key: 'AU Gosford', file: 'gosford.json' },
-                { key: 'AU Rosehill', file: 'rosehill.json' },
-                { key: 'AU Gold Coast', file: 'goldcoast.json' },
-                { key: 'AU Doomben', file: 'doomben.json' },
-                { key: 'AU Flemington (-)', file: 'flemington.json' }
+                { key: 'Santa Anita', file: 'santaanita.json' }
             ]
         };
 
@@ -641,165 +661,4 @@
             console.log('Loaded tracks:', Object.keys(trackData));
         }
 
-        function renderTrackTabs() {
-            const container = document.getElementById('trackTabs');
-            container.innerHTML = '';
-
-            Object.keys(trackData).forEach(trackKey => {
-                const btn = document.createElement('button');
-                btn.className = `track-tab ${trackKey === currentTrack ? 'active' : ''}`;
-                btn.textContent = trackData[trackKey].name;
-                btn.onclick = () => selectTrack(trackKey);
-                container.appendChild(btn);
-            });
-        }
-
-        function selectTrack(trackKey) {
-            currentTrack = trackKey;
-            currentRace = null;
-            document.getElementById('displayDate').textContent = trackData[currentTrack].date;
-            renderTrackTabs();
-            renderRaces();
-            setupScrollObserver();
-        }
-
-        function updateRaceButtonSelection(raceNumber) {
-            currentRace = raceNumber;
-            document.querySelectorAll('.race-jump-btn').forEach(btn => {
-                const btnRaceNum = parseInt(btn.textContent.replace('R', ''));
-                btn.classList.toggle('active', btnRaceNum === raceNumber);
-            });
-        }
-
-        function setupScrollObserver() {
-            const races = trackData[currentTrack]?.races;
-            if (!races || races.length === 0) return;
-
-            const observerOptions = {
-                root: null,
-                rootMargin: '-200px 0px -50% 0px',
-                threshold: 0
-            };
-
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        const raceNumber = parseInt(entry.target.id.replace('race-', ''));
-                        updateRaceButtonSelection(raceNumber);
-                    }
-                });
-            }, observerOptions);
-
-            races.forEach(race => {
-                const card = document.getElementById(`race-${race.number}`);
-                if (card) observer.observe(card);
-            });
-        }
-
-        function renderRaces() {
-            const container = document.getElementById('racesGrid');
-            const races = trackData[currentTrack].races;
-            const raceSelector = document.getElementById('raceSelector');
-            const jumpButtonsContainer = document.getElementById('raceJumpButtons');
-
-            if (!races || races.length === 0) {
-                container.innerHTML = '<div class="empty-state">Analysis coming soon for this track</div>';
-                raceSelector.style.display = 'none';
-                return;
-            }
-
-            raceSelector.style.display = 'block';
-            document.getElementById('displayDate').textContent = trackData[currentTrack].date;
-
-            if (!currentRace) {
-                currentRace = races[0].number;
-            }
-
-            jumpButtonsContainer.innerHTML = races.map(race => 
-                `<button class="race-jump-btn ${race.number === currentRace ? 'active' : ''}" onclick="jumpToRace(${race.number})">R${race.number}</button>`
-            ).join('');
-
-            container.innerHTML = races.map(race => {
-                const surfaceClass = `surface-${race.surface.toLowerCase()}`;
-                const starsHTML = (count) => {
-                    return '<span class="filled">' + '★'.repeat(count) + '</span>' +
-                           '<span class="empty">' + '☆'.repeat(5 - count) + '</span>';
-                };
-
-                return `
-                    <div class="race-card" id="race-${race.number}">
-                        <div class="race-header">
-                            <div class="race-title">
-                                <div class="race-number">Race ${race.number}</div>
-                                <div class="race-conditions">${race.distance} • ${race.conditions}</div>
-                            </div>
-                            <span class="race-surface ${surfaceClass}">${race.surface}</span>
-                        </div>
-                        <div class="race-body">
-                            <div class="pace-section">
-                                <div class="section-label">Pace Projection</div>
-                                <div class="pace-text">${race.pace}</div>
-                            </div>
-                            
-                            <div class="contenders">
-                                <div class="section-label">Top Contenders</div>
-                                ${race.contenders.map(horse => `
-                                    <div class="contender">
-                                        <div class="horse-number">${horse.number}</div>
-                                        <div class="horse-info">
-                                            <div class="horse-name">${horse.name}</div>
-                                            <div class="horse-connections">${horse.jockey} / ${horse.trainer}</div>
-                                            <div class="horse-analysis">${horse.analysis}</div>
-                                        </div>
-                                        <div class="horse-rating">
-                                            <div class="stars">${starsHTML(horse.stars)}</div>
-                                            <div class="odds">${horse.odds}</div>
-                                        </div>
-                                    </div>
-                                `).join('')}
-                            </div>
-
-                            <div class="betting-section">
-                                <div class="section-label">Wagering Strategy</div>
-                                ${race.bets.map(bet => `
-                                    <div class="bet-row">
-                                        <span class="bet-type">${bet.type}</span>
-                                        <span class="bet-selection">${bet.selection}</span>
-                                    </div>
-                                `).join('')}
-                            </div>
-                        </div>
-                    </div>
-                `;
-            }).join('');
-        }
-
-        function jumpToRace(raceNumber) {
-            updateRaceButtonSelection(raceNumber);
-            
-            const raceCard = document.getElementById(`race-${raceNumber}`);
-            if (raceCard) {
-                const headerEl = document.querySelector('.header');
-                const tabsEl = document.querySelector('.track-tabs');
-                const selectorEl = document.querySelector('.race-selector');
-
-                const headerHeight = headerEl ? headerEl.getBoundingClientRect().height : 0;
-                const tabsHeight = tabsEl ? tabsEl.getBoundingClientRect().height : 0;
-                const selectorHeight = selectorEl && selectorEl.style.display !== 'none' ? selectorEl.getBoundingClientRect().height : 0;
-
-                const offset = headerHeight + tabsHeight + selectorHeight + 16;
-
-                const elementPosition = raceCard.getBoundingClientRect().top;
-                const offsetPosition = elementPosition + window.pageYOffset - offset;
-
-                window.scrollTo({
-                    top: offsetPosition,
-                    behavior: 'smooth'
-                });
-            }
-        }
-
-        init();
-    </script>
-</body>
-</html>
+        function renderTrac
