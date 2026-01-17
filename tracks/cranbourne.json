@@ -7,7 +7,7 @@
       "distance": "1000m",
       "surface": "Turf",
       "conditions": "Ladbrokes Big Bets 3YO Maiden Plate",
-      "pace": "Rail Out 3m favors on-pace/leaders",
+      "pace": "Rail Out 3m favors on-pace/leaders.",
       "contenders": [
         {
           "number": "2",
@@ -25,7 +25,7 @@
           "trainer": "Busuttin",
           "odds": "N/A",
           "stars": 4,
-          "analysis": "<span class='value'>VALUE PLAY</span> Track Form: 3rd at Cranbourne debut (Speed 0:59.5)."
+          "analysis": "<span class='value'>VALUE PLAY</span> Track Form: 3rd at Cranbourne (Speed 0:59.5)."
         },
         {
           "number": "1",
@@ -34,7 +34,7 @@
           "trainer": "Walker",
           "odds": "N/A",
           "stars": 3,
-          "analysis": "Speed: Ran 0:57.5 at Burrumbeet (Tier 2). Provincial Tax applies."
+          "analysis": "Speed: 0:57.5 at Burrumbeet (Tier 2 Tax applies)."
         },
         {
           "number": "8",
@@ -43,12 +43,52 @@
           "trainer": "Price/Kent",
           "odds": "N/A",
           "stars": 2,
-          "analysis": "Elite Trainer, but jumpout comment 'Just even'."
+          "analysis": "Elite Stable, but jumpout comment 'Just even'."
         }
       ],
       "bets": [
         { "type": "WIN", "selection": "#2" },
-        { "type": "EXACTA", "selection": "2 over 5, 1" }
+        { "type": "EXACTA", "selection": "2 over 5" }
+      ]
+    },
+    {
+      "number": 2,
+      "distance": "1600m",
+      "surface": "Turf",
+      "conditions": "NZB Karaka 2026 Maiden Plate",
+      "pace": "Rail Out 3m favors on-pace/leaders.",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "BORN SURVIVOR",
+          "jockey": "N/A",
+          "trainer": "McGrath",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Consistency: 4th at Sale (Tier 1). Stronger form lines."
+        },
+        {
+          "number": "7",
+          "name": "ZAMPARINI SPIRIT",
+          "jockey": "N/A",
+          "trainer": "Douglas",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "2nd at Mornington. Barrier 2."
+        },
+        {
+          "number": "3",
+          "name": "OCEAN SYMPHONY",
+          "jockey": "N/A",
+          "trainer": "Maher",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Resuming. 'Likes it longer'."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" },
+        { "type": "QUINELLA", "selection": "Box 1, 7, 3" }
       ]
     },
     {
@@ -56,7 +96,7 @@
       "distance": "1200m",
       "surface": "Turf",
       "conditions": "BetaVet Maiden Plate",
-      "pace": "Rail Out 3m favors on-pace/leaders",
+      "pace": "Rail Out 3m favors on-pace/leaders.",
       "contenders": [
         {
           "number": "5",
@@ -65,7 +105,7 @@
           "trainer": "Busuttin",
           "odds": "N/A",
           "stars": 4,
-          "analysis": "<span class='lock'>TOP PICK</span> Form: 2nd at Track/Dist last start. Proven on Cranbourne turns."
+          "analysis": "<span class='lock'>TOP PICK</span> Track Specialist: 2nd at Cranbourne last start."
         },
         {
           "number": "11",
@@ -74,16 +114,16 @@
           "trainer": "Maher",
           "odds": "N/A",
           "stars": 3,
-          "analysis": "Jumpout: 'Placed last two'. Respect stable intent if market moves."
+          "analysis": "Jumpout Black Box: 'Placed last two jumpouts'. Danger."
         },
         {
-          "number": "3",
-          "name": "DAZZLING SECRET",
+          "number": "10",
+          "name": "OLIVE ROAD",
           "jockey": "N/A",
-          "trainer": "Nolan",
+          "trainer": "Griffiths",
           "odds": "N/A",
           "stars": 2,
-          "analysis": "4th in same race as #5."
+          "analysis": "'Second in latest jumpout'."
         }
       ],
       "bets": [
@@ -96,7 +136,7 @@
       "distance": "1000m",
       "surface": "Turf",
       "conditions": "Community Bank Beaconsfield District Handicap",
-      "pace": "Rail Out 3m favors on-pace/leaders",
+      "pace": "Rail Out 3m favors on-pace/leaders.",
       "contenders": [
         {
           "number": "2",
@@ -105,7 +145,7 @@
           "trainer": "Hayes",
           "odds": "N/A",
           "stars": 5,
-          "analysis": "<span class='lock'>TOP PICK</span> Class: 2nd at Seymour (Strong Form). Superior speed figures."
+          "analysis": "<span class='lock'>TOP PICK</span> Class: 2nd at Seymour (Tier 1). Superior speed figures."
         },
         {
           "number": "1",
@@ -114,7 +154,7 @@
           "trainer": "Douglas",
           "odds": "N/A",
           "stars": 2,
-          "analysis": "Resuming off 'Picnic' jumpouts (Balnarring). Fitness fade risk."
+          "analysis": "Resuming off 'Picnic' jumpouts. Fitness fade risk."
         },
         {
           "number": "5",
@@ -123,7 +163,7 @@
           "trainer": "Busuttin",
           "odds": "N/A",
           "stars": 3,
-          "analysis": "Won weak maiden at Yarra Valley."
+          "analysis": "Won at Yarra Valley (Tier 2)."
         }
       ],
       "bets": [
@@ -131,11 +171,51 @@
       ]
     },
     {
+      "number": 5,
+      "distance": "2500m",
+      "surface": "Turf",
+      "conditions": "Designer Coolrooms Handicap",
+      "pace": "Rail Out 3m favors on-pace/leaders.",
+      "contenders": [
+        {
+          "number": "3",
+          "name": "THE VOCALIST",
+          "jockey": "N/A",
+          "trainer": "Laming",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Class Drop: 4th in BM66 -> BM62. Superior class figures."
+        },
+        {
+          "number": "4",
+          "name": "SARDIUS",
+          "jockey": "N/A",
+          "trainer": "Smith",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Momentum: Last start winner at Track/Dist."
+        },
+        {
+          "number": "2",
+          "name": "PATSY'S STAR",
+          "jockey": "N/A",
+          "trainer": "Sell",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "8th at Sandown (Metro)."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#3" },
+        { "type": "EXACTA", "selection": "3 over 4" }
+      ]
+    },
+    {
       "number": 6,
       "distance": "1300m",
       "surface": "Turf",
       "conditions": "Frankston Sand Soil & Mini Mix Handicap",
-      "pace": "Rail Out 3m favors on-pace/leaders",
+      "pace": "Rail Out 3m favors on-pace/leaders.",
       "contenders": [
         {
           "number": "4",
@@ -153,7 +233,7 @@
           "trainer": "Maher",
           "odds": "N/A",
           "stars": 3,
-          "analysis": "<span class='value'>VALUE PLAY</span> Resuming. 'Resumes with a second... jumpout'. X-Factor."
+          "analysis": "<span class='value'>VALUE PLAY</span> Resuming. 'Second... at latest jumpout'. X-Factor."
         },
         {
           "number": "7",
@@ -162,12 +242,51 @@
           "trainer": "Ryan",
           "odds": "N/A",
           "stars": 3,
-          "analysis": "Won at Echuca. Place chance."
+          "analysis": "Won at Echuca."
         }
       ],
       "bets": [
         { "type": "WIN", "selection": "#4" },
         { "type": "QUINELLA", "selection": "4, 6" }
+      ]
+    },
+    {
+      "number": 7,
+      "distance": "1300m",
+      "surface": "Turf",
+      "conditions": "Hygain Edge F&M Handicap",
+      "pace": "Rail Out 3m favors on-pace/leaders.",
+      "contenders": [
+        {
+          "number": "2",
+          "name": "LUVYA MUMMA",
+          "jockey": "N/A",
+          "trainer": "Howley",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Consistency: 2nd at Kyneton. Low confidence race."
+        },
+        {
+          "number": "1",
+          "name": "QUEEN BEIRA",
+          "jockey": "N/A",
+          "trainer": "Feek",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "6th at Cranbourne."
+        },
+        {
+          "number": "6",
+          "name": "ALGADON STORM",
+          "jockey": "N/A",
+          "trainer": "Laurie",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Won at Yarra Valley (Tier 2). Provincial Tax applies."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#2" }
       ]
     }
   ]
