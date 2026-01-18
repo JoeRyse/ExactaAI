@@ -1,0 +1,326 @@
+{
+  "name": "Aqueduct",
+  "date": "Sunday, January 18, 2026",
+  "races": [
+    {
+      "number": 1,
+      "distance": "6 Furlongs",
+      "surface": "Dirt",
+      "conditions": "Claiming $50,000",
+      "pace": "Rail Dead, Favor Outside Closers",
+      "contenders": [
+        {
+          "number": "4",
+          "name": "RULE SIXTY TWO",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Most reliable figures (80-77-82). Sits perfect trip."
+        },
+        {
+          "number": "1",
+          "name": "MIDDLE MARKET",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Consistent (79-82-82). Logical 2nd."
+        },
+        {
+          "number": "5",
+          "name": "NEW YORK SCRAPPY",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Solid 75 last out. Presser."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#4" },
+        { "type": "EXACTA", "selection": "4 over 1, 5" }
+      ]
+    },
+    {
+      "number": 2,
+      "distance": "1 Mile",
+      "surface": "Dirt",
+      "conditions": "Maiden Special Weight (NYB)",
+      "pace": "Rail Dead",
+      "contenders": [
+        {
+          "number": "4",
+          "name": "LADY DELILAH",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Best last-out figure (70). Improving."
+        },
+        {
+          "number": "3",
+          "name": "JULIET ON APPROACH",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Back class (80). Dropped 66 last out."
+        },
+        {
+          "number": "5",
+          "name": "ON A SUMMER DAY",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Ran 78 on Wet track before. Muddy track moves her up."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#4" },
+        { "type": "EXACTA", "selection": "Box 4, 5" }
+      ]
+    },
+    {
+      "number": 3,
+      "distance": "6 1/2 Furlongs",
+      "surface": "Dirt",
+      "conditions": "Claiming $50,000",
+      "pace": "Rail Dead",
+      "contenders": [
+        {
+          "number": "6",
+          "name": "SHADYSIDE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Won last out. Matching top figures."
+        },
+        {
+          "number": "3",
+          "name": "CARARRA",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Consistent 74-62-71. The logical threat."
+        },
+        {
+          "number": "5",
+          "name": "READY FOR TROUBLE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Back class (83). Dangerous if loose."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#6" },
+        { "type": "EXACTA", "selection": "Box 6, 3" }
+      ]
+    },
+    {
+      "number": 4,
+      "distance": "6 Furlongs",
+      "surface": "Dirt",
+      "conditions": "SOC $16,000",
+      "pace": "Rail Dead",
+      "contenders": [
+        {
+          "number": "7",
+          "name": "MAGGIE T",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Consistent (71-72). Reliable."
+        },
+        {
+          "number": "6",
+          "name": "ECHO IN ETERNITY",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Dropped 75->66. Vulnerable favorite."
+        },
+        {
+          "number": "1",
+          "name": "PROBLEMATICA",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "61 last out, but 72 two back."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#7" },
+        { "type": "EXACTA", "selection": "Box 7, 6" }
+      ]
+    },
+    {
+      "number": 5,
+      "distance": "6 1/2 Furlongs",
+      "surface": "Dirt",
+      "conditions": "Maiden Optional Claiming",
+      "pace": "Rail Dead",
+      "contenders": [
+        {
+          "number": "3",
+          "name": "FRANKIE COFFEECAKE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>LOCK</span> Dominant figure (72). 18 points higher than next best."
+        },
+        {
+          "number": "7",
+          "name": "TWO DUCKS",
+          "jockey": "R. Silvera",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Regressed 67->52. Needs rebound."
+        },
+        {
+          "number": "4",
+          "name": "KAZ BRIO",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Steady mid-50s. Place contender."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#3" },
+        { "type": "EXACTA", "selection": "3 over 4, 7" }
+      ]
+    },
+    {
+      "number": 6,
+      "distance": "7 Furlongs",
+      "surface": "Dirt",
+      "conditions": "Claiming $20,000",
+      "pace": "Rail Dead",
+      "contenders": [
+        {
+          "number": "3",
+          "name": "LOTSA TROUBLE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Top figure (89). Peaking."
+        },
+        {
+          "number": "6",
+          "name": "REMI'S MOON",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Consistent 84-80. Major threat."
+        },
+        {
+          "number": "7",
+          "name": "LOOMS BOLDLY",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "82 on Wet track. Moves up on muddy surface."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#3" },
+        { "type": "EXACTA", "selection": "Box 3, 6, 7" }
+      ]
+    },
+    {
+      "number": 7,
+      "distance": "7 Furlongs",
+      "surface": "Dirt",
+      "conditions": "Claiming $20,000",
+      "pace": "Rail Dead",
+      "contenders": [
+        {
+          "number": "3",
+          "name": "LAST MAN STANDING",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>PRIME BET</span> Won last 2. Top figure (86)."
+        },
+        {
+          "number": "6",
+          "name": "TARPAULIN",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "Matched top figure (86) last out."
+        },
+        {
+          "number": "5",
+          "name": "CARVELLIAN QUEST",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "81 last out. Consistent."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#3" },
+        { "type": "EXACTA", "selection": "Box 3, 6" }
+      ]
+    },
+    {
+      "number": 8,
+      "distance": "5 1/2 Furlongs",
+      "surface": "Dirt",
+      "conditions": "Maiden Claiming $20,000",
+      "pace": "Rail Dead",
+      "contenders": [
+        {
+          "number": "2",
+          "name": "SASSY SATS",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Best last out (61). The one to beat."
+        },
+        {
+          "number": "6",
+          "name": "JUST A CLICK",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "41 last out, 56 before."
+        },
+        {
+          "number": "1",
+          "name": "CLARIVIDENTE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Back class (69). Dropped to 31."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#2" },
+        { "type": "EXACTA", "selection": "2 over 6, 1" }
+      ]
+    }
+  ]
+}
