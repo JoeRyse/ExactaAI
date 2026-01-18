@@ -1,496 +1,426 @@
 {
   "name": "Gulfstream Park",
-  "date": "Saturday, January 17, 2026",
+  "date": "Sunday, January 18, 2026",
   "races": [
     {
       "number": 1,
       "distance": "1 1/16 Miles",
-      "surface": "Turf",
-      "conditions": "Maiden Claiming $25,000",
-      "pace": "Rail 45 ft favors inside/speed",
+      "surface": "Tapeta",
+      "conditions": "Maiden Special Weight",
+      "pace": "N/A",
       "contenders": [
         {
-          "number": "12",
-          "name": "DEL MAR SUNRISE (IRE)",
+          "number": "4",
+          "name": "SHE REIGNS",
           "jockey": "N/A",
-          "trainer": "Sisterson",
+          "trainer": "N/A",
           "odds": "N/A",
           "stars": 4,
-          "analysis": "<span class='lock'>STRONG PLAY</span> Synthetic form translates well. The class of the field."
+          "analysis": "<span class='lock'>STRONG PLAY</span> Proven on Tapeta (WO). Surface edge."
         },
         {
-          "number": "4",
-          "name": "COLONIAL SENSE",
+          "number": "9",
+          "name": "COPYCAT",
           "jockey": "N/A",
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 3,
-          "analysis": "Consistent mid-60s. The safe alternative."
+          "analysis": "Best turf figure. Class of the field."
         },
         {
-          "number": "5",
-          "name": "JENN'S BELIEFS",
+          "number": "11",
+          "name": "SMITTEN",
           "jockey": "N/A",
-          "trainer": "N/A",
+          "trainer": "Mott",
           "odds": "N/A",
           "stars": 2,
-          "analysis": "Proven at this level. Will be running late."
+          "analysis": "Consistent figures. Godolphin/Mott."
         }
       ],
       "bets": [
-        { "type": "WIN", "selection": "#12" },
-        { "type": "EXACTA", "selection": "12 over 4, 5" }
+        { "type": "WIN", "selection": "#4" },
+        { "type": "EXACTA", "selection": "Box 4, 9" }
       ]
     },
     {
       "number": 2,
-      "distance": "5 1/2 Furlongs",
+      "distance": "1M 70 Yards",
       "surface": "Dirt",
       "conditions": "Maiden Claiming $12,500",
-      "pace": "Contested pace favors stalker #9",
+      "pace": "N/A",
       "contenders": [
         {
-          "number": "9",
-          "name": "LODATO",
+          "number": "7",
+          "name": "STARSHIP ASPEN",
           "jockey": "N/A",
           "trainer": "N/A",
           "odds": "N/A",
-          "stars": 4,
-          "analysis": "<span class='lock'>STRONG PLAY</span> The 78 Beyer is +7 points over next best. The horse to beat."
+          "stars": 5,
+          "analysis": "<span class='lock'>PRIME BET</span> Fastest figures. Muddy pedigree ok."
         },
         {
-          "number": "8",
-          "name": "FOUR BEACH FRIENDS",
+          "number": "6",
+          "name": "LA CYBER",
           "jockey": "N/A",
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 3,
-          "analysis": "Fast, beat #7 last time. The main danger."
+          "analysis": "Consistent. Handles the distance."
         },
         {
-          "number": "7",
-          "name": "FREEDOM STREET",
-          "jockey": "N/A",
+          "number": "2",
+          "name": "GAME CHANGER JOLIE",
+          "jockey": "I. Ortiz",
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 2,
-          "analysis": "Bounced last out (57) after running 70+. Rebound candidate."
+          "analysis": "Improving form. Irad Ortiz up."
         }
       ],
       "bets": [
-        { "type": "WIN", "selection": "#9" },
-        { "type": "EXACTA", "selection": "9 over 8, 7" }
+        { "type": "WIN", "selection": "#7" },
+        { "type": "EXACTA", "selection": "7 over 6, 2" }
       ]
     },
     {
       "number": 3,
-      "distance": "6 Furlongs",
+      "distance": "5 Furlongs",
       "surface": "Dirt",
-      "conditions": "Starter Optional Claiming $17,500",
-      "pace": "Lone speed potential for #5",
+      "conditions": "Claiming $8,000",
+      "pace": "Potential Pace Meltdown",
       "contenders": [
         {
-          "number": "5",
-          "name": "PRONTI O MENO",
+          "number": "4",
+          "name": "LIKELY PERSPECTIVE",
           "jockey": "N/A",
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 3,
-          "analysis": "<span class='value'>VALUE PLAY</span> Stumbled last out. The 71 two back wins this easily."
+          "analysis": "<span class='value'>VALUE PLAY</span> Stalker who benefits from hot pace."
         },
         {
-          "number": "3",
-          "name": "IL VAGABUNDO",
-          "jockey": "N/A",
-          "trainer": "N/A",
+          "number": "2",
+          "name": "PERFECT SHANCES",
+          "jockey": "J. Velazquez",
+          "trainer": "Ward",
           "odds": "N/A",
           "stars": 3,
-          "analysis": "Consistent, improving. The logical safe play."
+          "analysis": "Fast, Ward trainer, Velazquez up."
         },
         {
-          "number": "1",
-          "name": "I'M SAM",
+          "number": "6",
+          "name": "GAME ENERGY",
           "jockey": "N/A",
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 2,
-          "analysis": "Needs pace help, but fits on best days."
+          "analysis": "Fast but likely to duel."
         }
       ],
       "bets": [
-        { "type": "WIN", "selection": "#5" },
-        { "type": "EXACTA", "selection": "Box 3, 5" }
+        { "type": "WIN", "selection": "#4" },
+        { "type": "EXACTA", "selection": "4 over 2, 6" }
       ]
     },
     {
       "number": 4,
-      "distance": "1 1/16 Miles",
+      "distance": "1 Mile",
       "surface": "Dirt",
-      "conditions": "Claiming $8,000",
+      "conditions": "Claiming $6,250",
       "pace": "N/A",
       "contenders": [
         {
-          "number": "5",
-          "name": "SPIRIT OF THE LAW",
-          "jockey": "T. Gaffalione",
-          "trainer": "M. Maker",
+          "number": "7",
+          "name": "TUT'S REVENGE",
+          "jockey": "N/A",
+          "trainer": "N/A",
           "odds": "N/A",
-          "stars": 5,
-          "analysis": "<span class='lock'>LOCK</span> 80, 83, 74 Beyers. Dominant class and speed."
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Back class on dirt is superior."
         },
         {
           "number": "1",
-          "name": "BOBBY BOB",
+          "name": "BLUE SLIDE PARK",
           "jockey": "N/A",
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 3,
-          "analysis": "Improving, but 5 points slower than top pick."
+          "analysis": "Good dirt form. Loves the distance."
         },
         {
-          "number": "2",
-          "name": "HEAVEN'S CHAMPION",
+          "number": "5",
+          "name": "VINO SANTO",
           "jockey": "N/A",
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 2,
-          "analysis": "Solid underneath play."
+          "analysis": "Closer who needs pace help."
         }
       ],
       "bets": [
-        { "type": "WIN", "selection": "#5" },
-        { "type": "EXACTA", "selection": "5 over 1, 2" }
+        { "type": "WIN", "selection": "#7" },
+        { "type": "EXACTA", "selection": "7 over 1" }
       ]
     },
     {
       "number": 5,
       "distance": "1 1/16 Miles",
-      "surface": "Turf",
-      "conditions": "Maiden Special Weight",
-      "pace": "Rail out 45 ft favors inside post #1",
+      "surface": "Tapeta",
+      "conditions": "Claiming $35,000",
+      "pace": "N/A",
       "contenders": [
         {
-          "number": "1",
-          "name": "COBURG",
-          "jockey": "J. Alvarado",
-          "trainer": "N/A",
+          "number": "5",
+          "name": "MEYER",
+          "jockey": "I. Ortiz",
+          "trainer": "M. Maker",
           "odds": "N/A",
-          "stars": 3,
-          "analysis": "<span class='value'>VALUE PLAY</span> Huge debut (86). Rail draw is a big advantage."
+          "stars": 5,
+          "analysis": "<span class='lock'>PRIME BET</span> Huge figure advantage on this surface."
         },
         {
-          "number": "7",
-          "name": "COMPREHENSIVE",
+          "number": "4",
+          "name": "MYTHICAL MAN",
           "jockey": "N/A",
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 3,
-          "analysis": "Matches #1 on figures. Post 7 is slightly harder."
+          "analysis": "Good form, but slower than #5."
         },
         {
-          "number": "5",
-          "name": "FORTUNY",
-          "jockey": "T. Gaffalione",
+          "number": "1",
+          "name": "HAMILTON'S WAY",
+          "jockey": "N/A",
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 2,
-          "analysis": "Gaffalione rides. Improvement likely."
+          "analysis": "Woodbine form respects the surface."
         }
       ],
       "bets": [
-        { "type": "WIN", "selection": "#1" },
-        { "type": "EXACTA", "selection": "Box 1, 7" }
+        { "type": "WIN", "selection": "#5" },
+        { "type": "EXACTA", "selection": "5 over 4, 1" }
       ]
     },
     {
       "number": 6,
-      "distance": "5 1/2 Furlongs",
+      "distance": "1M 70 Yards",
       "surface": "Dirt",
-      "conditions": "Claiming $6,250",
-      "pace": "Lone speed #7",
+      "conditions": "Claiming $50,000",
+      "pace": "N/A",
       "contenders": [
         {
-          "number": "7",
-          "name": "SLEW DIVA",
+          "number": "1",
+          "name": "ACHERON",
           "jockey": "N/A",
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 4,
-          "analysis": "<span class='lock'>STRONG PLAY</span> Won last out with 79. Speed to clear."
+          "analysis": "<span class='lock'>STRONG PLAY</span> Proven dirt form. The safe play."
         },
-        {
-          "number": "6",
-          "name": "TINKI ABARRIO",
-          "jockey": "N/A",
-          "trainer": "N/A",
-          "odds": "N/A",
-          "stars": 3,
-          "analysis": "Classy but form is tailing off (81->70)."
-        },
-        {
-          "number": "5",
-          "name": "MIGUEL'S BELLE",
-          "jockey": "N/A",
-          "trainer": "N/A",
-          "odds": "N/A",
-          "stars": 2,
-          "analysis": "Consistent check-getter."
-        }
-      ],
-      "bets": [
-        { "type": "WIN", "selection": "#7" },
-        { "type": "EXACTA", "selection": "7 over 6, 5" }
-      ]
-    },
-    {
-      "number": 7,
-      "distance": "1 Mile 70 Yards",
-      "surface": "Dirt",
-      "conditions": "Claiming $10,000",
-      "pace": "N/A",
-      "contenders": [
-        {
-          "number": "6",
-          "name": "NAVY CROSS",
-          "jockey": "N/A",
-          "trainer": "N/A",
-          "odds": "N/A",
-          "stars": 3,
-          "analysis": "<span class='value'>VALUE PLAY</span> Most consistent. 82, 80, 93 pattern."
-        },
-        {
-          "number": "1",
-          "name": "HONESTO",
-          "jockey": "N/A",
-          "trainer": "N/A",
-          "odds": "N/A",
-          "stars": 3,
-          "analysis": "Big 88 last out. Can he repeat it?"
-        },
-        {
-          "number": "12",
-          "name": "ROCK THE STARS",
-          "jockey": "N/A",
-          "trainer": "N/A",
-          "odds": "N/A",
-          "stars": 2,
-          "analysis": "Also popped a big number (89). Post 12 hurts."
-        }
-      ],
-      "bets": [
-        { "type": "WIN", "selection": "#6" },
-        { "type": "EXACTA", "selection": "Box 6, 1" }
-      ]
-    },
-    {
-      "number": 8,
-      "distance": "1 Mile",
-      "surface": "Dirt",
-      "conditions": "Allowance Optional Claiming",
-      "pace": "N/A",
-      "contenders": [
-        {
-          "number": "2",
-          "name": "TIME TO WIN",
-          "jockey": "T. Gaffalione",
-          "trainer": "C. Brown",
-          "odds": "N/A",
-          "stars": 5,
-          "analysis": "<span class='lock'>LOCK</span> 96 Beyer is +12 points over field avg."
-        },
-        {
-          "number": "7",
-          "name": "STEEZE",
-          "jockey": "N/A",
-          "trainer": "N/A",
-          "odds": "N/A",
-          "stars": 3,
-          "analysis": "Good horse, just slower than #2."
-        },
-        {
-          "number": "1",
-          "name": "BEASTLY SPEED",
-          "jockey": "N/A",
-          "trainer": "N/A",
-          "odds": "N/A",
-          "stars": 3,
-          "analysis": "Consistent, fighting for 2nd."
-        }
-      ],
-      "bets": [
-        { "type": "WIN", "selection": "#2" },
-        { "type": "EXACTA", "selection": "2 over 7, 1" }
-      ]
-    },
-    {
-      "number": 9,
-      "distance": "1 1/16 Miles",
-      "surface": "Turf",
-      "conditions": "Sunshine Turf Stakes",
-      "pace": "N/A",
-      "contenders": [
         {
           "number": "3",
-          "name": "ECHO LANE",
+          "name": "ANNIE GOODBODY",
           "jockey": "N/A",
           "trainer": "N/A",
           "odds": "N/A",
-          "stars": 4,
-          "analysis": "<span class='lock'>STRONG PLAY</span> 99, 97, 95. A machine. Stakes Quality."
+          "stars": 2,
+          "analysis": "Turf horse. Unknown on sloppy dirt."
         },
         {
           "number": "6",
-          "name": "ADIOS COLE",
+          "name": "EQUITAS",
           "jockey": "N/A",
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 3,
-          "analysis": "106 back class. Dangerous."
-        },
-        {
-          "number": "2",
-          "name": "CLASSIC OF COURSE",
-          "jockey": "N/A",
-          "trainer": "N/A",
-          "odds": "N/A",
-          "stars": 2,
-          "analysis": "Needs to rebound, but has class."
-        }
-      ],
-      "bets": [
-        { "type": "WIN", "selection": "#3" },
-        { "type": "EXACTA", "selection": "3 over 6, 2" }
-      ]
-    },
-    {
-      "number": 10,
-      "distance": "6 Furlongs",
-      "surface": "Dirt",
-      "conditions": "Sunshine Sprint Stakes",
-      "pace": "N/A",
-      "contenders": [
-        {
-          "number": "1",
-          "name": "DAMON'S MOUND",
-          "jockey": "N/A",
-          "trainer": "N/A",
-          "odds": "N/A",
-          "stars": 5,
-          "analysis": "<span class='lock'>LOCK</span> G3 winner. 101 Beyer. Class of the field."
-        },
-        {
-          "number": "4",
-          "name": "NESHUME",
-          "jockey": "N/A",
-          "trainer": "N/A",
-          "odds": "N/A",
-          "stars": 3,
-          "analysis": "Fast, but 5 points slower than #1."
-        },
-        {
-          "number": "2",
-          "name": "RAGING FURY",
-          "jockey": "N/A",
-          "trainer": "N/A",
-          "odds": "N/A",
-          "stars": 2,
-          "analysis": "Consistent 90s. Place chance."
+          "analysis": "Good AW form, might handle slop."
         }
       ],
       "bets": [
         { "type": "WIN", "selection": "#1" },
-        { "type": "EXACTA", "selection": "1 over 4, 2" }
+        { "type": "EXACTA", "selection": "1 over 6, 3" }
       ]
     },
     {
-      "number": 11,
-      "distance": "1 1/16 Miles",
-      "surface": "Turf",
-      "conditions": "Maiden Special Weight",
+      "number": 7,
+      "distance": "5 1/2 Furlongs",
+      "surface": "Dirt",
+      "conditions": "Claiming $25,000",
       "pace": "N/A",
       "contenders": [
         {
-          "number": "10",
-          "name": "LIMITED EDITION",
-          "jockey": "D. Egan",
-          "trainer": "Antonacci",
-          "odds": "N/A",
-          "stars": 4,
-          "analysis": "<span class='lock'>STRONG PLAY</span> 86 last out, 92 back class. The one to beat."
-        },
-        {
-          "number": "7",
-          "name": "BESSAMAY",
+          "number": "5",
+          "name": "GUNESH",
           "jockey": "N/A",
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 3,
-          "analysis": "Consistent mid-80s. Right there."
+          "analysis": "<span class='value'>VALUE PLAY</span> Versatile, fits well here."
+        },
+        {
+          "number": "8",
+          "name": "FOGGY NOTE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Fast, drops in class? No, similar."
         },
         {
           "number": "4",
-          "name": "GALLANT LAD",
+          "name": "BOOT'S ON THE MOON",
           "jockey": "N/A",
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 2,
-          "analysis": "Improving. Can hit the board."
+          "analysis": "Consistent check earner."
         }
       ],
       "bets": [
-        { "type": "WIN", "selection": "#10" },
-        { "type": "EXACTA", "selection": "10 over 7, 4" }
+        { "type": "WIN", "selection": "#5" },
+        { "type": "EXACTA", "selection": "Box 5, 8" }
       ]
     },
     {
-      "number": 12,
-      "distance": "1 Mile",
-      "surface": "Dirt",
-      "conditions": "Allowance (Uruguay)",
-      "pace": "N/A",
-      "contenders": [
-        {
-          "number": "3",
-          "name": "VOLTERRA (URU)",
-          "jockey": "N/A",
-          "trainer": "N/A",
-          "odds": "N/A",
-          "stars": 3,
-          "analysis": "<span class='value'>VALUE PLAY</span> Strong win record and speed figures."
-        },
-        {
-          "number": "5",
-          "name": "FARM LADY (URU)",
-          "jockey": "N/A",
-          "trainer": "N/A",
-          "odds": "N/A",
-          "stars": 3,
-          "analysis": "Primary danger."
-        }
-      ],
-      "bets": [
-        { "type": "WIN", "selection": "#3" }
-      ]
-    },
-    {
-      "number": 13,
-      "distance": "1 Mile",
-      "surface": "Dirt",
-      "conditions": "Allowance (Uruguay)",
+      "number": 8,
+      "distance": "1M 70 Yards",
+      "surface": "Tapeta",
+      "conditions": "Allowance Opt Clm",
       "pace": "N/A",
       "contenders": [
         {
           "number": "9",
-          "name": "STRONGRAFIA (URU)",
+          "name": "STORMCAST",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>PRIME BET</span> Elite Tapeta form. The winner."
+        },
+        {
+          "number": "4",
+          "name": "MALLEYMOO",
           "jockey": "N/A",
           "trainer": "N/A",
           "odds": "N/A",
           "stars": 3,
-          "analysis": "<span class='value'>VALUE PLAY</span> 2/1 ML favorite. Consistent form."
+          "analysis": "High class turf, should handle AW."
         },
         {
           "number": "1",
-          "name": "BALANCHO (URU)",
+          "name": "STARSHIP AGENDA",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Has run on Tapeta, but slower."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#9" },
+        { "type": "EXACTA", "selection": "9 over 4, 1" }
+      ]
+    },
+    {
+      "number": 9,
+      "distance": "7 Furlongs",
+      "surface": "Dirt",
+      "conditions": "Allowance Opt Clm",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "5",
+          "name": "AMERICAN PEARL",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Fast, improving, best figure."
+        },
+        {
+          "number": "7",
+          "name": "COOEY",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Fast, but slightly slower than #5."
+        },
+        {
+          "number": "1",
+          "name": "ARAMI'S FACTOR",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Good AW form, dirt unknown."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#5" },
+        { "type": "EXACTA", "selection": "5 over 7" }
+      ]
+    },
+    {
+      "number": 10,
+      "distance": "1 1/16 Miles",
+      "surface": "Tapeta",
+      "conditions": "Maiden Special Weight",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "6",
+          "name": "CELEBRITY WARRIOR",
+          "jockey": "I. Ortiz",
+          "trainer": "Pletcher",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Class of the field."
+        },
+        {
+          "number": "1",
+          "name": "VIKING QUEST",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Proven on Tapeta."
+        },
+        {
+          "number": "12",
+          "name": "TENDER TEMPER",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Good debut figure."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#6" },
+        { "type": "EXACTA", "selection": "6 over 1, 12" }
+      ]
+    },
+    {
+      "number": 11,
+      "distance": "6 Furlongs",
+      "surface": "Dirt",
+      "conditions": "Allowance (ARG)",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "8",
+          "name": "NUEVA ROMA",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>LOCK</span> Speed rating 105 vs 91. Massive edge."
+        },
+        {
+          "number": "7",
+          "name": "ASIATIC MARCE",
           "jockey": "N/A",
           "trainer": "N/A",
           "odds": "N/A",
@@ -499,7 +429,38 @@
         }
       ],
       "bets": [
-        { "type": "WIN", "selection": "#9" }
+        { "type": "WIN", "selection": "#8" }
+      ]
+    },
+    {
+      "number": 12,
+      "distance": "5 Furlongs",
+      "surface": "Dirt",
+      "conditions": "Maiden Special Weight (ARG)",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "7",
+          "name": "EQUAL MONEY",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>LOCK</span> Speed rating 120. Dominant."
+        },
+        {
+          "number": "2",
+          "name": "KEEMASAN",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Speed rating 116. Clear second."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#7" },
+        { "type": "EXACTA", "selection": "7 over 2" }
       ]
     }
   ]
