@@ -1,0 +1,351 @@
+{
+  "name": "Woodbine Mohawk Park",
+  "date": "Sunday, January 18, 2026",
+  "races": [
+    {
+      "number": 1,
+      "distance": "7/8 Mile",
+      "surface": "Pace",
+      "conditions": "Claiming $8,000 - $7,000",
+      "pace": "Contested",
+      "contenders": [
+        {
+          "number": "5",
+          "name": "HES SWIFT",
+          "jockey": "J. Jamieson",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Won at this level last week. Inside post advantage."
+        },
+        {
+          "number": "8",
+          "name": "BETTORHOLDONTIGHT",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Post 8 hurts; needs cover."
+        },
+        {
+          "number": "2",
+          "name": "ST LADS BEAT IT",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Won last; steps up slightly."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#5" },
+        { "type": "EXACTA", "selection": "5 over 2, 4, 8" }
+      ]
+    },
+    {
+      "number": 2,
+      "distance": "7/8 Mile",
+      "surface": "Pace",
+      "conditions": "NW $12,000 L4",
+      "pace": "Hot",
+      "contenders": [
+        {
+          "number": "6",
+          "name": "PACINO HANOVER",
+          "jockey": "T. Cullen",
+          "trainer": "T. Cullen",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>PRIME BET</span> HUGE class drop from Open. Back class speed."
+        },
+        {
+          "number": "3",
+          "name": "POWERTRAIN",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Fast; dangerous on front."
+        },
+        {
+          "number": "5",
+          "name": "MAJOR PERRY N",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Consistent; underneath play."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#6" },
+        { "type": "EXACTA", "selection": "6 over 3, 5" }
+      ]
+    },
+    {
+      "number": 3,
+      "distance": "7/8 Mile",
+      "surface": "Pace",
+      "conditions": "Claiming Handicap $18,000",
+      "pace": "Lone Speed #6",
+      "contenders": [
+        {
+          "number": "6",
+          "name": "HF PANS SHADOW",
+          "jockey": "J. Jamieson",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Dominant winner last out. Projects to control."
+        },
+        {
+          "number": "4",
+          "name": "KYLES ART",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "2nd to #6 last time."
+        },
+        {
+          "number": "3",
+          "name": "SHANES DREAM",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Closer; needs pace."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#6" },
+        { "type": "EXACTA", "selection": "6 over 3, 4" }
+      ]
+    },
+    {
+      "number": 4,
+      "distance": "7/8 Mile",
+      "surface": "Pace",
+      "conditions": "Claiming Handicap $15,000",
+      "pace": "Contested",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "BETTOR ON ICE",
+          "jockey": "T. Henry",
+          "trainer": "N/A",
+          "odds": "4-1",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Beat #7 last week. Rail advantage."
+        },
+        {
+          "number": "7",
+          "name": "EXOTIC SAND",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "2-1",
+          "stars": 3,
+          "analysis": "Tough trip from outside."
+        },
+        {
+          "number": "6",
+          "name": "REMEMBER THE BEACH",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Fast gate speed."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" },
+        { "type": "EXACTA", "selection": "Box 1, 6, 7" }
+      ]
+    },
+    {
+      "number": 5,
+      "distance": "7/8 Mile",
+      "surface": "Pace",
+      "conditions": "N/A",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "2",
+          "name": "TORONTO",
+          "jockey": "Hensley",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Drops in class."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#2" }
+      ]
+    },
+    {
+      "number": 6,
+      "distance": "7/8 Mile",
+      "surface": "Pace",
+      "conditions": "N/A",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "THE COLT",
+          "jockey": "Henry",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Good post, consistent speed."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" }
+      ]
+    },
+    {
+      "number": 7,
+      "distance": "7/8 Mile",
+      "surface": "Trot",
+      "conditions": "NW $10,750 L4",
+      "pace": "Lone Speed",
+      "contenders": [
+        {
+          "number": "6",
+          "name": "VERACRUZ",
+          "jockey": "B. McClure",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Won last in 1:55.4; sharp."
+        },
+        {
+          "number": "4",
+          "name": "GHOSTLY CASPER",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Stepping up in class."
+        },
+        {
+          "number": "7",
+          "name": "DAHLQUIST HANOVER",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Good closer."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#6" },
+        { "type": "EXACTA", "selection": "6 over 4, 7" }
+      ]
+    },
+    {
+      "number": 8,
+      "distance": "7/8 Mile",
+      "surface": "Trot",
+      "conditions": "Open Trot",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "5",
+          "name": "SID THE KID",
+          "jockey": "McNair",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Slight edge over New Rules."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#5" }
+      ]
+    },
+    {
+      "number": 9,
+      "distance": "7/8 Mile",
+      "surface": "Pace",
+      "conditions": "N/A",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "3",
+          "name": "MIDNIGHT MOOD",
+          "jockey": "Plante",
+          "trainer": "N/A",
+          "odds": "2-1",
+          "stars": 3,
+          "analysis": "Looks best of weak group."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#3" }
+      ]
+    },
+    {
+      "number": 10,
+      "distance": "7/8 Mile",
+      "surface": "Pace",
+      "conditions": "N/A",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "2",
+          "name": "READY FOR LANDING",
+          "jockey": "Jamieson",
+          "trainer": "N/A",
+          "odds": "2-1",
+          "stars": 3,
+          "analysis": "Solid form."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#2" }
+      ]
+    },
+    {
+      "number": 11,
+      "distance": "7/8 Mile",
+      "surface": "Pace",
+      "conditions": "NW $2,650 L4",
+      "pace": "Contested",
+      "contenders": [
+        {
+          "number": "6",
+          "name": "WANNABEABIGSTAR",
+          "jockey": "T. Cullen",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>PRIME BET</span> MAJOR class drop. Historical speed crushes field."
+        },
+        {
+          "number": "5",
+          "name": "SOUTHWIND SAMBUCCA",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Also dropping."
+        },
+        {
+          "number": "7",
+          "name": "LAMANDIER A",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Value underneath."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#6" },
+        { "type": "EXACTA", "selection": "6 over 5, 7" }
+      ]
+    }
+  ]
+}
