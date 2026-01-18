@@ -1,0 +1,326 @@
+{
+  "name": "Fair Grounds",
+  "date": "Sunday, January 18, 2026",
+  "races": [
+    {
+      "number": 1,
+      "distance": "6 Furlongs",
+      "surface": "Dirt",
+      "conditions": "Claiming $5,000",
+      "pace": "Speed Favoring (+5 to E types)",
+      "contenders": [
+        {
+          "number": "2",
+          "name": "WHERE'S AUNT J",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Dominant last-out figure (74). Clear edge."
+        },
+        {
+          "number": "6",
+          "name": "CUSTOM PUNCH",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Fast back class, but recent form is erratic."
+        },
+        {
+          "number": "1",
+          "name": "STEAL ME OVER",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Consistent closer; needs pace meltdown."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#2" },
+        { "type": "EXACTA", "selection": "2 over 6, 1" }
+      ]
+    },
+    {
+      "number": 2,
+      "distance": "6 Furlongs",
+      "surface": "Dirt",
+      "conditions": "Claiming $5,000",
+      "pace": "Speed Favoring",
+      "contenders": [
+        {
+          "number": "5",
+          "name": "DR. NIKO",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Safest play; consistent & active."
+        },
+        {
+          "number": "8",
+          "name": "TEN DAYS LATER",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Good figure last out; dangerous closer."
+        },
+        {
+          "number": "4",
+          "name": "BATTLEOFLEXINGTON",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "RED FLAG: Layoff drop. Classy but risky."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#5" },
+        { "type": "EXACTA", "selection": "5 over 8, 4" }
+      ]
+    },
+    {
+      "number": 3,
+      "distance": "1 Mile",
+      "surface": "Turf",
+      "conditions": "Claiming $30,000",
+      "pace": "Fair/Firm",
+      "contenders": [
+        {
+          "number": "5",
+          "name": "NEWS AT NINE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>LOCK</span> Dominant figures (102). The horse to beat."
+        },
+        {
+          "number": "2",
+          "name": "FROSTY BLUE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Good dirt form; proven on turf (85)."
+        },
+        {
+          "number": "8",
+          "name": "POLAR BEAR PLUNGE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Deep closer; needs pace help."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#5" },
+        { "type": "EXACTA", "selection": "5 over 2, 8" }
+      ]
+    },
+    {
+      "number": 4,
+      "distance": "1 1/16 Mile",
+      "surface": "Dirt",
+      "conditions": "SOC $10,000",
+      "pace": "Speed Favoring",
+      "contenders": [
+        {
+          "number": "5",
+          "name": "TIME TO PARTY",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Best recent form (94, 92). Peaking."
+        },
+        {
+          "number": "7",
+          "name": "HEY BOSS",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Classy veteran, solid recent 85."
+        },
+        {
+          "number": "1",
+          "name": "METATRON'S MUSE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Consistent check-getter."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#5" },
+        { "type": "EXACTA", "selection": "5 over 7, 1" }
+      ]
+    },
+    {
+      "number": 5,
+      "distance": "1 1/16 Mile",
+      "surface": "Turf",
+      "conditions": "Maiden Opt Claiming",
+      "pace": "Fair/Firm",
+      "contenders": [
+        {
+          "number": "2",
+          "name": "LOCH FYNE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Proven figure; beat key rivals."
+        },
+        {
+          "number": "12",
+          "name": "FAITHFUL DEPARTED",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Close 4th behind #2 last out."
+        },
+        {
+          "number": "5",
+          "name": "CARA FELCE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Close 3rd behind #2 last out."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#2" },
+        { "type": "EXACTA", "selection": "2 over 12, 5, 9" }
+      ]
+    },
+    {
+      "number": 6,
+      "distance": "6 Furlongs",
+      "surface": "Dirt",
+      "conditions": "Allowance",
+      "pace": "Speed Favoring",
+      "contenders": [
+        {
+          "number": "6",
+          "name": "CREOLE CHROME",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>PRIME BET</span> Fastest, consistent, class of field."
+        },
+        {
+          "number": "4",
+          "name": "AWESOME HAWAIIAN",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Good debut figure; primary threat."
+        },
+        {
+          "number": "7",
+          "name": "DYNAMITE TONIGHT",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Bounced last out; capable of 92?"
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#6" },
+        { "type": "EXACTA", "selection": "6 over 4" }
+      ]
+    },
+    {
+      "number": 7,
+      "distance": "5.5 Furlongs",
+      "surface": "Turf",
+      "conditions": "Maiden Special Weight",
+      "pace": "Fair/Firm",
+      "contenders": [
+        {
+          "number": "10",
+          "name": "STELLAR KNICKIE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "20/1",
+          "stars": 2,
+          "analysis": "<span class='value'>VALUE BET</span> Beat key rivals last out. Huge value."
+        },
+        {
+          "number": "8",
+          "name": "SPARE ME",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Right there with #10 last time."
+        },
+        {
+          "number": "12",
+          "name": "GERBER DAISY",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "80 on dirt is elite. Turf question mark."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#10" },
+        { "type": "EXACTA", "selection": "10, 12 over 8, 10, 12" }
+      ]
+    },
+    {
+      "number": 8,
+      "distance": "5.5 Furlongs",
+      "surface": "Dirt",
+      "conditions": "Maiden Claiming $10,000",
+      "pace": "Speed Favoring",
+      "contenders": [
+        {
+          "number": "9",
+          "name": "RESPECTHECONNECT",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Clear standout on figures (57 vs 41)."
+        },
+        {
+          "number": "4",
+          "name": "BIG MO",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Best of the rest."
+        },
+        {
+          "number": "8",
+          "name": "DEAL ME TRIPS",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Early speed, fades."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#9" },
+        { "type": "EXACTA", "selection": "9 over 4, 1" }
+      ]
+    }
+  ]
+}
