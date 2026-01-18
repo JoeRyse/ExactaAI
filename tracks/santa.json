@@ -1,0 +1,366 @@
+{
+  "name": "Santa Anita Park",
+  "date": "Sunday, January 18, 2026",
+  "races": [
+    {
+      "number": 1,
+      "distance": "6 Furlongs",
+      "surface": "Turf",
+      "conditions": "MSW",
+      "pace": "Turf Sprint Bias favors outside speed",
+      "contenders": [
+        {
+          "number": "5",
+          "name": "HONEY'S CHOICE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> The clear figure standout (98 vs 91)."
+        },
+        {
+          "number": "8",
+          "name": "B G BULLET",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Dangerous speed, improving. Draws well."
+        },
+        {
+          "number": "2",
+          "name": "CHAPTER ONE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Needs to reverse decline."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#5" },
+        { "type": "EXACTA", "selection": "5 over 8" }
+      ]
+    },
+    {
+      "number": 2,
+      "distance": "5 1/2 Furlongs",
+      "surface": "Dirt",
+      "conditions": "Maiden Claiming $32,000",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "IT'S TIME",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>LOCK</span> In a different zip code. 49-point figure edge."
+        },
+        {
+          "number": "5",
+          "name": "TEXAS WILDCAT",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 1,
+          "analysis": "Too slow."
+        },
+        {
+          "number": "4",
+          "name": "ORIGINAL ONE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "The only unknown variable."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" },
+        { "type": "EXACTA", "selection": "1 over 4" }
+      ]
+    },
+    {
+      "number": 3,
+      "distance": "6 1/2 Furlongs",
+      "surface": "Turf",
+      "conditions": "Claiming $25,000",
+      "pace": "Outside post advantage down the hill",
+      "contenders": [
+        {
+          "number": "11",
+          "name": "SKATINGTHROUGHLIFE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Consistent high figures. Outside post bonus."
+        },
+        {
+          "number": "3",
+          "name": "WILLOW COVE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Right there on numbers."
+        },
+        {
+          "number": "6",
+          "name": "DARLIN TAMI",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Best back class, erratic form."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#11" },
+        { "type": "EXACTA", "selection": "Box 11, 3" }
+      ]
+    },
+    {
+      "number": 4,
+      "distance": "5 1/2 Furlongs",
+      "surface": "Dirt",
+      "conditions": "Maiden Claiming $50,000",
+      "pace": "Lone Speed #2",
+      "contenders": [
+        {
+          "number": "2",
+          "name": "BANDOLERO",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "8/5",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> The one to catch. Lone speed."
+        },
+        {
+          "number": "5",
+          "name": "TIGGRRR WHITWORTH",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Short rest concern. Declining pattern."
+        },
+        {
+          "number": "3",
+          "name": "CHIEF RESIDENT",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Needs 15 points improvement."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#2" },
+        { "type": "EXACTA", "selection": "2 over 5" }
+      ]
+    },
+    {
+      "number": 5,
+      "distance": "6 Furlongs",
+      "surface": "Turf",
+      "conditions": "AOC $50,000",
+      "pace": "Perfect Setup for #9",
+      "contenders": [
+        {
+          "number": "9",
+          "name": "BAELA",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Speed of the speed. Peaking form."
+        },
+        {
+          "number": "8",
+          "name": "INVINCIBLE MOLLY",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Consistent threat."
+        },
+        {
+          "number": "4",
+          "name": "DARE TO FLY",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Dangerous closer."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#9" },
+        { "type": "EXACTA", "selection": "Box 9, 8" }
+      ]
+    },
+    {
+      "number": 6,
+      "distance": "6 1/2 Furlongs",
+      "surface": "Dirt",
+      "conditions": "MSW",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "3",
+          "name": "LATITUDE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "1/1",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> The class of the field. 6-point edge."
+        },
+        {
+          "number": "4",
+          "name": "RUNNING WITH CHAOS",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Clear second best."
+        },
+        {
+          "number": "6",
+          "name": "TAIF",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Needs to improve."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#3" },
+        { "type": "EXACTA", "selection": "3 over 4" }
+      ]
+    },
+    {
+      "number": 7,
+      "distance": "1 1/8 Miles",
+      "surface": "Turf",
+      "conditions": "AOC $50,000",
+      "pace": "Pace Meltdown likely",
+      "contenders": [
+        {
+          "number": "7",
+          "name": "DICEY MO CHARA",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Highest ceiling. G2 winner dropping in class."
+        },
+        {
+          "number": "6",
+          "name": "CITY EXILE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Very dangerous."
+        },
+        {
+          "number": "2",
+          "name": "ONE OF THESE DAYS",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Consistent."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#7" },
+        { "type": "EXACTA", "selection": "Box 7, 6" }
+      ]
+    },
+    {
+      "number": 8,
+      "distance": "1 Mile",
+      "surface": "Dirt",
+      "conditions": "Claiming $8,000",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "2",
+          "name": "CONTRARY CHIEFTAIN",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>LOCK</span> 12-point speed edge. Dominant."
+        },
+        {
+          "number": "7",
+          "name": "SMARTY NOSE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Best of the rest."
+        },
+        {
+          "number": "6",
+          "name": "ALPINE THUNDER",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Old class, current slow."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#2" },
+        { "type": "EXACTA", "selection": "2 over 7" }
+      ]
+    },
+    {
+      "number": 9,
+      "distance": "1 1/8 Miles",
+      "surface": "Turf",
+      "conditions": "Maiden Claiming $50,000",
+      "pace": "N/A",
+      "contenders": [
+        {
+          "number": "8",
+          "name": "ANGELICA BAY",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Fit and consistent. Recency edge."
+        },
+        {
+          "number": "3",
+          "name": "INTERPLAY",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "1-year layoff. Paper Tiger."
+        },
+        {
+          "number": "4",
+          "name": "GHOSTESS",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "10-month layoff."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#8" },
+        { "type": "EXACTA", "selection": "Box 8, 3" }
+      ]
+    }
+  ]
+}
