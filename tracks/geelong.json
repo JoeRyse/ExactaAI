@@ -1,0 +1,231 @@
+{
+"name": "Geelong",
+"date": "Tuesday, January 20, 2026",
+"races": [
+{
+"number": 1,
+"distance": "1100m",
+"surface": "Turf",
+"conditions": "Ladbrokes Form Genius 3YO Maiden Plate",
+"pace": "Fair play for swoopers on the big track",
+"contenders": [
+{
+"number": "2",
+"name": "OYSTER LANE",
+"jockey": "N/A",
+"trainer": "N/A",
+"odds": "N/A",
+"stars": 4,
+"analysis": "<span class='lock'>WIN PICK</span> Sets the standard with a Speed Figure of 66 and a 2nd placing at Flemington."
+},
+{
+"number": "1",
+"name": "GENERAL BLU",
+"jockey": "N/A",
+"trainer": "Zahra",
+"odds": "N/A",
+"stars": 3,
+"analysis": "Improved to win a Flemington jumpout. Main danger."
+}
+],
+"bets": [
+{ "type": "WIN", "selection": "#2" },
+{ "type": "SAVER", "selection": "#1" }
+]
+},
+{
+"number": 2,
+"distance": "1200m",
+"surface": "Turf",
+"conditions": "Adam Bird Electrics Maiden Plate",
+"pace": "N/A",
+"contenders": [
+{
+"number": "5",
+"name": "WRITTEN PERFECT",
+"jockey": "N/A",
+"trainer": "Price/Kent Jnr",
+"odds": "N/A",
+"stars": 5,
+"analysis": "<span class='lock'>JUMPOUT BLACK BOX</span> Won 2 of last 3 Cranbourne jumpouts. Provisional rating of 88."
+},
+{
+"number": "4",
+"name": "VEOMAS (NZ)",
+"jockey": "N/A",
+"trainer": "N/A",
+"odds": "N/A",
+"stars": 3,
+"analysis": "Drops from a high-pressure $175k race."
+}
+],
+"bets": [
+{ "type": "WIN", "selection": "#5" }
+]
+},
+{
+"number": 3,
+"distance": "1500m",
+"surface": "Turf",
+"conditions": "ConnectTel Fillies & Mares Maiden Plate",
+"pace": "N/A",
+"contenders": [
+{
+"number": "1",
+"name": "MAYEKI",
+"jockey": "N/A",
+"trainer": "N/A",
+"odds": "N/A",
+"stars": 3,
+"analysis": "Jumpout form at Flemington is superior to the country trial form of rivals."
+},
+{
+"number": "2",
+"name": "PRINCESS PAINTON",
+"jockey": "N/A",
+"trainer": "N/A",
+"odds": "N/A",
+"stars": 1,
+"analysis": "Red Flag: Last in two jumpouts."
+}
+],
+"bets": [
+{ "type": "WIN", "selection": "#1" }
+]
+},
+{
+"number": 4,
+"distance": "2400m",
+"surface": "Turf",
+"conditions": "Gawk Maiden Plate",
+"pace": "Stamina test on the Big Track",
+"contenders": [
+{
+"number": "2",
+"name": "PHOENICIAN",
+"jockey": "N/A",
+"trainer": "N/A",
+"odds": "N/A",
+"stars": 4,
+"analysis": "Clear standout following scratchings. Proven stayer."
+},
+{
+"number": "1",
+"name": "COWARRIE",
+"jockey": "N/A",
+"trainer": "N/A",
+"odds": "N/A",
+"stars": 3,
+"analysis": "Placed at Stawell but form lines are thinner."
+}
+],
+"bets": [
+{ "type": "WIN", "selection": "#2" },
+{ "type": "EXACTA", "selection": "Box 2, 1" }
+]
+},
+{
+"number": 5,
+"distance": "2400m",
+"surface": "Turf",
+"conditions": "Pholklore BM66 Handicap",
+"pace": "#1 Star Testymony likely to lead",
+"contenders": [
+{
+"number": "3",
+"name": "URBAN OUTLOOK (GB)",
+"jockey": "N/A",
+"trainer": "N/A",
+"odds": "N/A",
+"stars": 4,
+"analysis": "Beneficiary of scratchings. Wide sweeping turns suit his momentum-building style."
+},
+{
+"number": "1",
+"name": "STAR TESTYMONY",
+"jockey": "N/A",
+"trainer": "N/A",
+"odds": "N/A",
+"stars": 3,
+"analysis": "Likely leader but may be vulnerable late on the big track."
+}
+],
+"bets": [
+{ "type": "WIN", "selection": "#3" },
+{ "type": "QUINELLA", "selection": "3, 1" }
+]
+},
+{
+"number": 6,
+"distance": "1400m",
+"surface": "Turf",
+"conditions": "RMBL Investments Rising Stars Race",
+"pace": "N/A",
+"contenders": [
+{
+"number": "1",
+"name": "ROSE OF SHALAA",
+"jockey": "N/A",
+"trainer": "N/A",
+"odds": "N/A",
+"stars": 4,
+"analysis": "<span class='value'>CLASS CRUSH</span> Dropping from a $175k Metro race. Massive class differential."
+},
+{
+"number": "6",
+"name": "EBONY FIGHTER",
+"jockey": "N/A",
+"trainer": "N/A",
+"odds": "N/A",
+"stars": 3,
+"analysis": "Loves Geelong (1 start for 1 win). Main danger."
+}
+],
+"bets": [
+{ "type": "WIN", "selection": "#1 (Each-Way)" }
+]
+},
+{
+"number": 7,
+"distance": "1300m",
+"surface": "Turf",
+"conditions": "Vanguard Class 1 Handicap",
+"pace": "N/A",
+"contenders": [
+{
+"number": "2",
+"name": "ULTRA BLUE",
+"jockey": "N/A",
+"trainer": "N/A",
+"odds": "N/A",
+"stars": 4,
+"analysis": "<span class='value'>VALUE PLAY</span> Disparity protocol. Drops from BM78 to Class 1. Rating drop of 15-20 points."
+}
+],
+"bets": [
+{ "type": "WIN", "selection": "#2" }
+]
+},
+{
+"number": 8,
+"distance": "1100m",
+"surface": "Turf",
+"conditions": "Armstrong Creek Development BM62 Handicap",
+"pace": "N/A",
+"contenders": [
+{
+"number": "1",
+"name": "DIMORA QUEEN",
+"jockey": "N/A",
+"trainer": "Lindsey Smith",
+"odds": "N/A",
+"stars": 5,
+"analysis": "<span class='lock'>BEST BET</span> Golden Gap scenario. Rates 8+ points clear of this depleted field."
+}
+],
+"bets": [
+{ "type": "WIN", "selection": "#1" }
+]
+}
+]
+}
