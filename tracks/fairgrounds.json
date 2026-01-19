@@ -1,0 +1,366 @@
+{
+  "name": "Fair Grounds",
+  "date": "Monday, January 19, 2026",
+  "races": [
+    {
+      "number": 1,
+      "distance": "6 Furlongs",
+      "surface": "Dirt",
+      "conditions": "F&M Claiming $20,000",
+      "pace": "Fair to Speed",
+      "contenders": [
+        {
+          "number": "6",
+          "name": "ABOUT TO SET SAIL",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Won last out with field-best figure. Class edge."
+        },
+        {
+          "number": "1",
+          "name": "HONOR HIS HALF",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Fast win, but against $5k claimers. Rail speed."
+        },
+        {
+          "number": "5",
+          "name": "THE PRETTY SISTER",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Consistent mid-60s; hits the board."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#6" },
+        { "type": "EXACTA", "selection": "6 over 1, 5" }
+      ]
+    },
+    {
+      "number": 2,
+      "distance": "1 Mile",
+      "surface": "Dirt",
+      "conditions": "F&M Claiming $5,000",
+      "pace": "Fair",
+      "contenders": [
+        {
+          "number": "6",
+          "name": "SUE'S LITTLE ZING",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>LOCK</span> 73 Beyer is +11 points over next best. Dominant."
+        },
+        {
+          "number": "1",
+          "name": "STRAWBERRY SUNDAE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Clear second best on paper."
+        },
+        {
+          "number": "4",
+          "name": "AGAMI",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Best of the rest."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#6" },
+        { "type": "EXACTA", "selection": "6 / 1" }
+      ]
+    },
+    {
+      "number": 3,
+      "distance": "6 Furlongs",
+      "surface": "Dirt",
+      "conditions": "Claiming $12,500",
+      "pace": "Fair",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "MY MAN BRANDON",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Won last out; rail speed."
+        },
+        {
+          "number": "10",
+          "name": "ANGELIC KNIGHT",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Consistent; wide draw helps."
+        },
+        {
+          "number": "3",
+          "name": "CLEARLY MAJESTIC",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Competitive figures; in the mix."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" },
+        { "type": "BOX", "selection": "1, 10, 3" }
+      ]
+    },
+    {
+      "number": 4,
+      "distance": "1 Mile",
+      "surface": "Turf",
+      "conditions": "F&M Claiming $30,000",
+      "pace": "Firm",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "MALIBU SMART",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Ignore recent slop race. Turf figure (81) crushes field."
+        },
+        {
+          "number": "4",
+          "name": "SHEILA'S LION",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Consistent; logical threat."
+        },
+        {
+          "number": "5",
+          "name": "WATERING",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Speed threat; stepping up."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" },
+        { "type": "EXACTA", "selection": "1 over 4, 5" }
+      ]
+    },
+    {
+      "number": 5,
+      "distance": "1 1/16 Mile",
+      "surface": "Dirt",
+      "conditions": "Claiming $30,000",
+      "pace": "Fair",
+      "contenders": [
+        {
+          "number": "3",
+          "name": "BOLT AT MIDNIGHT",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Ignore slop (16). Prior: 96, 95, 88. Superior on fast track."
+        },
+        {
+          "number": "4",
+          "name": "SPACE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Solid 85 last out; reliable."
+        },
+        {
+          "number": "1",
+          "name": "TREBLE CLEF",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Classy back numbers; needs pace."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#3" },
+        { "type": "TRIFECTA", "selection": "3 over 1, 4 over 1, 2, 4, 5" }
+      ]
+    },
+    {
+      "number": 6,
+      "distance": "1 1/16 Mile",
+      "surface": "Turf",
+      "conditions": "Maiden Special Weight",
+      "pace": "Firm",
+      "contenders": [
+        {
+          "number": "3",
+          "name": "PREPPED",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>PRIME BET</span> 93 Beyer on debut is elite for MSW."
+        },
+        {
+          "number": "5",
+          "name": "ROAD TRIPPIN",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "91 Beyer last out; clear 2nd choice."
+        },
+        {
+          "number": "2",
+          "name": "PRINCE OF LIGHT",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Solid closer; hits the board."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#3" },
+        { "type": "EXACTA", "selection": "3 / 5" }
+      ]
+    },
+    {
+      "number": 7,
+      "distance": "6 Furlongs",
+      "surface": "Dirt",
+      "conditions": "Allowance",
+      "pace": "Fair",
+      "contenders": [
+        {
+          "number": "9",
+          "name": "BENJI STAR",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> 97 Beyer last out; top dirt form. Outside draw."
+        },
+        {
+          "number": "8",
+          "name": "INVICTUS",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Consistent 90s; dangerous."
+        },
+        {
+          "number": "1",
+          "name": "PROCTOR PHANTOM",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "97 was on Synthetic. Dirt form is lower."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#9" },
+        { "type": "EXACTA", "selection": "9 over 1, 8" }
+      ]
+    },
+    {
+      "number": 8,
+      "distance": "5 1/2 Furlongs",
+      "surface": "Turf",
+      "conditions": "Maiden Special Weight",
+      "pace": "Firm",
+      "contenders": [
+        {
+          "number": "5",
+          "name": "SOULMAN",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Highest last-out Beyer (78). Slight edge."
+        },
+        {
+          "number": "4",
+          "name": "KARATE ISLAND",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Speed threat; 74 Beyer."
+        },
+        {
+          "number": "1",
+          "name": "VITRUVIUS",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Rail draw; consistent."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#5" },
+        { "type": "BOX", "selection": "5, 4, 1" }
+      ]
+    },
+    {
+      "number": 9,
+      "distance": "6 Furlongs",
+      "surface": "Dirt",
+      "conditions": "Maiden Claiming $20,000",
+      "pace": "Fair",
+      "contenders": [
+        {
+          "number": "10",
+          "name": "IT'S BEEN REAL",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> 55 Beyer is +10 over field avg. Drop from MSW."
+        },
+        {
+          "number": "7",
+          "name": "MIKKISONTHINICE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Best of the rest."
+        },
+        {
+          "number": "8",
+          "name": "LA MAXIMA",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Late runner for the exotics."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#10" },
+        { "type": "EXACTA", "selection": "10 over 7, 8" }
+      ]
+    }
+  ]
+}
