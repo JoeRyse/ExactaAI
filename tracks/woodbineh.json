@@ -1,0 +1,46 @@
+{
+  "name": "Mohawk Park",
+  "date": "Monday, January 19, 2026",
+  "races": [
+    {
+      "number": 10,
+      "distance": "7/8 Mile",
+      "surface": "Trot",
+      "conditions": "NW $2,500 LAST 4",
+      "pace": "Hot - Post 10 needs to send",
+      "contenders": [
+        {
+          "number": "2",
+          "name": "TREGARON",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "2-1",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Significant class drop. Inside post advantage."
+        },
+        {
+          "number": "10",
+          "name": "SOUTHWIND MAC",
+          "jockey": "D. McNair",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Fastest speed (107) but Post 10 is a Red Flag."
+        },
+        {
+          "number": "8",
+          "name": "BUTTINSKI",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Won last out. First-over threat."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#2" },
+        { "type": "EXACTA", "selection": "Box 2, 10, 8" }
+      ]
+    }
+  ]
+}
