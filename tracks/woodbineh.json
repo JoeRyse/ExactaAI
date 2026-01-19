@@ -1,13 +1,373 @@
 {
-  "name": "Mohawk Park",
+  "name": "Woodbine Mohawk Park",
   "date": "Monday, January 19, 2026",
   "races": [
+    {
+      "number": 1,
+      "distance": "7/8 Mile",
+      "surface": "Trot",
+      "conditions": "NW 1 RACE OR $9,000 LIFETIME",
+      "pace": "Contested",
+      "contenders": [
+        {
+          "number": "4",
+          "name": "ACROBATIC",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Sharp qualifier win. Age allowance advantage."
+        },
+        {
+          "number": "3",
+          "name": "MAGGIES TOUCH",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Improved form. Pocket trip likely."
+        },
+        {
+          "number": "1",
+          "name": "ANGEL MISTRESS",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Break risk. Play against for win."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#4" },
+        { "type": "EXACTA", "selection": "4 over 3, 1" }
+      ]
+    },
+    {
+      "number": 2,
+      "distance": "7/8 Mile",
+      "surface": "Pace",
+      "conditions": "F&M CLAIMING $8,000 - $7,000",
+      "pace": "Lone Speed #4",
+      "contenders": [
+        {
+          "number": "4",
+          "name": "D A TEMPTATION",
+          "jockey": "T. Cullen",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>PRIME BET</span> Dominant speed figure. Travis Cullen driving."
+        },
+        {
+          "number": "1",
+          "name": "PRETTY MISSY MAY",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Golden Trip (Pocket). Lock for exacta."
+        },
+        {
+          "number": "2",
+          "name": "KIT KAK",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Shipper upgrade."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#4" },
+        { "type": "EXACTA", "selection": "4 over 1" }
+      ]
+    },
+    {
+      "number": 3,
+      "distance": "7/8 Mile",
+      "surface": "Pace",
+      "conditions": "CLAIMING $20,000 - $11,000",
+      "pace": "Contested",
+      "contenders": [
+        {
+          "number": "2",
+          "name": "VOLCANIC",
+          "jockey": "D. McNair",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Drops in for a tag. Sharp qualifier. Driver upgrade."
+        },
+        {
+          "number": "1",
+          "name": "BOOTHILL HUDY",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Safe hit the board horse."
+        },
+        {
+          "number": "6",
+          "name": "CONNOR B",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Closer."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#2" },
+        { "type": "EXACTA", "selection": "2 over 1, 6" }
+      ]
+    },
+    {
+      "number": 4,
+      "distance": "7/8 Mile",
+      "surface": "Trot",
+      "conditions": "NW 1 RACE OR $9,000 LIFETIME",
+      "pace": "Moderate",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "THE HITMAN HEART",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Won last out. Sharp form."
+        },
+        {
+          "number": "7",
+          "name": "STORMONT FULLALIFE",
+          "jockey": "P. Hudon",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Superior speed fig but bad post."
+        },
+        {
+          "number": "6",
+          "name": "GREEN GRASS GROWS",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Equipment change (Murphy Blind)."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" },
+        { "type": "EXACTA", "selection": "Box 1, 7, 3" }
+      ]
+    },
+    {
+      "number": 5,
+      "distance": "7/8 Mile",
+      "surface": "Trot",
+      "conditions": "NW 2 RACES OR $20,000 LIFETIME",
+      "pace": "Soft",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "JAYPORT MUSCLE UP",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Best recent form. Rail control."
+        },
+        {
+          "number": "5",
+          "name": "FRENCHMONI HANOVER",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Solid contender."
+        },
+        {
+          "number": "6",
+          "name": "FATEFUL",
+          "jockey": "P. Hudon",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Sick scratch last time. Layoff risk."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" },
+        { "type": "EXACTA", "selection": "1 over 5, 6" }
+      ]
+    },
+    {
+      "number": 6,
+      "distance": "7/8 Mile",
+      "surface": "Pace",
+      "conditions": "CLAIMING $20,000 - $11,000",
+      "pace": "Controlled",
+      "contenders": [
+        {
+          "number": "2",
+          "name": "CHEF",
+          "jockey": "L. Roy",
+          "trainer": "Giles",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>PRIME BET</span> Dominant form. Controlled race last out."
+        },
+        {
+          "number": "5",
+          "name": "CARSONSBUCKNGO",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Danger."
+        },
+        {
+          "number": "1",
+          "name": "FISHIN INTHSHADOWS",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Exotics."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#2" },
+        { "type": "EXACTA", "selection": "2 over 5" }
+      ]
+    },
+    {
+      "number": 7,
+      "distance": "7/8 Mile",
+      "surface": "Trot",
+      "conditions": "NW 3 RACES OR $65,000",
+      "pace": "Fast",
+      "contenders": [
+        {
+          "number": "5",
+          "name": "DAFFY HANOVER",
+          "jockey": "T. Cullen",
+          "trainer": "D. Brown",
+          "odds": "N/A",
+          "stars": 4,
+          "analysis": "<span class='lock'>STRONG PLAY</span> Speed rating 114. Significantly faster than competition."
+        },
+        {
+          "number": "4",
+          "name": "GUCCI GUCCI GOO",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Exacta filler."
+        },
+        {
+          "number": "9",
+          "name": "MY WAY",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Value."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#5" },
+        { "type": "EXACTA", "selection": "5 over 4, 7" }
+      ]
+    },
+    {
+      "number": 8,
+      "distance": "7/8 Mile",
+      "surface": "Pace",
+      "conditions": "F&M CLAIMING $20,000 - $11,000",
+      "pace": "Contested",
+      "contenders": [
+        {
+          "number": "8",
+          "name": "SIDE EFFECTS",
+          "jockey": "L. Roy",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Consistent. Aggressive driver."
+        },
+        {
+          "number": "6",
+          "name": "CATCHMEGRACEFULLY",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "2-1",
+          "stars": 2,
+          "analysis": "Declining form cycle. Vulnerable favorite."
+        },
+        {
+          "number": "3",
+          "name": "BLUE STAR SAPPHIRE",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Value."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#8" },
+        { "type": "EXACTA", "selection": "Box 8, 6, 1" }
+      ]
+    },
+    {
+      "number": 9,
+      "distance": "7/8 Mile",
+      "surface": "Pace",
+      "conditions": "CLAIMING $20,000 - $12,000",
+      "pace": "Controlled by #6",
+      "contenders": [
+        {
+          "number": "6",
+          "name": "WICKED EXPRESS",
+          "jockey": "D. McNair",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 5,
+          "analysis": "<span class='lock'>PRIME BET</span> Monster performance last out. Class edge."
+        },
+        {
+          "number": "5",
+          "name": "SMILES FOR MILES",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 3,
+          "analysis": "Exacta filler."
+        },
+        {
+          "number": "1",
+          "name": "JIMMY WHISPERS",
+          "jockey": "N/A",
+          "trainer": "N/A",
+          "odds": "N/A",
+          "stars": 2,
+          "analysis": "Closer."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#6" },
+        { "type": "EXACTA", "selection": "6 over 5" }
+      ]
+    },
     {
       "number": 10,
       "distance": "7/8 Mile",
       "surface": "Trot",
       "conditions": "NW $2,500 LAST 4",
-      "pace": "Hot - Post 10 needs to send",
+      "pace": "Hot",
       "contenders": [
         {
           "number": "2",
