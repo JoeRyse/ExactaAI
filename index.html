@@ -23,11 +23,11 @@
             --bg-card: #ffffff;
             
             /* Verdict Colors */
-            --color-lock: #15803d; /* Green */
+            --color-lock: #15803d;
             --bg-lock: #dcfce7;
-            --color-danger: #b91c1c; /* Red */
+            --color-danger: #b91c1c;
             --bg-danger: #fee2e2;
-            --color-value: #0369a1; /* Blue */
+            --color-value: #0369a1;
             --bg-value: #e0f2fe;
             --color-neutral: #64748b;
             --bg-neutral: #f1f5f9;
@@ -137,6 +137,18 @@
         .rc-title h2 { font-size: 1.5rem; font-weight: 800; color: var(--primary); margin-bottom: 0.25rem; }
         .rc-meta { font-size: 0.9rem; color: var(--text-light); font-weight: 500; display: flex; gap: 10px; align-items: center;}
         
+        .surface-badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        .surface-dirt { background: #fef3c7; color: #92400e; }
+        .surface-turf { background: #d1fae5; color: #065f46; }
+        .surface-tapeta { background: #e5e7eb; color: #374151; }
+        .surface-synthetic { background: #e5e7eb; color: #374151; }
+
         .confidence-badge {
             background: var(--primary); color: #fbbf24;
             padding: 0.4rem 0.8rem; border-radius: 6px;
@@ -146,14 +158,21 @@
 
         .rc-analysis { padding: 1.5rem; border-bottom: 1px solid var(--border); }
         .analysis-block { margin-bottom: 1rem; }
+        .analysis-block:last-child { margin-bottom: 0; }
         .analysis-label { font-size: 0.75rem; text-transform: uppercase; font-weight: 700; color: var(--text-light); letter-spacing: 0.05em; margin-bottom: 0.25rem; }
         .analysis-text { font-size: 0.95rem; color: var(--text); }
 
-        /* --- Contender Grid (New Rich Data) --- */
+        /* --- Contender Grid --- */
+        .contenders-section { padding: 1.5rem; border-bottom: 1px solid var(--border); }
+        .contenders-title { font-size: 0.75rem; text-transform: uppercase; font-weight: 700; color: var(--text-light); letter-spacing: 0.05em; margin-bottom: 1rem; }
+
         .contender-row {
             display: grid; grid-template-columns: 50px 1fr auto;
             gap: 1rem; padding: 1.25rem; border-bottom: 1px solid var(--border);
             align-items: start; transition: background 0.1s;
+            margin: 0 -1.5rem;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
         }
         .contender-row:last-child { border-bottom: none; }
         .contender-row:hover { background: #f8fafc; }
@@ -165,8 +184,9 @@
             font-weight: 800; font-size: 1.1rem;
         }
 
-        .horse-details h3 { font-size: 1.1rem; font-weight: 700; color: var(--primary); display: flex; align-items: center; gap: 10px; }
+        .horse-details h3 { font-size: 1.1rem; font-weight: 700; color: var(--primary); display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
         .horse-sub { font-size: 0.85rem; color: var(--text-light); margin-top: 2px; }
+        .horse-analysis { font-size: 0.9rem; color: var(--text); margin-top: 0.5rem; line-height: 1.5; }
         
         /* Verdict Badges */
         .verdict-badge {
@@ -186,12 +206,14 @@
         .horse-stats { text-align: right; }
         .stat-rating { font-weight: 700; font-size: 1.1rem; color: var(--text); }
         .stat-label { font-size: 0.75rem; color: var(--text-light); text-transform: uppercase; }
+        .stars { color: #fbbf24; font-size: 0.9rem; margin-bottom: 0.25rem; }
 
         /* --- Betting Ticket --- */
         .ticket-box {
-            background: var(--bg-body); padding: 1.5rem; margin-top: 0;
+            background: var(--bg-body); padding: 1.5rem;
             border-top: 1px solid var(--border);
         }
+        .ticket-title { font-size: 0.75rem; text-transform: uppercase; font-weight: 700; color: var(--text-light); letter-spacing: 0.05em; margin-bottom: 0.75rem; }
         .bet-line {
             display: flex; justify-content: space-between; padding: 0.5rem 0;
             border-bottom: 1px dashed #cbd5e1; font-size: 0.95rem;
@@ -224,11 +246,10 @@
     </div>
 
     <div class="track-bar" id="trackList">
-        <span style="padding: 0 1rem; color: #94a3b8; font-size: 0.85rem;">Loading tracks from GitHub...</span>
+        <span style="padding: 0 1rem; color: #94a3b8; font-size: 0.85rem;">Loading tracks...</span>
     </div>
 
-    <div class="race-nav" id="raceNav">
-        </div>
+    <div class="race-nav" id="raceNav"></div>
 
     <div class="container">
         <div id="activeRaceDisplay">
@@ -237,102 +258,226 @@
     </div>
 
     <script>
-        // --- CONFIGURATION -----------------------------------------
-        // UPDATE THESE WITH YOUR GITHUB DETAILS
-        const GITHUB_USERNAME = 'JoeRyse'; 
-        const GITHUB_REPO = 'ExactaAI';    
-        const FOLDER_PATH = 'tracks';      // The folder in your repo where JSON files live
-        // -----------------------------------------------------------
+        // ============================================================================
+        // CONFIGURATION - Edit this section to add/remove tracks
+        // ============================================================================
+        
+        const CONFIG = {
+            // GitHub raw content URL base
+            dataSource: 'https://raw.githubusercontent.com/JoeRyse/ExactaAI/main/tracks/',
+            
+            // List of tracks to load
+            tracks: [
+                { key: 'townsville', file: 'townsville.json', name: 'Townsville' },
+                { key: 'ballina', file: 'ballina.json', name: 'Ballina' },
+                { key: 'canterbury', file: 'canterbury.json', name: 'Canterbury' },
+                { key: 'pakenham', file: 'pakenham.json', name: 'Pakenham' }
+            ]
+        };
 
-        let currentRaceData = null;
+        // ============================================================================
+        // APPLICATION STATE
+        // ============================================================================
+        
+        let trackData = {};
+        let currentTrack = null;
+        let currentRace = null;
 
-        document.addEventListener('DOMContentLoaded', init);
+        // ============================================================================
+        // INITIALIZATION
+        // ============================================================================
 
         async function init() {
-            await loadTrackList();
-        }
-
-        // 1. Fetch File List from GitHub
-        async function loadTrackList() {
-            const container = document.getElementById('trackList');
-            const url = `https://api.github.com/repos/${GITHUB_USERNAME}/${GITHUB_REPO}/contents/${FOLDER_PATH}`;
-
-            try {
-                const response = await fetch(url);
-                if (!response.ok) throw new Error('API Limit or Repo Not Found');
-                
-                const files = await response.json();
-                const jsonFiles = files.filter(f => f.name.endsWith('.json'));
-
-                container.innerHTML = ''; // Clear loading text
-
-                if (jsonFiles.length === 0) {
-                    container.innerHTML = '<span style="padding:1rem;">No .json files found in folder.</span>';
-                    return;
-                }
-
-                jsonFiles.forEach((file, index) => {
-                    const btn = document.createElement('button');
-                    // Format Name: "gulfstream.json" -> "GULFSTREAM"
-                    const displayName = file.name.replace('.json', '').replace(/-/g, ' ').toUpperCase();
-                    btn.innerText = displayName;
-                    btn.className = 'track-btn';
-                    
-                    btn.onclick = () => {
-                        // Handle Active Class
-                        document.querySelectorAll('.track-btn').forEach(b => b.classList.remove('active'));
-                        btn.classList.add('active');
-                        loadTrackData(file.download_url);
-                    };
-
-                    container.appendChild(btn);
-
-                    // Auto-load first track
-                    if (index === 0) btn.click();
-                });
-
-            } catch (error) {
-                console.error(error);
-                container.innerHTML = '<div style="padding:1rem; color:red;">Error loading tracks. Check console.</div>';
+            await loadAllTracks();
+            renderTrackButtons();
+            
+            // Auto-select first track
+            if (CONFIG.tracks.length > 0 && trackData[CONFIG.tracks[0].key]) {
+                selectTrack(CONFIG.tracks[0].key);
             }
         }
 
-        // 2. Fetch Specific Track JSON
-        async function loadTrackData(url) {
-            const display = document.getElementById('activeRaceDisplay');
-            const nav = document.getElementById('raceNav');
-            
-            display.innerHTML = '<div class="loading-msg">Loading race data...</div>';
-            nav.innerHTML = ''; // Clear tabs
-
-            try {
-                const response = await fetch(url);
-                const data = await response.json();
-                currentRaceData = data;
-
-                // Update Header
-                document.getElementById('headerMeta').innerText = 
-                    `${data.meta ? data.meta.date : (data.date || '')} | ${data.meta ? data.meta.track : (data.name || '')}`;
-
-                // Create Race Tabs
-                data.races.forEach((race, index) => {
-                    const tab = document.createElement('button');
-                    tab.className = 'race-tab';
-                    tab.innerText = `Race ${race.number}`;
-                    tab.onclick = () => {
-                        document.querySelectorAll('.race-tab').forEach(t => t.classList.remove('active'));
-                        tab.classList.add('active');
-                        renderRace(race);
-                    };
-                    nav.appendChild(tab);
-                });
-
-                // Display First Race
-                if (data.races.length > 0) {
-                    nav.children[0].click();
-                } else {
-                    display.innerHTML = '<div class="error-msg">No races found in this file.</div>';
+        async function loadAllTracks() {
+            const loadPromises = CONFIG.tracks.map(async track => {
+                try {
+                    const response = await fetch(CONFIG.dataSource + track.file);
+                    if (response.ok) {
+                        const data = await response.json();
+                        trackData[track.key] = data;
+                    } else {
+                        console.warn(`Failed to load ${track.file}`);
+                    }
+                } catch (error) {
+                    console.error(`Error loading ${track.file}:`, error);
                 }
+            });
+            
+            await Promise.all(loadPromises);
+        }
 
-            } catch (error) {
-                display
+        // ============================================================================
+        // TRACK SELECTION
+        // ============================================================================
+
+        function renderTrackButtons() {
+            const container = document.getElementById('trackList');
+            container.innerHTML = '';
+
+            CONFIG.tracks.forEach(track => {
+                if (!trackData[track.key]) return; // Skip if failed to load
+                
+                const btn = document.createElement('button');
+                btn.className = 'track-btn';
+                btn.textContent = trackData[track.key].name || track.name;
+                btn.dataset.track = track.key;
+                btn.onclick = () => selectTrack(track.key);
+                container.appendChild(btn);
+            });
+
+            if (container.children.length === 0) {
+                container.innerHTML = '<span style="padding: 1rem; color: #ef4444;">No tracks available. Check configuration.</span>';
+            }
+        }
+
+        function selectTrack(trackKey) {
+            currentTrack = trackKey;
+            currentRace = null;
+            
+            // Update track button highlighting
+            document.querySelectorAll('.track-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.track === trackKey);
+            });
+
+            // Update header meta
+            const data = trackData[trackKey];
+            const trackName = data.meta?.track || data.name || trackKey;
+            const trackDate = data.meta?.date || data.date || '';
+            document.getElementById('headerMeta').textContent = `${trackDate} | ${trackName}`;
+
+            // Render race tabs
+            renderRaceTabs();
+
+            // Auto-select first race
+            if (data.races && data.races.length > 0) {
+                selectRace(data.races[0].number);
+            } else {
+                document.getElementById('activeRaceDisplay').innerHTML = 
+                    '<div class="error-msg">No races found for this track.</div>';
+            }
+        }
+
+        // ============================================================================
+        // RACE SELECTION
+        // ============================================================================
+
+        function renderRaceTabs() {
+            const container = document.getElementById('raceNav');
+            const races = trackData[currentTrack]?.races || [];
+            
+            container.innerHTML = races.map(race => 
+                `<button class="race-tab" data-race="${race.number}" onclick="selectRace(${race.number})">Race ${race.number}</button>`
+            ).join('');
+        }
+
+        function selectRace(raceNumber) {
+            currentRace = raceNumber;
+            
+            // Update race tab highlighting
+            document.querySelectorAll('.race-tab').forEach(tab => {
+                tab.classList.toggle('active', parseInt(tab.dataset.race) === raceNumber);
+            });
+
+            // Find and render the race
+            const race = trackData[currentTrack].races.find(r => r.number === raceNumber);
+            if (race) {
+                renderRace(race);
+            }
+        }
+
+        // ============================================================================
+        // RACE RENDERING
+        // ============================================================================
+
+        function renderRace(race) {
+            const container = document.getElementById('activeRaceDisplay');
+            const starsHTML = (count) => '★'.repeat(count || 0) + '☆'.repeat(5 - (count || 0));
+            
+            // Determine surface class
+            const surfaceClass = `surface-${(race.surface || 'turf').toLowerCase().replace(' ', '-')}`;
+
+            container.innerHTML = `
+                <div class="race-card">
+                    <div class="rc-header">
+                        <div class="rc-title">
+                            <h2>Race ${race.number}</h2>
+                            <div class="rc-meta">
+                                <span>${race.distance || ''}</span>
+                                <span>•</span>
+                                <span>${race.conditions || ''}</span>
+                                <span class="surface-badge ${surfaceClass}">${race.surface || 'Turf'}</span>
+                            </div>
+                        </div>
+                        ${race.confidence ? `<div class="confidence-badge">${race.confidence}</div>` : ''}
+                    </div>
+
+                    <div class="rc-analysis">
+                        <div class="analysis-block">
+                            <div class="analysis-label">Pace Projection</div>
+                            <div class="analysis-text">${race.pace || 'No pace analysis available.'}</div>
+                        </div>
+                        ${race.analysis ? `
+                        <div class="analysis-block">
+                            <div class="analysis-label">Race Analysis</div>
+                            <div class="analysis-text">${race.analysis}</div>
+                        </div>
+                        ` : ''}
+                    </div>
+
+                    <div class="contenders-section">
+                        <div class="contenders-title">Top Contenders</div>
+                        ${(race.contenders || []).map(horse => `
+                            <div class="contender-row">
+                                <div class="horse-num">${horse.number}</div>
+                                <div class="horse-details">
+                                    <h3>
+                                        ${horse.name}
+                                        ${horse.verdict ? `<span class="verdict-badge v-${horse.verdict.toLowerCase().replace(' ', '-')}">${horse.verdict}</span>` : ''}
+                                    </h3>
+                                    <div class="horse-sub">${horse.jockey || ''} / ${horse.trainer || ''}</div>
+                                    <div class="horse-analysis">${horse.analysis || ''}</div>
+                                    ${horse.hiddenFactor ? `<div class="hidden-factor">💡 ${horse.hiddenFactor}</div>` : ''}
+                                </div>
+                                <div class="horse-stats">
+                                    <div class="stars">${starsHTML(horse.stars)}</div>
+                                    <div class="stat-rating">${horse.odds || ''}</div>
+                                    ${horse.rating ? `
+                                    <div style="margin-top: 0.5rem;">
+                                        <div class="stat-label">Rating</div>
+                                        <div class="stat-rating">${horse.rating}</div>
+                                    </div>
+                                    ` : ''}
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+
+                    ${race.bets && race.bets.length > 0 ? `
+                    <div class="ticket-box">
+                        <div class="ticket-title">Wagering Strategy</div>
+                        ${race.bets.map(bet => `
+                            <div class="bet-line">
+                                <span class="bet-type">${bet.type}</span>
+                                <span class="bet-pick">${bet.selection}</span>
+                            </div>
+                        `).join('')}
+                    </div>
+                    ` : ''}
+                </div>
+            `;
+        }
+
+        // Initialize on page load
+        init();
+    </script>
+</body>
+</html>
