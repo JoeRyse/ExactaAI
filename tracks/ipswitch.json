@@ -1,0 +1,286 @@
+{
+  "name": "Ipswich Turf Club",
+  "date": "Wednesday, January 21, 2026",
+  "races": [
+    {
+      "number": 1,
+      "distance": "1666m",
+      "surface": "Turf",
+      "conditions": "Maiden Handicap",
+      "pace": "Moderate",
+      "contenders": [
+        {
+          "number": "8",
+          "name": "HE IS THE KISS",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "3/1",
+          "stars": 3,
+          "analysis": "<span class='value'>WIN PICK</span> Proven on Soft/Heavy (9 placings). Finds a race with zero depth."
+        },
+        {
+          "number": "6",
+          "name": "ENIDZEL",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "5/2",
+          "stars": 2,
+          "analysis": "Good speed figures (SR 49) but 0-for-8 on Soft. Risk."
+        },
+        {
+          "number": "3",
+          "name": "SPOT THE AUSSIE",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "8/1",
+          "stars": 2,
+          "analysis": "Fitter 2nd up. Place hope."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#8" }
+      ]
+    },
+    {
+      "number": 2,
+      "distance": "1900m",
+      "surface": "Turf",
+      "conditions": "Ratings Band 0-58",
+      "pace": "Solid",
+      "contenders": [
+        {
+          "number": "2",
+          "name": "MARAVICH (IRE)",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "2/1",
+          "stars": 4,
+          "analysis": "<span class='value'>WIN PICK</span> Superior class (SR 55). Stripping fitter and drops in grade."
+        },
+        {
+          "number": "3",
+          "name": "BOKUDEN",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "7/2",
+          "stars": 4,
+          "analysis": "Loves the wet. Maps perfectly from barrier 4."
+        },
+        {
+          "number": "7",
+          "name": "GLENRAY'S MATE",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "6/1",
+          "stars": 3,
+          "analysis": "Track specialist (1-0-6) but struggles on Soft."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#2" },
+        { "type": "EXACTA", "selection": "2 over 3" }
+      ]
+    },
+    {
+      "number": 3,
+      "distance": "2150m",
+      "surface": "Turf",
+      "conditions": "Benchmark 65",
+      "pace": "Moderate",
+      "contenders": [
+        {
+          "number": "7",
+          "name": "LOVEY DOVEY",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "5/2",
+          "stars": 4,
+          "analysis": "<span class='value'>WIN PICK</span> Won this race 10 days ago. 'Horse for Course' factor is dominant."
+        },
+        {
+          "number": "6",
+          "name": "ABOVEFORTY",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "3/1",
+          "stars": 3,
+          "analysis": "Narrow 2nd to top pick last start. Weight swing helps."
+        },
+        {
+          "number": "3",
+          "name": "DEMARCAY",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "4/1",
+          "stars": 3,
+          "analysis": "Highest recent Speed Rating (68) and handles the wet."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#7" },
+        { "type": "EXACTA", "selection": "7 over 6" }
+      ]
+    },
+    {
+      "number": 4,
+      "distance": "1350m",
+      "surface": "Turf",
+      "conditions": "Maiden Handicap",
+      "pace": "Chaos - Scratched Field",
+      "contenders": [
+        {
+          "number": "17e",
+          "name": "BATTUTA",
+          "jockey": "A. Mallyon",
+          "trainer": "C. Waller",
+          "odds": "3/1",
+          "stars": 3,
+          "analysis": "<span class='value'>WIN PICK</span> Barrier 1 + Waller + Chaos field. Runs respectable figures (SR 58)."
+        },
+        {
+          "number": "7",
+          "name": "CLIODHNA MAEVE",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "4/1",
+          "stars": 3,
+          "analysis": "Solid 2nd first-up at Eagle Farm. Speed danger."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#17e" }
+      ]
+    },
+    {
+      "number": 5,
+      "distance": "1666m",
+      "surface": "Turf",
+      "conditions": "Benchmark 65",
+      "pace": "Map Advantage",
+      "contenders": [
+        {
+          "number": "9",
+          "name": "SACRED BULL (NZ)",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "2/1",
+          "stars": 5,
+          "analysis": "<span class='lock'>BEST BET</span> The Map Horse (Barrier 1). Speed Rating 67 is superior. Handles Soft."
+        },
+        {
+          "number": "1",
+          "name": "THE CATCH",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "5/1",
+          "stars": 3,
+          "analysis": "Class runner and wet track specialist, but giving 10lbs to the favorite."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#9" },
+        { "type": "EXACTA", "selection": "9 over 1" }
+      ]
+    },
+    {
+      "number": 6,
+      "distance": "1200m",
+      "surface": "Turf",
+      "conditions": "Class 2 Handicap",
+      "pace": "Moderate",
+      "contenders": [
+        {
+          "number": "3",
+          "name": "BELIEVE IN ANGELS (NZ)",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "3/1",
+          "stars": 3,
+          "analysis": "<span class='value'>WIN PICK</span> Drops from Metro/Provincial BM72. Good draw and handles wet."
+        },
+        {
+          "number": "5",
+          "name": "LIMERO",
+          "jockey": "TBD",
+          "trainer": "S. Kendrick",
+          "odds": "4/1",
+          "stars": 3,
+          "analysis": "Kendrick stable firing (24% strike rate). Ran 2nd last start."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#3" }
+      ]
+    },
+    {
+      "number": 7,
+      "distance": "1100m",
+      "surface": "Turf",
+      "conditions": "3Y/4Y Benchmark 65",
+      "pace": "Fast",
+      "contenders": [
+        {
+          "number": "5",
+          "name": "JIMMYINTHEJUNGLE",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "5/1",
+          "stars": 2,
+          "analysis": "<span class='value'>WIN PICK</span> Excellent early speed. Handles the Soft (1 win, 1 place)."
+        },
+        {
+          "number": "6",
+          "name": "AQUATIER",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "5/1",
+          "stars": 2,
+          "analysis": "Consistent and rarely runs a bad race. Trifecta must."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#5" }
+      ]
+    },
+    {
+      "number": 8,
+      "distance": "1350m",
+      "surface": "Turf",
+      "conditions": "Benchmark 65",
+      "pace": "Competitive",
+      "contenders": [
+        {
+          "number": "12",
+          "name": "DAVIKAR",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "4/1",
+          "stars": 3,
+          "analysis": "<span class='value'>WIN PICK</span> Perfect map from Barrier 3. Has a win on Soft ground."
+        },
+        {
+          "number": "9",
+          "name": "TOOLATEMATE",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "6/1",
+          "stars": 3,
+          "analysis": "Won at this track two starts back. Can bounce back."
+        },
+        {
+          "number": "1",
+          "name": "RUSSIAN SUB",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "8/1",
+          "stars": 2,
+          "analysis": "Good stats but heavy weight and likely wide draw."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#12" },
+        { "type": "EXACTA", "selection": "12 over 9" }
+      ]
+    }
+  ]
+}
