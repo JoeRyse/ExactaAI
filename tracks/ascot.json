@@ -1,0 +1,315 @@
+{
+  "meta": {
+    "track": "Rosehill Gardens",
+    "date": "2026-01-25",
+    "jurisdiction": "Australia",
+    "weather": "Fine, 24°C",
+    "track_condition": "Good 4",
+    "rail_position": "True"
+  },
+  "races": [
+    {
+      "number": 1,
+      "post_time": "12:15 PM",
+      "purse": "$150,000",
+      "distance": "1200m",
+      "conditions": "CG&E Maiden Plate",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 12,
+      "confidence": "High Confidence",
+      
+      "track_bias": {
+        "summary": "Leaders holding well on Good 4. Rail runners at advantage with true rail.",
+        "details": "Last 3 meetings: 60% on-pace winners at this distance. Barrier 1-4 winning at 35%."
+      },
+      
+      "pace": "Moderate pace expected. #4 Blazing Star and #7 Quick Silver likely to contest early. Should set up well for closers.",
+      
+      "analysis": "Maiden race over the short course. Track playing fair but slight bias to on-pace runners. Barrier draw crucial - inside gates have 12% higher win rate this prep.",
+      
+      "contenders": [
+        {
+          "number": 4,
+          "name": "Blazing Star",
+          "barrier": 3,
+          "weight": "57.0kg",
+          
+          "jockey": {
+            "name": "J. McDonald",
+            "track_record": "18% strike rate at Rosehill",
+            "recent_form": "3 wins from last 8 rides"
+          },
+          
+          "trainer": {
+            "name": "C. Waller",
+            "track_record": "22% strike rate at Rosehill",
+            "stable_form": "5 wins from last 14 runners"
+          },
+          
+          "odds": {
+            "morning_line": "3.50",
+            "current_estimate": "3.20",
+            "value_assessment": "FAIR PRICE",
+            "overlay_underlay": "Slight underlay at current quote"
+          },
+          
+          "recent_form": [
+            { "date": "2026-01-11", "track": "Randwick", "distance": "1100m", "finish": "2nd", "margin": "0.8L", "speed_fig": "94" },
+            { "date": "2025-12-28", "track": "Warwick Farm", "distance": "1200m", "finish": "3rd", "margin": "2.1L", "speed_fig": "91" },
+            { "date": "2025-12-14", "track": "Rosehill", "distance": "1000m", "finish": "4th", "margin": "3.5L", "speed_fig": "88" }
+          ],
+          
+          "speed_figures": {
+            "career_best": "94",
+            "last_start": "94",
+            "average_last_3": "91",
+            "par_for_class": "92"
+          },
+          
+          "days_since_last": 14,
+          "fitness_level": "2nd-up from spell",
+          
+          "equipment": {
+            "blinkers": "First time",
+            "tongue_tie": false,
+            "gear_changes": "Blinkers ON"
+          },
+          
+          "post_position_analysis": "Barrier 3 ideal for forward runner. Can settle 2-3 wide in running line without excessive work. 28% win rate from this gate at distance.",
+          
+          "analysis": "Improved sharply last start with strong finish. Adds blinkers today which should enhance early speed. Drawn to get perfect run. Jockey/trainer combo clicking at 24%. Key danger.",
+          
+          "hidden_factor": "Trainer has 40% strike rate with first-time blinkers on maidens",
+          
+          "verdict": ["TOP PICK"],
+          "stars": 4,
+          "rating": 94,
+          
+          "win_probability": "28%",
+          "place_probability": "65%",
+          "show_probability": "82%"
+        },
+        
+        {
+          "number": 7,
+          "name": "Quick Silver",
+          "barrier": 8,
+          "weight": "57.0kg",
+          
+          "jockey": {
+            "name": "T. Berry",
+            "track_record": "15% strike rate at Rosehill",
+            "recent_form": "2 wins from last 12 rides"
+          },
+          
+          "trainer": {
+            "name": "J. Cummings",
+            "track_record": "19% strike rate at Rosehill",
+            "stable_form": "3 wins from last 18 runners"
+          },
+          
+          "odds": {
+            "morning_line": "2.80",
+            "current_estimate": "2.60",
+            "value_assessment": "UNDERLAY",
+            "overlay_underlay": "Moderate underlay - public overbet"
+          },
+          
+          "recent_form": [
+            { "date": "2026-01-10", "track": "Kensington", "distance": "1250m", "finish": "1st", "margin": "1.2L", "speed_fig": "96" },
+            { "date": "2025-12-20", "track": "Canterbury", "distance": "1200m", "finish": "2nd", "margin": "0.5L", "speed_fig": "93" },
+            { "date": "2025-12-06", "track": "Randwick", "distance": "1100m", "finish": "5th", "margin": "4.8L", "speed_fig": "86" }
+          ],
+          
+          "speed_figures": {
+            "career_best": "96",
+            "last_start": "96",
+            "average_last_3": "92",
+            "par_for_class": "92"
+          },
+          
+          "days_since_last": 15,
+          "fitness_level": "3rd-up from spell",
+          
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": true,
+            "gear_changes": "No changes"
+          },
+          
+          "post_position_analysis": "Barrier 8 awkward for natural leader. Will need to use energy to cross or settle 3-4 wide. Historical data shows 18% win rate from wide gates for on-pace types.",
+          
+          "analysis": "Won last start but at lower grade. Steps up here and faces barrier challenge. Speed figures competitive but will need luck from draw. Public overrating recent win.",
+          
+          "hidden_factor": null,
+          
+          "verdict": ["DANGER"],
+          "stars": 3,
+          "rating": 88,
+          
+          "win_probability": "22%",
+          "place_probability": "58%",
+          "show_probability": "75%"
+        },
+        
+        {
+          "number": 11,
+          "name": "Diamond Runner",
+          "barrier": 11,
+          "weight": "56.5kg",
+          
+          "jockey": {
+            "name": "R. King",
+            "track_record": "12% strike rate at Rosehill",
+            "recent_form": "1 win from last 15 rides"
+          },
+          
+          "trainer": {
+            "name": "K. Lees",
+            "track_record": "16% strike rate at Rosehill",
+            "stable_form": "2 wins from last 20 runners"
+          },
+          
+          "odds": {
+            "morning_line": "8.50",
+            "current_estimate": "12.00",
+            "value_assessment": "VALUE",
+            "overlay_underlay": "Strong overlay - underbet by market"
+          },
+          
+          "recent_form": [
+            { "date": "2026-01-12", "track": "Newcastle", "distance": "1200m", "finish": "2nd", "margin": "0.3L", "speed_fig": "95" },
+            { "date": "2025-12-29", "track": "Gosford", "distance": "1100m", "finish": "1st", "margin": "2.5L", "speed_fig": "93" },
+            { "date": "2025-12-08", "track": "Wyong", "distance": "1200m", "finish": "3rd", "margin": "1.8L", "speed_fig": "90" }
+          ],
+          
+          "speed_figures": {
+            "career_best": "95",
+            "last_start": "95",
+            "average_last_3": "93",
+            "par_for_class": "92"
+          },
+          
+          "days_since_last": 13,
+          "fitness_level": "4th-up from spell",
+          
+          "equipment": {
+            "blinkers": true,
+            "tongue_tie": false,
+            "gear_changes": "No changes"
+          },
+          
+          "post_position_analysis": "Barrier 11 suits backmarker style. Can settle last with cover. Strong closer stats from outside gates (22% place rate). Rail true means won't lose ground.",
+          
+          "analysis": "Progressive type improving with racing. Last start speed figure matches leaders here. Market sleeping on country form. Peak fitness. Wide gate actually suits running pattern. Each-way value.",
+          
+          "hidden_factor": "Trainer's provincial-to-metro runners have 28% strike rate at first city start",
+          
+          "verdict": ["VALUE"],
+          "stars": 4,
+          "rating": 91,
+          
+          "win_probability": "15%",
+          "place_probability": "48%",
+          "show_probability": "68%"
+        }
+      ],
+      
+      "betting_strategy": {
+        "confidence_level": "High",
+        "suggested_bets": [
+          { "type": "Win", "selection": "4", "stake": "2 units", "odds_range": "3.00-3.80" },
+          { "type": "Place", "selection": "11", "stake": "1 unit", "odds_range": "3.50+" },
+          { "type": "Exacta", "selection": "4/7,11", "stake": "0.5 units" },
+          { "type": "Quinella", "selection": "4,7", "stake": "0.5 units" },
+          { "type": "Trifecta", "selection": "4/7,11/1,2,7,11", "stake": "0.25 units" }
+        ],
+        "key_bet": "Win #4 Blazing Star - Best value in race with gear change and perfect draw"
+      }
+    },
+    
+    {
+      "number": 2,
+      "post_time": "12:50 PM",
+      "purse": "$200,000",
+      "distance": "1400m",
+      "conditions": "Benchmark 78 Handicap",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 14,
+      "confidence": "Medium Confidence",
+      
+      "track_bias": {
+        "summary": "1400m start suits midfield runners. Track playing even.",
+        "details": "Horses settling 4th-7th winning at 42% over last month at this trip."
+      },
+      
+      "pace": "Genuine speed with #3 and #8 likely to lead. Solid tempo should suit horses with tactical speed.",
+      
+      "analysis": "Competitive BM78. Class spread evident with several last-start winners stepping up. Watch for horses with 1400m form at this track - distance specialists have edge.",
+      
+      "contenders": [
+        {
+          "number": 5,
+          "name": "Midnight Express",
+          "barrier": 5,
+          "weight": "58.5kg",
+          "jockey": {
+            "name": "J. McDonald",
+            "track_record": "18% strike rate at Rosehill",
+            "recent_form": "4 wins from last 10 rides"
+          },
+          "trainer": {
+            "name": "C. Waller",
+            "track_record": "22% strike rate at Rosehill",
+            "stable_form": "8 wins from last 20 runners"
+          },
+          "odds": {
+            "morning_line": "4.20",
+            "current_estimate": "3.80",
+            "value_assessment": "FAIR PRICE",
+            "overlay_underlay": "Minimal value at current quote"
+          },
+          "recent_form": [
+            { "date": "2026-01-11", "track": "Randwick", "distance": "1500m", "finish": "1st", "margin": "0.6L", "speed_fig": "102" },
+            { "date": "2025-12-21", "track": "Rosehill", "distance": "1350m", "finish": "3rd", "margin": "1.2L", "speed_fig": "99" },
+            { "date": "2025-12-07", "track": "Canterbury", "distance": "1550m", "finish": "2nd", "margin": "0.9L", "speed_fig": "100" }
+          ],
+          "speed_figures": {
+            "career_best": "104",
+            "last_start": "102",
+            "average_last_3": "100",
+            "par_for_class": "101"
+          },
+          "days_since_last": 14,
+          "fitness_level": "Peak - 5th-up",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": "No changes"
+          },
+          "post_position_analysis": "Barrier 5 perfect. Can settle just off pace in box seat. Gate stats excellent (24% win rate).",
+          "analysis": "In-form galloper with last-start win. Slight drop to 1400m ideal. Jockey/trainer combination in red-hot form. Handles all conditions. Logical favorite.",
+          "hidden_factor": null,
+          "verdict": ["TOP PICK"],
+          "stars": 5,
+          "rating": 100,
+          "win_probability": "32%",
+          "place_probability": "68%",
+          "show_probability": "85%"
+        }
+      ],
+      
+      "betting_strategy": {
+        "confidence_level": "Medium",
+        "suggested_bets": [
+          { "type": "Win", "selection": "5", "stake": "1.5 units", "odds_range": "3.50-4.50" },
+          { "type": "Exacta", "selection": "5/3,8,12", "stake": "0.5 units" },
+          { "type": "Trifecta", "selection": "5/3,8,12/FIELD", "stake": "0.25 units" }
+        ],
+        "key_bet": "Small win bet only - competitive race with multiple chances"
+      }
+    }
+  ]
+}
