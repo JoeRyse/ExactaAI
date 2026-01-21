@@ -1,957 +1,693 @@
 {
-"meta": {
-"track": "Oakbank",
-"date": "2026-01-21",
-"jurisdiction": "Australia",
-"weather": "Fine",
-"track_condition": "Good 4",
-"rail_position": "True",
-"track_category": "Saucer (Category B)"
-},
-"races": [
-{
-"number": 1,
-"post_time": "3:20 PM",
-"purse": "
-2.30",
-"current_estimate": "
-4.20",
-"current_estimate": "
-151.00",
-"current_estimate": "
-25,000",
-"distance": "1050m",
-"conditions": "3yo+ Maiden Plate",
-"surface": "Turf",
-"claiming_price": null,
-"field_size": 11,
-"confidence": "Medium Confidence",
-"track_bias": {
-"summary": "Oakbank 1050m - Short sprint, downhill then uphill. Speed holds.",
-"details": "Leaders often hard to catch over this short trip. Inside barriers preferred."
-},
-"pace": "Fast pace expected. #2 Foolish Lad and #12 You'resogolden likely to show speed.",
-"analysis": "Tiddy Widdy brings strong form with a recent 2nd at this track. Consistent performer who deserves a win. You'resogolden ran well on debut and the Hickmott stable is always a threat. Foolish Lad has speed and draws the rail.",
-"contenders": [
-{
-"number": 10,
-"name": "Tiddy Widdy (NZ)",
-"barrier": 6,
-"weight": "124lbs",
-"jockey": {
-"name": "Taylor Johnstone",
-"track_record": "Good",
-"recent_form": "Solid"
-},
-"trainer": {
-"name": "Gordon Richards",
-"track_record": "High Strike Rate",
-"stable_form": "Excellent"
-},
-"odds": {
-"morning_line": "
-5.50
-"
-,
-"
-𝑐
-𝑢
-𝑟
-𝑟
-𝑒
-𝑛
-𝑡
-𝑒
-𝑠
-𝑡
-𝑖
-𝑚
-𝑎
-𝑡
-𝑒
-"
-:
-"
-5.50","current
-e
-	​
-
-stimate":"
-4.00",
-"value_assessment": "Value",
-"overlay_underlay": "Overlay"
-},
-"recent_form": [
-{
-"date": "2025-12-19",
-"track": "Oakbank",
-"distance": "1050m",
-"finish": "2nd",
-"margin": "0.8L",
-"speed_fig": "84"
-}
-],
-"speed_figures": {
-"career_best": "84",
-"last_start": "84",
-"average_last_3": "82",
-"par_for_class": "78"
-},
-"days_since_last": 33,
-"fitness_level": "Fit",
-"equipment": {
-"blinkers": false,
-"tongue_tie": false,
-"gear_changes": null
-},
-"post_position_analysis": "Barrier 6 is ideal for a stalking run.",
-"analysis": "Proven at the track with a narrow 2nd last start. Consistent ratings make her the one to beat.",
-"hidden_factor": "Track experience is key at Oakbank.",
-"verdict": [
-"TOP PICK"
-],
-"stars": 4,
-"rating": 84,
-"win_probability": "35%",
-"place_probability": "75%",
-"show_probability": "90%"
-},
-{
-"number": 12,
-"name": "You'resogolden",
-"barrier": 4,
-"weight": "121lbs",
-"jockey": {
-"name": "Ben Price",
-"track_record": "Good",
-"recent_form": "Strong"
-},
-"trainer": {
-"name": "Michael Hickmott",
-"track_record": "Elite",
-"stable_form": "Elite"
-},
-"odds": {
-"morning_line": "
-3.91
-"
-,
-"
-𝑐
-𝑢
-𝑟
-𝑟
-𝑒
-𝑛
-𝑡
-𝑒
-𝑠
-𝑡
-𝑖
-𝑚
-𝑎
-𝑡
-𝑒
-"
-:
-"
-3.91","current
-e
-	​
-
-stimate":"
-3.50",
-"value_assessment": "Fair Value",
-"overlay_underlay": "Fair"
-},
-"recent_form": [
-{
-"date": "2026-01-04",
-"track": "Strathalbyn",
-"distance": "1200m",
-"finish": "3rd",
-"margin": "0.9L",
-"speed_fig": "80"
-}
-],
-"speed_figures": {
-"career_best": "80",
-"last_start": "80",
-"average_last_3": "80",
-"par_for_class": "78"
-},
-"days_since_last": 17,
-"fitness_level": "Improver",
-"equipment": {
-"blinkers": false,
-"tongue_tie": false,
-"gear_changes": null
-},
-"post_position_analysis": "Barrier 4 allows for a perfect run.",
-"analysis": "Solid debut 3rd. Will take natural improvement. Stable is elite with young horses.",
-"hidden_factor": "Hickmott 2nd-up record is strong.",
-"verdict": [
-"DANGER"
-],
-"stars": 4,
-"rating": 80,
-"win_probability": "28%",
-"place_probability": "65%",
-"show_probability": "85%"
-},
-{
-"number": 2,
-"name": "Foolish Lad",
-"barrier": 1,
-"weight": "128lbs",
-"jockey": {
-"name": "Caitlin Tootell",
-"track_record": "Average",
-"recent_form": "Average"
-},
-"trainer": {
-"name": "Lewis & Eliza Grantham",
-"track_record": "Average",
-"stable_form": "Average"
-},
-"odds": {
-"morning_line": "
-19.00
-"
-,
-"
-𝑐
-𝑢
-𝑟
-𝑟
-𝑒
-𝑛
-𝑡
-𝑒
-𝑠
-𝑡
-𝑖
-𝑚
-𝑎
-𝑡
-𝑒
-"
-:
-"
-19.00","current
-e
-	​
-
-stimate":"
-15.00",
-"value_assessment": "Value",
-"overlay_underlay": "Overlay"
-},
-"recent_form": [
-{
-"date": "2025-12-24",
-"track": "Strathalbyn",
-"distance": "1050m",
-"finish": "5th",
-"margin": "2.5L",
-"speed_fig": "75"
-}
-],
-"speed_figures": {
-"career_best": "75",
-"last_start": "75",
-"average_last_3": "72",
-"par_for_class": "78"
-},
-"days_since_last": 28,
-"fitness_level": "Fit",
-"equipment": {
-"blinkers": false,
-"tongue_tie": false,
-"gear_changes": null
-},
-"post_position_analysis": "Barrier 1 is a huge advantage over this trip.",
-"analysis": "Drawn the rail and has speed. Can give a sight at odds.",
-"hidden_factor": "Inside barrier on saucer track.",
-"verdict": [
-"VALUE PLAY"
-],
-"stars": 3,
-"rating": 75,
-"win_probability": "10%",
-"place_probability": "35%",
-"show_probability": "55%"
-}
-],
-"betting_strategy": {
-"confidence_level": "Medium",
-"suggested_bets": [
-{
-"type": "Win",
-"selection": "10",
-"stake": "2 units",
-"odds_range": "4.00-5.00"
-},
-{
-"type": "Quinella",
-"selection": "10,12",
-"stake": "1 unit"
-}
-],
-"key_bet": "Win #10 Tiddy Widdy - Consistent and proven at track."
-}
-},
-{
-"number": 3,
-"post_time": "4:30 PM",
-"purse": "
-11.00",
-"current_estimate": "
-3.50",
-"current_estimate": "
-3.41",
-"current_estimate": "
-25,000",
-"distance": "1900m",
-"conditions": "Class 1 Plate",
-"surface": "Turf",
-"claiming_price": null,
-"field_size": 13,
-"confidence": "Low Confidence",
-"track_bias": {
-"summary": "Oakbank 1900m - Starts on hill, long run to first turn.",
-"details": "Barriers less critical due to long run. Stamina is key."
-},
-"pace": "Slow pace expected. #5 Oldpop likely to settle handy.",
-"analysis": "Open race. Youbeeforty has course form with a 2nd here recently. Oldpop is consistent and stays well. Bad To The Bone won a maiden but this is harder. Prince Lucifer also a recent winner. Tough race.",
-"contenders": [
-{
-"number": 4,
-"name": "Youbeeforty",
-"barrier": 10,
-"weight": "131lbs",
-"jockey": {
-"name": "Campbell Rawiller",
-"track_record": "Good",
-"recent_form": "Solid"
-},
-"trainer": {
-"name": "Nicole Irwin",
-"track_record": "Solid",
-"stable_form": "Good"
-},
-"odds": {
-"morning_line": "
-17.00
-"
-,
-"
-𝑐
-𝑢
-𝑟
-𝑟
-𝑒
-𝑛
-𝑡
-𝑒
-𝑠
-𝑡
-𝑖
-𝑚
-𝑎
-𝑡
-𝑒
-"
-:
-"
-17.00","current
-e
-	​
-
-stimate":"
-10.00",
-"value_assessment": "Value",
-"overlay_underlay": "Overlay"
-},
-"recent_form": [
-{
-"date": "2025-12-19",
-"track": "Oakbank",
-"distance": "2150m",
-"finish": "2nd",
-"margin": "0.1L",
-"speed_fig": "85"
-}
-],
-"speed_figures": {
-"career_best": "85",
-"last_start": "85",
-"average_last_3": "82",
-"par_for_class": "80"
-},
-"days_since_last": 33,
-"fitness_level": "Fit",
-"equipment": {
-"blinkers": false,
-"tongue_tie": false,
-"gear_changes": null
-},
-"post_position_analysis": "Barrier 10 no issue over this trip.",
-"analysis": "Narrowly beaten at this track last start. Proven stayer who handles the undulations. Looks great value.",
-"hidden_factor": "Course form is critical.",
-"verdict": [
-"VALUE BET"
-],
-"stars": 4,
-"rating": 85,
-"win_probability": "20%",
-"place_probability": "50%",
-"show_probability": "70%"
-},
-{
-"number": 5,
-"name": "Oldpop",
-"barrier": 13,
-"weight": "127lbs",
-"jockey": {
-"name": "Caitlin Jones",
-"track_record": "Solid",
-"recent_form": "Average"
-},
-"trainer": {
-"name": "Grant Young",
-"track_record": "Solid",
-"stable_form": "Average"
-},
-"odds": {
-"morning_line": "
-71.00
-"
-,
-"
-𝑐
-𝑢
-𝑟
-𝑟
-𝑒
-𝑛
-𝑡
-𝑒
-𝑠
-𝑡
-𝑖
-𝑚
-𝑎
-𝑡
-𝑒
-"
-:
-"
-71.00","current
-e
-	​
-
-stimate":"
-20.00",
-"value_assessment": "Underlay",
-"overlay_underlay": "Underlay"
-},
-"recent_form": [
-{
-"date": "2026-01-10",
-"track": "Murray Bridge",
-"distance": "1600m",
-"finish": "8th",
-"margin": "6.6L",
-"speed_fig": "84"
-}
-],
-"speed_figures": {
-"career_best": "84",
-"last_start": "84",
-"average_last_3": "82",
-"par_for_class": "80"
-},
-"days_since_last": 11,
-"fitness_level": "Fit",
-"equipment": {
-"blinkers": false,
-"tongue_tie": false,
-"gear_changes": null
-},
-"post_position_analysis": "Wide gate requires luck.",
-"analysis": "Better than last start suggests. Previous form was consistent. Can surprise.",
-"hidden_factor": "Stays all day.",
-"verdict": [
-"LONGSHOT"
-],
-"stars": 3,
-"rating": 84,
-"win_probability": "15%",
-"place_probability": "40%",
-"show_probability": "60%"
-},
-{
-"number": 1,
-"name": "Bad To The Bone",
-"barrier": 3,
-"weight": "131lbs",
-"jockey": {
-"name": "Rochelle Milnes",
-"track_record": "Solid",
-"recent_form": "Good"
-},
-"trainer": {
-"name": "Bill Bogarts",
-"track_record": "Average",
-"stable_form": "Good"
-},
-"odds": {
-"morning_line": "
-101.00
-"
-,
-"
-𝑐
-𝑢
-𝑟
-𝑟
-𝑒
-𝑛
-𝑡
-𝑒
-𝑠
-𝑡
-𝑖
-𝑚
-𝑎
-𝑡
-𝑒
-"
-:
-"
-101.00","current
-e
-	​
-
-stimate":"
-20.00",
-"value_assessment": "Underlay",
-"overlay_underlay": "Underlay"
-},
-"recent_form": [
-{
-"date": "2025-12-27",
-"track": "Morphettville",
-"distance": "1600m",
-"finish": "14th",
-"margin": "7.9L",
-"speed_fig": "83"
-}
-],
-"speed_figures": {
-"career_best": "83",
-"last_start": "83",
-"average_last_3": "80",
-"par_for_class": "80"
-},
-"days_since_last": 25,
-"fitness_level": "Fit",
-"equipment": {
-"blinkers": false,
-"tongue_tie": false,
-"gear_changes": null
-},
-"post_position_analysis": "Good draw.",
-"analysis": "Forget last start in tough grade. Maiden win prior was solid. Can bounce back.",
-"hidden_factor": "Drop in class from last start.",
-"verdict": [
-"CONTENDER"
-],
-"stars": 3,
-"rating": 83,
-"win_probability": "12%",
-"place_probability": "35%",
-"show_probability": "55%"
-}
-],
-"betting_strategy": {
-"confidence_level": "Low",
-"suggested_bets": [
-{
-"type": "Win",
-"selection": "4",
-"stake": "1 unit",
-"odds_range": "8.00-12.00"
-},
-{
-"type": "Place",
-"selection": "4",
-"stake": "1 unit"
-}
-],
-"key_bet": "Win #4 Youbeeforty - Proven at track and trip."
-}
-},
-{
-"number": 5,
-"post_time": "5:40 PM",
-"purse": "
-14.00",
-"current_estimate": "
-18.00",
-"current_estimate": "
-11.00",
-"current_estimate": "
-25,000",
-"distance": "1400m",
-"conditions": "Benchmark 56 Handicap",
-"surface": "Turf",
-"claiming_price": null,
-"field_size": 13,
-"confidence": "High Confidence",
-"track_bias": {
-"summary": "Oakbank 1400m - Course specialists excel.",
-"details": "See Ya Later Baby loves this track."
-},
-"pace": "Moderate. #1 See Ya Later Baby can lead or sit handy.",
-"analysis": "See Ya Later Baby won at this track and distance last start. Loves Oakbank (3:2-0-1). Hard to go past a course specialist in form. Pricilla's Choice is the danger, also racing well. Bolted In is honest.",
-"contenders": [
-{
-"number": 1,
-"name": "See Ya Later Baby",
-"barrier": 12,
-"weight": "137lbs",
-"jockey": {
-"name": "Ben Price",
-"track_record": "Excellent",
-"recent_form": "Strong"
-},
-"trainer": {
-"name": "Travis Doudle",
-"track_record": "High Strike Rate",
-"stable_form": "Excellent"
-},
-"odds": {
-"morning_line": "
-1.30
-"
-,
-"
-𝑐
-𝑢
-𝑟
-𝑟
-𝑒
-𝑛
-𝑡
-𝑒
-𝑠
-𝑡
-𝑖
-𝑚
-𝑎
-𝑡
-𝑒
-"
-:
-"
-1.30","current
-e
-	​
-
-stimate":"
-2.50",
-"value_assessment": "Fair Value",
-"overlay_underlay": "Fair"
-},
-"recent_form": [
-{
-"date": "2026-01-09",
-"track": "Oakbank",
-"distance": "1400m",
-"finish": "1st",
-"margin": "2.3L",
-"speed_fig": "89"
-}
-],
-"speed_figures": {
-"career_best": "89",
-"last_start": "89",
-"average_last_3": "86",
-"par_for_class": "84"
-},
-"days_since_last": 12,
-"fitness_level": "Peak",
-"equipment": {
-"blinkers": false,
-"tongue_tie": false,
-"gear_changes": null
-},
-"post_position_analysis": "Barrier 12 is the only concern, but has tactical speed.",
-"analysis": "Course specialist (3:2-0-1). Won easily here last start. The one to beat despite the weight.",
-"hidden_factor": "Course Specialist - Loves Oakbank.",
-"verdict": [
-"BEST BET",
-"TOP PICK"
-],
-"stars": 5,
-"rating": 89,
-"win_probability": "40%",
-"place_probability": "80%",
-"show_probability": "95%"
-},
-{
-"number": 4,
-"name": "Pricilla's Choice",
-"barrier": 8,
-"weight": "135lbs",
-"jockey": {
-"name": "Connor Murtagh",
-"track_record": "Solid",
-"recent_form": "Good"
-},
-"trainer": {
-"name": "Roslyn Day",
-"track_record": "Solid",
-"stable_form": "Good"
-},
-"odds": {
-"morning_line": "
-6.00
-"
-,
-"
-𝑐
-𝑢
-𝑟
-𝑟
-𝑒
-𝑛
-𝑡
-𝑒
-𝑠
-𝑡
-𝑖
-𝑚
-𝑎
-𝑡
-𝑒
-"
-:
-"
-6.00","current
-e
-	​
-
-stimate":"
-5.50",
-"value_assessment": "Fair Value",
-"overlay_underlay": "Fair"
-},
-"recent_form": [
-{
-"date": "2026-01-01",
-"track": "Murray Bridge",
-"distance": "1400m",
-"finish": "2nd",
-"margin": "1.5L",
-"speed_fig": "87"
-}
-],
-"speed_figures": {
-"career_best": "87",
-"last_start": "87",
-"average_last_3": "85",
-"par_for_class": "84"
-},
-"days_since_last": 20,
-"fitness_level": "Fit",
-"equipment": {
-"blinkers": false,
-"tongue_tie": false,
-"gear_changes": null
-},
-"post_position_analysis": "Barrier 8 is workable.",
-"analysis": "Racing well. 2nd last start was good. Meets the winner on better terms? No, different race. Solid chance.",
-"hidden_factor": "Consistent form.",
-"verdict": [
-"DANGER"
-],
-"stars": 4,
-"rating": 87,
-"win_probability": "25%",
-"place_probability": "60%",
-"show_probability": "80%"
-},
-{
-"number": 7,
-"name": "Bolted In",
-"barrier": 1,
-"weight": "129lbs",
-"jockey": {
-"name": "Kayla Crowther",
-"track_record": "Elite",
-"recent_form": "Excellent"
-},
-"trainer": {
-"name": "Matthew Seyers",
-"track_record": "Top Tier",
-"stable_form": "Excellent"
-},
-"odds": {
-"morning_line": "
-5.50
-"
-,
-"
-𝑐
-𝑢
-𝑟
-𝑟
-𝑒
-𝑛
-𝑡
-𝑒
-𝑠
-𝑡
-𝑖
-𝑚
-𝑎
-𝑡
-𝑒
-"
-:
-"
-5.50","current
-e
-	​
-
-stimate":"
-6.00",
-"value_assessment": "Fair Value",
-"overlay_underlay": "Fair"
-},
-"recent_form": [
-{
-"date": "2026-01-01",
-"track": "Murray Bridge",
-"distance": "1200m",
-"finish": "4th",
-"margin": "3.5L",
-"speed_fig": "86"
-}
-],
-"speed_figures": {
-"career_best": "86",
-"last_start": "86",
-"average_last_3": "84",
-"par_for_class": "84"
-},
-"days_since_last": 20,
-"fitness_level": "Fit",
-"equipment": {
-"blinkers": false,
-"tongue_tie": false,
-"gear_changes": null
-},
-"post_position_analysis": "Barrier 1 is perfect.",
-"analysis": "Drawn to get the run of the race. Crowther/Seyers combo again. Must include.",
-"hidden_factor": "Inside draw.",
-"verdict": [
-"CONTENDER"
-],
-"stars": 4,
-"rating": 86,
-"win_probability": "20%",
-"place_probability": "55%",
-"show_probability": "75%"
-}
-],
-"betting_strategy": {
-"confidence_level": "High",
-"suggested_bets": [
-{
-"type": "Win",
-"selection": "1",
-"stake": "3 units",
-"odds_range": "2.50-3.50"
-},
-{
-"type": "Quinella",
-"selection": "1,4",
-"stake": "1 unit"
-}
-],
-"key_bet": "Win #1 See Ya Later Baby - Course specialist."
-}
-},
-{
-"number": 7,
-"post_time": "6:40 PM",
-"purse": "
-9.00",
-"current_estimate": "
-2.16",
-"current_estimate": "
-3.21",
-"current_estimate": "$6.00",
-"value_assessment": "Fair Value",
-"overlay_underlay": "Fair"
-},
-"recent_form": [
-{
-"date": "2025-12-17",
-"track": "Port Lincoln",
-"distance": "1200m",
-"finish": "11th",
-"margin": "6.4L",
-"speed_fig": "86"
-}
-],
-"speed_figures": {
-"career_best": "86",
-"last_start": "86",
-"average_last_3": "84",
-"par_for_class": "85"
-},
-"days_since_last": 35,
-"fitness_level": "Fresh",
-"equipment": {
-"blinkers": false,
-"tongue_tie": false,
-"gear_changes": null
-},
-"post_position_analysis": "Barrier 9 ok.",
-"analysis": "Capable on his day. Recent form mixed but has ability.",
-"hidden_factor": "Best is good enough.",
-"verdict": [
-"CONTENDER"
-],
-"stars": 3,
-"rating": 86,
-"win_probability": "15%",
-"place_probability": "45%",
-"show_probability": "65%"
-}
-],
-"betting_strategy": {
-"confidence_level": "Medium",
-"suggested_bets": [
-{
-"type": "Win",
-"selection": "1",
-"stake": "2 units",
-"odds_range": "4.00-6.00"
-},
-{
-"type": "Quinella",
-"selection": "1,7",
-"stake": "1 unit"
-}
-],
-"key_bet": "Win #1 Been Our Angel - Class prevails."
-}
-}
-]
+  "meta": {
+    "track": "Oakbank",
+    "date": "2026-01-21",
+    "jurisdiction": "Australia",
+    "weather": "Fine",
+    "track_condition": "Good 4",
+    "rail_position": "True",
+    "track_category": "Saucer (Category B)"
+  },
+  "races": [
+    {
+      "number": 1,
+      "post_time": "3:20 PM",
+      "purse": "25,000",
+      "distance": "1050m",
+      "conditions": "3yo+ Maiden Plate",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 11,
+      "confidence": "Medium Confidence",
+      "track_bias": {
+        "summary": "Oakbank 1050m - Short sprint, downhill then uphill. Speed holds.",
+        "details": "Leaders often hard to catch over this short trip. Inside barriers preferred."
+      },
+      "pace": "Fast pace expected. #2 Foolish Lad and #12 You'resogolden likely to show speed.",
+      "analysis": "Tiddy Widdy brings strong form with a recent 2nd at this track. Consistent performer who deserves a win. You'resogolden ran well on debut and the Hickmott stable is always a threat. Foolish Lad has speed and draws the rail.",
+      "contenders": [
+        {
+          "number": 10,
+          "name": "Tiddy Widdy (NZ)",
+          "barrier": 6,
+          "weight": "124lbs",
+          "jockey": {
+            "name": "Taylor Johnstone",
+            "track_record": "Good",
+            "recent_form": "Solid"
+          },
+          "trainer": {
+            "name": "Gordon Richards",
+            "track_record": "High Strike Rate",
+            "stable_form": "Excellent"
+          },
+          "odds": {
+            "morning_line": "5.50",
+            "current_estimate": "4.00",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2025-12-19",
+              "track": "Oakbank",
+              "distance": "1050m",
+              "finish": "2nd",
+              "margin": "0.8L",
+              "speed_fig": "84"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "84",
+            "last_start": "84",
+            "average_last_3": "82",
+            "par_for_class": "78"
+          },
+          "days_since_last": 33,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 6 is ideal for a stalking run.",
+          "analysis": "Proven at the track with a narrow 2nd last start. Consistent ratings make her the one to beat.",
+          "hidden_factor": "Track experience is key at Oakbank.",
+          "verdict": [
+            "TOP PICK"
+          ],
+          "stars": 4,
+          "rating": 84,
+          "win_probability": "35%",
+          "place_probability": "75%",
+          "show_probability": "90%"
+        },
+        {
+          "number": 12,
+          "name": "You'resogolden",
+          "barrier": 4,
+          "weight": "121lbs",
+          "jockey": {
+            "name": "Ben Price",
+            "track_record": "Good",
+            "recent_form": "Strong"
+          },
+          "trainer": {
+            "name": "Michael Hickmott",
+            "track_record": "Elite",
+            "stable_form": "Elite"
+          },
+          "odds": {
+            "morning_line": "3.91",
+            "current_estimate": "3.50",
+            "value_assessment": "Fair Value",
+            "overlay_underlay": "Fair"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-04",
+              "track": "Strathalbyn",
+              "distance": "1200m",
+              "finish": "3rd",
+              "margin": "0.9L",
+              "speed_fig": "80"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "80",
+            "last_start": "80",
+            "average_last_3": "80",
+            "par_for_class": "78"
+          },
+          "days_since_last": 17,
+          "fitness_level": "Improver",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 4 allows for a perfect run.",
+          "analysis": "Solid debut 3rd. Will take natural improvement. Stable is elite with young horses.",
+          "hidden_factor": "Hickmott 2nd-up record is strong.",
+          "verdict": [
+            "DANGER"
+          ],
+          "stars": 4,
+          "rating": 80,
+          "win_probability": "28%",
+          "place_probability": "65%",
+          "show_probability": "85%"
+        },
+        {
+          "number": 2,
+          "name": "Foolish Lad",
+          "barrier": 1,
+          "weight": "128lbs",
+          "jockey": {
+            "name": "Caitlin Tootell",
+            "track_record": "Average",
+            "recent_form": "Average"
+          },
+          "trainer": {
+            "name": "Lewis & Eliza Grantham",
+            "track_record": "Average",
+            "stable_form": "Average"
+          },
+          "odds": {
+            "morning_line": "19.00",
+            "current_estimate": "15.00",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2025-12-24",
+              "track": "Strathalbyn",
+              "distance": "1050m",
+              "finish": "5th",
+              "margin": "2.5L",
+              "speed_fig": "75"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "75",
+            "last_start": "75",
+            "average_last_3": "72",
+            "par_for_class": "78"
+          },
+          "days_since_last": 28,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 1 is a huge advantage over this trip.",
+          "analysis": "Drawn the rail and has speed. Can give a sight at odds.",
+          "hidden_factor": "Inside barrier on saucer track.",
+          "verdict": [
+            "VALUE PLAY"
+          ],
+          "stars": 3,
+          "rating": 75,
+          "win_probability": "10%",
+          "place_probability": "35%",
+          "show_probability": "55%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "Medium",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "10",
+            "stake": "2 units",
+            "odds_range": "4.00-5.00"
+          },
+          {
+            "type": "Quinella",
+            "selection": "10,12",
+            "stake": "1 unit"
+          }
+        ],
+        "key_bet": "Win #10 Tiddy Widdy - Consistent and proven at track."
+      }
+    },
+    {
+      "number": 3,
+      "post_time": "4:30 PM",
+      "purse": "25,000",
+      "distance": "1900m",
+      "conditions": "Class 1 Plate",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 13,
+      "confidence": "Low Confidence",
+      "track_bias": {
+        "summary": "Oakbank 1900m - Starts on hill, long run to first turn.",
+        "details": "Barriers less critical due to long run. Stamina is key."
+      },
+      "pace": "Slow pace expected. #5 Oldpop likely to settle handy.",
+      "analysis": "Open race. Youbeeforty has course form with a 2nd here recently. Oldpop is consistent and stays well. Bad To The Bone won a maiden but this is harder. Prince Lucifer also a recent winner. Tough race.",
+      "contenders": [
+        {
+          "number": 4,
+          "name": "Youbeeforty",
+          "barrier": 10,
+          "weight": "131lbs",
+          "jockey": {
+            "name": "Campbell Rawiller",
+            "track_record": "Good",
+            "recent_form": "Solid"
+          },
+          "trainer": {
+            "name": "Nicole Irwin",
+            "track_record": "Solid",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": "17.00",
+            "current_estimate": "10.00",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2025-12-19",
+              "track": "Oakbank",
+              "distance": "2150m",
+              "finish": "2nd",
+              "margin": "0.1L",
+              "speed_fig": "85"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "85",
+            "last_start": "85",
+            "average_last_3": "82",
+            "par_for_class": "80"
+          },
+          "days_since_last": 33,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 10 no issue over this trip.",
+          "analysis": "Narrowly beaten at this track last start. Proven stayer who handles the undulations. Looks great value.",
+          "hidden_factor": "Course form is critical.",
+          "verdict": [
+            "VALUE BET"
+          ],
+          "stars": 4,
+          "rating": 85,
+          "win_probability": "20%",
+          "place_probability": "50%",
+          "show_probability": "70%"
+        },
+        {
+          "number": 5,
+          "name": "Oldpop",
+          "barrier": 13,
+          "weight": "127lbs",
+          "jockey": {
+            "name": "Caitlin Jones",
+            "track_record": "Solid",
+            "recent_form": "Average"
+          },
+          "trainer": {
+            "name": "Grant Young",
+            "track_record": "Solid",
+            "stable_form": "Average"
+          },
+          "odds": {
+            "morning_line": "71.00",
+            "current_estimate": "20.00",
+            "value_assessment": "Underlay",
+            "overlay_underlay": "Underlay"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-10",
+              "track": "Murray Bridge",
+              "distance": "1600m",
+              "finish": "8th",
+              "margin": "6.6L",
+              "speed_fig": "84"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "84",
+            "last_start": "84",
+            "average_last_3": "82",
+            "par_for_class": "80"
+          },
+          "days_since_last": 11,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Wide gate requires luck.",
+          "analysis": "Better than last start suggests. Previous form was consistent. Can surprise.",
+          "hidden_factor": "Stays all day.",
+          "verdict": [
+            "LONGSHOT"
+          ],
+          "stars": 3,
+          "rating": 84,
+          "win_probability": "15%",
+          "place_probability": "40%",
+          "show_probability": "60%"
+        },
+        {
+          "number": 1,
+          "name": "Bad To The Bone",
+          "barrier": 3,
+          "weight": "131lbs",
+          "jockey": {
+            "name": "Rochelle Milnes",
+            "track_record": "Solid",
+            "recent_form": "Good"
+          },
+          "trainer": {
+            "name": "Bill Bogarts",
+            "track_record": "Average",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": "101.00",
+            "current_estimate": "20.00",
+            "value_assessment": "Underlay",
+            "overlay_underlay": "Underlay"
+          },
+          "recent_form": [
+            {
+              "date": "2025-12-27",
+              "track": "Morphettville",
+              "distance": "1600m",
+              "finish": "14th",
+              "margin": "7.9L",
+              "speed_fig": "83"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "83",
+            "last_start": "83",
+            "average_last_3": "80",
+            "par_for_class": "80"
+          },
+          "days_since_last": 25,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Good draw.",
+          "analysis": "Forget last start in tough grade. Maiden win prior was solid. Can bounce back.",
+          "hidden_factor": "Drop in class from last start.",
+          "verdict": [
+            "CONTENDER"
+          ],
+          "stars": 3,
+          "rating": 83,
+          "win_probability": "12%",
+          "place_probability": "35%",
+          "show_probability": "55%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "Low",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "4",
+            "stake": "1 unit",
+            "odds_range": "8.00-12.00"
+          },
+          {
+            "type": "Place",
+            "selection": "4",
+            "stake": "1 unit"
+          }
+        ],
+        "key_bet": "Win #4 Youbeeforty - Proven at track and trip."
+      }
+    },
+    {
+      "number": 5,
+      "post_time": "5:40 PM",
+      "purse": "25,000",
+      "distance": "1400m",
+      "conditions": "Benchmark 56 Handicap",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 13,
+      "confidence": "High Confidence",
+      "track_bias": {
+        "summary": "Oakbank 1400m - Course specialists excel.",
+        "details": "See Ya Later Baby loves this track."
+      },
+      "pace": "Moderate. #1 See Ya Later Baby can lead or sit handy.",
+      "analysis": "See Ya Later Baby won at this track and distance last start. Loves Oakbank (3:2-0-1). Hard to go past a course specialist in form. Pricilla's Choice is the danger, also racing well. Bolted In is honest.",
+      "contenders": [
+        {
+          "number": 1,
+          "name": "See Ya Later Baby",
+          "barrier": 12,
+          "weight": "137lbs",
+          "jockey": {
+            "name": "Ben Price",
+            "track_record": "Excellent",
+            "recent_form": "Strong"
+          },
+          "trainer": {
+            "name": "Travis Doudle",
+            "track_record": "High Strike Rate",
+            "stable_form": "Excellent"
+          },
+          "odds": {
+            "morning_line": "1.30",
+            "current_estimate": "2.50",
+            "value_assessment": "Fair Value",
+            "overlay_underlay": "Fair"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-09",
+              "track": "Oakbank",
+              "distance": "1400m",
+              "finish": "1st",
+              "margin": "2.3L",
+              "speed_fig": "89"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "89",
+            "last_start": "89",
+            "average_last_3": "86",
+            "par_for_class": "84"
+          },
+          "days_since_last": 12,
+          "fitness_level": "Peak",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 12 is the only concern, but has tactical speed.",
+          "analysis": "Course specialist (3:2-0-1). Won easily here last start. The one to beat despite the weight.",
+          "hidden_factor": "Course Specialist - Loves Oakbank.",
+          "verdict": [
+            "BEST BET",
+            "TOP PICK"
+          ],
+          "stars": 5,
+          "rating": 89,
+          "win_probability": "40%",
+          "place_probability": "80%",
+          "show_probability": "95%"
+        },
+        {
+          "number": 4,
+          "name": "Pricilla's Choice",
+          "barrier": 8,
+          "weight": "135lbs",
+          "jockey": {
+            "name": "Connor Murtagh",
+            "track_record": "Solid",
+            "recent_form": "Good"
+          },
+          "trainer": {
+            "name": "Roslyn Day",
+            "track_record": "Solid",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": "6.00",
+            "current_estimate": "5.50",
+            "value_assessment": "Fair Value",
+            "overlay_underlay": "Fair"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-01",
+              "track": "Murray Bridge",
+              "distance": "1400m",
+              "finish": "2nd",
+              "margin": "1.5L",
+              "speed_fig": "87"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "87",
+            "last_start": "87",
+            "average_last_3": "85",
+            "par_for_class": "84"
+          },
+          "days_since_last": 20,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 8 is workable.",
+          "analysis": "Racing well. 2nd last start was good. Meets the winner on better terms? No, different race. Solid chance.",
+          "hidden_factor": "Consistent form.",
+          "verdict": [
+            "DANGER"
+          ],
+          "stars": 4,
+          "rating": 87,
+          "win_probability": "25%",
+          "place_probability": "60%",
+          "show_probability": "80%"
+        },
+        {
+          "number": 7,
+          "name": "Bolted In",
+          "barrier": 1,
+          "weight": "129lbs",
+          "jockey": {
+            "name": "Kayla Crowther",
+            "track_record": "Elite",
+            "recent_form": "Excellent"
+          },
+          "trainer": {
+            "name": "Matthew Seyers",
+            "track_record": "Top Tier",
+            "stable_form": "Excellent"
+          },
+          "odds": {
+            "morning_line": "5.50",
+            "current_estimate": "6.00",
+            "value_assessment": "Fair Value",
+            "overlay_underlay": "Fair"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-01",
+              "track": "Murray Bridge",
+              "distance": "1200m",
+              "finish": "4th",
+              "margin": "3.5L",
+              "speed_fig": "86"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "86",
+            "last_start": "86",
+            "average_last_3": "84",
+            "par_for_class": "84"
+          },
+          "days_since_last": 20,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 1 is perfect.",
+          "analysis": "Drawn to get the run of the race. Crowther/Seyers combo again. Must include.",
+          "hidden_factor": "Inside draw.",
+          "verdict": [
+            "CONTENDER"
+          ],
+          "stars": 4,
+          "rating": 86,
+          "win_probability": "20%",
+          "place_probability": "55%",
+          "show_probability": "75%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "High",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "1",
+            "stake": "3 units",
+            "odds_range": "2.50-3.50"
+          },
+          {
+            "type": "Quinella",
+            "selection": "1,4",
+            "stake": "1 unit"
+          }
+        ],
+        "key_bet": "Win #1 See Ya Later Baby - Course specialist."
+      }
+    },
+    {
+      "number": 7,
+      "post_time": "6:40 PM",
+      "purse": "25,000",
+      "contenders": [
+        {
+          "number": 7,
+          "name": "Unknown",
+          "odds": {
+            "current_estimate": "6.00",
+            "value_assessment": "Fair Value",
+            "overlay_underlay": "Fair"
+          },
+          "recent_form": [
+            {
+              "date": "2025-12-17",
+              "track": "Port Lincoln",
+              "distance": "1200m",
+              "finish": "11th",
+              "margin": "6.4L",
+              "speed_fig": "86"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "86",
+            "last_start": "86",
+            "average_last_3": "84",
+            "par_for_class": "85"
+          },
+          "days_since_last": 35,
+          "fitness_level": "Fresh",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 9 ok.",
+          "analysis": "Capable on his day. Recent form mixed but has ability.",
+          "hidden_factor": "Best is good enough.",
+          "verdict": [
+            "CONTENDER"
+          ],
+          "stars": 3,
+          "rating": 86,
+          "win_probability": "15%",
+          "place_probability": "45%",
+          "show_probability": "65%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "Medium",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "1",
+            "stake": "2 units",
+            "odds_range": "4.00-6.00"
+          },
+          {
+            "type": "Quinella",
+            "selection": "1,7",
+            "stake": "1 unit"
+          }
+        ],
+        "key_bet": "Win #1 Been Our Angel - Class prevails."
+      }
+    }
+  ]
 }
