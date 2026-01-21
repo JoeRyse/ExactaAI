@@ -1,0 +1,272 @@
+{
+  "name": "Randwick Kensington",
+  "date": "Wednesday, January 21, 2026",
+  "races": [
+    {
+      "number": 1,
+      "distance": "1150m",
+      "surface": "Turf",
+      "conditions": "Maiden Handicap",
+      "pace": "Heavy Track specialist race",
+      "contenders": [
+        {
+          "number": "8",
+          "name": "LIPSTICK",
+          "jockey": "J. McDonald",
+          "trainer": "J. Cummings",
+          "odds": "5/2",
+          "stars": 3,
+          "analysis": "<span class='value'>WIN PICK</span> Handles the Heavy 8 (1:0-1-0) and gets the James McDonald/Godolphin combination (+5 Speed Bonus)."
+        },
+        {
+          "number": "1",
+          "name": "KOKATAHI",
+          "jockey": "S. Grima",
+          "trainer": "C. Waller",
+          "odds": "3/1",
+          "stars": 3,
+          "analysis": "Highest past Speed Figure (83) but untested on Heavy. Risk if the track is a bog."
+        },
+        {
+          "number": "7",
+          "name": "FEMININO",
+          "jockey": "T. Clark",
+          "trainer": "G. Waterhouse",
+          "odds": "7/1",
+          "stars": 2,
+          "analysis": "Gai/Bott debutante. Watch market."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#8" }
+      ]
+    },
+    {
+      "number": 2,
+      "distance": "1400m",
+      "surface": "Turf",
+      "conditions": "Maiden Handicap",
+      "pace": "Tactical - Small Field",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "VELARIS",
+          "jockey": "J. McDonald",
+          "trainer": "C. Waller",
+          "odds": "11/2",
+          "stars": 2,
+          "analysis": "<span class='lock'>WIN PICK</span> Waller/J-Mac debutante. The 'Unexposed Elite' protocol suggests he is the one to beat."
+        },
+        {
+          "number": "3",
+          "name": "CASTAGNOLA",
+          "jockey": "J. Parr",
+          "trainer": "B. Baker",
+          "odds": "7/2",
+          "stars": 3,
+          "analysis": "Experience edge. Placed last start."
+        }
+      ],
+      "bets": [
+        { "type": "PASS", "selection": "Race 2" }
+      ]
+    },
+    {
+      "number": 3,
+      "distance": "1250m",
+      "surface": "Turf",
+      "conditions": "Class 1 Handicap",
+      "pace": "Moderate",
+      "contenders": [
+        {
+          "number": "3",
+          "name": "CONCORDIA WIND",
+          "jockey": "S. Grima",
+          "trainer": "C. Waller",
+          "odds": "15/2",
+          "stars": 5,
+          "analysis": "<span class='lock'>BEST BET</span> The 'Mudlark' of the meeting. 100% Strike Rate on Heavy. Speed Figure (82) is superior."
+        },
+        {
+          "number": "10",
+          "name": "POINT SCORE",
+          "jockey": "M. Fitzgerald",
+          "trainer": "A. Turner",
+          "odds": "7/2",
+          "stars": 4,
+          "analysis": "Also won on Heavy (1:1-0-0). The clear danger."
+        },
+        {
+          "number": "2",
+          "name": "CLEAR PROOF",
+          "jockey": "D. Gibbons",
+          "trainer": "J. Thompson",
+          "odds": "15/2",
+          "stars": 2,
+          "analysis": "Good figures (77) but poor heavy stats (1:0-0-0). Risk."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#3" },
+        { "type": "EXACTA", "selection": "3 over 10" }
+      ]
+    },
+    {
+      "number": 4,
+      "distance": "1400m",
+      "surface": "Turf",
+      "conditions": "TAB Handicap (BM72)",
+      "pace": "Solid",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "CANADIAN RULER",
+          "jockey": "N. Heywood",
+          "trainer": "M. Dale",
+          "odds": "7/2",
+          "stars": 4,
+          "analysis": "<span class='value'>WIN PICK</span> Proven wet tracker in form. Handles the ground (3:1-0-1 on Heavy)."
+        },
+        {
+          "number": "2",
+          "name": "FIDDLERS GREEN",
+          "jockey": "J. McDonald",
+          "trainer": "A. Archibald",
+          "odds": "9/5",
+          "stars": 4,
+          "analysis": "J-Mac rides. Handles Soft well."
+        },
+        {
+          "number": "4",
+          "name": "COPACABANA",
+          "jockey": "Z. Lloyd",
+          "trainer": "M. Hawkes",
+          "odds": "2/1",
+          "stars": 2,
+          "analysis": "Matches speed figure (79) but 0 starts on Heavy. Downgraded significantly."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" }
+      ]
+    },
+    {
+      "number": 5,
+      "distance": "1000m",
+      "surface": "Turf",
+      "conditions": "Mares Handicap",
+      "pace": "Fast",
+      "contenders": [
+        {
+          "number": "3",
+          "name": "BIG RED TEQUILA",
+          "jockey": "S. Clipperton",
+          "trainer": "J. Pride",
+          "odds": "4/1",
+          "stars": 4,
+          "analysis": "<span class='value'>WIN PICK</span> Recent Speed Rating of 79 and has Won on Heavy. Clear top rater."
+        },
+        {
+          "number": "2",
+          "name": "INFERENCIA",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "6/1",
+          "stars": 3,
+          "analysis": "Loves wet tracks (30 starts). Exacta lock."
+        },
+        {
+          "number": "8",
+          "name": "PRINCESS HALO",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "8/1",
+          "stars": 3,
+          "analysis": "Won last start and handles heavy. Good value exotics player."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#3" },
+        { "type": "EXACTA", "selection": "3 over 2" }
+      ]
+    },
+    {
+      "number": 6,
+      "distance": "1250m",
+      "surface": "Turf",
+      "conditions": "Headlines Handicap",
+      "pace": "Moderate",
+      "contenders": [
+        {
+          "number": "2",
+          "name": "HUON",
+          "jockey": "TBD",
+          "trainer": "R. Litt",
+          "odds": "5/1",
+          "stars": 3,
+          "analysis": "<span class='value'>WIN PICK</span> Heavy Track specialist: 6 starts, 3 Wins. Relishes conditions."
+        },
+        {
+          "number": "5",
+          "name": "DASHING RUPERT",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "4/1",
+          "stars": 3,
+          "analysis": "2 wins from 3 Heavy starts. A serious threat."
+        },
+        {
+          "number": "1",
+          "name": "CRUEL SUMMER",
+          "jockey": "W. Stanley",
+          "trainer": "P. Messara",
+          "odds": "6/1",
+          "stars": 2,
+          "analysis": "Huge wet stats (5 Heavy wins) but carries big weight."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#2" }
+      ]
+    },
+    {
+      "number": 7,
+      "distance": "1800m",
+      "surface": "Turf",
+      "conditions": "Asahi Super Dry Handicap",
+      "pace": "Chaos - Scratched Field",
+      "contenders": [
+        {
+          "number": "5",
+          "name": "EXISTENTIAL BOB",
+          "jockey": "Z. Lloyd",
+          "trainer": "C. Waller",
+          "odds": "4/1",
+          "stars": 4,
+          "analysis": "<span class='lock'>WIN PICK</span> 100% Strike Rate on Heavy (2 from 2). Chaos Protocol active."
+        },
+        {
+          "number": "3",
+          "name": "MIRRA IMPACT",
+          "jockey": "TBD",
+          "trainer": "P. Snowden",
+          "odds": "5/1",
+          "stars": 3,
+          "analysis": "Highest recent Speed Figure (85) and handles wet."
+        },
+        {
+          "number": "2",
+          "name": "MAUPASSANT",
+          "jockey": "TBD",
+          "trainer": "A. Archibald",
+          "odds": "9/2",
+          "stars": 3,
+          "analysis": "Brings French Group form but is an unknown quantity on heavy Australian turf."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#5" }
+      ]
+    }
+  ]
+}
