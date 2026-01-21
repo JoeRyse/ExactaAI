@@ -1,0 +1,186 @@
+{
+  "name": "Bunbury",
+  "date": "Tuesday, January 20, 2026",
+  "races": [
+    {
+      "number": 1,
+      "distance": "1100m",
+      "surface": "Turf",
+      "conditions": "Maiden",
+      "pace": "Neutral to Low Barrier Impact",
+      "contenders": [
+        {
+          "number": "7",
+          "name": "DANCING SPIRIT",
+          "jockey": "W. Pike",
+          "trainer": "A. Durrant",
+          "odds": "8/5",
+          "stars": 4,
+          "analysis": "<span class='value'>WIN PICK</span> The Pike/Durrant combination is lethal (>25% strike). Ran a bold 2nd on debut and will strip fitter."
+        },
+        {
+          "number": "3",
+          "name": "DARK OPAL",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "4/1",
+          "stars": 3,
+          "analysis": "Consistent speed figures (Mid-50s) and draws the rail. Logical danger."
+        },
+        {
+          "number": "5",
+          "name": "MAGGIE JEAN",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "6/1",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Trial winner from a good yard resuming. Watch market."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#7" },
+        { "type": "EXACTA", "selection": "7 over 3, 5" }
+      ]
+    },
+    {
+      "number": 2,
+      "distance": "1400m",
+      "surface": "Turf",
+      "conditions": "Maiden",
+      "pace": "Solid",
+      "contenders": [
+        {
+          "number": "5",
+          "name": "MORF",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "5/2",
+          "stars": 3,
+          "analysis": "<span class='value'>WIN PICK</span> Brings Metro form (2nd at Ascot) to a Provincial maiden; that form line is usually gold."
+        },
+        {
+          "number": "11",
+          "name": "MIDNIGHT STAR",
+          "jockey": "TBD",
+          "trainer": "M. Grantham",
+          "odds": "5/1",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Resumes for the astute Michael Grantham yard; trial form suggests readiness."
+        },
+        {
+          "number": "10",
+          "name": "XELCIMUS",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "6/1",
+          "stars": 3,
+          "analysis": "Consistent placegetter who maps well."
+        }
+      ],
+      "bets": [
+        { "type": "BOX QUINELLA", "selection": "5, 10, 11" }
+      ]
+    },
+    {
+      "number": 3,
+      "distance": "1000m",
+      "surface": "Turf",
+      "conditions": "Handicap",
+      "pace": "Fast",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "EXCELINDEED",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "1/1",
+          "stars": 5,
+          "analysis": "<span class='lock'>LOCK</span> Massive class drop from Saturday Metro (Sandown) to Provincial. Speed Figure (81) dwarfs this field."
+        },
+        {
+          "number": "8",
+          "name": "FIREY PANZ",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "8/1",
+          "stars": 3,
+          "analysis": "Consistent placer. Best of the rest."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" },
+        { "type": "TRIFECTA", "selection": "1 / 8, 9 / 8, 9, 2" }
+      ]
+    },
+    {
+      "number": 4,
+      "distance": "1200m",
+      "surface": "Turf",
+      "conditions": "Handicap",
+      "pace": "Moderate",
+      "contenders": [
+        {
+          "number": "3",
+          "name": "JUST GIFTED",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "3/1",
+          "stars": 3,
+          "analysis": "<span class='value'>WIN PICK</span> Hit the line hard for 3rd at this track recently and peaks 3rd up."
+        },
+        {
+          "number": "1",
+          "name": "CHINO LA DIVA",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "5/1",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Class runner dropping in grade. Wide draw is a query. Treat as 'Zombie' if odds drift."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#3" },
+        { "type": "SAVER", "selection": "#1" }
+      ]
+    },
+    {
+      "number": 5,
+      "distance": "1200m",
+      "surface": "Turf",
+      "conditions": "Handicap",
+      "pace": "Good",
+      "contenders": [
+        {
+          "number": "8",
+          "name": "RIPPER RUPERT",
+          "jockey": "W. Pike",
+          "trainer": "L. Fernie",
+          "odds": "2/1",
+          "stars": 4,
+          "analysis": "<span class='value'>WIN PICK</span> Impressive winner track/distance last start. Pike rides and Fernie stable is flying."
+        },
+        {
+          "number": "1",
+          "name": "TOO MUCH TALK",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "6/1",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Strong back-class but is resuming. Watch for late market moves."
+        },
+        {
+          "number": "7",
+          "name": "GIRLS ON FIRE",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "8/1",
+          "stars": 3,
+          "analysis": "Resuming. Capability is there."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#8" }
+      ]
+    }
+  ]
+}
