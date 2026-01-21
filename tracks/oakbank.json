@@ -1,0 +1,147 @@
+{
+  "name": "Oakbank",
+  "date": "Wednesday, January 21, 2026",
+  "races": [
+    {
+      "number": 1,
+      "distance": "1400m",
+      "surface": "Turf",
+      "conditions": "Magain Maiden Plate",
+      "pace": "Solid",
+      "contenders": [
+        {
+          "number": "3",
+          "name": "IMPACT STORM",
+          "jockey": "T. Pannell",
+          "trainer": "M. Hickmott",
+          "odds": "TBD",
+          "stars": 4,
+          "analysis": "<span class='value'>WIN PICK</span> Elite SA connections. 'VIC' Adjustment: Hickmott/Pannell combo. Good debut at Strathalbyn, step up to 1400m suits."
+        },
+        {
+          "number": "8",
+          "name": "ORLOVA",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "TBD",
+          "stars": 3,
+          "analysis": "Ran 2nd at this track/distance on Jan 9. Course form is gold at Oakbank."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#3" }
+      ]
+    },
+    {
+      "number": 2,
+      "distance": "1050m",
+      "surface": "Turf",
+      "conditions": "Sportsbet Bet With Mates Maiden",
+      "pace": "Moderate",
+      "contenders": [
+        {
+          "number": "12",
+          "name": "YOU'RESOGOLDEN",
+          "jockey": "B. Price",
+          "trainer": "M. Hickmott",
+          "odds": "TBD",
+          "stars": 3,
+          "analysis": "<span class='value'>WIN PICK</span> Ran 3rd on debut beaten <1L. High-percentage trainer/jockey combo for young horses."
+        },
+        {
+          "number": "3",
+          "name": "HOOD RAT",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "TBD",
+          "stars": 1,
+          "analysis": "Avoid. 'Valley Veto' active: Backmarker drawn inside likely to get cluttered before the downhill run."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#12" }
+      ]
+    },
+    {
+      "number": 5,
+      "distance": "1900m",
+      "surface": "Turf",
+      "conditions": "Emmetts Rating 0 - 56 Handicap",
+      "pace": "Open",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "HARLEY'N'ROSE",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "TBD",
+          "stars": 5,
+          "analysis": "<span class='lock'>BEST BET</span> Massive grade drop (Class Crush). 2nd in a BM80 three starts ago. Speed figure eclipses this field."
+        },
+        {
+          "number": "5",
+          "name": "THINK TANK",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "TBD",
+          "stars": 3,
+          "analysis": "Consistent. Plays for 2nd."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#1" }
+      ]
+    },
+    {
+      "number": 6,
+      "distance": "1400m",
+      "surface": "Turf",
+      "conditions": "Harcourts Adelaide Hills BM56",
+      "pace": "Specialist Track",
+      "contenders": [
+        {
+          "number": "1",
+          "name": "SEE YA LATER BABY",
+          "jockey": "B. Price",
+          "trainer": "TBD",
+          "odds": "TBD",
+          "stars": 4,
+          "analysis": "<span class='value'>WIN PICK</span> Won at this track/distance 12 days ago. Proven Oakbank specialist in peak form."
+        },
+        {
+          "number": "4",
+          "name": "PRICILLA'S CHOICE",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "TBD",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Won at this track/distance on Dec 19. Loves the Oakbank Hill."
+        }
+      ],
+      "bets": [
+        { "type": "BOX EXACTA", "selection": "1, 4" }
+      ]
+    },
+    {
+      "number": 7,
+      "distance": "Unknown",
+      "surface": "Turf",
+      "conditions": "Handicap",
+      "pace": "Changed by Scratchings",
+      "contenders": [
+        {
+          "number": "7",
+          "name": "SHADOWFAX",
+          "jockey": "TBD",
+          "trainer": "TBD",
+          "odds": "TBD",
+          "stars": 3,
+          "analysis": "<span class='value'>VALUE PLAY</span> Loves Oakbank (Placed Jan 9). Benefits significantly from massive scratchings (#9, #11, #13)."
+        }
+      ],
+      "bets": [
+        { "type": "WIN", "selection": "#7" }
+      ]
+    }
+  ]
+}
