@@ -1,0 +1,1620 @@
+{
+  "meta": {
+    "track": "Mornington",
+    "date": "2026-01-21",
+    "jurisdiction": "Australia",
+    "weather": "Fine",
+    "track_condition": "Good 4",
+    "rail_position": "True",
+    "track_category": "Saucer (Category B)"
+  },
+  "races": [
+    {
+      "number": 1,
+      "post_time": "3:40 PM",
+      "purse": "$42,000",
+      "distance": "1000m",
+      "conditions": "3yo+ MDN SW",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 10,
+      "confidence": "Medium Confidence",
+      "track_bias": {
+        "summary": "Mornington 1000m - Saucer Track. Inside barriers (1-5) are gold.",
+        "details": "Tight turning track favors leaders and horses drawn inside. Wide barriers (8+) are a significant disadvantage over the short sprint."
+      },
+      "pace": "Fast pace expected. Scramble for the lead from the 1000m chute.",
+      "analysis": "Fast 'N' Inzaine represents the elite Maher stable and brings strong form lines. Heidi Dancer has shown ability and draws well enough. Raining Fire is a watch from the Carey yard. Inside gates are critical here.",
+      "contenders": [
+        {
+          "number": 7,
+          "name": "Fast 'N' Inzaine (NZ)",
+          "barrier": 6,
+          "weight": "124kg",
+          "jockey": {
+            "name": "Robert Whearty",
+            "track_record": "Solid record at provincials",
+            "recent_form": "Good strike rate"
+          },
+          "trainer": {
+            "name": "Ciaron Maher",
+            "track_record": "Elite - 20%+ strike rate",
+            "stable_form": "Dominant"
+          },
+          "odds": {
+            "morning_line": null,
+            "current_estimate": "6.50",
+            "value_assessment": "Good Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2025-08-26",
+              "track": "Ballarat Synthetic",
+              "distance": "1200m",
+              "finish": "3rd",
+              "margin": "6.5L",
+              "speed_fig": "88"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "88",
+            "last_start": "88",
+            "average_last_3": "88",
+            "par_for_class": "85"
+          },
+          "days_since_last": 148,
+          "fitness_level": "Resuming - Watch market",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 6 is acceptable. Needs to jump clean.",
+          "analysis": "Maher stable runner resuming. Showed ability on synthetic. If ready, should be too good for this field.",
+          "hidden_factor": "Elite Stable Resume",
+          "verdict": [
+            "TOP PICK"
+          ],
+          "stars": 4,
+          "rating": 90,
+          "win_probability": "28%",
+          "place_probability": "65%",
+          "show_probability": "85%"
+        },
+        {
+          "number": 8,
+          "name": "Heidi Dancer",
+          "barrier": 7,
+          "weight": "124kg",
+          "jockey": {
+            "name": "Linda Meech",
+            "track_record": "Excellent front runner",
+            "recent_form": "Consistent"
+          },
+          "trainer": {
+            "name": "Dan Meagher",
+            "track_record": "Solid",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": null,
+            "current_estimate": "4.40",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Fair"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-01",
+              "track": "Mornington",
+              "distance": "1000m",
+              "finish": "3rd",
+              "margin": "3.0L",
+              "speed_fig": "86"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "86",
+            "last_start": "86",
+            "average_last_3": "86",
+            "par_for_class": "85"
+          },
+          "days_since_last": 20,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 7 is tricky but Meech has speed.",
+          "analysis": "Ran well here last start. Meech on board suggests positive tactics.",
+          "hidden_factor": "Track Experience",
+          "verdict": [
+            "CONTENDER"
+          ],
+          "stars": 3,
+          "rating": 88,
+          "win_probability": "22%",
+          "place_probability": "55%",
+          "show_probability": "75%"
+        },
+        {
+          "number": 4,
+          "name": "Raining Fire (NZ)",
+          "barrier": 8,
+          "weight": "127kg",
+          "jockey": {
+            "name": "Celine Gaudray",
+            "track_record": "Good apprentice",
+            "recent_form": "Solid"
+          },
+          "trainer": {
+            "name": "Pat Carey & Harris Walker",
+            "track_record": "Local specialist",
+            "stable_form": "Average"
+          },
+          "odds": {
+            "morning_line": null,
+            "current_estimate": "3.60",
+            "value_assessment": "Underlay",
+            "overlay_underlay": "Underlay"
+          },
+          "recent_form": [],
+          "speed_figures": {
+            "career_best": "80",
+            "last_start": "N/A",
+            "average_last_3": "N/A",
+            "par_for_class": "85"
+          },
+          "days_since_last": 0,
+          "fitness_level": "First Start",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 8 is wide. Risk.",
+          "analysis": "First starter from local yard. Watch betting.",
+          "hidden_factor": "Local Knowledge",
+          "verdict": [
+            "WATCH"
+          ],
+          "stars": 2,
+          "rating": 86,
+          "win_probability": "15%",
+          "place_probability": "40%",
+          "show_probability": "60%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "Medium",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "7",
+            "stake": "1 unit",
+            "odds_range": "5.00+"
+          }
+        ],
+        "key_bet": "Win #7 Fast 'N' Inzaine"
+      }
+    },
+    {
+      "number": 2,
+      "post_time": "4:15 PM",
+      "purse": "$35,000",
+      "distance": "1000m",
+      "conditions": "3yo+ BM62",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 6,
+      "confidence": "High Confidence",
+      "track_bias": {
+        "summary": "Mornington 1000m - Saucer Track. Speed holds.",
+        "details": "Small field should allow leaders to dictate."
+      },
+      "pace": "Moderate pace expected.",
+      "analysis": "Talladega Girl draws perfectly in barrier 2 for Lane/Hayes. Playlist is the danger. Harmonett carries weight but has class.",
+      "contenders": [
+        {
+          "number": 5,
+          "name": "Talladega Girl",
+          "barrier": 2,
+          "weight": "129kg",
+          "jockey": {
+            "name": "Damian Lane",
+            "track_record": "Elite",
+            "recent_form": "Top form"
+          },
+          "trainer": {
+            "name": "Ben, Will & JD Hayes",
+            "track_record": "Elite",
+            "stable_form": "Flying"
+          },
+          "odds": {
+            "morning_line": null,
+            "current_estimate": "3.00",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Fair"
+          },
+          "recent_form": [
+            {
+              "date": "2025-12-19",
+              "track": "Yarra Valley",
+              "distance": "1200m",
+              "finish": "9th",
+              "margin": "6.7L",
+              "speed_fig": "85"
+            },
+            {
+              "date": "2025-12-05",
+              "track": "Cranbourne",
+              "distance": "1200m",
+              "finish": "1st",
+              "margin": "0.8L",
+              "speed_fig": "92"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "92",
+            "last_start": "85",
+            "average_last_3": "88",
+            "par_for_class": "90"
+          },
+          "days_since_last": 33,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 2 is perfect.",
+          "analysis": "Hayes/Lane combination. Won well two back. Forgive last start. Ideally placed.",
+          "hidden_factor": "Jockey Upgrade",
+          "verdict": [
+            "BEST BET"
+          ],
+          "stars": 5,
+          "rating": 94,
+          "win_probability": "40%",
+          "place_probability": "80%",
+          "show_probability": "95%"
+        },
+        {
+          "number": 4,
+          "name": "Playlist",
+          "barrier": 3,
+          "weight": "132kg",
+          "jockey": {
+            "name": "Jordan Childs",
+            "track_record": "Strong",
+            "recent_form": "Good"
+          },
+          "trainer": {
+            "name": "Grahame Begg",
+            "track_record": "Excellent",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": null,
+            "current_estimate": "3.80",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Fair"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-09",
+              "track": "Pakenham",
+              "distance": "1200m",
+              "finish": "6th",
+              "margin": "3.9L",
+              "speed_fig": "88"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "90",
+            "last_start": "88",
+            "average_last_3": "89",
+            "par_for_class": "90"
+          },
+          "days_since_last": 12,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 3 is good.",
+          "analysis": "Consistent type. Will be competitive.",
+          "hidden_factor": "Consistency",
+          "verdict": [
+            "DANGER"
+          ],
+          "stars": 4,
+          "rating": 92,
+          "win_probability": "30%",
+          "place_probability": "70%",
+          "show_probability": "90%"
+        },
+        {
+          "number": 1,
+          "name": "Harmonett",
+          "barrier": 5,
+          "weight": "137kg",
+          "jockey": {
+            "name": "Dakotah Keane",
+            "track_record": "Apprentice claim helps",
+            "recent_form": "Okay"
+          },
+          "trainer": {
+            "name": "Vincent Hall",
+            "track_record": "Average",
+            "stable_form": "Average"
+          },
+          "odds": {
+            "morning_line": null,
+            "current_estimate": "5.00",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Fair"
+          },
+          "recent_form": [],
+          "speed_figures": {
+            "career_best": "90",
+            "last_start": "N/A",
+            "average_last_3": "N/A",
+            "par_for_class": "90"
+          },
+          "days_since_last": 138,
+          "fitness_level": "Resuming",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 5 okay in small field.",
+          "analysis": "Resuming. Has class but weight is a concern.",
+          "hidden_factor": "Class Drop",
+          "verdict": [
+            "PLACE"
+          ],
+          "stars": 3,
+          "rating": 90,
+          "win_probability": "20%",
+          "place_probability": "50%",
+          "show_probability": "70%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "High",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "5",
+            "stake": "3 units",
+            "odds_range": "2.50+"
+          },
+          {
+            "type": "Quinella",
+            "selection": "4,5",
+            "stake": "1 unit"
+          }
+        ],
+        "key_bet": "Win #5 Talladega Girl"
+      }
+    },
+    {
+      "number": 3,
+      "post_time": "4:50 PM",
+      "purse": "$42,000",
+      "distance": "1500m",
+      "conditions": "MDN SW",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 10,
+      "confidence": "High Confidence",
+      "track_bias": {
+        "summary": "Mornington 1500m - Saucer Track. Barrier 1 is huge.",
+        "details": "Starts on a bend. Inside barriers are critical. Wide gates are death."
+      },
+      "pace": "Moderate pace expected.",
+      "analysis": "Mystery 'N' Drama draws the rail (Barrier 1) at Mornington - huge advantage. Moody/Coleman polish. Zamparini Spirit is consistent. Punic War can improve.",
+      "contenders": [
+        {
+          "number": 9,
+          "name": "Mystery 'N' Drama",
+          "barrier": 1,
+          "weight": "124kg",
+          "jockey": {
+            "name": "Luke Nolen",
+            "track_record": "Experienced",
+            "recent_form": "Solid"
+          },
+          "trainer": {
+            "name": "Peter G Moody & Katherine Coleman",
+            "track_record": "Elite",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": null,
+            "current_estimate": "2.20",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Fair"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-08",
+              "track": "Sandown",
+              "distance": "1400m",
+              "finish": "3rd",
+              "margin": "1.4L",
+              "speed_fig": "92"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "92",
+            "last_start": "92",
+            "average_last_3": "90",
+            "par_for_class": "85"
+          },
+          "days_since_last": 13,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 1 is GOLD.",
+          "analysis": "Placed at Sandown last start. Draws 1 at Mornington. Should win.",
+          "hidden_factor": "Barrier Advantage",
+          "verdict": [
+            "BEST BET"
+          ],
+          "stars": 5,
+          "rating": 95,
+          "win_probability": "45%",
+          "place_probability": "85%",
+          "show_probability": "95%"
+        },
+        {
+          "number": 2,
+          "name": "Zamparini Spirit",
+          "barrier": 4,
+          "weight": "132kg",
+          "jockey": {
+            "name": "Michael Dee",
+            "track_record": "Good",
+            "recent_form": "Solid"
+          },
+          "trainer": {
+            "name": "Clayton Douglas",
+            "track_record": "Local",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": null,
+            "current_estimate": "12.00",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-17",
+              "track": "Cranbourne",
+              "distance": "1600m",
+              "finish": "6th",
+              "margin": "14.7L",
+              "speed_fig": "75"
+            },
+            {
+              "date": "2026-01-01",
+              "track": "Mornington",
+              "distance": "1600m",
+              "finish": "2nd",
+              "margin": "1.2L",
+              "speed_fig": "88"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "88",
+            "last_start": "75",
+            "average_last_3": "82",
+            "par_for_class": "85"
+          },
+          "days_since_last": 4,
+          "fitness_level": "Back up",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 4 is good.",
+          "analysis": "Forgive last start. Previous run at this track was good. Quick backup.",
+          "hidden_factor": "Quick Backup",
+          "verdict": [
+            "VALUE"
+          ],
+          "stars": 3,
+          "rating": 91,
+          "win_probability": "15%",
+          "place_probability": "45%",
+          "show_probability": "65%"
+        },
+        {
+          "number": 5,
+          "name": "Punic War (NZ)",
+          "barrier": 3,
+          "weight": "128kg",
+          "jockey": {
+            "name": "Jake Noonan",
+            "track_record": "Local",
+            "recent_form": "Okay"
+          },
+          "trainer": {
+            "name": "Steve Richards",
+            "track_record": "Solid",
+            "stable_form": "Average"
+          },
+          "odds": {
+            "morning_line": null,
+            "current_estimate": "11.00",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Fair"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-12",
+              "track": "Werribee",
+              "distance": "1600m",
+              "finish": "3rd",
+              "margin": "2.7L",
+              "speed_fig": "85"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "85",
+            "last_start": "85",
+            "average_last_3": "85",
+            "par_for_class": "85"
+          },
+          "days_since_last": 9,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 3 is good.",
+          "analysis": "Consistent placer. Can run into the money again.",
+          "hidden_factor": "Consistency",
+          "verdict": [
+            "PLACE"
+          ],
+          "stars": 3,
+          "rating": 89,
+          "win_probability": "12%",
+          "place_probability": "40%",
+          "show_probability": "60%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "High",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "9",
+            "stake": "4 units",
+            "odds_range": "2.00+"
+          },
+          {
+            "type": "Exacta",
+            "selection": "9 / 2,5",
+            "stake": "1 unit"
+          }
+        ],
+        "key_bet": "Win #9 Mystery 'N' Drama"
+      }
+    },
+    {
+      "number": 4,
+      "post_time": "5:25 PM",
+      "purse": "$42,000",
+      "distance": "1200m",
+      "conditions": "3yo MDN SW",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 13,
+      "confidence": "Medium Confidence",
+      "track_bias": {
+        "summary": "Mornington 1200m - Saucer Track.",
+        "details": "Tight turns. Inside barriers preferred."
+      },
+      "pace": "Fast pace expected.",
+      "analysis": "Competitive 3yo maiden. Irreverent has shown promise and draws well. Get Honor brings NZ pedigree. Zephyr Song for Gai/Bott will be fit and on pace.",
+      "contenders": [
+        {
+          "number": 6,
+          "name": "Irreverent",
+          "barrier": 4,
+          "weight": "126kg",
+          "jockey": {
+            "name": "Luke Nolen",
+            "track_record": "Solid",
+            "recent_form": "Good"
+          },
+          "trainer": {
+            "name": "Peter G Moody & Katherine Coleman",
+            "track_record": "Elite",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": null,
+            "current_estimate": "7.00",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2025-09-25",
+              "track": "Geelong",
+              "distance": "1400m",
+              "finish": "3rd",
+              "margin": "1.7L",
+              "speed_fig": "88"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "88",
+            "last_start": "88",
+            "average_last_3": "88",
+            "par_for_class": "85"
+          },
+          "days_since_last": 118,
+          "fitness_level": "Resuming",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 4 is ideal.",
+          "analysis": "Resuming for Moody. Showed talent last prep. Barrier 4 gives options.",
+          "hidden_factor": "Stable Resume",
+          "verdict": [
+            "TOP PICK"
+          ],
+          "stars": 4,
+          "rating": 93,
+          "win_probability": "25%",
+          "place_probability": "60%",
+          "show_probability": "80%"
+        },
+        {
+          "number": 3,
+          "name": "Get Honor (NZ)",
+          "barrier": 5,
+          "weight": "126kg",
+          "jockey": {
+            "name": "Damian Lane",
+            "track_record": "Elite",
+            "recent_form": "Top"
+          },
+          "trainer": {
+            "name": "Mark Walker",
+            "track_record": "Strong",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": null,
+            "current_estimate": "6.50",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Fair"
+          },
+          "recent_form": [],
+          "speed_figures": {
+            "career_best": "N/A",
+            "last_start": "N/A",
+            "average_last_3": "N/A",
+            "par_for_class": "85"
+          },
+          "days_since_last": 0,
+          "fitness_level": "First Start",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 5 is good.",
+          "analysis": "First starter with Lane aboard. Respect the stable.",
+          "hidden_factor": "Jockey Booking",
+          "verdict": [
+            "DANGER"
+          ],
+          "stars": 4,
+          "rating": 91,
+          "win_probability": "20%",
+          "place_probability": "50%",
+          "show_probability": "70%"
+        },
+        {
+          "number": 12,
+          "name": "Zephyr Song",
+          "barrier": 7,
+          "weight": "126kg",
+          "jockey": {
+            "name": "Jordan Childs",
+            "track_record": "Strong",
+            "recent_form": "Good"
+          },
+          "trainer": {
+            "name": "Gai Waterhouse & Adrian Bott",
+            "track_record": "Elite",
+            "stable_form": "Flying"
+          },
+          "odds": {
+            "morning_line": null,
+            "current_estimate": "10.00",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [],
+          "speed_figures": {
+            "career_best": "N/A",
+            "last_start": "N/A",
+            "average_last_3": "N/A",
+            "par_for_class": "85"
+          },
+          "days_since_last": 0,
+          "fitness_level": "First Start",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 7 is okay.",
+          "analysis": "Gai/Bott first starter. Will be well schooled and forward.",
+          "hidden_factor": "Stable First Starter",
+          "verdict": [
+            "VALUE"
+          ],
+          "stars": 3,
+          "rating": 90,
+          "win_probability": "15%",
+          "place_probability": "45%",
+          "show_probability": "65%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "Medium",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "6",
+            "stake": "2 units",
+            "odds_range": "5.00+"
+          },
+          {
+            "type": "Box Quinella",
+            "selection": "3,6,12",
+            "stake": "0.5 units"
+          }
+        ],
+        "key_bet": "Win #6 Irreverent"
+      }
+    },
+    {
+      "number": 5,
+      "post_time": "6:00 PM",
+      "purse": "$35,000",
+      "distance": "1200m",
+      "conditions": "BM66",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 8,
+      "confidence": "Medium Confidence",
+      "track_bias": {
+        "summary": "Mornington 1200m - Saucer Track.",
+        "details": "Inside barriers preferred."
+      },
+      "pace": "Fast pace expected.",
+      "analysis": "Masked Marauder drops in class? No, BM66. Strong form. Brandjam with Lane is a threat. Alero consistent. Good betting race.",
+      "contenders": [
+        {
+          "number": 1,
+          "name": "Masked Marauder",
+          "barrier": 7,
+          "weight": "133kg",
+          "jockey": {
+            "name": "Linda Meech",
+            "track_record": "Good",
+            "recent_form": "Solid"
+          },
+          "trainer": {
+            "name": "Tom Dabernig",
+            "track_record": "Strong",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": null,
+            "current_estimate": "7.50",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-02",
+              "track": "Terang",
+              "distance": "1100m",
+              "finish": "3rd",
+              "margin": "1.9L",
+              "speed_fig": "92"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "92",
+            "last_start": "92",
+            "average_last_3": "90",
+            "par_for_class": "90"
+          },
+          "days_since_last": 19,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 7 is tricky.",
+          "analysis": "Consistent performer. Meech suits. Will be running on.",
+          "hidden_factor": "Consistency",
+          "verdict": [
+            "TOP PICK"
+          ],
+          "stars": 4,
+          "rating": 96,
+          "win_probability": "28%",
+          "place_probability": "65%",
+          "show_probability": "85%"
+        },
+        {
+          "number": 7,
+          "name": "Brandjam",
+          "barrier": 5,
+          "weight": "128kg",
+          "jockey": {
+            "name": "Damian Lane",
+            "track_record": "Elite",
+            "recent_form": "Top"
+          },
+          "trainer": {
+            "name": "Glen Thompson",
+            "track_record": "Solid",
+            "stable_form": "Okay"
+          },
+          "odds": {
+            "morning_line": null,
+            "current_estimate": "4.20",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Fair"
+          },
+          "recent_form": [
+            {
+              "date": "2025-12-26",
+              "track": "Sandown",
+              "distance": "1200m",
+              "finish": "6th",
+              "margin": "2.3L",
+              "speed_fig": "88"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "90",
+            "last_start": "88",
+            "average_last_3": "89",
+            "par_for_class": "90"
+          },
+          "days_since_last": 26,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 5 is good.",
+          "analysis": "Lane aboard is a big plus. Solid run at Sandown last time.",
+          "hidden_factor": "Jockey Upgrade",
+          "verdict": [
+            "DANGER"
+          ],
+          "stars": 4,
+          "rating": 94,
+          "win_probability": "25%",
+          "place_probability": "60%",
+          "show_probability": "80%"
+        },
+        {
+          "number": 4,
+          "name": "Alero",
+          "barrier": 4,
+          "weight": "131kg",
+          "jockey": {
+            "name": "Robert Whearty",
+            "track_record": "Solid",
+            "recent_form": "Okay"
+          },
+          "trainer": {
+            "name": "Ciaron Maher",
+            "track_record": "Elite",
+            "stable_form": "Dominant"
+          },
+          "odds": {
+            "morning_line": null,
+            "current_estimate": "6.00",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Fair"
+          },
+          "recent_form": [
+            {
+              "date": "2025-12-31",
+              "track": "Flemington",
+              "distance": "1100m",
+              "finish": "6th",
+              "margin": "4.0L",
+              "speed_fig": "88"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "90",
+            "last_start": "88",
+            "average_last_3": "89",
+            "par_for_class": "90"
+          },
+          "days_since_last": 21,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 4 is ideal.",
+          "analysis": "Maher runner. Respect.",
+          "hidden_factor": "Stable",
+          "verdict": [
+            "CONTENDER"
+          ],
+          "stars": 3,
+          "rating": 93,
+          "win_probability": "20%",
+          "place_probability": "50%",
+          "show_probability": "70%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "Medium",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "1",
+            "stake": "2 units",
+            "odds_range": "6.00+"
+          },
+          {
+            "type": "Quinella",
+            "selection": "1,7",
+            "stake": "1 unit"
+          }
+        ],
+        "key_bet": "Win #1 Masked Marauder"
+      }
+    },
+    {
+      "number": 6,
+      "post_time": "6:30 PM",
+      "purse": "$35,000",
+      "distance": "1200m",
+      "conditions": "3yo BM64",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 9,
+      "confidence": "High Confidence",
+      "track_bias": {
+        "summary": "Mornington 1200m - Saucer Track.",
+        "details": "Inside barriers preferred."
+      },
+      "pace": "Moderate pace expected.",
+      "analysis": "Royal Rendezvous looks the class runner here. Crocodile from barrier 1 at Mornington is dangerous. Tennessee Song has speed.",
+      "contenders": [
+        {
+          "number": 2,
+          "name": "Royal Rendezvous",
+          "barrier": 5,
+          "weight": "132kg",
+          "jockey": {
+            "name": "Damian Lane",
+            "track_record": "Elite",
+            "recent_form": "Top"
+          },
+          "trainer": {
+            "name": "Mark Walker",
+            "track_record": "Strong",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": null,
+            "current_estimate": "2.60",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Fair"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-03",
+              "track": "Geelong",
+              "distance": "1100m",
+              "finish": "4th",
+              "margin": "1.5L",
+              "speed_fig": "92"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "92",
+            "last_start": "92",
+            "average_last_3": "90",
+            "par_for_class": "90"
+          },
+          "days_since_last": 18,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 5 is good.",
+          "analysis": "Class runner. Lane aboard. Should be winning.",
+          "hidden_factor": "Class",
+          "verdict": [
+            "BEST BET"
+          ],
+          "stars": 5,
+          "rating": 97,
+          "win_probability": "40%",
+          "place_probability": "80%",
+          "show_probability": "95%"
+        },
+        {
+          "number": 5,
+          "name": "Crocodile",
+          "barrier": 1,
+          "weight": "131kg",
+          "jockey": {
+            "name": "Ben Allen",
+            "track_record": "Strong",
+            "recent_form": "Good"
+          },
+          "trainer": {
+            "name": "Ben, Will & JD Hayes",
+            "track_record": "Elite",
+            "stable_form": "Flying"
+          },
+          "odds": {
+            "morning_line": null,
+            "current_estimate": "4.60",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Fair"
+          },
+          "recent_form": [
+            {
+              "date": "2025-06-14",
+              "track": "Rosehill",
+              "distance": "1400m",
+              "finish": "9th",
+              "margin": "4.5L",
+              "speed_fig": "85"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "88",
+            "last_start": "85",
+            "average_last_3": "86",
+            "par_for_class": "90"
+          },
+          "days_since_last": 221,
+          "fitness_level": "Resuming",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 1 is GOLD.",
+          "analysis": "Resuming from barrier 1. Hayes stable. Watch for market move.",
+          "hidden_factor": "Barrier Advantage",
+          "verdict": [
+            "DANGER"
+          ],
+          "stars": 4,
+          "rating": 94,
+          "win_probability": "25%",
+          "place_probability": "60%",
+          "show_probability": "80%"
+        },
+        {
+          "number": 3,
+          "name": "Tennessee Song",
+          "barrier": 6,
+          "weight": "132kg",
+          "jockey": {
+            "name": "Linda Meech",
+            "track_record": "Good",
+            "recent_form": "Solid"
+          },
+          "trainer": {
+            "name": "Tom Dabernig",
+            "track_record": "Strong",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": null,
+            "current_estimate": "8.50",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-01",
+              "track": "Mornington",
+              "distance": "1200m",
+              "finish": "1st",
+              "margin": "0.5L",
+              "speed_fig": "90"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "90",
+            "last_start": "90",
+            "average_last_3": "90",
+            "par_for_class": "90"
+          },
+          "days_since_last": 20,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 6 is okay.",
+          "analysis": "Won here last start. Loves the track. Meech retains ride.",
+          "hidden_factor": "Track Specialist",
+          "verdict": [
+            "VALUE"
+          ],
+          "stars": 3,
+          "rating": 92,
+          "win_probability": "15%",
+          "place_probability": "45%",
+          "show_probability": "65%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "High",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "2",
+            "stake": "3 units",
+            "odds_range": "2.50+"
+          },
+          {
+            "type": "Quinella",
+            "selection": "2,5",
+            "stake": "1 unit"
+          }
+        ],
+        "key_bet": "Win #2 Royal Rendezvous"
+      }
+    },
+    {
+      "number": 7,
+      "post_time": "7:00 PM",
+      "purse": "$35,000",
+      "distance": "2000m",
+      "conditions": "RB62",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 11,
+      "confidence": "Medium Confidence",
+      "track_bias": {
+        "summary": "Mornington 2000m - Saucer Track.",
+        "details": "Starts on a bend. Inside barriers preferred."
+      },
+      "pace": "Slow pace expected.",
+      "analysis": "Stayers race. Super Mirage has the class. Our Paramour has a wide gate but Lane steers. Flash Of Dallas in the mix.",
+      "contenders": [
+        {
+          "number": 1,
+          "name": "Super Mirage (IRE)",
+          "barrier": 6,
+          "weight": "133kg",
+          "jockey": {
+            "name": "Jamie Mott",
+            "track_record": "Strong",
+            "recent_form": "Good"
+          },
+          "trainer": {
+            "name": "Gavin Bedggood",
+            "track_record": "Local",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": null,
+            "current_estimate": "7.50",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-09",
+              "track": "Pakenham",
+              "distance": "1600m",
+              "finish": "5th",
+              "margin": "3.7L",
+              "speed_fig": "88"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "90",
+            "last_start": "88",
+            "average_last_3": "89",
+            "par_for_class": "85"
+          },
+          "days_since_last": 12,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 6 is okay.",
+          "analysis": "Import with ability. Should appreciate the step up in trip.",
+          "hidden_factor": "Distance Rise",
+          "verdict": [
+            "TOP PICK"
+          ],
+          "stars": 4,
+          "rating": 95,
+          "win_probability": "25%",
+          "place_probability": "60%",
+          "show_probability": "80%"
+        },
+        {
+          "number": 5,
+          "name": "Our Paramour (NZ)",
+          "barrier": 10,
+          "weight": "128kg",
+          "jockey": {
+            "name": "Damian Lane",
+            "track_record": "Elite",
+            "recent_form": "Top"
+          },
+          "trainer": {
+            "name": "Mark Walker",
+            "track_record": "Strong",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": null,
+            "current_estimate": "8.00",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2025-12-28",
+              "track": "Seymour",
+              "distance": "2000m",
+              "finish": "5th",
+              "margin": "3.0L",
+              "speed_fig": "86"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "88",
+            "last_start": "86",
+            "average_last_3": "87",
+            "par_for_class": "85"
+          },
+          "days_since_last": 24,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 10 is tough.",
+          "analysis": "Lane aboard is the key. Needs a good ride from the wide gate.",
+          "hidden_factor": "Jockey Magic",
+          "verdict": [
+            "DANGER"
+          ],
+          "stars": 3,
+          "rating": 93,
+          "win_probability": "20%",
+          "place_probability": "50%",
+          "show_probability": "70%"
+        },
+        {
+          "number": 4,
+          "name": "Flash Of Dallas (NZ)",
+          "barrier": 8,
+          "weight": "128kg",
+          "jockey": {
+            "name": "Lachlan King",
+            "track_record": "Solid",
+            "recent_form": "Okay"
+          },
+          "trainer": {
+            "name": "Dominic Sutton",
+            "track_record": "Average",
+            "stable_form": "Average"
+          },
+          "odds": {
+            "morning_line": null,
+            "current_estimate": "5.50",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Fair"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-04",
+              "track": "Wodonga",
+              "distance": "1600m",
+              "finish": "1st",
+              "margin": "0.3L",
+              "speed_fig": "88"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "88",
+            "last_start": "88",
+            "average_last_3": "86",
+            "par_for_class": "85"
+          },
+          "days_since_last": 17,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 8 is tricky.",
+          "analysis": "Last start winner. Momentum player.",
+          "hidden_factor": "Momentum",
+          "verdict": [
+            "CONTENDER"
+          ],
+          "stars": 3,
+          "rating": 92,
+          "win_probability": "18%",
+          "place_probability": "45%",
+          "show_probability": "65%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "Medium",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "1",
+            "stake": "2 units",
+            "odds_range": "6.00+"
+          },
+          {
+            "type": "Box Quinella",
+            "selection": "1,4,5",
+            "stake": "0.5 units"
+          }
+        ],
+        "key_bet": "Win #1 Super Mirage"
+      }
+    },
+    {
+      "number": 8,
+      "post_time": "7:30 PM",
+      "purse": "$35,000",
+      "distance": "1500m",
+      "conditions": "NMW",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 11,
+      "confidence": "Medium Confidence",
+      "track_bias": {
+        "summary": "Mornington 1500m - Saucer Track.",
+        "details": "Inside barriers preferred."
+      },
+      "pace": "Moderate pace expected.",
+      "analysis": "Vivacissimo is the horse to beat but barrier 10 at Mornington 1500m is tricky - needs a good ride. Didn't Miss Many is solid. Savamoon draws better.",
+      "contenders": [
+        {
+          "number": 7,
+          "name": "Vivacissimo (NZ)",
+          "barrier": 10,
+          "weight": "128kg",
+          "jockey": {
+            "name": "Ben Allen",
+            "track_record": "Strong",
+            "recent_form": "Good"
+          },
+          "trainer": {
+            "name": "Ben, Will & JD Hayes",
+            "track_record": "Elite",
+            "stable_form": "Flying"
+          },
+          "odds": {
+            "morning_line": null,
+            "current_estimate": "2.80",
+            "value_assessment": "Underlay",
+            "overlay_underlay": "Underlay"
+          },
+          "recent_form": [
+            {
+              "date": "2025-12-31",
+              "track": "Flemington",
+              "distance": "1600m",
+              "finish": "4th",
+              "margin": "1.2L",
+              "speed_fig": "92"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "92",
+            "last_start": "92",
+            "average_last_3": "90",
+            "par_for_class": "90"
+          },
+          "days_since_last": 21,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 10 is a major concern.",
+          "analysis": "Best horse in the race but the barrier is a killer at Mornington 1500m. Risk at short odds.",
+          "hidden_factor": "Barrier Disadvantage",
+          "verdict": [
+            "RISK"
+          ],
+          "stars": 3,
+          "rating": 96,
+          "win_probability": "25%",
+          "place_probability": "60%",
+          "show_probability": "80%"
+        },
+        {
+          "number": 2,
+          "name": "Didn't Miss Many",
+          "barrier": 8,
+          "weight": "135kg",
+          "jockey": {
+            "name": "Michael Dee",
+            "track_record": "Good",
+            "recent_form": "Solid"
+          },
+          "trainer": {
+            "name": "Archie Alexander",
+            "track_record": "Strong",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": null,
+            "current_estimate": "4.20",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Fair"
+          },
+          "recent_form": [
+            {
+              "date": "2025-12-31",
+              "track": "Warrnambool",
+              "distance": "1400m",
+              "finish": "1st",
+              "margin": "0.2L",
+              "speed_fig": "90"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "90",
+            "last_start": "90",
+            "average_last_3": "88",
+            "par_for_class": "90"
+          },
+          "days_since_last": 21,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 8 is tricky.",
+          "analysis": "Last start winner. Consistent. Solid chance.",
+          "hidden_factor": "Momentum",
+          "verdict": [
+            "CONTENDER"
+          ],
+          "stars": 4,
+          "rating": 94,
+          "win_probability": "22%",
+          "place_probability": "55%",
+          "show_probability": "75%"
+        },
+        {
+          "number": 3,
+          "name": "Savamoon (NZ)",
+          "barrier": 4,
+          "weight": "133kg",
+          "jockey": {
+            "name": "Emily Pozman",
+            "track_record": "Apprentice",
+            "recent_form": "Okay"
+          },
+          "trainer": {
+            "name": "Peter G Moody & Katherine Coleman",
+            "track_record": "Elite",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": null,
+            "current_estimate": "3.10",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Fair"
+          },
+          "recent_form": [
+            {
+              "date": "2025-12-27",
+              "track": "Cranbourne",
+              "distance": "1500m",
+              "finish": "4th",
+              "margin": "4.1L",
+              "speed_fig": "88"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "90",
+            "last_start": "88",
+            "average_last_3": "89",
+            "par_for_class": "90"
+          },
+          "days_since_last": 25,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 4 is ideal.",
+          "analysis": "Moody runner drawn well. Should get a lovely run.",
+          "hidden_factor": "Barrier Advantage",
+          "verdict": [
+            "TOP PICK"
+          ],
+          "stars": 4,
+          "rating": 93,
+          "win_probability": "20%",
+          "place_probability": "50%",
+          "show_probability": "70%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "Medium",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "3",
+            "stake": "2 units",
+            "odds_range": "3.00+"
+          },
+          {
+            "type": "Quinella",
+            "selection": "2,3",
+            "stake": "1 unit"
+          }
+        ],
+        "key_bet": "Win #3 Savamoon"
+      }
+    }
+  ]
+}
