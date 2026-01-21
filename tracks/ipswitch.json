@@ -10,1833 +10,832 @@
   "races": [
     {
       "number": 1,
-      "post_time": "10:38 PM ET",
-      "distance": "1666m",
+      "post_time": "10:38 PM",
+      "purse": "$20,000",
+      "distance": "1700m",
       "conditions": "Maiden Handicap",
+      "surface": "Turf",
+      "claiming_price": null,
       "field_size": 9,
+      "confidence": "Low Confidence",
+      "track_bias": {
+        "summary": "Soft 6 with rail out 7m favors horses racing on speed or with cover just behind leaders.",
+        "details": "Historical data at Ipswich with +7m rail suggests it is difficult to make up significant ground from the tail. Inside barriers (1-5) have a distinct advantage."
+      },
+      "pace": "Moderate pace expected. #5 Dashing Mars and #3 Spot The Aussie likely to go forward.",
+      "analysis": "A tricky maiden to start the card with several key scratchings. Spot The Aussie brings the most consistent recent form figures and maps well. He Is The Kiss is a long-standing maiden but recent placings suggest he is close. Dashing Mars has upside from the Campton yard.",
       "contenders": [
         {
-          "number": 6,
-          "name": "Enidzel",
-          "barrier": 5,
-          "weight": "130lbs",
+          "number": 3,
+          "name": "Spot The Aussie",
+          "barrier": 2,
+          "weight": "132 lbs",
           "jockey": {
-            "name": "Adin Thompson",
-            "track_record": "12% Strike Rate",
+            "name": "Ben Thompson",
+            "track_record": "16% strike rate",
             "recent_form": "Solid"
           },
           "trainer": {
-            "name": "Diane G Murphy",
-            "track_record": "15% Strike Rate",
+            "name": "David Vandyke",
+            "track_record": "18% strike rate",
             "stable_form": "Good"
           },
-          "form": "2-2-4",
-          "rating": 92,
-          "win_probability": "12.3%",
-          "place_probability": "34.4%",
-          "show_probability": "43.0%",
+          "odds": {
+            "morning_line": "4/1",
+            "current_estimate": "3.50",
+            "value_assessment": "Fair Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-07",
+              "track": "Eagle Farm",
+              "distance": "1400m",
+              "finish": "7th",
+              "margin": "4.9L",
+              "speed_fig": "50"
+            },
+            {
+              "date": "2025-07-25",
+              "track": "Sunshine Coast",
+              "distance": "1400m",
+              "finish": "7th",
+              "margin": "5.5L",
+              "speed_fig": "60"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "69",
+            "last_start": "50",
+            "average_last_3": "60",
+            "par_for_class": "55"
+          },
           "days_since_last": 14,
-          "fitness_level": "Fit",
+          "fitness_level": "2nd-up",
           "equipment": {
             "blinkers": false,
             "tongue_tie": false,
             "gear_changes": "None"
           },
-          "post_position_analysis": "Barrier 5 analysis...",
-          "speed_figures": {
-            "career_best": "92",
-            "last_start": "90",
-            "average_last_3": "89",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
+          "post_position_analysis": "Barrier 2 is perfect for this track profile. Can sit just behind the speed.",
+          "analysis": "Second-up today. First-up effort at Eagle Farm was respectable in a stronger race. Drops to provincial level and draws perfectly. Previous ratings of 69 and 60 are superior to this field.",
+          "hidden_factor": "Vandyke stable has high strike rate with second-up runners dropping in class.",
           "verdict": [
             "TOP PICK"
           ],
-          "stars": 5
+          "stars": 4,
+          "rating": 94,
+          "win_probability": "32%",
+          "place_probability": "70%",
+          "show_probability": "85%"
         },
         {
           "number": 8,
           "name": "He Is The Kiss",
           "barrier": 7,
-          "weight": "126lbs",
+          "weight": "126 lbs",
           "jockey": {
             "name": "Brandon Lerena",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
+            "track_record": "14% strike rate",
+            "recent_form": "Good"
           },
           "trainer": {
             "name": "Allan Chau",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
+            "track_record": "9% strike rate",
+            "stable_form": "Average"
           },
-          "form": "3-3-3",
-          "rating": 90,
-          "win_probability": "12.0%",
-          "place_probability": "33.7%",
-          "show_probability": "42.1%",
-          "days_since_last": 14,
+          "odds": {
+            "morning_line": "11/2",
+            "current_estimate": "6.00",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-16",
+              "track": "Ballina",
+              "distance": "1400m",
+              "finish": "3rd",
+              "margin": "0.9L",
+              "speed_fig": "57"
+            },
+            {
+              "date": "2026-01-03",
+              "track": "Ipswich",
+              "distance": "1700m",
+              "finish": "3rd",
+              "margin": "1.8L",
+              "speed_fig": "45"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "62",
+            "last_start": "57",
+            "average_last_3": "50",
+            "par_for_class": "55"
+          },
+          "days_since_last": 5,
           "fitness_level": "Fit",
           "equipment": {
             "blinkers": false,
             "tongue_tie": false,
             "gear_changes": "None"
           },
-          "post_position_analysis": "Barrier 7 analysis...",
-          "speed_figures": {
-            "career_best": "90",
-            "last_start": "88",
-            "average_last_3": "87",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
+          "post_position_analysis": "Barrier 7 is tricky but has tactical speed to overcome it.",
+          "analysis": "On the quick backup (5 days). Placed 3rd at this track and distance two starts back. Consistent ratings in the 50s make him a major player in this weak field.",
+          "hidden_factor": "Quick backup indicates stable is happy with fitness.",
           "verdict": [
             "MAIN DANGER"
           ],
-          "stars": 4
-        },
-        {
-          "number": 3,
-          "name": "Spot The Aussie",
-          "barrier": 2,
-          "weight": "132lbs",
-          "jockey": {
-            "name": "Ben Thompson",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "David Vandyke",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "7-3",
-          "rating": 88,
-          "win_probability": "11.8%",
-          "place_probability": "32.9%",
-          "show_probability": "41.2%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 2 analysis...",
-          "speed_figures": {
-            "career_best": "88",
-            "last_start": "86",
-            "average_last_3": "85",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 4,
-          "name": "Wanna Kiss",
-          "barrier": 1,
-          "weight": "132lbs",
-          "jockey": {
-            "name": "Bella Youngberry (a)",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Harry Richardson",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "4-3",
-          "rating": 85,
-          "win_probability": "11.4%",
-          "place_probability": "31.8%",
-          "show_probability": "39.8%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 1 analysis...",
-          "speed_figures": {
-            "career_best": "85",
-            "last_start": "83",
-            "average_last_3": "82",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
+          "stars": 3,
+          "rating": 90,
+          "win_probability": "20%",
+          "place_probability": "55%",
+          "show_probability": "75%"
         },
         {
           "number": 5,
           "name": "Dashing Mars",
           "barrier": 4,
-          "weight": "130lbs",
+          "weight": "130 lbs",
           "jockey": {
             "name": "Angela Jones",
-            "track_record": "12% Strike Rate",
+            "track_record": "17% strike rate",
             "recent_form": "Solid"
           },
           "trainer": {
             "name": "Adam Campton",
-            "track_record": "15% Strike Rate",
+            "track_record": "14% strike rate",
             "stable_form": "Good"
           },
-          "form": "4-4",
-          "rating": 84,
-          "win_probability": "11.2%",
-          "place_probability": "31.4%",
-          "show_probability": "39.3%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
+          "odds": {
+            "morning_line": "2/1",
+            "current_estimate": "4.00",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-10",
+              "track": "Ipswich",
+              "distance": "1350m",
+              "finish": "4th",
+              "margin": "1.6L",
+              "speed_fig": "59"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "64",
+            "last_start": "59",
+            "average_last_3": "60",
+            "par_for_class": "55"
+          },
+          "days_since_last": 11,
+          "fitness_level": "3rd-up",
           "equipment": {
             "blinkers": false,
             "tongue_tie": false,
             "gear_changes": "None"
           },
-          "post_position_analysis": "Barrier 4 analysis...",
-          "speed_figures": {
-            "career_best": "84",
-            "last_start": "82",
-            "average_last_3": "81",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
+          "post_position_analysis": "Drawn well in barrier 4.",
+          "analysis": "Third-up and ready to peak. Ran well here last start over shorter trip. Step up in distance should suit.",
+          "hidden_factor": "Campton stable performs well at Ipswich.",
           "verdict": [
-            "Contender"
+            "CONTENDER"
           ],
-          "stars": 3
-        },
-        {
-          "number": 2,
-          "name": "Michifuku",
-          "barrier": 8,
-          "weight": "132lbs",
-          "jockey": {
-            "name": "Olivia Webb (a)",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Kevin Kemp",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "4-6",
-          "rating": 82,
-          "win_probability": "11.0%",
-          "place_probability": "30.7%",
-          "show_probability": "38.4%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 8 analysis...",
-          "speed_figures": {
-            "career_best": "82",
-            "last_start": "80",
-            "average_last_3": "79",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 9,
-          "name": "Love To Be Proud",
-          "barrier": 3,
-          "weight": "125lbs",
-          "jockey": {
-            "name": "Montanna Savva",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Michael Frappell",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "5-7",
-          "rating": 78,
-          "win_probability": "10.4%",
-          "place_probability": "29.2%",
-          "show_probability": "36.5%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 3 analysis...",
-          "speed_figures": {
-            "career_best": "78",
-            "last_start": "76",
-            "average_last_3": "75",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 10,
-          "name": "Our Esprit",
-          "barrier": 10,
-          "weight": "119lbs",
-          "jockey": {
-            "name": "Fred Larson",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Doug & Graeme Lane",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "7-10",
-          "rating": 75,
-          "win_probability": "10.0%",
-          "place_probability": "28.1%",
-          "show_probability": "35.1%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 10 analysis...",
-          "speed_figures": {
-            "career_best": "75",
-            "last_start": "73",
-            "average_last_3": "72",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 11,
-          "name": "Preachabull",
-          "barrier": 6,
-          "weight": "119lbs",
-          "jockey": {
-            "name": "Jason Taylor",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Doug & Graeme Lane",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "6-9",
-          "rating": 74,
-          "win_probability": "9.9%",
-          "place_probability": "27.7%",
-          "show_probability": "34.6%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 6 analysis...",
-          "speed_figures": {
-            "career_best": "74",
-            "last_start": "72",
-            "average_last_3": "71",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
+          "stars": 3,
+          "rating": 89,
+          "win_probability": "18%",
+          "place_probability": "50%",
+          "show_probability": "70%"
         }
       ],
-      "analysis": "Enidzel has been knocking on the door with consistent placings and handles the soft going. He Is The Kiss is a veteran maiden but brings solid recent form. Spot The Aussie has upside but the heavy weight on a soft track is a concern.",
       "betting_strategy": {
-        "confidence_level": "Medium",
+        "confidence_level": "Low",
         "suggested_bets": [
           {
             "type": "Win",
-            "selection": "6",
+            "selection": "3",
             "stake": "1 unit",
-            "odds_range": "3.00+"
+            "odds_range": "3.50+"
+          },
+          {
+            "type": "Quinella",
+            "selection": "3,8",
+            "stake": "0.5 units"
           }
         ],
-        "key_bet": "Win #6 Enidzel"
-      },
-      "track_bias": {
-        "summary": "Soft 6 track. Rail +7m. Leaders might have slight advantage but track should play fair.",
-        "details": "With rail out, inside barriers often preferred."
-      },
-      "pace": "Moderate pace expected."
+        "key_bet": "Spot The Aussie to win"
+      }
     },
     {
       "number": 2,
-      "post_time": "11:13 PM ET",
+      "post_time": "11:13 PM",
+      "purse": "$19,000",
       "distance": "1900m",
-      "conditions": "Ratings Band 0 - 58",
+      "conditions": "Ratings Band 0-58",
+      "surface": "Turf",
+      "claiming_price": null,
       "field_size": 9,
+      "confidence": "Medium Confidence",
+      "track_bias": {
+        "summary": "Rail out 7m makes it hard for backmarkers.",
+        "details": "Runners settling in the first 4 have a high strike rate at this distance configuration."
+      },
+      "pace": "Slow to Moderate. Lack of designated leaders may result in a tactical affair.",
+      "analysis": "Maravich brings the strongest recent rating (55) and a win fresh. Classique Gal drops significantly in class. Key Component is a last start winner at this track.",
       "contenders": [
         {
           "number": 2,
           "name": "Maravich",
           "barrier": 8,
-          "weight": "131lbs",
+          "weight": "131 lbs",
           "jockey": {
             "name": "Brandon Lerena",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
+            "track_record": "14% strike rate",
+            "recent_form": "Strong"
           },
           "trainer": {
             "name": "Emma Fouchard",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
+            "track_record": "6% strike rate",
+            "stable_form": "Fair"
           },
-          "form": "10-1",
-          "rating": 98,
-          "win_probability": "12.1%",
-          "place_probability": "33.9%",
-          "show_probability": "42.3%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
+          "odds": {
+            "morning_line": "5/2",
+            "current_estimate": "3.00",
+            "value_assessment": "Good Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2025-12-31",
+              "track": "Beaudesert",
+              "distance": "1650m",
+              "finish": "1st",
+              "margin": "2L",
+              "speed_fig": "55"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "55",
+            "last_start": "55",
+            "average_last_3": "50",
+            "par_for_class": "52"
+          },
+          "days_since_last": 21,
+          "fitness_level": "2nd-up",
           "equipment": {
             "blinkers": false,
             "tongue_tie": false,
             "gear_changes": "None"
           },
-          "post_position_analysis": "Barrier 8 analysis...",
-          "speed_figures": {
-            "career_best": "98",
-            "last_start": "96",
-            "average_last_3": "95",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
+          "post_position_analysis": "Barrier 8 is a slight negative but small field helps.",
+          "analysis": "Won convincingly first-up. Stays in a winnable grade. The speed figure of 55 is competitive here.",
+          "hidden_factor": "Won second-up previously.",
           "verdict": [
             "TOP PICK"
           ],
-          "stars": 5
-        },
-        {
-          "number": 5,
-          "name": "Love 'N' Games",
-          "barrier": 5,
-          "weight": "129lbs",
-          "jockey": {
-            "name": "Tiffani Brooker",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Natalie Mccall",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "3-1",
-          "rating": 96,
-          "win_probability": "11.9%",
-          "place_probability": "33.2%",
-          "show_probability": "41.5%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 5 analysis...",
-          "speed_figures": {
-            "career_best": "96",
-            "last_start": "94",
-            "average_last_3": "93",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "MAIN DANGER"
-          ],
-          "stars": 4
-        },
-        {
-          "number": 7,
-          "name": "Glenray's Mate",
-          "barrier": 3,
-          "weight": "125lbs",
-          "jockey": {
-            "name": "Colleen Krahnen (a)",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Spike Deacon",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "1-11",
-          "rating": 94,
-          "win_probability": "11.6%",
-          "place_probability": "32.5%",
-          "show_probability": "40.6%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 3 analysis...",
-          "speed_figures": {
-            "career_best": "94",
-            "last_start": "92",
-            "average_last_3": "91",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 6,
-          "name": "Proclaimer",
-          "barrier": 2,
-          "weight": "129lbs",
-          "jockey": {
-            "name": "Chloe Lowe (a)",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "John Thomas",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "2-3",
-          "rating": 92,
-          "win_probability": "11.4%",
-          "place_probability": "31.8%",
-          "show_probability": "39.8%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 2 analysis...",
-          "speed_figures": {
-            "career_best": "92",
-            "last_start": "90",
-            "average_last_3": "89",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 3,
-          "name": "Bokuden",
-          "barrier": 4,
-          "weight": "130lbs",
-          "jockey": {
-            "name": "Jett Newman (a)",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Gregory Cornish",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "8-3",
-          "rating": 90,
-          "win_probability": "11.1%",
-          "place_probability": "31.1%",
-          "show_probability": "38.9%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 4 analysis...",
-          "speed_figures": {
-            "career_best": "90",
-            "last_start": "88",
-            "average_last_3": "87",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 8,
-          "name": "Key Component",
-          "barrier": 7,
-          "weight": "125lbs",
-          "jockey": {
-            "name": "Dale Smith",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Steele Ryan",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "1-6",
-          "rating": 89,
-          "win_probability": "11.0%",
-          "place_probability": "30.8%",
-          "show_probability": "38.5%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 7 analysis...",
-          "speed_figures": {
-            "career_best": "89",
-            "last_start": "87",
-            "average_last_3": "86",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
+          "stars": 4,
+          "rating": 95,
+          "win_probability": "28%",
+          "place_probability": "65%",
+          "show_probability": "80%"
         },
         {
           "number": 9,
           "name": "Classique Gal",
           "barrier": 1,
-          "weight": "123lbs",
+          "weight": "123 lbs",
           "jockey": {
             "name": "Kyle Wilson-Taylor",
-            "track_record": "12% Strike Rate",
+            "track_record": "9% strike rate",
             "recent_form": "Solid"
           },
           "trainer": {
             "name": "Bruce Brown",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
+            "track_record": "5% strike rate",
+            "stable_form": "Average"
           },
-          "form": "3-11",
-          "rating": 86,
-          "win_probability": "10.6%",
-          "place_probability": "29.7%",
-          "show_probability": "37.2%",
-          "days_since_last": 14,
+          "odds": {
+            "morning_line": "16/1",
+            "current_estimate": "8.00",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-03",
+              "track": "Eagle Farm",
+              "distance": "1400m",
+              "finish": "11th",
+              "margin": "16.5L",
+              "speed_fig": "24"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "58",
+            "last_start": "24",
+            "average_last_3": "43",
+            "par_for_class": "52"
+          },
+          "days_since_last": 18,
           "fitness_level": "Fit",
           "equipment": {
             "blinkers": false,
             "tongue_tie": false,
             "gear_changes": "None"
           },
-          "post_position_analysis": "Barrier 1 analysis...",
-          "speed_figures": {
-            "career_best": "86",
-            "last_start": "84",
-            "average_last_3": "83",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
+          "post_position_analysis": "Barrier 1 is ideal for a soft run.",
+          "analysis": "Forget last start in much harder grade (Class 3 Metro). Drops back to 0-58 Provincial. Previous form at Ipswich is good (2-4-6 record). Major class dropper.",
+          "hidden_factor": "Track specialist with 2 wins and 4 places at Ipswich.",
           "verdict": [
-            "Contender"
+            "VALUE BET"
           ],
-          "stars": 3
+          "stars": 3,
+          "rating": 92,
+          "win_probability": "15%",
+          "place_probability": "45%",
+          "show_probability": "65%"
         },
         {
-          "number": 1,
-          "name": "Cheers",
-          "barrier": 11,
-          "weight": "132lbs",
+          "number": 8,
+          "name": "Key Component",
+          "barrier": 7,
+          "weight": "125 lbs",
           "jockey": {
-            "name": "Rob Thorburn (a)",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
+            "name": "Dale Smith",
+            "track_record": "6% strike rate",
+            "recent_form": "Fair"
           },
           "trainer": {
-            "name": "Cheyne Morphy",
-            "track_record": "15% Strike Rate",
+            "name": "Steele Ryan",
+            "track_record": "13% strike rate",
             "stable_form": "Good"
           },
-          "form": "7-7",
-          "rating": 85,
-          "win_probability": "10.5%",
-          "place_probability": "29.4%",
-          "show_probability": "36.7%",
-          "days_since_last": 14,
+          "odds": {
+            "morning_line": "6/1",
+            "current_estimate": "5.50",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-10",
+              "track": "Ipswich",
+              "distance": "2150m",
+              "finish": "6th",
+              "margin": "1.4L",
+              "speed_fig": "53"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "53",
+            "last_start": "53",
+            "average_last_3": "50",
+            "par_for_class": "52"
+          },
+          "days_since_last": 11,
           "fitness_level": "Fit",
           "equipment": {
             "blinkers": false,
             "tongue_tie": false,
             "gear_changes": "None"
           },
-          "post_position_analysis": "Barrier 11 analysis...",
-          "speed_figures": {
-            "career_best": "85",
-            "last_start": "83",
-            "average_last_3": "82",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
+          "post_position_analysis": "Mid-field draw.",
+          "analysis": "Won maiden two back, then solid 6th in BM62 (higher grade). Drops to 0-58. Ratings are consistent.",
+          "hidden_factor": "Consistent improver.",
           "verdict": [
-            "Contender"
+            "CONTENDER"
           ],
-          "stars": 3
-        },
-        {
-          "number": 10,
-          "name": "Maurita",
-          "barrier": 6,
-          "weight": "119lbs",
-          "jockey": {
-            "name": "Ashvin Goindasamy",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Ruby Chatterton",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "6-9",
-          "rating": 80,
-          "win_probability": "9.9%",
-          "place_probability": "27.7%",
-          "show_probability": "34.6%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 6 analysis...",
-          "speed_figures": {
-            "career_best": "80",
-            "last_start": "78",
-            "average_last_3": "77",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
+          "stars": 3,
+          "rating": 91,
+          "win_probability": "14%",
+          "place_probability": "40%",
+          "show_probability": "60%"
         }
       ],
-      "analysis": "Maravich was impressive winning fresh and stays in a suitable grade. Love 'N' Games broke maiden status in style and can go on with it. Glenray's Mate had a forgive run last start and previous form was excellent.",
       "betting_strategy": {
         "confidence_level": "Medium",
         "suggested_bets": [
           {
             "type": "Win",
             "selection": "2",
-            "stake": "1 unit",
+            "stake": "1.5 units",
             "odds_range": "3.00+"
+          },
+          {
+            "type": "Each Way",
+            "selection": "9",
+            "stake": "0.5 units",
+            "odds_range": "8.00+"
           }
         ],
-        "key_bet": "Win #2 Maravich"
-      },
-      "track_bias": {
-        "summary": "Soft 6 track. Rail +7m. Leaders might have slight advantage but track should play fair.",
-        "details": "With rail out, inside barriers often preferred."
-      },
-      "pace": "Moderate pace expected."
+        "key_bet": "Maravich to win"
+      }
     },
     {
       "number": 3,
-      "post_time": "11:48 PM ET",
+      "post_time": "11:48 PM",
+      "purse": "$19,000",
       "distance": "2150m",
       "conditions": "Benchmark 65",
+      "surface": "Turf",
+      "claiming_price": null,
       "field_size": 8,
+      "confidence": "High Confidence",
+      "track_bias": {
+        "summary": "Rail out 7m at 2150m start is fair, but pace dictates.",
+        "details": "Small field often leads to tactical, slow pace."
+      },
+      "pace": "Slow pace expected. Lovey Dovey likely to control.",
+      "analysis": "Lovey Dovey and Aboveforty come out of the same race where they finished 1-2. Lovey Dovey won by a nose. Small field suits both. Ring Bearer brings strong form from Sunshine Coast.",
       "contenders": [
         {
           "number": 7,
           "name": "Lovey Dovey",
           "barrier": 4,
-          "weight": "128lbs",
+          "weight": "128 lbs",
           "jockey": {
             "name": "Andrew Mallyon",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
+            "track_record": "17% strike rate",
+            "recent_form": "Excellent"
           },
           "trainer": {
             "name": "Chris Waller",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
+            "track_record": "12% strike rate",
+            "stable_form": "Elite"
           },
-          "form": "5-1",
-          "rating": 99,
-          "win_probability": "13.4%",
-          "place_probability": "37.4%",
-          "show_probability": "46.8%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
+          "odds": {
+            "morning_line": "5/1",
+            "current_estimate": "3.20",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-10",
+              "track": "Ipswich",
+              "distance": "2150m",
+              "finish": "1st",
+              "margin": "0.1L",
+              "speed_fig": "65"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "68",
+            "last_start": "65",
+            "average_last_3": "64",
+            "par_for_class": "60"
+          },
+          "days_since_last": 11,
+          "fitness_level": "Peak",
           "equipment": {
             "blinkers": false,
             "tongue_tie": false,
             "gear_changes": "None"
           },
-          "post_position_analysis": "Barrier 4 analysis...",
-          "speed_figures": {
-            "career_best": "99",
-            "last_start": "97",
-            "average_last_3": "96",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
+          "post_position_analysis": "Barrier 4 allows her to dictate or sit 2nd.",
+          "analysis": "Last start winner at this track/distance. Waller/Mallyon combo is deadly. Consistent ratings (65, 61, 65). Hard to beat.",
+          "hidden_factor": "Waller stayers in small fields are very dangerous.",
           "verdict": [
-            "TOP PICK"
+            "BEST BET"
           ],
-          "stars": 5
+          "stars": 5,
+          "rating": 100,
+          "win_probability": "40%",
+          "place_probability": "85%",
+          "show_probability": "95%"
         },
         {
           "number": 6,
           "name": "Aboveforty",
           "barrier": 2,
-          "weight": "128lbs",
+          "weight": "128 lbs",
           "jockey": {
             "name": "Ben Thompson",
-            "track_record": "12% Strike Rate",
+            "track_record": "16% strike rate",
             "recent_form": "Solid"
           },
           "trainer": {
             "name": "Chris Waller",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
+            "track_record": "12% strike rate",
+            "stable_form": "Elite"
           },
-          "form": "1-2",
-          "rating": 97,
-          "win_probability": "13.1%",
-          "place_probability": "36.7%",
-          "show_probability": "45.8%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
+          "odds": {
+            "morning_line": "6/1",
+            "current_estimate": "4.00",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-10",
+              "track": "Ipswich",
+              "distance": "2150m",
+              "finish": "2nd",
+              "margin": "0.1L",
+              "speed_fig": "66"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "66",
+            "last_start": "66",
+            "average_last_3": "61",
+            "par_for_class": "60"
+          },
+          "days_since_last": 11,
+          "fitness_level": "Peak",
           "equipment": {
             "blinkers": false,
             "tongue_tie": false,
             "gear_changes": "None"
           },
-          "post_position_analysis": "Barrier 2 analysis...",
-          "speed_figures": {
-            "career_best": "97",
-            "last_start": "95",
-            "average_last_3": "94",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
+          "post_position_analysis": "Barrier 2 ensures a good run.",
+          "analysis": "Narrowly beaten by stablemate Lovey Dovey last time. Actually rated 1 point higher (66 vs 65) last start. Could easily turn the tables.",
+          "hidden_factor": "Stablemate quinella highly likely.",
           "verdict": [
             "MAIN DANGER"
           ],
-          "stars": 4
+          "stars": 4,
+          "rating": 99,
+          "win_probability": "30%",
+          "place_probability": "75%",
+          "show_probability": "90%"
         },
         {
           "number": 2,
           "name": "Ring Bearer",
           "barrier": 1,
-          "weight": "131lbs",
+          "weight": "131 lbs",
           "jockey": {
-            "name": "Olivia Webb (a)",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
+            "name": "Olivia Webb",
+            "track_record": "11% strike rate",
+            "recent_form": "Fair"
           },
           "trainer": {
             "name": "Taylah Mackinnon",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
+            "track_record": "9% strike rate",
+            "stable_form": "Average"
           },
-          "form": "2-3",
-          "rating": 94,
-          "win_probability": "12.7%",
-          "place_probability": "35.5%",
-          "show_probability": "44.4%",
-          "days_since_last": 14,
+          "odds": {
+            "morning_line": "15/2",
+            "current_estimate": "7.00",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-03",
+              "track": "Ipswich",
+              "distance": "2000m",
+              "finish": "3rd",
+              "margin": "1.3L",
+              "speed_fig": "65"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "74",
+            "last_start": "65",
+            "average_last_3": "64",
+            "par_for_class": "60"
+          },
+          "days_since_last": 18,
           "fitness_level": "Fit",
           "equipment": {
             "blinkers": false,
             "tongue_tie": false,
             "gear_changes": "None"
           },
-          "post_position_analysis": "Barrier 1 analysis...",
-          "speed_figures": {
-            "career_best": "94",
-            "last_start": "92",
-            "average_last_3": "91",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
+          "post_position_analysis": "Inside gate is a plus.",
+          "analysis": "Consistent type. Placed at this track last start in BM70 grade (higher than this). Drops in class but weight is manageable.",
+          "hidden_factor": "Class drop from BM70 to BM65.",
           "verdict": [
-            "Contender"
+            "CONTENDER"
           ],
-          "stars": 3
-        },
-        {
-          "number": 3,
-          "name": "Demarcay",
-          "barrier": 5,
-          "weight": "130lbs",
-          "jockey": {
-            "name": "Les Tilley",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Jeff Dunn",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "3-4",
-          "rating": 93,
-          "win_probability": "12.6%",
-          "place_probability": "35.1%",
-          "show_probability": "43.9%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 5 analysis...",
-          "speed_figures": {
-            "career_best": "93",
-            "last_start": "91",
-            "average_last_3": "90",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 1,
-          "name": "Lenape Vibe",
-          "barrier": 7,
-          "weight": "134lbs",
-          "jockey": {
-            "name": "Jasper Franklin (a)",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Chris Waller",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "5-6",
-          "rating": 91,
-          "win_probability": "12.3%",
-          "place_probability": "34.4%",
-          "show_probability": "43.0%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 7 analysis...",
-          "speed_figures": {
-            "career_best": "91",
-            "last_start": "89",
-            "average_last_3": "88",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 8,
-          "name": "Stynsy",
-          "barrier": 10,
-          "weight": "126lbs",
-          "jockey": {
-            "name": "Daniel Moor",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Jack Bruce",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "1-8",
-          "rating": 90,
-          "win_probability": "12.1%",
-          "place_probability": "34.0%",
-          "show_probability": "42.5%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 10 analysis...",
-          "speed_figures": {
-            "career_best": "90",
-            "last_start": "88",
-            "average_last_3": "87",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 10,
-          "name": "Autumngirl",
-          "barrier": 9,
-          "weight": "122lbs",
-          "jockey": {
-            "name": "Michael Rodd",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Kelly Schweida",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "3-6",
-          "rating": 89,
-          "win_probability": "12.0%",
-          "place_probability": "33.6%",
-          "show_probability": "42.0%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 9 analysis...",
-          "speed_figures": {
-            "career_best": "89",
-            "last_start": "87",
-            "average_last_3": "86",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 4,
-          "name": "Flying Bat",
-          "barrier": 3,
-          "weight": "129lbs",
-          "jockey": {
-            "name": "Jett Newman (a)",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Allan Chau",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "2-7",
-          "rating": 88,
-          "win_probability": "11.9%",
-          "place_probability": "33.3%",
-          "show_probability": "41.6%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 3 analysis...",
-          "speed_figures": {
-            "career_best": "88",
-            "last_start": "86",
-            "average_last_3": "85",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
+          "stars": 3,
+          "rating": 95,
+          "win_probability": "15%",
+          "place_probability": "50%",
+          "show_probability": "70%"
         }
       ],
-      "analysis": "Lovey Dovey and Aboveforty fought out the finish here last start and look the pair to beat again. Lovey Dovey gets the nod with the win confidence. Ring Bearer is consistent and drawn well.",
       "betting_strategy": {
-        "confidence_level": "Medium",
+        "confidence_level": "High",
         "suggested_bets": [
           {
             "type": "Win",
             "selection": "7",
-            "stake": "1 unit",
+            "stake": "2 units",
             "odds_range": "3.00+"
+          },
+          {
+            "type": "Exacta",
+            "selection": "7/6",
+            "stake": "1 unit"
+          },
+          {
+            "type": "Quinella",
+            "selection": "6,7",
+            "stake": "1 unit"
           }
         ],
-        "key_bet": "Win #7 Lovey Dovey"
-      },
-      "track_bias": {
-        "summary": "Soft 6 track. Rail +7m. Leaders might have slight advantage but track should play fair.",
-        "details": "With rail out, inside barriers often preferred."
-      },
-      "pace": "Moderate pace expected."
+        "key_bet": "Lovey Dovey / Aboveforty Quinella"
+      }
     },
     {
       "number": 4,
-      "post_time": "12:23 AM ET",
+      "post_time": "12:23 AM",
+      "purse": "$20,000",
       "distance": "1350m",
       "conditions": "Maiden Handicap",
+      "surface": "Turf",
+      "claiming_price": null,
       "field_size": 11,
+      "confidence": "Medium Confidence",
+      "track_bias": {
+        "summary": "1350m start at Ipswich with rail out 7m is tricky. Wide gates are a disadvantage.",
+        "details": "Need to be forward or have cover. Getting trapped wide is fatal."
+      },
+      "pace": "Moderate to Fast.",
+      "analysis": "Many scratches here open the field up. Ratenotice (Emergency) gains a start and brings the best form (2nd at Ipswich). Battuta (Waller) is a big watch. Cliodhna Maeve placed last start.",
       "contenders": [
         {
           "number": 15,
           "name": "Ratenotice",
           "barrier": 8,
-          "weight": "123lbs",
+          "weight": "123 lbs",
           "jockey": {
             "name": "Brandon Lerena",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
+            "track_record": "14% strike rate",
+            "recent_form": "Good"
           },
           "trainer": {
             "name": "Emma Fouchard",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
+            "track_record": "6% strike rate",
+            "stable_form": "Fair"
           },
-          "form": "2-8",
-          "rating": 92,
-          "win_probability": "10.0%",
-          "place_probability": "28.0%",
-          "show_probability": "35.0%",
-          "days_since_last": 14,
+          "odds": {
+            "morning_line": "9/2",
+            "current_estimate": "3.50",
+            "value_assessment": "Good Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-03",
+              "track": "Ipswich",
+              "distance": "1700m",
+              "finish": "8th",
+              "margin": "6.8L",
+              "speed_fig": "41"
+            },
+            {
+              "date": "2025-12-17",
+              "track": "Ipswich",
+              "distance": "1350m",
+              "finish": "2nd",
+              "margin": "0.5L",
+              "speed_fig": "57"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "66",
+            "last_start": "41",
+            "average_last_3": "45",
+            "par_for_class": "50"
+          },
+          "days_since_last": 18,
           "fitness_level": "Fit",
           "equipment": {
             "blinkers": false,
             "tongue_tie": false,
             "gear_changes": "None"
           },
-          "post_position_analysis": "Barrier 8 analysis...",
-          "speed_figures": {
-            "career_best": "92",
-            "last_start": "90",
-            "average_last_3": "89",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
+          "post_position_analysis": "Barrier 8 is manageable with scratches.",
+          "analysis": "Ignore last start over 1700m. The run before at this track/distance was excellent (2nd, SR 57). Back to 1350m suits perfectly. Rates highest on best form.",
+          "hidden_factor": "Distance drop is a key positive angle.",
           "verdict": [
             "TOP PICK"
           ],
-          "stars": 5
-        },
-        {
-          "number": 5,
-          "name": "Gunnie Gunfighter",
-          "barrier": 4,
-          "weight": "129lbs",
-          "jockey": {
-            "name": "Tiffani Brooker",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Natalie Mccall",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "2-9",
-          "rating": 88,
-          "win_probability": "9.6%",
-          "place_probability": "26.8%",
-          "show_probability": "33.5%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 4 analysis...",
-          "speed_figures": {
-            "career_best": "88",
-            "last_start": "86",
-            "average_last_3": "85",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "MAIN DANGER"
-          ],
-          "stars": 4
-        },
-        {
-          "number": 7,
-          "name": "Cliodhna Maeve",
-          "barrier": 6,
-          "weight": "128lbs",
-          "jockey": {
-            "name": "Jaden Lloyd",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Barry Lockwood",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "2-10",
-          "rating": 87,
-          "win_probability": "9.5%",
-          "place_probability": "26.5%",
-          "show_probability": "33.1%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 6 analysis...",
-          "speed_figures": {
-            "career_best": "87",
-            "last_start": "85",
-            "average_last_3": "84",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 13,
-          "name": "Isla Delilah",
-          "barrier": 3,
-          "weight": "123lbs",
-          "jockey": {
-            "name": "Harrison Shaw",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Chris & Corey Munce",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "5",
-          "rating": 86,
-          "win_probability": "9.3%",
-          "place_probability": "26.2%",
-          "show_probability": "32.7%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 3 analysis...",
-          "speed_figures": {
-            "career_best": "86",
-            "last_start": "84",
-            "average_last_3": "83",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 2,
-          "name": "French Liner",
-          "barrier": 2,
-          "weight": "131lbs",
-          "jockey": {
-            "name": "Cejay Graham",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Alan Boyd",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "4",
-          "rating": 85,
-          "win_probability": "9.2%",
-          "place_probability": "25.9%",
-          "show_probability": "32.3%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 2 analysis...",
-          "speed_figures": {
-            "career_best": "85",
-            "last_start": "83",
-            "average_last_3": "82",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 9,
-          "name": "Queen Of Light",
-          "barrier": 10,
-          "weight": "127lbs",
-          "jockey": {
-            "name": "Kyle Wilson-Taylor",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Desleigh Forster",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "10-4",
-          "rating": 84,
-          "win_probability": "9.1%",
-          "place_probability": "25.6%",
-          "show_probability": "32.0%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 10 analysis...",
-          "speed_figures": {
-            "career_best": "84",
-            "last_start": "82",
-            "average_last_3": "81",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
+          "stars": 4,
+          "rating": 93,
+          "win_probability": "25%",
+          "place_probability": "60%",
+          "show_probability": "75%"
         },
         {
           "number": 17,
           "name": "Battuta",
           "barrier": 1,
-          "weight": "123lbs",
+          "weight": "123 lbs",
           "jockey": {
             "name": "Andrew Mallyon",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
+            "track_record": "17% strike rate",
+            "recent_form": "Excellent"
           },
           "trainer": {
             "name": "Chris Waller",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
+            "track_record": "12% strike rate",
+            "stable_form": "Elite"
           },
-          "form": "10-5",
-          "rating": 83,
-          "win_probability": "9.0%",
-          "place_probability": "25.3%",
-          "show_probability": "31.6%",
-          "days_since_last": 14,
+          "odds": {
+            "morning_line": "16/1",
+            "current_estimate": "6.00",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-01",
+              "track": "Sunshine Coast",
+              "distance": "1400m",
+              "finish": "5th",
+              "margin": "2.9L",
+              "speed_fig": "58"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "66",
+            "last_start": "58",
+            "average_last_3": "54",
+            "par_for_class": "50"
+          },
+          "days_since_last": 20,
           "fitness_level": "Fit",
           "equipment": {
             "blinkers": false,
             "tongue_tie": false,
             "gear_changes": "None"
           },
-          "post_position_analysis": "Barrier 1 analysis...",
-          "speed_figures": {
-            "career_best": "83",
-            "last_start": "81",
-            "average_last_3": "80",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
+          "post_position_analysis": "Barrier 1 is a huge advantage.",
+          "analysis": "Waller runner who wasn't beaten far last start. SR 58 is competitive. Inside draw helps significantly.",
+          "hidden_factor": "Waller/Mallyon combination.",
           "verdict": [
-            "Contender"
+            "MAIN DANGER"
           ],
-          "stars": 3
+          "stars": 3,
+          "rating": 91,
+          "win_probability": "20%",
+          "place_probability": "55%",
+          "show_probability": "70%"
         },
         {
-          "number": 3,
-          "name": "Cooloundra",
-          "barrier": 18,
-          "weight": "129lbs",
+          "number": 7,
+          "name": "Cliodhna Maeve",
+          "barrier": 6,
+          "weight": "128 lbs",
           "jockey": {
-            "name": "Paul Hamblin",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
+            "name": "Jaden Lloyd",
+            "track_record": "13% strike rate",
+            "recent_form": "Fair"
           },
           "trainer": {
-            "name": "David Vandyke",
-            "track_record": "15% Strike Rate",
+            "name": "Barry Lockwood",
+            "track_record": "23% strike rate",
             "stable_form": "Good"
           },
-          "form": "First Start",
-          "rating": 82,
-          "win_probability": "8.9%",
-          "place_probability": "25.0%",
-          "show_probability": "31.2%",
+          "odds": {
+            "morning_line": "15/2",
+            "current_estimate": "5.00",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-07",
+              "track": "Eagle Farm",
+              "distance": "1200m",
+              "finish": "2nd",
+              "margin": "0.3L",
+              "speed_fig": "54"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "54",
+            "last_start": "54",
+            "average_last_3": "50",
+            "par_for_class": "50"
+          },
           "days_since_last": 14,
-          "fitness_level": "Fit",
+          "fitness_level": "2nd-up",
           "equipment": {
             "blinkers": false,
             "tongue_tie": false,
             "gear_changes": "None"
           },
-          "post_position_analysis": "Barrier 18 analysis...",
-          "speed_figures": {
-            "career_best": "82",
-            "last_start": "80",
-            "average_last_3": "79",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
+          "post_position_analysis": "Mid draw is okay.",
+          "analysis": "Narrowly beaten at Eagle Farm (Metro) last start. That form is strong for this Provincial maiden. Consistent.",
+          "hidden_factor": "Metro form lines usually hold up well at Ipswich.",
           "verdict": [
-            "Contender"
+            "CONTENDER"
           ],
-          "stars": 3
-        },
-        {
-          "number": 11,
-          "name": "Prince Phoenix",
-          "barrier": 13,
-          "weight": "126lbs",
-          "jockey": {
-            "name": "Les Tilley",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Gregory Cornish",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "2-8",
-          "rating": 80,
-          "win_probability": "8.7%",
-          "place_probability": "24.3%",
-          "show_probability": "30.4%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 13 analysis...",
-          "speed_figures": {
-            "career_best": "80",
-            "last_start": "78",
-            "average_last_3": "77",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 21,
-          "name": "Scuti",
-          "barrier": 12,
-          "weight": "119lbs",
-          "jockey": {
-            "name": "Ms Chelsea Baker (a)",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Scott Morrisey",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "6",
-          "rating": 78,
-          "win_probability": "8.5%",
-          "place_probability": "23.7%",
-          "show_probability": "29.7%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 12 analysis...",
-          "speed_figures": {
-            "career_best": "78",
-            "last_start": "76",
-            "average_last_3": "75",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 20,
-          "name": "Air Control",
-          "barrier": 5,
-          "weight": "123lbs",
-          "jockey": {
-            "name": "Jason Taylor",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Doug & Graeme Lane",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "5-10",
-          "rating": 75,
-          "win_probability": "8.2%",
-          "place_probability": "22.8%",
-          "show_probability": "28.5%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 5 analysis...",
-          "speed_figures": {
-            "career_best": "75",
-            "last_start": "73",
-            "average_last_3": "72",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
+          "stars": 3,
+          "rating": 90,
+          "win_probability": "18%",
+          "place_probability": "50%",
+          "show_probability": "65%"
         }
       ],
-      "analysis": "Ratenotice brings the strongest form lines into this open maiden. Gunnie Gunfighter has shown ability. Isla Delilah should improve from debut.",
       "betting_strategy": {
         "confidence_level": "Medium",
         "suggested_bets": [
@@ -1844,543 +843,203 @@
             "type": "Win",
             "selection": "15",
             "stake": "1 unit",
-            "odds_range": "3.00+"
+            "odds_range": "3.50+"
+          },
+          {
+            "type": "Boxed Exacta",
+            "selection": "7,15,17",
+            "stake": "0.5 units"
           }
         ],
-        "key_bet": "Win #15 Ratenotice"
-      },
-      "track_bias": {
-        "summary": "Soft 6 track. Rail +7m. Leaders might have slight advantage but track should play fair.",
-        "details": "With rail out, inside barriers often preferred."
-      },
-      "pace": "Moderate pace expected."
+        "key_bet": "Ratenotice each way"
+      }
     },
     {
       "number": 5,
-      "post_time": "12:58 AM ET",
-      "distance": "1666m",
+      "post_time": "12:58 AM",
+      "purse": "$19,000",
+      "distance": "1700m",
       "conditions": "Benchmark 65",
+      "surface": "Turf",
+      "claiming_price": null,
       "field_size": 11,
+      "confidence": "Medium Confidence",
+      "track_bias": {
+        "summary": "1700m start allows time to find position, but rail out 7m still favors those not too far back.",
+        "details": "Soft track + rail out suggests on-pace advantage."
+      },
+      "pace": "Moderate.",
+      "analysis": "Luconi is in great form winning last start. The Catch is consistent. Sacred Bull has ability but can be inconsistent. Open race.",
       "contenders": [
         {
           "number": 7,
           "name": "Luconi",
           "barrier": 10,
-          "weight": "131lbs",
+          "weight": "131 lbs",
           "jockey": {
             "name": "Brandon Lerena",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
+            "track_record": "14% strike rate",
+            "recent_form": "Strong"
           },
           "trainer": {
             "name": "Jack Bruce",
-            "track_record": "15% Strike Rate",
+            "track_record": "15% strike rate",
             "stable_form": "Good"
           },
-          "form": "5-1",
-          "rating": 98,
-          "win_probability": "9.6%",
-          "place_probability": "26.9%",
-          "show_probability": "33.7%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
+          "odds": {
+            "morning_line": "9/1",
+            "current_estimate": "5.00",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-09",
+              "track": "Gatton",
+              "distance": "1600m",
+              "finish": "1st",
+              "margin": "0.1L",
+              "speed_fig": "65"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "66",
+            "last_start": "65",
+            "average_last_3": "61",
+            "par_for_class": "60"
+          },
+          "days_since_last": 12,
+          "fitness_level": "Peak",
           "equipment": {
             "blinkers": false,
             "tongue_tie": false,
             "gear_changes": "None"
           },
-          "post_position_analysis": "Barrier 10 analysis...",
-          "speed_figures": {
-            "career_best": "98",
-            "last_start": "96",
-            "average_last_3": "95",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
+          "post_position_analysis": "Barrier 10 is wide, needs a good ride.",
+          "analysis": "Last start winner with a good speed figure (65). Consistent type who handles soft going. Wide draw the only concern.",
+          "hidden_factor": "Jack Bruce stable going well.",
           "verdict": [
             "TOP PICK"
           ],
-          "stars": 5
-        },
-        {
-          "number": 15,
-          "name": "Toba",
-          "barrier": 7,
-          "weight": "125lbs",
-          "jockey": {
-            "name": "Kyle Wilson-Taylor",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Rex Lipp",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "4-1",
-          "rating": 97,
-          "win_probability": "9.5%",
-          "place_probability": "26.7%",
-          "show_probability": "33.3%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 7 analysis...",
-          "speed_figures": {
-            "career_best": "97",
-            "last_start": "95",
-            "average_last_3": "94",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "MAIN DANGER"
-          ],
-          "stars": 4
-        },
-        {
-          "number": 9,
-          "name": "Sacred Bull",
-          "barrier": 1,
-          "weight": "128lbs",
-          "jockey": {
-            "name": "Damien Thornton",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Jack Bruce",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "4-2",
-          "rating": 96,
-          "win_probability": "9.4%",
-          "place_probability": "26.4%",
-          "show_probability": "33.0%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 1 analysis...",
-          "speed_figures": {
-            "career_best": "96",
-            "last_start": "94",
-            "average_last_3": "93",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 4,
-          "name": "Yukanuma",
-          "barrier": 5,
-          "weight": "133lbs",
-          "jockey": {
-            "name": "Bella Youngberry (a)",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Jordan Lee",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "7-2",
-          "rating": 95,
-          "win_probability": "9.3%",
-          "place_probability": "26.1%",
-          "show_probability": "32.6%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 5 analysis...",
-          "speed_figures": {
-            "career_best": "95",
-            "last_start": "93",
-            "average_last_3": "92",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 8,
-          "name": "San Jose Boy",
-          "barrier": 2,
-          "weight": "130lbs",
-          "jockey": {
-            "name": "Ben Thompson",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Jack Bruce",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "8-3",
+          "stars": 4,
           "rating": 94,
-          "win_probability": "9.2%",
-          "place_probability": "25.8%",
-          "show_probability": "32.3%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 2 analysis...",
-          "speed_figures": {
-            "career_best": "94",
-            "last_start": "92",
-            "average_last_3": "91",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
+          "win_probability": "22%",
+          "place_probability": "55%",
+          "show_probability": "70%"
         },
         {
           "number": 1,
           "name": "The Catch",
           "barrier": 3,
-          "weight": "138lbs",
+          "weight": "138 lbs",
           "jockey": {
-            "name": "Fiona Sandkuhl (a)",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
+            "name": "Fiona Sandkuhl",
+            "track_record": "11% strike rate",
+            "recent_form": "Fair"
           },
           "trainer": {
             "name": "Jeff Dunn",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "2-7",
-          "rating": 93,
-          "win_probability": "9.1%",
-          "place_probability": "25.6%",
-          "show_probability": "31.9%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 3 analysis...",
-          "speed_figures": {
-            "career_best": "93",
-            "last_start": "91",
-            "average_last_3": "90",
-            "par_for_class": "90"
+            "track_record": "11% strike rate",
+            "stable_form": "Average"
           },
           "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
+            "morning_line": "16/1",
+            "current_estimate": "8.00",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
           },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
+          "recent_form": [
+            {
+              "date": "2025-12-31",
+              "track": "Beaudesert",
+              "distance": "1400m",
+              "finish": "7th",
+              "margin": "3.9L",
+              "speed_fig": "65"
+            }
           ],
-          "stars": 3
-        },
-        {
-          "number": 12,
-          "name": "Aratiri",
-          "barrier": 13,
-          "weight": "122lbs",
-          "jockey": {
-            "name": "Chelsea Baker (a)",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Scott Morrisey",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "7-2",
-          "rating": 92,
-          "win_probability": "9.0%",
-          "place_probability": "25.3%",
-          "show_probability": "31.6%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 13 analysis...",
-          "speed_figures": {
-            "career_best": "92",
-            "last_start": "90",
-            "average_last_3": "89",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 3,
-          "name": "Expectant",
-          "barrier": 4,
-          "weight": "136lbs",
-          "jockey": {
-            "name": "Chloe Lowe (a)",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "John Thomas",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "6-3",
-          "rating": 91,
-          "win_probability": "8.9%",
-          "place_probability": "25.0%",
-          "show_probability": "31.3%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 4 analysis...",
-          "speed_figures": {
-            "career_best": "91",
-            "last_start": "89",
-            "average_last_3": "88",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 6,
-          "name": "Likeabeel",
-          "barrier": 8,
-          "weight": "132lbs",
-          "jockey": {
-            "name": "Julie Busuttin (a)",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Patrick Busuttin",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "2-8",
-          "rating": 90,
-          "win_probability": "8.8%",
-          "place_probability": "24.7%",
-          "show_probability": "30.9%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 8 analysis...",
-          "speed_figures": {
-            "career_best": "90",
-            "last_start": "88",
-            "average_last_3": "87",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 10,
-          "name": "Wanda's Outlaw",
-          "barrier": 12,
-          "weight": "126lbs",
-          "jockey": {
-            "name": "Cejay Graham",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Chris Anderson",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "5-8",
-          "rating": 88,
-          "win_probability": "8.6%",
-          "place_probability": "24.2%",
-          "show_probability": "30.2%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 12 analysis...",
           "speed_figures": {
             "career_best": "88",
-            "last_start": "86",
-            "average_last_3": "85",
-            "par_for_class": "90"
+            "last_start": "65",
+            "average_last_3": "68",
+            "par_for_class": "65"
           },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 5,
-          "name": "Kiptanui",
-          "barrier": 6,
-          "weight": "132lbs",
-          "jockey": {
-            "name": "Colleen Krahnen (a)",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Rodney Hay",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "9-6",
-          "rating": 85,
-          "win_probability": "8.3%",
-          "place_probability": "23.4%",
-          "show_probability": "29.2%",
-          "days_since_last": 14,
+          "days_since_last": 21,
           "fitness_level": "Fit",
           "equipment": {
             "blinkers": false,
             "tongue_tie": false,
             "gear_changes": "None"
           },
-          "post_position_analysis": "Barrier 6 analysis...",
-          "speed_figures": {
-            "career_best": "85",
-            "last_start": "83",
-            "average_last_3": "82",
-            "par_for_class": "90"
+          "post_position_analysis": "Barrier 3 is excellent.",
+          "analysis": "Class runner of the field. Carries weight but has high past ratings (88). Recent form is steady. Drawn to get a soft run.",
+          "hidden_factor": "Drops in grade/class relative to past peak.",
+          "verdict": [
+            "CLASS RUNNER"
+          ],
+          "stars": 3,
+          "rating": 92,
+          "win_probability": "18%",
+          "place_probability": "50%",
+          "show_probability": "65%"
+        },
+        {
+          "number": 9,
+          "name": "Sacred Bull",
+          "barrier": 1,
+          "weight": "128 lbs",
+          "jockey": {
+            "name": "Damien Thornton",
+            "track_record": "12% strike rate",
+            "recent_form": "Solid"
+          },
+          "trainer": {
+            "name": "Jack Bruce",
+            "track_record": "15% strike rate",
+            "stable_form": "Good"
           },
           "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
+            "morning_line": "8/1",
+            "current_estimate": "6.00",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
           },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
+          "recent_form": [
+            {
+              "date": "2026-01-09",
+              "track": "Sunshine Coast",
+              "distance": "1600m",
+              "finish": "2nd",
+              "margin": "2.9L",
+              "speed_fig": "67"
+            }
           ],
-          "stars": 3
+          "speed_figures": {
+            "career_best": "68",
+            "last_start": "67",
+            "average_last_3": "65",
+            "par_for_class": "60"
+          },
+          "days_since_last": 12,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": "None"
+          },
+          "post_position_analysis": "Barrier 1 is perfect.",
+          "analysis": "Consistent runner. Placed last start with good figure (67). Drawn the rails. Should be in the finish.",
+          "hidden_factor": "Jack Bruce stablemate to top pick.",
+          "verdict": [
+            "CONTENDER"
+          ],
+          "stars": 3,
+          "rating": 91,
+          "win_probability": "15%",
+          "place_probability": "45%",
+          "show_probability": "60%"
         }
       ],
-      "analysis": "Luconi was a strong winner last start and maps well. Toba also comes off a win and must be respected. Sacred Bull is consistent and drawn to get a soft run.",
       "betting_strategy": {
         "confidence_level": "Medium",
         "suggested_bets": [
@@ -2388,541 +1047,283 @@
             "type": "Win",
             "selection": "7",
             "stake": "1 unit",
-            "odds_range": "3.00+"
+            "odds_range": "4.00+"
+          },
+          {
+            "type": "Boxed Quinella",
+            "selection": "1,7,9",
+            "stake": "0.5 units"
           }
         ],
-        "key_bet": "Win #7 Luconi"
-      },
-      "track_bias": {
-        "summary": "Soft 6 track. Rail +7m. Leaders might have slight advantage but track should play fair.",
-        "details": "With rail out, inside barriers often preferred."
-      },
-      "pace": "Moderate pace expected."
+        "key_bet": "Luconi to win"
+      }
     },
     {
       "number": 6,
-      "post_time": "1:33 AM ET",
+      "post_time": "1:33 AM",
+      "purse": "$19,000",
       "distance": "1200m",
       "conditions": "Class 2 Handicap",
+      "surface": "Turf",
+      "claiming_price": null,
       "field_size": 10,
+      "confidence": "High Confidence",
+      "track_bias": {
+        "summary": "1200m chute start. Rail out 7m favors inside/on-pace.",
+        "details": "Leaders and box seat runners dominate this track/distance."
+      },
+      "pace": "Fast pace likely with 1200m sprinters.",
+      "analysis": "Bluish Hue is a clear top pick coming off a win with a strong rating (66). Lumens Lenny is consistent. Believe In Angels has ability.",
       "contenders": [
         {
           "number": 8,
           "name": "Bluish Hue",
           "barrier": 2,
-          "weight": "127lbs",
+          "weight": "127 lbs",
           "jockey": {
             "name": "Les Tilley",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
+            "track_record": "16% strike rate",
+            "recent_form": "Good"
           },
           "trainer": {
             "name": "Jake Capewell",
-            "track_record": "15% Strike Rate",
+            "track_record": "13% strike rate",
             "stable_form": "Good"
           },
-          "form": "2-1",
+          "odds": {
+            "morning_line": "4/1",
+            "current_estimate": "2.80",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Underlay"
+          },
+          "recent_form": [
+            {
+              "date": "2025-12-20",
+              "track": "Toowoomba",
+              "distance": "1200m",
+              "finish": "1st",
+              "margin": "1.4L",
+              "speed_fig": "66"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "66",
+            "last_start": "66",
+            "average_last_3": "63",
+            "par_for_class": "60"
+          },
+          "days_since_last": 32,
+          "fitness_level": "Fresh",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": "None"
+          },
+          "post_position_analysis": "Barrier 2 is ideal.",
+          "analysis": "Last start winner with a dominant figure. Maps perfectly from barrier 2. Fresh enough (32 days). Looks the winner.",
+          "hidden_factor": "High win strike rate for trainer at this level.",
+          "verdict": [
+            "BEST BET"
+          ],
+          "stars": 5,
           "rating": 98,
-          "win_probability": "10.8%",
-          "place_probability": "30.3%",
-          "show_probability": "37.9%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 2 analysis...",
-          "speed_figures": {
-            "career_best": "98",
-            "last_start": "96",
-            "average_last_3": "95",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "TOP PICK"
-          ],
-          "stars": 5
-        },
-        {
-          "number": 10,
-          "name": "Lightning Strikes",
-          "barrier": 8,
-          "weight": "127lbs",
-          "jockey": {
-            "name": "Adin Thompson",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Jason Edwards",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "6-1",
-          "rating": 96,
-          "win_probability": "10.6%",
-          "place_probability": "29.7%",
-          "show_probability": "37.1%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 8 analysis...",
-          "speed_figures": {
-            "career_best": "96",
-            "last_start": "94",
-            "average_last_3": "93",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "MAIN DANGER"
-          ],
-          "stars": 4
-        },
-        {
-          "number": 9,
-          "name": "Bold Bidder",
-          "barrier": 7,
-          "weight": "127lbs",
-          "jockey": {
-            "name": "Kyle Wilson-Taylor",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Desleigh Forster",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "8-2",
-          "rating": 95,
-          "win_probability": "10.5%",
-          "place_probability": "29.4%",
-          "show_probability": "36.7%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 7 analysis...",
-          "speed_figures": {
-            "career_best": "95",
-            "last_start": "93",
-            "average_last_3": "92",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 3,
-          "name": "Believe In Angels",
-          "barrier": 3,
-          "weight": "130lbs",
-          "jockey": {
-            "name": "Ben Thompson",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Paul Shailer",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "5-5",
-          "rating": 92,
-          "win_probability": "10.2%",
-          "place_probability": "28.4%",
-          "show_probability": "35.5%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 3 analysis...",
-          "speed_figures": {
-            "career_best": "92",
-            "last_start": "90",
-            "average_last_3": "89",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 13,
-          "name": "The Stars",
-          "barrier": 9,
-          "weight": "125lbs",
-          "jockey": {
-            "name": "Damien Thornton",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Chris Waller",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "2-6",
-          "rating": 91,
-          "win_probability": "10.0%",
-          "place_probability": "28.1%",
-          "show_probability": "35.2%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 9 analysis...",
-          "speed_figures": {
-            "career_best": "91",
-            "last_start": "89",
-            "average_last_3": "88",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 5,
-          "name": "Limero",
-          "barrier": 1,
-          "weight": "129lbs",
-          "jockey": {
-            "name": "Jasper Franklin (a)",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Stuart Kendrick",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "2-11",
-          "rating": 90,
-          "win_probability": "9.9%",
-          "place_probability": "27.8%",
-          "show_probability": "34.8%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 1 analysis...",
-          "speed_figures": {
-            "career_best": "90",
-            "last_start": "88",
-            "average_last_3": "87",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 12,
-          "name": "Jukebox In Siberia",
-          "barrier": 5,
-          "weight": "126lbs",
-          "jockey": {
-            "name": "Bella Youngberry (a)",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Stephen Lee",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "6-6",
-          "rating": 89,
-          "win_probability": "9.8%",
-          "place_probability": "27.5%",
-          "show_probability": "34.4%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 5 analysis...",
-          "speed_figures": {
-            "career_best": "89",
-            "last_start": "87",
-            "average_last_3": "86",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
+          "win_probability": "35%",
+          "place_probability": "75%",
+          "show_probability": "90%"
         },
         {
           "number": 6,
           "name": "Lumens Lenny",
           "barrier": 14,
-          "weight": "129lbs",
+          "weight": "129 lbs",
           "jockey": {
             "name": "Boris Thornton",
-            "track_record": "12% Strike Rate",
+            "track_record": "10% strike rate",
             "recent_form": "Solid"
           },
           "trainer": {
             "name": "Scott Morrisey",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
+            "track_record": "11% strike rate",
+            "stable_form": "Average"
           },
-          "form": "5-7",
-          "rating": 88,
-          "win_probability": "9.7%",
-          "place_probability": "27.2%",
-          "show_probability": "34.0%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
+          "odds": {
+            "morning_line": "20/1",
+            "current_estimate": "12.00",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2025-08-20",
+              "track": "Ipswich",
+              "distance": "1350m",
+              "finish": "7th",
+              "margin": "4.9L",
+              "speed_fig": "56"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "71",
+            "last_start": "56",
+            "average_last_3": "55",
+            "par_for_class": "60"
+          },
+          "days_since_last": 154,
+          "fitness_level": "Resuming",
           "equipment": {
             "blinkers": false,
             "tongue_tie": false,
             "gear_changes": "None"
           },
-          "post_position_analysis": "Barrier 14 analysis...",
-          "speed_figures": {
-            "career_best": "88",
-            "last_start": "86",
-            "average_last_3": "85",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
+          "post_position_analysis": "Barrier 14 is a major negative, needs scratches to come in.",
+          "analysis": "Resuming. Has high peak ratings (71) but wide draw hurts. If he gets luck, he has the class to challenge.",
+          "hidden_factor": "Class dropper.",
           "verdict": [
-            "Contender"
+            "EACH WAY"
           ],
-          "stars": 3
+          "stars": 3,
+          "rating": 92,
+          "win_probability": "12%",
+          "place_probability": "35%",
+          "show_probability": "55%"
         },
         {
-          "number": 15,
-          "name": "Resolute Lady",
-          "barrier": 10,
-          "weight": "119lbs",
+          "number": 3,
+          "name": "Believe In Angels",
+          "barrier": 3,
+          "weight": "130 lbs",
           "jockey": {
-            "name": "Ms Cejay Graham",
-            "track_record": "12% Strike Rate",
+            "name": "Ben Thompson",
+            "track_record": "16% strike rate",
             "recent_form": "Solid"
           },
           "trainer": {
-            "name": "Jason Edwards",
-            "track_record": "15% Strike Rate",
+            "name": "Paul Shailer",
+            "track_record": "14% strike rate",
             "stable_form": "Good"
           },
-          "form": "4-10",
-          "rating": 85,
-          "win_probability": "9.4%",
-          "place_probability": "26.3%",
-          "show_probability": "32.8%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
+          "odds": {
+            "morning_line": "17/2",
+            "current_estimate": "7.00",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [
+            {
+              "date": "2025-12-13",
+              "track": "Gold Coast",
+              "distance": "1200m",
+              "finish": "5th",
+              "margin": "3L",
+              "speed_fig": "62"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "80",
+            "last_start": "62",
+            "average_last_3": "64",
+            "par_for_class": "60"
+          },
+          "days_since_last": 39,
+          "fitness_level": "Fresh",
           "equipment": {
             "blinkers": false,
             "tongue_tie": false,
             "gear_changes": "None"
           },
-          "post_position_analysis": "Barrier 10 analysis...",
-          "speed_figures": {
-            "career_best": "85",
-            "last_start": "83",
-            "average_last_3": "82",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
+          "post_position_analysis": "Barrier 3 is good.",
+          "analysis": "Solid effort last start. Has a high peak rating (80) from last prep. Drawn well. Threat.",
+          "hidden_factor": "High peak rating ability.",
           "verdict": [
-            "Contender"
+            "CONTENDER"
           ],
-          "stars": 3
-        },
-        {
-          "number": 17,
-          "name": "Prometio Mas",
-          "barrier": 6,
-          "weight": "119lbs",
-          "jockey": {
-            "name": "Fred Larson",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Ruby Chatterton",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "6-8",
-          "rating": 82,
-          "win_probability": "9.1%",
-          "place_probability": "25.3%",
-          "show_probability": "31.7%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 6 analysis...",
-          "speed_figures": {
-            "career_best": "82",
-            "last_start": "80",
-            "average_last_3": "79",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
+          "stars": 3,
+          "rating": 93,
+          "win_probability": "15%",
+          "place_probability": "45%",
+          "show_probability": "65%"
         }
       ],
-      "analysis": "Bluish Hue was a dominant winner last start and looks the one to beat. Lightning Strikes also won well and has upside. Bold Bidder is knocking on the door.",
       "betting_strategy": {
-        "confidence_level": "Medium",
+        "confidence_level": "High",
         "suggested_bets": [
           {
             "type": "Win",
             "selection": "8",
-            "stake": "1 unit",
-            "odds_range": "3.00+"
+            "stake": "3 units",
+            "odds_range": "2.50+"
+          },
+          {
+            "type": "Exacta",
+            "selection": "8/3,6",
+            "stake": "1 unit"
           }
         ],
-        "key_bet": "Win #8 Bluish Hue"
-      },
-      "track_bias": {
-        "summary": "Soft 6 track. Rail +7m. Leaders might have slight advantage but track should play fair.",
-        "details": "With rail out, inside barriers often preferred."
-      },
-      "pace": "Moderate pace expected."
+        "key_bet": "Bluish Hue - Best Bet of the day"
+      }
     },
     {
       "number": 7,
-      "post_time": "2:05 AM ET",
+      "post_time": "2:05 AM",
+      "purse": "$19,000",
       "distance": "1100m",
-      "conditions": "QTIS 3&4YO BM65",
+      "conditions": "3yo & 4yo BM65",
+      "surface": "Turf",
+      "claiming_price": null,
       "field_size": 12,
+      "confidence": "Medium Confidence",
+      "track_bias": {
+        "summary": "1100m is a sprint. Rail +7m makes it a leaders track.",
+        "details": "Must be in first 4 at the turn."
+      },
+      "pace": "Fast.",
+      "analysis": "Heavily scratched race. Aquatier won last start. Whispering Rogue has very strong figures (69, 76). Jimmyinthejungle is consistent.",
       "contenders": [
         {
-          "number": 6,
-          "name": "Aquatier",
-          "barrier": 10,
-          "weight": "127lbs",
+          "number": 10,
+          "name": "Whispering Rogue",
+          "barrier": 13,
+          "weight": "127 lbs",
           "jockey": {
-            "name": "Jett Newman (a)",
-            "track_record": "12% Strike Rate",
+            "name": "Cejay Graham",
+            "track_record": "10% strike rate",
             "recent_form": "Solid"
           },
           "trainer": {
-            "name": "Gary Doughty",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
+            "name": "Chris & Corey Munce",
+            "track_record": "19% strike rate",
+            "stable_form": "Excellent"
           },
-          "form": "7-1",
-          "rating": 98,
-          "win_probability": "8.1%",
-          "place_probability": "22.7%",
-          "show_probability": "28.4%",
+          "odds": {
+            "morning_line": "7/1",
+            "current_estimate": "4.50",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-07",
+              "track": "Eagle Farm",
+              "distance": "1200m",
+              "finish": "4th",
+              "margin": "1.7L",
+              "speed_fig": "69"
+            },
+            {
+              "date": "2025-12-27",
+              "track": "Eagle Farm",
+              "distance": "1200m",
+              "finish": "7th",
+              "margin": "2.2L",
+              "speed_fig": "76"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "80",
+            "last_start": "69",
+            "average_last_3": "75",
+            "par_for_class": "65"
+          },
           "days_since_last": 14,
           "fitness_level": "Fit",
           "equipment": {
@@ -2930,1153 +1331,354 @@
             "tongue_tie": false,
             "gear_changes": "None"
           },
-          "post_position_analysis": "Barrier 10 analysis...",
-          "speed_figures": {
-            "career_best": "98",
-            "last_start": "96",
-            "average_last_3": "95",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
+          "post_position_analysis": "Barrier 13 is terrible, but scratches might bring him in.",
+          "analysis": "Highest rated horse in the field based on recent figures (76, 69). Racing in Metro grade (Eagle Farm). Drop to Provincial is huge. If he overcomes the draw, he wins.",
+          "hidden_factor": "Class drop is significant.",
           "verdict": [
             "TOP PICK"
           ],
-          "stars": 5
+          "stars": 4,
+          "rating": 96,
+          "win_probability": "28%",
+          "place_probability": "60%",
+          "show_probability": "75%"
+        },
+        {
+          "number": 6,
+          "name": "Aquatier",
+          "barrier": 10,
+          "weight": "127 lbs",
+          "jockey": {
+            "name": "Jett Newman",
+            "track_record": "15% strike rate",
+            "recent_form": "Good"
+          },
+          "trainer": {
+            "name": "Gary Doughty",
+            "track_record": "11% strike rate",
+            "stable_form": "Average"
+          },
+          "odds": {
+            "morning_line": "18/1",
+            "current_estimate": "8.00",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-09",
+              "track": "Ballina",
+              "distance": "1000m",
+              "finish": "1st",
+              "margin": "1.5L",
+              "speed_fig": "64"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "64",
+            "last_start": "64",
+            "average_last_3": "42",
+            "par_for_class": "60"
+          },
+          "days_since_last": 12,
+          "fitness_level": "Peak",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": "None"
+          },
+          "post_position_analysis": "Wide draw.",
+          "analysis": "Last start winner with a decent figure (64). Confidence is up. Can figure.",
+          "hidden_factor": "Last start winner bonus.",
+          "verdict": [
+            "CONTENDER"
+          ],
+          "stars": 3,
+          "rating": 91,
+          "win_probability": "15%",
+          "place_probability": "45%",
+          "show_probability": "60%"
         },
         {
           "number": 5,
           "name": "Jimmyinthejungle",
           "barrier": 6,
-          "weight": "130lbs",
+          "weight": "130 lbs",
           "jockey": {
-            "name": "Bella Youngberry (a)",
-            "track_record": "12% Strike Rate",
+            "name": "Bella Youngberry",
+            "track_record": "14% strike rate",
             "recent_form": "Solid"
           },
           "trainer": {
             "name": "Adam Campton",
-            "track_record": "15% Strike Rate",
+            "track_record": "14% strike rate",
             "stable_form": "Good"
           },
-          "form": "1-2",
-          "rating": 96,
-          "win_probability": "7.9%",
-          "place_probability": "22.3%",
-          "show_probability": "27.8%",
-          "days_since_last": 14,
+          "odds": {
+            "morning_line": "12/1",
+            "current_estimate": "7.00",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [
+            {
+              "date": "2025-12-27",
+              "track": "Toowoomba",
+              "distance": "1000m",
+              "finish": "2nd",
+              "margin": "0.7L",
+              "speed_fig": "66"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "66",
+            "last_start": "66",
+            "average_last_3": "55",
+            "par_for_class": "60"
+          },
+          "days_since_last": 25,
           "fitness_level": "Fit",
           "equipment": {
             "blinkers": false,
             "tongue_tie": false,
             "gear_changes": "None"
           },
-          "post_position_analysis": "Barrier 6 analysis...",
-          "speed_figures": {
-            "career_best": "96",
-            "last_start": "94",
-            "average_last_3": "93",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
+          "post_position_analysis": "Barrier 6 is decent.",
+          "analysis": "Consistent runner (SR 66). Placed last start. Campton stable is dangerous.",
+          "hidden_factor": "Consistent ratings.",
           "verdict": [
-            "MAIN DANGER"
+            "CONTENDER"
           ],
-          "stars": 4
-        },
-        {
-          "number": 15,
-          "name": "Eagle's Fire",
-          "barrier": 3,
-          "weight": "127lbs",
-          "jockey": {
-            "name": "Harrison Shaw",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Shirley Batten",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "11-2",
-          "rating": 94,
-          "win_probability": "7.8%",
-          "place_probability": "21.8%",
-          "show_probability": "27.2%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 3 analysis...",
-          "speed_figures": {
-            "career_best": "94",
-            "last_start": "92",
-            "average_last_3": "91",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 19,
-          "name": "I'lltellyoutonight",
-          "barrier": 18,
-          "weight": "119lbs",
-          "jockey": {
-            "name": "Mark Du Plessis",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Olivia Cairns",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "8-2",
-          "rating": 93,
-          "win_probability": "7.7%",
-          "place_probability": "21.6%",
-          "show_probability": "27.0%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 18 analysis...",
-          "speed_figures": {
-            "career_best": "93",
-            "last_start": "91",
-            "average_last_3": "90",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 8,
-          "name": "Bonfire Spark",
-          "barrier": 12,
-          "weight": "127lbs",
-          "jockey": {
-            "name": "Ben Thompson",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Olivia Cairns",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "7-2",
+          "stars": 3,
           "rating": 92,
-          "win_probability": "7.6%",
-          "place_probability": "21.3%",
-          "show_probability": "26.7%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 12 analysis...",
-          "speed_figures": {
-            "career_best": "92",
-            "last_start": "90",
-            "average_last_3": "89",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 17,
-          "name": "Miss Leana",
-          "barrier": 11,
-          "weight": "119lbs",
-          "jockey": {
-            "name": "Angela Jones",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Michael Nolan",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "2-3",
-          "rating": 91,
-          "win_probability": "7.5%",
-          "place_probability": "21.1%",
-          "show_probability": "26.4%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 11 analysis...",
-          "speed_figures": {
-            "career_best": "91",
-            "last_start": "89",
-            "average_last_3": "88",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 9,
-          "name": "Joy A Plenty",
-          "barrier": 2,
-          "weight": "127lbs",
-          "jockey": {
-            "name": "Cody Collis",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Darryl Hansen",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "3-5",
-          "rating": 90,
-          "win_probability": "7.5%",
-          "place_probability": "20.9%",
-          "show_probability": "26.1%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 2 analysis...",
-          "speed_figures": {
-            "career_best": "90",
-            "last_start": "88",
-            "average_last_3": "87",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 10,
-          "name": "Whispering Rogue",
-          "barrier": 13,
-          "weight": "127lbs",
-          "jockey": {
-            "name": "Cejay Graham",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Chris & Corey Munce",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "4-7",
-          "rating": 89,
-          "win_probability": "7.4%",
-          "place_probability": "20.6%",
-          "show_probability": "25.8%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 13 analysis...",
-          "speed_figures": {
-            "career_best": "89",
-            "last_start": "87",
-            "average_last_3": "86",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 13,
-          "name": "Kirra's Sister",
-          "barrier": 4,
-          "weight": "123lbs",
-          "jockey": {
-            "name": "Jai Williams (a)",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Jordan Lee",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "2-9",
-          "rating": 88,
-          "win_probability": "7.3%",
-          "place_probability": "20.4%",
-          "show_probability": "25.5%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 4 analysis...",
-          "speed_figures": {
-            "career_best": "88",
-            "last_start": "86",
-            "average_last_3": "85",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 18,
-          "name": "Hello Lovely",
-          "barrier": 5,
-          "weight": "121lbs",
-          "jockey": {
-            "name": "Ms Chelsea Baker (a)",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Danny J Bougoure",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "9-4",
-          "rating": 87,
-          "win_probability": "7.2%",
-          "place_probability": "20.2%",
-          "show_probability": "25.2%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 5 analysis...",
-          "speed_figures": {
-            "career_best": "87",
-            "last_start": "85",
-            "average_last_3": "84",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 12,
-          "name": "Pretty Dubious",
-          "barrier": 7,
-          "weight": "126lbs",
-          "jockey": {
-            "name": "Daniel Moor",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Robert Heathcote",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "12-11",
-          "rating": 85,
-          "win_probability": "7.0%",
-          "place_probability": "19.7%",
-          "show_probability": "24.6%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 7 analysis...",
-          "speed_figures": {
-            "career_best": "85",
-            "last_start": "83",
-            "average_last_3": "82",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 20,
-          "name": "Brutal Glory",
-          "barrier": 1,
-          "weight": "120lbs",
-          "jockey": {
-            "name": "Damien Thornton",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Kelly Schweida",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "4-8",
-          "rating": 84,
-          "win_probability": "7.0%",
-          "place_probability": "19.5%",
-          "show_probability": "24.3%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 1 analysis...",
-          "speed_figures": {
-            "career_best": "84",
-            "last_start": "82",
-            "average_last_3": "81",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
+          "win_probability": "16%",
+          "place_probability": "48%",
+          "show_probability": "65%"
         }
       ],
-      "analysis": "Aquatier was impressive winning at Ballina and can repeat. Jimmyinthejungle is consistent and rarely runs a bad race. Eagle's Fire found form last start and is a value hope.",
       "betting_strategy": {
         "confidence_level": "Medium",
         "suggested_bets": [
           {
             "type": "Win",
-            "selection": "6",
+            "selection": "10",
+            "stake": "1.5 units",
+            "odds_range": "4.00+"
+          },
+          {
+            "type": "Place",
+            "selection": "10",
             "stake": "1 unit",
-            "odds_range": "3.00+"
+            "odds_range": "1.80+"
           }
         ],
-        "key_bet": "Win #6 Aquatier"
-      },
-      "track_bias": {
-        "summary": "Soft 6 track. Rail +7m. Leaders might have slight advantage but track should play fair.",
-        "details": "With rail out, inside barriers often preferred."
-      },
-      "pace": "Moderate pace expected."
+        "key_bet": "Whispering Rogue to win"
+      }
     },
     {
       "number": 8,
-      "post_time": "2:35 AM ET",
+      "post_time": "2:35 AM",
+      "purse": "$19,000",
       "distance": "1350m",
       "conditions": "Benchmark 65",
+      "surface": "Turf",
+      "claiming_price": null,
       "field_size": 12,
+      "confidence": "Medium Confidence",
+      "track_bias": {
+        "summary": "1350m +7m rail. Need to be handy.",
+        "details": "Backmarkers struggle."
+      },
+      "pace": "Moderate.",
+      "analysis": "Russian Sub is the class runner but carries weight (139lbs). Tango Queen (Emergency) is a Waller runner with ability. Glass Of Rose has high peak ratings.",
       "contenders": [
         {
-          "number": 9,
-          "name": "Toolatemate",
-          "barrier": 16,
-          "weight": "130lbs",
+          "number": 15,
+          "name": "Tango Queen",
+          "barrier": 9,
+          "weight": "122 lbs",
           "jockey": {
-            "name": "Boris Thornton",
-            "track_record": "12% Strike Rate",
+            "name": "Ben Thompson",
+            "track_record": "16% strike rate",
             "recent_form": "Solid"
           },
           "trainer": {
-            "name": "Scott Morrisey",
-            "track_record": "15% Strike Rate",
+            "name": "Annabel & Rob Archibald",
+            "track_record": "16% strike rate",
             "stable_form": "Good"
           },
-          "form": "8-1",
-          "rating": 98,
-          "win_probability": "7.9%",
-          "place_probability": "22.1%",
-          "show_probability": "27.7%",
-          "days_since_last": 14,
+          "odds": {
+            "morning_line": "13/1",
+            "current_estimate": "6.00",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-11",
+              "track": "Sunshine Coast",
+              "distance": "1400m",
+              "finish": "4th",
+              "margin": "2.7L",
+              "speed_fig": "58"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "69",
+            "last_start": "58",
+            "average_last_3": "59",
+            "par_for_class": "60"
+          },
+          "days_since_last": 10,
           "fitness_level": "Fit",
           "equipment": {
             "blinkers": false,
             "tongue_tie": false,
             "gear_changes": "None"
           },
-          "post_position_analysis": "Barrier 16 analysis...",
-          "speed_figures": {
-            "career_best": "98",
-            "last_start": "96",
-            "average_last_3": "95",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
+          "post_position_analysis": "Barrier 9 is tricky.",
+          "analysis": "Waller/Archibald runner. Recent form is solid without winning. Light weight (122lbs) is a huge advantage over Russian Sub (139lbs).",
+          "hidden_factor": "Weight advantage.",
           "verdict": [
             "TOP PICK"
           ],
-          "stars": 5
-        },
-        {
-          "number": 19,
-          "name": "Espada Ropera",
-          "barrier": 4,
-          "weight": "121lbs",
-          "jockey": {
-            "name": "Damien Thornton",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Chris Waller",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "10-1",
-          "rating": 97,
-          "win_probability": "7.8%",
-          "place_probability": "21.9%",
-          "show_probability": "27.4%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 4 analysis...",
-          "speed_figures": {
-            "career_best": "97",
-            "last_start": "95",
-            "average_last_3": "94",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "MAIN DANGER"
-          ],
-          "stars": 4
-        },
-        {
-          "number": 10,
-          "name": "Black Minto",
-          "barrier": 14,
-          "weight": "129lbs",
-          "jockey": {
-            "name": "Robbie Dolan",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Les Kelly",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "3-2",
-          "rating": 96,
-          "win_probability": "7.7%",
-          "place_probability": "21.7%",
-          "show_probability": "27.1%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 14 analysis...",
-          "speed_figures": {
-            "career_best": "96",
-            "last_start": "94",
-            "average_last_3": "93",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 16,
-          "name": "Glass Of Rose",
-          "barrier": 2,
-          "weight": "122lbs",
-          "jockey": {
-            "name": "Les Tilley",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Jeff Dunn",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "2-2",
-          "rating": 95,
-          "win_probability": "7.7%",
-          "place_probability": "21.5%",
-          "show_probability": "26.8%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 2 analysis...",
-          "speed_figures": {
-            "career_best": "95",
-            "last_start": "93",
-            "average_last_3": "92",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 11,
-          "name": "Galeka",
-          "barrier": 19,
-          "weight": "128lbs",
-          "jockey": {
-            "name": "Olivia Webb (a)",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Wayne Nugent",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "7-2",
+          "stars": 4,
           "rating": 94,
-          "win_probability": "7.6%",
-          "place_probability": "21.2%",
-          "show_probability": "26.6%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 19 analysis...",
-          "speed_figures": {
-            "career_best": "94",
-            "last_start": "92",
-            "average_last_3": "91",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 12,
-          "name": "Davikar",
-          "barrier": 3,
-          "weight": "125lbs",
-          "jockey": {
-            "name": "Michael Rodd",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "G Heinrich & B Rodgers",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "1-4",
-          "rating": 93,
-          "win_probability": "7.5%",
-          "place_probability": "21.0%",
-          "show_probability": "26.3%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 3 analysis...",
-          "speed_figures": {
-            "career_best": "93",
-            "last_start": "91",
-            "average_last_3": "90",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
+          "win_probability": "22%",
+          "place_probability": "55%",
+          "show_probability": "70%"
         },
         {
           "number": 1,
           "name": "Russian Sub",
           "barrier": 15,
-          "weight": "139lbs",
+          "weight": "139 lbs",
           "jockey": {
-            "name": "Bella Youngberry (a)",
-            "track_record": "12% Strike Rate",
+            "name": "Bella Youngberry",
+            "track_record": "14% strike rate",
             "recent_form": "Solid"
           },
           "trainer": {
             "name": "Harry Richardson",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
+            "track_record": "11% strike rate",
+            "stable_form": "Average"
           },
-          "form": "5-8",
-          "rating": 92,
-          "win_probability": "7.4%",
-          "place_probability": "20.8%",
-          "show_probability": "26.0%",
-          "days_since_last": 14,
+          "odds": {
+            "morning_line": "17/1",
+            "current_estimate": "8.00",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-03",
+              "track": "Ipswich",
+              "distance": "1200m",
+              "finish": "8th",
+              "margin": "4.2L",
+              "speed_fig": "67"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "77",
+            "last_start": "67",
+            "average_last_3": "63",
+            "par_for_class": "65"
+          },
+          "days_since_last": 18,
           "fitness_level": "Fit",
           "equipment": {
             "blinkers": false,
             "tongue_tie": false,
             "gear_changes": "None"
           },
-          "post_position_analysis": "Barrier 15 analysis...",
-          "speed_figures": {
-            "career_best": "92",
-            "last_start": "90",
-            "average_last_3": "89",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
+          "post_position_analysis": "Barrier 15 is a disaster, but scratches help.",
+          "analysis": "Class runner with high peak figures (77). Weight is the issue (139lbs). If he handles the weight and draw, he wins on ability.",
+          "hidden_factor": "Class factor.",
           "verdict": [
-            "Contender"
+            "DANGER"
           ],
-          "stars": 3
+          "stars": 3,
+          "rating": 92,
+          "win_probability": "18%",
+          "place_probability": "50%",
+          "show_probability": "65%"
         },
         {
-          "number": 15,
-          "name": "Tango Queen",
-          "barrier": 9,
-          "weight": "122lbs",
+          "number": 16,
+          "name": "Glass Of Rose",
+          "barrier": 2,
+          "weight": "122 lbs",
           "jockey": {
-            "name": "Ben Thompson",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
+            "name": "Les Tilley",
+            "track_record": "16% strike rate",
+            "recent_form": "Good"
           },
           "trainer": {
-            "name": "Annabel & Rob Archibald",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
+            "name": "Jeff Dunn",
+            "track_record": "11% strike rate",
+            "stable_form": "Average"
           },
-          "form": "7-4",
-          "rating": 92,
-          "win_probability": "7.4%",
-          "place_probability": "20.8%",
-          "show_probability": "26.0%",
-          "days_since_last": 14,
+          "odds": {
+            "morning_line": "33/1",
+            "current_estimate": "15.00",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-10",
+              "track": "Gold Coast",
+              "distance": "1300m",
+              "finish": "11th",
+              "margin": "6.7L",
+              "speed_fig": "65"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "65",
+            "last_start": "65",
+            "average_last_3": "59",
+            "par_for_class": "60"
+          },
+          "days_since_last": 11,
           "fitness_level": "Fit",
           "equipment": {
             "blinkers": false,
             "tongue_tie": false,
             "gear_changes": "None"
           },
-          "post_position_analysis": "Barrier 9 analysis...",
-          "speed_figures": {
-            "career_best": "92",
-            "last_start": "90",
-            "average_last_3": "89",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
+          "post_position_analysis": "Barrier 2 is perfect.",
+          "analysis": "Ran in a $1M race last start! Drop in class is astronomical. Rating of 65 in that company is very good for this. Huge value runner.",
+          "hidden_factor": "Drop from $1M race to $19k race.",
           "verdict": [
-            "Contender"
+            "VALUE BET"
           ],
-          "stars": 3
-        },
-        {
-          "number": 5,
-          "name": "Cardiologist",
-          "barrier": 8,
-          "weight": "132lbs",
-          "jockey": {
-            "name": "Brandon Lerena",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Matt Kropp",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "3-5",
+          "stars": 3,
           "rating": 91,
-          "win_probability": "7.3%",
-          "place_probability": "20.6%",
-          "show_probability": "25.7%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 8 analysis...",
-          "speed_figures": {
-            "career_best": "91",
-            "last_start": "89",
-            "average_last_3": "88",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 3,
-          "name": "Powerful Eagle",
-          "barrier": 7,
-          "weight": "136lbs",
-          "jockey": {
-            "name": "Colleen Krahnen (a)",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Steven Hardy",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "10-2",
-          "rating": 90,
-          "win_probability": "7.3%",
-          "place_probability": "20.3%",
-          "show_probability": "25.4%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 7 analysis...",
-          "speed_figures": {
-            "career_best": "90",
-            "last_start": "88",
-            "average_last_3": "87",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 17,
-          "name": "Better Not Forget",
-          "barrier": 5,
-          "weight": "126lbs",
-          "jockey": {
-            "name": "Ms Cejay Graham",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Kelly Schweida",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "8-5",
-          "rating": 89,
-          "win_probability": "7.2%",
-          "place_probability": "20.1%",
-          "show_probability": "25.1%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 5 analysis...",
-          "speed_figures": {
-            "career_best": "89",
-            "last_start": "87",
-            "average_last_3": "86",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
-        },
-        {
-          "number": 4,
-          "name": "Nagamie",
-          "barrier": 11,
-          "weight": "133lbs",
-          "jockey": {
-            "name": "Leah Martyn (a)",
-            "track_record": "12% Strike Rate",
-            "recent_form": "Solid"
-          },
-          "trainer": {
-            "name": "Bevan Laming",
-            "track_record": "15% Strike Rate",
-            "stable_form": "Good"
-          },
-          "form": "2-14",
-          "rating": 88,
-          "win_probability": "7.1%",
-          "place_probability": "19.9%",
-          "show_probability": "24.9%",
-          "days_since_last": 14,
-          "fitness_level": "Fit",
-          "equipment": {
-            "blinkers": false,
-            "tongue_tie": false,
-            "gear_changes": "None"
-          },
-          "post_position_analysis": "Barrier 11 analysis...",
-          "speed_figures": {
-            "career_best": "88",
-            "last_start": "86",
-            "average_last_3": "85",
-            "par_for_class": "90"
-          },
-          "odds": {
-            "morning_line": null,
-            "current_estimate": null,
-            "value_assessment": "Assess live",
-            "overlay_underlay": "TBD"
-          },
-          "recent_form": [],
-          "hidden_factor": "None",
-          "verdict": [
-            "Contender"
-          ],
-          "stars": 3
+          "win_probability": "15%",
+          "place_probability": "40%",
+          "show_probability": "60%"
         }
       ],
-      "analysis": "Toolatemate won well at this track last start and looks hard to beat again. Espada Ropera broke maiden status impressively and has upside. Black Minto is consistent and should be in the finish.",
       "betting_strategy": {
         "confidence_level": "Medium",
         "suggested_bets": [
           {
             "type": "Win",
-            "selection": "9",
+            "selection": "15",
             "stake": "1 unit",
-            "odds_range": "3.00+"
+            "odds_range": "4.00+"
+          },
+          {
+            "type": "Each Way",
+            "selection": "16",
+            "stake": "0.5 units",
+            "odds_range": "12.00+"
           }
         ],
-        "key_bet": "Win #9 Toolatemate"
-      },
-      "track_bias": {
-        "summary": "Soft 6 track. Rail +7m. Leaders might have slight advantage but track should play fair.",
-        "details": "With rail out, inside barriers often preferred."
-      },
-      "pace": "Moderate pace expected."
+        "key_bet": "Tango Queen to win"
+      }
     }
   ]
 }
