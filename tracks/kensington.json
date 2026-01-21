@@ -1,272 +1,719 @@
 {
-  "name": "Randwick Kensington",
-  "date": "Wednesday, January 21, 2026",
-  "races": [
-    {
-      "number": 1,
-      "distance": "1150m",
-      "surface": "Turf",
-      "conditions": "Maiden Handicap",
-      "pace": "Heavy Track specialist race",
-      "contenders": [
-        {
-          "number": "8",
-          "name": "LIPSTICK",
-          "jockey": "J. McDonald",
-          "trainer": "J. Cummings",
-          "odds": "5/2",
-          "stars": 3,
-          "analysis": "<span class='value'>WIN PICK</span> Handles the Heavy 8 (1:0-1-0) and gets the James McDonald/Godolphin combination (+5 Speed Bonus)."
-        },
-        {
-          "number": "1",
-          "name": "KOKATAHI",
-          "jockey": "S. Grima",
-          "trainer": "C. Waller",
-          "odds": "3/1",
-          "stars": 3,
-          "analysis": "Highest past Speed Figure (83) but untested on Heavy. Risk if the track is a bog."
-        },
-        {
-          "number": "7",
-          "name": "FEMININO",
-          "jockey": "T. Clark",
-          "trainer": "G. Waterhouse",
-          "odds": "7/1",
-          "stars": 2,
-          "analysis": "Gai/Bott debutante. Watch market."
-        }
-      ],
-      "bets": [
-        { "type": "WIN", "selection": "#8" }
-      ]
-    },
-    {
-      "number": 2,
-      "distance": "1400m",
-      "surface": "Turf",
-      "conditions": "Maiden Handicap",
-      "pace": "Tactical - Small Field",
-      "contenders": [
-        {
-          "number": "1",
-          "name": "VELARIS",
-          "jockey": "J. McDonald",
-          "trainer": "C. Waller",
-          "odds": "11/2",
-          "stars": 2,
-          "analysis": "<span class='lock'>WIN PICK</span> Waller/J-Mac debutante. The 'Unexposed Elite' protocol suggests he is the one to beat."
-        },
-        {
-          "number": "3",
-          "name": "CASTAGNOLA",
-          "jockey": "J. Parr",
-          "trainer": "B. Baker",
-          "odds": "7/2",
-          "stars": 3,
-          "analysis": "Experience edge. Placed last start."
-        }
-      ],
-      "bets": [
-        { "type": "PASS", "selection": "Race 2" }
-      ]
-    },
-    {
-      "number": 3,
-      "distance": "1250m",
-      "surface": "Turf",
-      "conditions": "Class 1 Handicap",
-      "pace": "Moderate",
-      "contenders": [
-        {
-          "number": "3",
-          "name": "CONCORDIA WIND",
-          "jockey": "S. Grima",
-          "trainer": "C. Waller",
-          "odds": "15/2",
-          "stars": 5,
-          "analysis": "<span class='lock'>BEST BET</span> The 'Mudlark' of the meeting. 100% Strike Rate on Heavy. Speed Figure (82) is superior."
-        },
-        {
-          "number": "10",
-          "name": "POINT SCORE",
-          "jockey": "M. Fitzgerald",
-          "trainer": "A. Turner",
-          "odds": "7/2",
-          "stars": 4,
-          "analysis": "Also won on Heavy (1:1-0-0). The clear danger."
-        },
-        {
-          "number": "2",
-          "name": "CLEAR PROOF",
-          "jockey": "D. Gibbons",
-          "trainer": "J. Thompson",
-          "odds": "15/2",
-          "stars": 2,
-          "analysis": "Good figures (77) but poor heavy stats (1:0-0-0). Risk."
-        }
-      ],
-      "bets": [
-        { "type": "WIN", "selection": "#3" },
-        { "type": "EXACTA", "selection": "3 over 10" }
-      ]
-    },
-    {
-      "number": 4,
-      "distance": "1400m",
-      "surface": "Turf",
-      "conditions": "TAB Handicap (BM72)",
-      "pace": "Solid",
-      "contenders": [
-        {
-          "number": "1",
-          "name": "CANADIAN RULER",
-          "jockey": "N. Heywood",
-          "trainer": "M. Dale",
-          "odds": "7/2",
-          "stars": 4,
-          "analysis": "<span class='value'>WIN PICK</span> Proven wet tracker in form. Handles the ground (3:1-0-1 on Heavy)."
-        },
-        {
-          "number": "2",
-          "name": "FIDDLERS GREEN",
-          "jockey": "J. McDonald",
-          "trainer": "A. Archibald",
-          "odds": "9/5",
-          "stars": 4,
-          "analysis": "J-Mac rides. Handles Soft well."
-        },
-        {
-          "number": "4",
-          "name": "COPACABANA",
-          "jockey": "Z. Lloyd",
-          "trainer": "M. Hawkes",
-          "odds": "2/1",
-          "stars": 2,
-          "analysis": "Matches speed figure (79) but 0 starts on Heavy. Downgraded significantly."
-        }
-      ],
-      "bets": [
-        { "type": "WIN", "selection": "#1" }
-      ]
-    },
-    {
-      "number": 5,
-      "distance": "1000m",
-      "surface": "Turf",
-      "conditions": "Mares Handicap",
-      "pace": "Fast",
-      "contenders": [
-        {
-          "number": "3",
-          "name": "BIG RED TEQUILA",
-          "jockey": "S. Clipperton",
-          "trainer": "J. Pride",
-          "odds": "4/1",
-          "stars": 4,
-          "analysis": "<span class='value'>WIN PICK</span> Recent Speed Rating of 79 and has Won on Heavy. Clear top rater."
-        },
-        {
-          "number": "2",
-          "name": "INFERENCIA",
-          "jockey": "TBD",
-          "trainer": "TBD",
-          "odds": "6/1",
-          "stars": 3,
-          "analysis": "Loves wet tracks (30 starts). Exacta lock."
-        },
-        {
-          "number": "8",
-          "name": "PRINCESS HALO",
-          "jockey": "TBD",
-          "trainer": "TBD",
-          "odds": "8/1",
-          "stars": 3,
-          "analysis": "Won last start and handles heavy. Good value exotics player."
-        }
-      ],
-      "bets": [
-        { "type": "WIN", "selection": "#3" },
-        { "type": "EXACTA", "selection": "3 over 2" }
-      ]
-    },
-    {
-      "number": 6,
-      "distance": "1250m",
-      "surface": "Turf",
-      "conditions": "Headlines Handicap",
-      "pace": "Moderate",
-      "contenders": [
-        {
-          "number": "2",
-          "name": "HUON",
-          "jockey": "TBD",
-          "trainer": "R. Litt",
-          "odds": "5/1",
-          "stars": 3,
-          "analysis": "<span class='value'>WIN PICK</span> Heavy Track specialist: 6 starts, 3 Wins. Relishes conditions."
-        },
-        {
-          "number": "5",
-          "name": "DASHING RUPERT",
-          "jockey": "TBD",
-          "trainer": "TBD",
-          "odds": "4/1",
-          "stars": 3,
-          "analysis": "2 wins from 3 Heavy starts. A serious threat."
-        },
-        {
-          "number": "1",
-          "name": "CRUEL SUMMER",
-          "jockey": "W. Stanley",
-          "trainer": "P. Messara",
-          "odds": "6/1",
-          "stars": 2,
-          "analysis": "Huge wet stats (5 Heavy wins) but carries big weight."
-        }
-      ],
-      "bets": [
-        { "type": "WIN", "selection": "#2" }
-      ]
-    },
-    {
-      "number": 7,
-      "distance": "1800m",
-      "surface": "Turf",
-      "conditions": "Asahi Super Dry Handicap",
-      "pace": "Chaos - Scratched Field",
-      "contenders": [
-        {
-          "number": "5",
-          "name": "EXISTENTIAL BOB",
-          "jockey": "Z. Lloyd",
-          "trainer": "C. Waller",
-          "odds": "4/1",
-          "stars": 4,
-          "analysis": "<span class='lock'>WIN PICK</span> 100% Strike Rate on Heavy (2 from 2). Chaos Protocol active."
-        },
-        {
-          "number": "3",
-          "name": "MIRRA IMPACT",
-          "jockey": "TBD",
-          "trainer": "P. Snowden",
-          "odds": "5/1",
-          "stars": 3,
-          "analysis": "Highest recent Speed Figure (85) and handles wet."
-        },
-        {
-          "number": "2",
-          "name": "MAUPASSANT",
-          "jockey": "TBD",
-          "trainer": "A. Archibald",
-          "odds": "9/2",
-          "stars": 3,
-          "analysis": "Brings French Group form but is an unknown quantity on heavy Australian turf."
-        }
-      ],
-      "bets": [
-        { "type": "WIN", "selection": "#5" }
-      ]
-    }
-  ]
+"meta": {
+"track": "Randwick Kensington",
+"date": "2026-01-21",
+"jurisdiction": "Australia",
+"weather": "Fine",
+"track_condition": "Heavy 8",
+"rail_position": "+5m Entire"
+},
+"races": [
+{
+"number": 1,
+"post_time": "10:20 PM ET",
+"purse": "
+40,000",
+"distance": "1400m",
+"conditions": "Paulele First Yearlings Handicap",
+"surface": "Turf",
+"claiming_price": null,
+"field_size": 7,
+"confidence": "Medium Confidence",
+"track_bias": {
+"summary": "Heavy 8. Stamina required.",
+"details": "1400m on a heavy track will test the young horses. Look for strength at the end of the race."
+},
+"pace": "Moderate. #3 Castagnola likely to go forward.",
+"analysis": "Another small field. Castagnola ran well on debut and should improve. Velaris is a well-bred debutant for Waller/J-Mac. Overshadow has race experience.",
+"contenders": [
+{
+"number": 3,
+"name": "Castagnola",
+"barrier": 2,
+"weight": "57.5kg",
+"jockey": {
+"name": "Joshua Parr",
+"track_record": "14% strike rate",
+"recent_form": "Solid"
+},
+"trainer": {
+"name": "Bjorn Baker",
+"track_record": "17% strike rate",
+"stable_form": "Good"
+},
+"odds": {
+"morning_line": "2.50",
+"current_estimate": "2.40",
+"value_assessment": "Fair Value",
+"overlay_underlay": "Fair"
+},
+"recent_form": [
+{
+"date": "2026-01-03",
+"track": "Kembla Grange",
+"distance": "1300m",
+"finish": "3rd",
+"margin": "0.7L",
+"speed_fig": "68"
+}
+],
+"speed_figures": {
+"career_best": "68",
+"last_start": "68",
+"average_last_3": "68",
+"par_for_class": "70"
+},
+"days_since_last": 18,
+"fitness_level": "2nd-up",
+"equipment": {
+"blinkers": false,
+"tongue_tie": false,
+"gear_changes": null
+},
+"post_position_analysis": "Barrier 2 allows him to control the race.",
+"analysis": "Solid debut 3rd. Strips fitter. The heavy track is the unknown, but breeding suggests he might handle it.",
+"hidden_factor": "Bjorn Baker 2nd-up strike rate 16%.",
+"verdict": [
+"TOP PICK"
+],
+"stars": 4,
+"rating": 90,
+"win_probability": "35%",
+"place_probability": "70%",
+"show_probability": "85%"
+},
+{
+"number": 1,
+"name": "Velaris (NZ)",
+"barrier": 5,
+"weight": "59.0kg",
+"jockey": {
+"name": "James McDonald",
+"track_record": "21% strike rate",
+"recent_form": "Elite"
+},
+"trainer": {
+"name": "Chris Waller",
+"track_record": "12% strike rate",
+"stable_form": "Consistent"
+},
+"odds": {
+"morning_line": "7.00",
+"current_estimate": "5.00",
+"value_assessment": "Overlay",
+"overlay_underlay": "Overlay"
+},
+"recent_form": [],
+"speed_figures": {
+"career_best": "N/A",
+"last_start": "N/A",
+"average_last_3": "N/A",
+"par_for_class": "70"
+},
+"days_since_last": 0,
+"fitness_level": "First Starter",
+"equipment": {
+"blinkers": false,
+"tongue_tie": false,
+"gear_changes": null
+},
+"post_position_analysis": "Barrier 5 is neutral.",
+"analysis": "Waller/J-Mac combination always commands respect. Trials have been quiet but that's typical Waller. Watch market moves.",
+"hidden_factor": "Ocean Park progeny excel on wet tracks (16% win rate on Heavy).",
+"verdict": [
+"DANGER"
+],
+"stars": 3,
+"rating": 88,
+"win_probability": "25%",
+"place_probability": "55%",
+"show_probability": "75%"
+},
+{
+"number": 8,
+"name": "Overshadow",
+"barrier": 4,
+"weight": "55.0kg",
+"jockey": {
+"name": "Tyler Schiller",
+"track_record": "9% strike rate",
+"recent_form": "Good"
+},
+"trainer": {
+"name": "M, W & J Hawkes",
+"track_record": "11% strike rate",
+"stable_form": "Solid"
+},
+"odds": {
+"morning_line": "3.00",
+"current_estimate": "3.50",
+"value_assessment": "Fair Value",
+"overlay_underlay": "Fair"
+},
+"recent_form": [
+{
+"date": "2025-12-12",
+"track": "Canterbury",
+"distance": "1100m",
+"finish": "5th",
+"margin": "2.2L",
+"speed_fig": "67"
+}
+],
+"speed_figures": {
+"career_best": "67",
+"last_start": "67",
+"average_last_3": "67",
+"par_for_class": "70"
+},
+"days_since_last": 40,
+"fitness_level": "Freshened",
+"equipment": {
+"blinkers": false,
+"tongue_tie": false,
+"gear_changes": null
+},
+"post_position_analysis": "Barrier 4 gives options.",
+"analysis": "Fair debut. Hawkes team usually improves them significantly. Soft track experience is a plus.",
+"hidden_factor": "Hawkes 2nd career start improvement average: +4 lengths.",
+"verdict": [
+"CONTENDER"
+],
+"stars": 3,
+"rating": 86,
+"win_probability": "20%",
+"place_probability": "50%",
+"show_probability": "70%"
+}
+],
+"betting_strategy": {
+"confidence_level": "Medium",
+"suggested_bets": [
+{
+"type": "Win",
+"selection": "3",
+"stake": "1.5 units",
+"odds_range": "2.40+"
+},
+{
+"type": "Quinella",
+"selection": "1,3",
+"stake": "0.5 units"
+}
+],
+"key_bet": "Win #3 Castagnola"
+}
+},
+{
+"number": 3,
+"post_time": "11:30 PM ET",
+"purse": "
+40,000",
+"distance": "1400m",
+"conditions": "TAB Handicap",
+"surface": "Turf",
+"claiming_price": null,
+"field_size": 7,
+"confidence": "High Confidence",
+"track_bias": {
+"summary": "Heavy 8. Mudlarks to the fore.",
+"details": "Canadian Ruler loves these conditions."
+},
+"pace": "Moderate. #1 Canadian Ruler likely to be handy.",
+"analysis": "Canadian Ruler is a superior wet tracker (Heavy 3:1-0-1, Soft 7:2-0-2). He excels when the ground is affected. Fiddlers Green prefers firmer footing. Copacabana is a threat.",
+"contenders": [
+{
+"number": 1,
+"name": "Canadian Ruler (NZ)",
+"barrier": 5,
+"weight": "60.5kg",
+"jockey": {
+"name": "Nick Heywood",
+"track_record": "15% strike rate",
+"recent_form": "Good"
+},
+"trainer": {
+"name": "Matthew Dale",
+"track_record": "17% strike rate",
+"stable_form": "Solid"
+},
+"odds": {
+"morning_line": "5.00",
+"current_estimate": "3.80",
+"value_assessment": "Overlay",
+"overlay_underlay": "Overlay"
+},
+"recent_form": [
+{
+"date": "2025-12-28",
+"track": "Canberra",
+"distance": "1300m",
+"finish": "1st",
+"margin": "0.5L",
+"speed_fig": "79"
+}
+],
+"speed_figures": {
+"career_best": "81",
+"last_start": "79",
+"average_last_3": "77",
+"par_for_class": "75"
+},
+"days_since_last": 24,
+"fitness_level": "Fit",
+"equipment": {
+"blinkers": false,
+"tongue_tie": false,
+"gear_changes": null
+},
+"post_position_analysis": "Barrier 5 is ideal.",
+"analysis": "Loves the mud. Won well last start. Drops in class effectively with the claim/conditions suitability. The one to beat on a Heavy 8.",
+"hidden_factor": "Dale/Heywood combo: 22% strike rate.",
+"verdict": [
+"TOP PICK",
+"BEST VALUE"
+],
+"stars": 5,
+"rating": 96,
+"win_probability": "40%",
+"place_probability": "80%",
+"show_probability": "90%"
+},
+{
+"number": 4,
+"name": "Copacabana",
+"barrier": 1,
+"weight": "58.0kg",
+"jockey": {
+"name": "Zac Lloyd",
+"track_record": "18% strike rate",
+"recent_form": "Elite"
+},
+"trainer": {
+"name": "M, W & J Hawkes",
+"track_record": "11% strike rate",
+"stable_form": "Solid"
+},
+"odds": {
+"morning_line": "2.20",
+"current_estimate": "2.50",
+"value_assessment": "Underlay",
+"overlay_underlay": "Underlay"
+},
+"recent_form": [
+{
+"date": "2026-01-07",
+"track": "Warwick Farm",
+"distance": "1400m",
+"finish": "1st",
+"margin": "2.0L",
+"speed_fig": "79"
+}
+],
+"speed_figures": {
+"career_best": "79",
+"last_start": "79",
+"average_last_3": "73",
+"par_for_class": "75"
+},
+"days_since_last": 14,
+"fitness_level": "Fit",
+"equipment": {
+"blinkers": false,
+"tongue_tie": false,
+"gear_changes": null
+},
+"post_position_analysis": "Barrier 1 is a risk on heavy.",
+"analysis": "Won well last start but that was on Good. Soft form is okay (2:0-1-1) but Heavy is a query. Short price makes him a risk.",
+"hidden_factor": "Hawkes runners often regress on heavy tracks.",
+"verdict": [
+"DANGER"
+],
+"stars": 3,
+"rating": 90,
+"win_probability": "25%",
+"place_probability": "60%",
+"show_probability": "80%"
+}
+],
+"betting_strategy": {
+"confidence_level": "High",
+"suggested_bets": [
+{
+"type": "Win",
+"selection": "1",
+"stake": "2 units",
+"odds_range": "3.50+"
+},
+{
+"type": "Quinella",
+"selection": "1,4",
+"stake": "1 unit"
+}
+],
+"key_bet": "Win #1 Canadian Ruler"
+}
+},
+{
+"number": 5,
+"post_time": "12:40 AM ET",
+"purse": "
+40,000",
+"distance": "1250m",
+"conditions": "Kia Ora Bloodlines Handicap",
+"surface": "Turf",
+"claiming_price": null,
+"field_size": 9,
+"confidence": "High Confidence",
+"track_bias": {
+"summary": "Heavy 8. Swimmers only.",
+"details": "Cruel Summer and Huon have elite heavy track records."
+},
+"pace": "Fast. #1 Cruel Summer and #4 Fangela likely to lead.",
+"analysis": "Cruel Summer is a heavy track machine (15:5-3-2). He drops in class and gets a claim. Huon (Heavy 6:3-2-1) is the main danger. They should fight it out.",
+"contenders": [
+{
+"number": 1,
+"name": "Cruel Summer",
+"barrier": 2,
+"weight": "61.0kg",
+"jockey": {
+"name": "William Stanley (a)",
+"track_record": "11% strike rate",
+"recent_form": "Average"
+},
+"trainer": {
+"name": "Paul Perry",
+"track_record": "7% strike rate",
+"stable_form": "Average"
+},
+"odds": {
+"morning_line": "50.00",
+"current_estimate": "15.00",
+"value_assessment": "Overlay",
+"overlay_underlay": "Overlay"
+},
+"recent_form": [
+{
+"date": "2025-10-10",
+"track": "Port Macquarie",
+"distance": "1200m",
+"finish": "13th",
+"margin": "6.4L",
+"speed_fig": "71"
+}
+],
+"speed_figures": {
+"career_best": "86",
+"last_start": "71",
+"average_last_3": "75",
+"par_for_class": "80"
+},
+"days_since_last": 103,
+"fitness_level": "Resuming",
+"equipment": {
+"blinkers": false,
+"tongue_tie": false,
+"gear_changes": null
+},
+"post_position_analysis": "Barrier 2 allows him to lead or box seat.",
+"analysis": "Ignore the odds. His heavy track record is elite (5 wins). Resuming but goes well fresh. Massive value.",
+"hidden_factor": "Heavy track strike rate 33%.",
+"verdict": [
+"TOP PICK",
+"BEST VALUE"
+],
+"stars": 4,
+"rating": 94,
+"win_probability": "20%",
+"place_probability": "50%",
+"show_probability": "70%"
+},
+{
+"number": 2,
+"name": "Huon",
+"barrier": 5,
+"weight": "61.0kg",
+"jockey": {
+"name": "Siena Grima (a)",
+"track_record": "9% strike rate",
+"recent_form": "Moderate"
+},
+"trainer": {
+"name": "Richard Litt",
+"track_record": "14% strike rate",
+"stable_form": "Solid"
+},
+"odds": {
+"morning_line": "12.00",
+"current_estimate": "8.00",
+"value_assessment": "Overlay",
+"overlay_underlay": "Overlay"
+},
+"recent_form": [
+{
+"date": "2026-01-10",
+"track": "Wyong",
+"distance": "1200m",
+"finish": "5th",
+"margin": "1.4L",
+"speed_fig": "83"
+}
+],
+"speed_figures": {
+"career_best": "88",
+"last_start": "83",
+"average_last_3": "82",
+"par_for_class": "80"
+},
+"days_since_last": 11,
+"fitness_level": "Fit",
+"equipment": {
+"blinkers": false,
+"tongue_tie": false,
+"gear_changes": null
+},
+"post_position_analysis": "Barrier 5 is perfect.",
+"analysis": "Another mudlark (Heavy 6:3-2-1). Racing well and ready to peak. The claim helps.",
+"hidden_factor": "Heavy track strike rate 50%.",
+"verdict": [
+"MAIN DANGER"
+],
+"stars": 4,
+"rating": 93,
+"win_probability": "20%",
+"place_probability": "50%",
+"show_probability": "70%"
+},
+{
+"number": 6,
+"name": "Ellipsis",
+"barrier": 7,
+"weight": "59.0kg",
+"jockey": {
+"name": "Tommy Berry",
+"track_record": "19% strike rate",
+"recent_form": "Good"
+},
+"trainer": {
+"name": "Bjorn Baker",
+"track_record": "17% strike rate",
+"stable_form": "Good"
+},
+"odds": {
+"morning_line": "2.80",
+"current_estimate": "3.00",
+"value_assessment": "Underlay",
+"overlay_underlay": "Underlay"
+},
+"recent_form": [
+{
+"date": "2026-01-07",
+"track": "Warwick Farm",
+"distance": "1200m",
+"finish": "1st",
+"margin": "0.5L",
+"speed_fig": "80"
+}
+],
+"speed_figures": {
+"career_best": "80",
+"last_start": "80",
+"average_last_3": "75",
+"par_for_class": "80"
+},
+"days_since_last": 14,
+"fitness_level": "Fit",
+"equipment": {
+"blinkers": false,
+"tongue_tie": false,
+"gear_changes": null
+},
+"post_position_analysis": "Barrier 7 is okay.",
+"analysis": "Won well last start but heavy track stats (1:0-0-1) are inferior to the top two. Underlay.",
+"hidden_factor": "Baker runners can be vulnerable on heavy.",
+"verdict": [
+"RISK"
+],
+"stars": 2,
+"rating": 88,
+"win_probability": "15%",
+"place_probability": "40%",
+"show_probability": "60%"
+}
+],
+"betting_strategy": {
+"confidence_level": "High",
+"suggested_bets": [
+{
+"type": "Win",
+"selection": "1",
+"stake": "1 unit",
+"odds_range": "10.00+"
+},
+{
+"type": "Win",
+"selection": "2",
+"stake": "1 unit",
+"odds_range": "6.00+"
+},
+{
+"type": "Quinella",
+"selection": "1,2",
+"stake": "1 unit"
+}
+],
+"key_bet": "Win #1 Cruel Summer (Value)"
+}
+},
+{
+"number": 7,
+"post_time": "1:50 AM ET",
+"purse": "$40,000",
+"distance": "1800m",
+"conditions": "Asahi Super Dry Handicap",
+"surface": "Turf",
+"claiming_price": null,
+"field_size": 8,
+"confidence": "High Confidence",
+"track_bias": {
+"summary": "Heavy 8. 1800m test.",
+"details": "Stamina and wet track ability are key."
+},
+"pace": "Moderate. #2 Maupassant likely to lead.",
+"analysis": "Existential Bob is 2 from 2 on heavy tracks. He ran 2nd in a strong race last start. He is the clear top pick. Maupassant handles soft and is the danger.",
+"contenders": [
+{
+"number": 5,
+"name": "Existential Bob (NZ)",
+"barrier": 9,
+"weight": "59.0kg",
+"jockey": {
+"name": "Nash Rawiller",
+"track_record": "16% strike rate",
+"recent_form": "Elite"
+},
+"trainer": {
+"name": "Chris Waller",
+"track_record": "12% strike rate",
+"stable_form": "Consistent"
+},
+"odds": {
+"morning_line": "5.00",
+"current_estimate": "3.00",
+"value_assessment": "Fair Value",
+"overlay_underlay": "Fair"
+},
+"recent_form": [
+{
+"date": "2026-01-03",
+"track": "Randwick",
+"distance": "2000m",
+"finish": "2nd",
+"margin": "0.7L",
+"speed_fig": "83"
+}
+],
+"speed_figures": {
+"career_best": "83",
+"last_start": "83",
+"average_last_3": "81",
+"par_for_class": "80"
+},
+"days_since_last": 18,
+"fitness_level": "Fit",
+"equipment": {
+"blinkers": false,
+"tongue_tie": false,
+"gear_changes": null
+},
+"post_position_analysis": "Barrier 9 is fine over 1800m.",
+"analysis": "The standout. 100% strike rate on heavy (2/2). Nash Rawiller is the best heavy track rider in the country. Ticks every box.",
+"hidden_factor": "Nash Rawiller + Heavy Track = Money.",
+"verdict": [
+"BEST BET",
+"TOP PICK"
+],
+"stars": 5,
+"rating": 98,
+"win_probability": "45%",
+"place_probability": "85%",
+"show_probability": "95%"
+},
+{
+"number": 2,
+"name": "Maupassant (FR)",
+"barrier": 6,
+"weight": "62.0kg",
+"jockey": {
+"name": "Mollie Fitzgerald (a)",
+"track_record": "14% strike rate",
+"recent_form": "Good"
+},
+"trainer": {
+"name": "Annabel & Rob Archibald",
+"track_record": "16% strike rate",
+"stable_form": "Solid"
+},
+"odds": {
+"morning_line": "50.00",
+"current_estimate": "12.00",
+"value_assessment": "Overlay",
+"overlay_underlay": "Overlay"
+},
+"recent_form": [
+{
+"date": "2025-05-22",
+"track": "Longchamp",
+"distance": "2200m",
+"finish": "4th",
+"margin": "3.0L",
+"speed_fig": "91"
+}
+],
+"speed_figures": {
+"career_best": "91",
+"last_start": "91",
+"average_last_3": "82",
+"par_for_class": "85"
+},
+"days_since_last": 244,
+"fitness_level": "Resuming",
+"equipment": {
+"blinkers": false,
+"tongue_tie": false,
+"gear_changes": null
+},
+"post_position_analysis": "Barrier 6 allows him to lead.",
+"analysis": "French import resuming. Won on soft in France. Class runner but fitness is the query on a heavy 8. Watch betting.",
+"hidden_factor": "Imports often handle wet tracks well.",
+"verdict": [
+"DANGER"
+],
+"stars": 3,
+"rating": 90,
+"win_probability": "20%",
+"place_probability": "50%",
+"show_probability": "70%"
+}
+],
+"betting_strategy": {
+"confidence_level": "High",
+"suggested_bets": [
+{
+"type": "Win",
+"selection": "5",
+"stake": "3 units",
+"odds_range": "2.50+"
+},
+{
+"type": "Exacta",
+"selection": "5 / 2,3",
+"stake": "1 unit"
+}
+],
+"key_bet": "Win #5 Existential Bob"
+}
+}
+]
 }
