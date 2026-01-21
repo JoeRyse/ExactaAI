@@ -1,637 +1,635 @@
 {
-"meta": {
-"track": "Bunbury",
-"date": "2026-01-21",
-"jurisdiction": "Western Australia",
-"weather": "Fine",
-"track_condition": "Good 4",
-"rail_position": "True",
-"track_category": "Big Track (Category A)"
-},
-"races": [
-{
-"number": 1,
-"post_time": "1:09 AM ET",
-"purse": "
-17,000",
-"distance": "1400m",
-"conditions": "Maiden",
-"surface": "Turf",
-"claiming_price": null,
-"field_size": 14,
-"confidence": "Medium Confidence",
-"track_bias": {
-"summary": "Bunbury 1400m - Chute start, long run to turn.",
-"details": "The 1400m start at Bunbury is one of the fairest in WA. Barriers are less critical due to the long back straight run."
-},
-"pace": "Solid pace likely with a large field.",
-"analysis": "Competitive maiden. #5 Morf brings superior Ascot form lines which usually hold up well in Provincial grade. #11 Midnight Star is knocking on the door and gets CJP. #10 Xelcimus is consistent but drawn wide.",
-"contenders": [
-{
-"number": 5,
-"name": "Morf",
-"barrier": 9,
-"weight": "56.5kg",
-"jockey": {
-"name": "Holly Nottle (a)",
-"track_record": "17% Strike Rate",
-"recent_form": "Good"
-},
-"trainer": {
-"name": "Luke Fernie",
-"track_record": "11% Strike Rate",
-"stable_form": "Strong"
-},
-"odds": {
-"morning_line": "10/1",
-"current_estimate": "6.00",
-"value_assessment": "Value",
-"overlay_underlay": "Overlay"
-},
-"recent_form": [
-{
-"date": "2026-01-10",
-"track": "Ascot",
-"distance": "1400m",
-"finish": "2nd",
-"margin": "0.5L",
-"speed_fig": "78"
-},
-{
-"date": "2026-01-03",
-"track": "Pinjarra",
-"distance": "1200m",
-"finish": "7th",
-"margin": "3.4L",
-"speed_fig": "60"
-}
-],
-"speed_figures": {
-"career_best": "78",
-"last_start": "78",
-"average_last_3": "68",
-"par_for_class": "62"
-},
-"days_since_last": 11,
-"fitness_level": "Peak",
-"equipment": {
-"blinkers": false,
-"tongue_tie": false,
-"gear_changes": null
-},
-"post_position_analysis": "Barrier 9 is tricky but the horse has tactical speed.",
-"analysis": "Ran a huge race at Ascot last start (Speed 78), finishing 2nd. That form is lengths better than standard Bunbury maiden form. If he repeats that run, he wins. The 10/1 quote is a gift.",
-"hidden_factor": "Metro Form Drop - Coming from Ascot 3yo Plate to Provincial Maiden.",
-"verdict": [
-"VALUE BET",
-"TOP PICK"
-],
-"stars": 4,
-"rating": 70,
-"win_probability": "25%",
-"place_probability": "55%",
-"show_probability": "70%"
-},
-{
-"number": 11,
-"name": "Midnight Star",
-"barrier": 7,
-"weight": "56kg",
-"jockey": {
-"name": "Clint Johnston-Porter",
-"track_record": "20% Strike Rate",
-"recent_form": "Elite"
-},
-"trainer": {
-"name": "Michael Grantham",
-"track_record": "21% Strike Rate",
-"stable_form": "Elite"
-},
-"odds": {
-"morning_line": "5/2",
-"current_estimate": "3.00",
-"value_assessment": "Fair",
-"overlay_underlay": "Neutral"
-},
-"recent_form": [
-{
-"date": "2026-01-12",
-"track": "Lark Hill",
-"distance": "Trial",
-"finish": "2nd",
-"margin": "0.6L",
-"speed_fig": "Trial"
-}
-],
-"speed_figures": {
-"career_best": "60",
-"last_start": "Trial",
-"average_last_3": "55",
-"par_for_class": "62"
-},
-"days_since_last": 180,
-"fitness_level": "Resuming",
-"equipment": {
-"blinkers": false,
-"tongue_tie": false,
-"gear_changes": null
-},
-"post_position_analysis": "Barrier 7 is ideal for CJP to find cover.",
-"analysis": "Resuming for the powerful Grantham/Peters combo. Trialled well. Consistent form last prep. CJP rides is a big plus.",
-"hidden_factor": "Peters Investment - Elite ownership usually places horses to win first-up.",
-"verdict": [
-"CONTENDER"
-],
-"stars": 4,
-"rating": 68,
-"win_probability": "22%",
-"place_probability": "50%",
-"show_probability": "65%"
-},
-{
-"number": 10,
-"name": "Xelcimus",
-"barrier": 14,
-"weight": "56kg",
-"jockey": {
-"name": "Keshaw Dhurun",
-"track_record": "7% Strike Rate",
-"recent_form": "Average"
-},
-"trainer": {
-"name": "Hector Mclaren",
-"track_record": "7% Strike Rate",
-"stable_form": "Average"
-},
-"odds": {
-"morning_line": "5/1",
-"current_estimate": "6.50",
-"value_assessment": "Underlay",
-"overlay_underlay": "Underlay"
-},
-"recent_form": [
-{
-"date": "2025-12-11",
-"track": "Pinjarra",
-"distance": "1300m",
-"finish": "2nd",
-"margin": "0.2L",
-"speed_fig": "60"
-}
-],
-"speed_figures": {
-"career_best": "67",
-"last_start": "60",
-"average_last_3": "63",
-"par_for_class": "62"
-},
-"days_since_last": 41,
-"fitness_level": "Fresh",
-"equipment": {
-"blinkers": false,
-"tongue_tie": false,
-"gear_changes": null
-},
-"post_position_analysis": "Barrier 14 is a horror draw. Will likely have to go back.",
-"analysis": "Consistent maiden performer but the barrier draw is a killer. Will need a lot of luck to win from out there.",
-"hidden_factor": null,
-"verdict": [
-"PLACE BEST"
-],
-"stars": 3,
-"rating": 62,
-"win_probability": "12%",
-"place_probability": "35%",
-"show_probability": "50%"
-}
-],
-"betting_strategy": {
-"confidence_level": "Medium",
-"suggested_bets": [
-{
-"type": "Win",
-"selection": "5",
-"stake": "1 unit",
-"odds_range": "6.00+"
-},
-{
-"type": "Quinella",
-"selection": "5,11",
-"stake": "0.5 unit"
-}
-],
-"key_bet": "Win #5 Morf - Value play on Ascot form"
-}
-},
-{
-"number": 3,
-"post_time": "2:20 AM ET",
-"purse": "
-11,000",
-"distance": "1200m",
-"conditions": "Handicap",
-"surface": "Turf",
-"claiming_price": null,
-"field_size": 10,
-"confidence": "Medium Confidence",
-"track_bias": {
-"summary": "Bunbury 1200m - Fair.",
-"details": "Standard chute start."
-},
-"pace": "Moderate.",
-"analysis": "#1 Chino La Diva drops significantly in class from Ascot Saturday grade to a midweek handicap. #3 Just Gifted is the up-and-comer.",
-"contenders": [
-{
-"number": 1,
-"name": "Chino La Diva",
-"barrier": 1,
-"weight": "64kg",
-"jockey": {
-"name": "Rocky Cheung (a)",
-"track_record": "11% Strike Rate",
-"recent_form": "Average"
-},
-"trainer": {
-"name": "Daniel O'connor",
-"track_record": "5% Strike Rate",
-"stable_form": "Average"
-},
-"odds": {
-"morning_line": "3/1",
-"current_estimate": "3.50",
-"value_assessment": "Fair",
-"overlay_underlay": "Fair"
-},
-"recent_form": [
-{
-"date": "2026-01-10",
-"track": "Ascot",
-"distance": "1200m",
-"finish": "7th",
-"margin": "3.8L",
-"speed_fig": "67"
-}
-],
-"speed_figures": {
-"career_best": "78",
-"last_start": "67",
-"average_last_3": "72",
-"par_for_class": "65"
-},
-"days_since_last": 11,
-"fitness_level": "Fit",
-"equipment": {
-"blinkers": false,
-"tongue_tie": false,
-"gear_changes": null
-},
-"post_position_analysis": "Barrier 1 is perfect.",
-"analysis": "Carries weight but the class drop is massive. Rated 67 last start in town; that wins this.",
-"hidden_factor": "Class Drop - Ascot to Bunbury midweek.",
-"verdict": [
-"TOP PICK"
-],
-"stars": 4,
-"rating": 72,
-"win_probability": "30%",
-"place_probability": "65%",
-"show_probability": "80%"
-},
-{
-"number": 3,
-"name": "Just Gifted",
-"barrier": 6,
-"weight": "59.5kg",
-"jockey": {
-"name": "Lucy Fiore",
-"track_record": "14% Strike Rate",
-"recent_form": "Solid"
-},
-"trainer": {
-"name": "Tim Crosby",
-"track_record": "8% Strike Rate",
-"stable_form": "Average"
-},
-"odds": {
-"morning_line": "9/5",
-"current_estimate": "2.50",
-"value_assessment": "Underlay",
-"overlay_underlay": "Underlay"
-},
-"recent_form": [
-{
-"date": "2026-01-07",
-"track": "Bunbury",
-"distance": "1200m",
-"finish": "3rd",
-"margin": "0.7L",
-"speed_fig": "66"
-}
-],
-"speed_figures": {
-"career_best": "66",
-"last_start": "66",
-"average_last_3": "62",
-"par_for_class": "65"
-},
-"days_since_last": 14,
-"fitness_level": "Fit",
-"equipment": {
-"blinkers": false,
-"tongue_tie": false,
-"gear_changes": null
-},
-"post_position_analysis": "Barrier 6 is neutral.",
-"analysis": "Racing well and hitting the line. The main danger.",
-"hidden_factor": null,
-"verdict": [
-"MAIN DANGER"
-],
-"stars": 4,
-"rating": 68,
-"win_probability": "28%",
-"place_probability": "60%",
-"show_probability": "75%"
-},
-{
-"number": 5,
-"name": "Alabama Elegance",
-"barrier": 2,
-"weight": "58.5kg",
-"jockey": {
-"name": "Steven Parnham",
-"track_record": "8% Strike Rate",
-"recent_form": "Average"
-},
-"trainer": {
-"name": "Ryan Hill",
-"track_record": "10% Strike Rate",
-"stable_form": "Average"
-},
-"odds": {
-"morning_line": "17/2",
-"current_estimate": "10.00",
-"value_assessment": "Value",
-"overlay_underlay": "Overlay"
-},
-"recent_form": [
-{
-"date": "2026-01-02",
-"track": "Esperance",
-"distance": "1200m",
-"finish": "5th",
-"margin": "4.0L",
-"speed_fig": "47"
-}
-],
-"speed_figures": {
-"career_best": "57",
-"last_start": "47",
-"average_last_3": "53",
-"par_for_class": "65"
-},
-"days_since_last": 19,
-"fitness_level": "Fit",
-"equipment": {
-"blinkers": false,
-"tongue_tie": false,
-"gear_changes": null
-},
-"post_position_analysis": "Barrier 2 is good.",
-"analysis": "Needs to improve on recent form but draws well.",
-"hidden_factor": null,
-"verdict": [
-"PLACE CHANCE"
-],
-"stars": 2,
-"rating": 55,
-"win_probability": "8%",
-"place_probability": "25%",
-"show_probability": "40%"
-}
-],
-"betting_strategy": {
-"confidence_level": "Medium",
-"suggested_bets": [
-{
-"type": "Win",
-"selection": "1",
-"stake": "2 units",
-"odds_range": "3.00+"
-},
-{
-"type": "Quinella",
-"selection": "1,3",
-"stake": "1 unit"
-}
-],
-"key_bet": "Win #1 Chino La Diva - Class drop"
-}
-},
-{
-"number": 5,
-"post_time": "3:20 AM ET",
-"purse": "$20,000",
-"distance": "1200m",
-"conditions": "Handicap",
-"surface": "Turf",
-"claiming_price": null,
-"field_size": 9,
-"confidence": "High Confidence",
-"track_bias": {
-"summary": "Bunbury 1200m - Fair.",
-"details": "Standard."
-},
-"pace": "Good pace.",
-"analysis": "#8 Ripper Rupert was dominant last start at this track/distance. Pike stays on. Draws barrier 1. Ticks every single box.",
-"contenders": [
-{
-"number": 8,
-"name": "Ripper Rupert",
-"barrier": 1,
-"weight": "57.5kg",
-"jockey": {
-"name": "William Pike",
-"track_record": "Elite",
-"recent_form": "Dominant"
-},
-"trainer": {
-"name": "Luke Fernie",
-"track_record": "11% Strike Rate",
-"stable_form": "Strong"
-},
-"odds": {
-"morning_line": "2/1",
-"current_estimate": "2.00",
-"value_assessment": "Fair",
-"overlay_underlay": "Fair"
-},
-"recent_form": [
-{
-"date": "2025-12-18",
-"track": "Bunbury",
-"distance": "1100m",
-"finish": "1st",
-"margin": "1.1L",
-"speed_fig": "75"
-}
-],
-"speed_figures": {
-"career_best": "75",
-"last_start": "75",
-"average_last_3": "73",
-"par_for_class": "68"
-},
-"days_since_last": 34,
-"fitness_level": "Fresh",
-"equipment": {
-"blinkers": false,
-"tongue_tie": false,
-"gear_changes": null
-},
-"post_position_analysis": "Barrier 1 allows Pike to do whatever he wants.",
-"analysis": "Last start winner with a high speed figure (75). Pike/Fernie combo. Drawn 1. Hard to find a negative.",
-"hidden_factor": "Pike/Fernie Combo - High strike rate team.",
-"verdict": [
-"BEST BET",
-"WINNER"
-],
-"stars": 5,
-"rating": 75,
-"win_probability": "45%",
-"place_probability": "80%",
-"show_probability": "95%"
-},
-{
-"number": 7,
-"name": "Girls On Fire",
-"barrier": 5,
-"weight": "57.5kg",
-"jockey": {
-"name": "Brad Parnham",
-"track_record": "13% Strike Rate",
-"recent_form": "Solid"
-},
-"trainer": {
-"name": "Michael Lane",
-"track_record": "19% Strike Rate",
-"stable_form": "Strong"
-},
-"odds": {
-"morning_line": "3/1",
-"current_estimate": "3.50",
-"value_assessment": "Fair",
-"overlay_underlay": "Neutral"
-},
-"recent_form": [
-{
-"date": "2025-09-27",
-"track": "Belmont",
-"distance": "1400m",
-"finish": "2nd",
-"margin": "2.7L",
-"speed_fig": "76"
-}
-],
-"speed_figures": {
-"career_best": "81",
-"last_start": "76",
-"average_last_3": "77",
-"par_for_class": "68"
-},
-"days_since_last": 116,
-"fitness_level": "Resuming",
-"equipment": {
-"blinkers": false,
-"tongue_tie": false,
-"gear_changes": null
-},
-"post_position_analysis": "Barrier 5 is good.",
-"analysis": "Resuming. Has high peak figures (81) but might need the run compared to the fit favorite.",
-"hidden_factor": null,
-"verdict": [
-"MAIN DANGER"
-],
-"stars": 4,
-"rating": 72,
-"win_probability": "25%",
-"place_probability": "60%",
-"show_probability": "80%"
-},
-{
-"number": 10,
-"name": "Blue Can Talk",
-"barrier": 2,
-"weight": "55.5kg",
-"jockey": {
-"name": "Cassey Martinan (a)",
-"track_record": "6% Strike Rate",
-"recent_form": "Average"
-},
-"trainer": {
-"name": "Neil Dellar",
-"track_record": "11% Strike Rate",
-"stable_form": "Average"
-},
-"odds": {
-"morning_line": "13/1",
-"current_estimate": "15.00",
-"value_assessment": "Value",
-"overlay_underlay": "Overlay"
-},
-"recent_form": [
-{
-"date": "2026-01-07",
-"track": "Bunbury",
-"distance": "1000m",
-"finish": "3rd",
-"margin": "1.0L",
-"speed_fig": "60"
-}
-],
-"speed_figures": {
-"career_best": "69",
-"last_start": "60",
-"average_last_3": "55",
-"par_for_class": "68"
-},
-"days_since_last": 14,
-"fitness_level": "Fit",
-"equipment": {
-"blinkers": false,
-"tongue_tie": false,
-"gear_changes": null
-},
-"post_position_analysis": "Barrier 2 is excellent.",
-"analysis": "Improved last start. Good place value.",
-"hidden_factor": null,
-"verdict": [
-"PLACE VALUE"
-],
-"stars": 3,
-"rating": 62,
-"win_probability": "10%",
-"place_probability": "30%",
-"show_probability": "50%"
-}
-],
-"betting_strategy": {
-"confidence_level": "High",
-"suggested_bets": [
-{
-"type": "Win",
-"selection": "8",
-"stake": "4 units",
-"odds_range": "2.00+"
-},
-{
-"type": "Exacta",
-"selection": "8 / 7",
-"stake": "1 unit"
-}
-],
-"key_bet": "Win #8 Ripper Rupert - Pike/Barrier 1"
-}
-}
-]
+  "meta": {
+    "track": "Bunbury",
+    "date": "2026-01-21",
+    "jurisdiction": "Western Australia",
+    "weather": "Fine",
+    "track_condition": "Good 4",
+    "rail_position": "True",
+    "track_category": "Big Track (Category A)"
+  },
+  "races": [
+    {
+      "number": 1,
+      "post_time": "1:09 AM ET",
+      "purse": "17,000",
+      "distance": "1400m",
+      "conditions": "Maiden",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 14,
+      "confidence": "Medium Confidence",
+      "track_bias": {
+        "summary": "Bunbury 1400m - Chute start, long run to turn.",
+        "details": "The 1400m start at Bunbury is one of the fairest in WA. Barriers are less critical due to the long back straight run."
+      },
+      "pace": "Solid pace likely with a large field.",
+      "analysis": "Competitive maiden. #5 Morf brings superior Ascot form lines which usually hold up well in Provincial grade. #11 Midnight Star is knocking on the door and gets CJP. #10 Xelcimus is consistent but drawn wide.",
+      "contenders": [
+        {
+          "number": 5,
+          "name": "Morf",
+          "barrier": 9,
+          "weight": "56.5kg",
+          "jockey": {
+            "name": "Holly Nottle (a)",
+            "track_record": "17% Strike Rate",
+            "recent_form": "Good"
+          },
+          "trainer": {
+            "name": "Luke Fernie",
+            "track_record": "11% Strike Rate",
+            "stable_form": "Strong"
+          },
+          "odds": {
+            "morning_line": "10/1",
+            "current_estimate": "6.00",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-10",
+              "track": "Ascot",
+              "distance": "1400m",
+              "finish": "2nd",
+              "margin": "0.5L",
+              "speed_fig": "78"
+            },
+            {
+              "date": "2026-01-03",
+              "track": "Pinjarra",
+              "distance": "1200m",
+              "finish": "7th",
+              "margin": "3.4L",
+              "speed_fig": "60"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "78",
+            "last_start": "78",
+            "average_last_3": "68",
+            "par_for_class": "62"
+          },
+          "days_since_last": 11,
+          "fitness_level": "Peak",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 9 is tricky but the horse has tactical speed.",
+          "analysis": "Ran a huge race at Ascot last start (Speed 78), finishing 2nd. That form is lengths better than standard Bunbury maiden form. If he repeats that run, he wins. The 10/1 quote is a gift.",
+          "hidden_factor": "Metro Form Drop - Coming from Ascot 3yo Plate to Provincial Maiden.",
+          "verdict": [
+            "VALUE BET",
+            "TOP PICK"
+          ],
+          "stars": 4,
+          "rating": 70,
+          "win_probability": "25%",
+          "place_probability": "55%",
+          "show_probability": "70%"
+        },
+        {
+          "number": 11,
+          "name": "Midnight Star",
+          "barrier": 7,
+          "weight": "56kg",
+          "jockey": {
+            "name": "Clint Johnston-Porter",
+            "track_record": "20% Strike Rate",
+            "recent_form": "Elite"
+          },
+          "trainer": {
+            "name": "Michael Grantham",
+            "track_record": "21% Strike Rate",
+            "stable_form": "Elite"
+          },
+          "odds": {
+            "morning_line": "5/2",
+            "current_estimate": "3.00",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-12",
+              "track": "Lark Hill",
+              "distance": "Trial",
+              "finish": "2nd",
+              "margin": "0.6L",
+              "speed_fig": "Trial"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "60",
+            "last_start": "Trial",
+            "average_last_3": "55",
+            "par_for_class": "62"
+          },
+          "days_since_last": 180,
+          "fitness_level": "Resuming",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 7 is ideal for CJP to find cover.",
+          "analysis": "Resuming for the powerful Grantham/Peters combo. Trialled well. Consistent form last prep. CJP rides is a big plus.",
+          "hidden_factor": "Peters Investment - Elite ownership usually places horses to win first-up.",
+          "verdict": [
+            "CONTENDER"
+          ],
+          "stars": 4,
+          "rating": 68,
+          "win_probability": "22%",
+          "place_probability": "50%",
+          "show_probability": "65%"
+        },
+        {
+          "number": 10,
+          "name": "Xelcimus",
+          "barrier": 14,
+          "weight": "56kg",
+          "jockey": {
+            "name": "Keshaw Dhurun",
+            "track_record": "7% Strike Rate",
+            "recent_form": "Average"
+          },
+          "trainer": {
+            "name": "Hector Mclaren",
+            "track_record": "7% Strike Rate",
+            "stable_form": "Average"
+          },
+          "odds": {
+            "morning_line": "5/1",
+            "current_estimate": "6.50",
+            "value_assessment": "Underlay",
+            "overlay_underlay": "Underlay"
+          },
+          "recent_form": [
+            {
+              "date": "2025-12-11",
+              "track": "Pinjarra",
+              "distance": "1300m",
+              "finish": "2nd",
+              "margin": "0.2L",
+              "speed_fig": "60"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "67",
+            "last_start": "60",
+            "average_last_3": "63",
+            "par_for_class": "62"
+          },
+          "days_since_last": 41,
+          "fitness_level": "Fresh",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 14 is a horror draw. Will likely have to go back.",
+          "analysis": "Consistent maiden performer but the barrier draw is a killer. Will need a lot of luck to win from out there.",
+          "hidden_factor": null,
+          "verdict": [
+            "PLACE BEST"
+          ],
+          "stars": 3,
+          "rating": 62,
+          "win_probability": "12%",
+          "place_probability": "35%",
+          "show_probability": "50%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "Medium",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "5",
+            "stake": "1 unit",
+            "odds_range": "6.00+"
+          },
+          {
+            "type": "Quinella",
+            "selection": "5,11",
+            "stake": "0.5 unit"
+          }
+        ],
+        "key_bet": "Win #5 Morf - Value play on Ascot form"
+      }
+    },
+    {
+      "number": 3,
+      "post_time": "2:20 AM ET",
+      "purse": "11,000",
+      "distance": "1200m",
+      "conditions": "Handicap",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 10,
+      "confidence": "Medium Confidence",
+      "track_bias": {
+        "summary": "Bunbury 1200m - Fair.",
+        "details": "Standard chute start."
+      },
+      "pace": "Moderate.",
+      "analysis": "#1 Chino La Diva drops significantly in class from Ascot Saturday grade to a midweek handicap. #3 Just Gifted is the up-and-comer.",
+      "contenders": [
+        {
+          "number": 1,
+          "name": "Chino La Diva",
+          "barrier": 1,
+          "weight": "64kg",
+          "jockey": {
+            "name": "Rocky Cheung (a)",
+            "track_record": "11% Strike Rate",
+            "recent_form": "Average"
+          },
+          "trainer": {
+            "name": "Daniel O'connor",
+            "track_record": "5% Strike Rate",
+            "stable_form": "Average"
+          },
+          "odds": {
+            "morning_line": "3/1",
+            "current_estimate": "3.50",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Fair"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-10",
+              "track": "Ascot",
+              "distance": "1200m",
+              "finish": "7th",
+              "margin": "3.8L",
+              "speed_fig": "67"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "78",
+            "last_start": "67",
+            "average_last_3": "72",
+            "par_for_class": "65"
+          },
+          "days_since_last": 11,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 1 is perfect.",
+          "analysis": "Carries weight but the class drop is massive. Rated 67 last start in town; that wins this.",
+          "hidden_factor": "Class Drop - Ascot to Bunbury midweek.",
+          "verdict": [
+            "TOP PICK"
+          ],
+          "stars": 4,
+          "rating": 72,
+          "win_probability": "30%",
+          "place_probability": "65%",
+          "show_probability": "80%"
+        },
+        {
+          "number": 3,
+          "name": "Just Gifted",
+          "barrier": 6,
+          "weight": "59.5kg",
+          "jockey": {
+            "name": "Lucy Fiore",
+            "track_record": "14% Strike Rate",
+            "recent_form": "Solid"
+          },
+          "trainer": {
+            "name": "Tim Crosby",
+            "track_record": "8% Strike Rate",
+            "stable_form": "Average"
+          },
+          "odds": {
+            "morning_line": "9/5",
+            "current_estimate": "2.50",
+            "value_assessment": "Underlay",
+            "overlay_underlay": "Underlay"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-07",
+              "track": "Bunbury",
+              "distance": "1200m",
+              "finish": "3rd",
+              "margin": "0.7L",
+              "speed_fig": "66"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "66",
+            "last_start": "66",
+            "average_last_3": "62",
+            "par_for_class": "65"
+          },
+          "days_since_last": 14,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 6 is neutral.",
+          "analysis": "Racing well and hitting the line. The main danger.",
+          "hidden_factor": null,
+          "verdict": [
+            "MAIN DANGER"
+          ],
+          "stars": 4,
+          "rating": 68,
+          "win_probability": "28%",
+          "place_probability": "60%",
+          "show_probability": "75%"
+        },
+        {
+          "number": 5,
+          "name": "Alabama Elegance",
+          "barrier": 2,
+          "weight": "58.5kg",
+          "jockey": {
+            "name": "Steven Parnham",
+            "track_record": "8% Strike Rate",
+            "recent_form": "Average"
+          },
+          "trainer": {
+            "name": "Ryan Hill",
+            "track_record": "10% Strike Rate",
+            "stable_form": "Average"
+          },
+          "odds": {
+            "morning_line": "17/2",
+            "current_estimate": "10.00",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-02",
+              "track": "Esperance",
+              "distance": "1200m",
+              "finish": "5th",
+              "margin": "4.0L",
+              "speed_fig": "47"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "57",
+            "last_start": "47",
+            "average_last_3": "53",
+            "par_for_class": "65"
+          },
+          "days_since_last": 19,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 2 is good.",
+          "analysis": "Needs to improve on recent form but draws well.",
+          "hidden_factor": null,
+          "verdict": [
+            "PLACE CHANCE"
+          ],
+          "stars": 2,
+          "rating": 55,
+          "win_probability": "8%",
+          "place_probability": "25%",
+          "show_probability": "40%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "Medium",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "1",
+            "stake": "2 units",
+            "odds_range": "3.00+"
+          },
+          {
+            "type": "Quinella",
+            "selection": "1,3",
+            "stake": "1 unit"
+          }
+        ],
+        "key_bet": "Win #1 Chino La Diva - Class drop"
+      }
+    },
+    {
+      "number": 5,
+      "post_time": "3:20 AM ET",
+      "purse": "20,000",
+      "distance": "1200m",
+      "conditions": "Handicap",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 9,
+      "confidence": "High Confidence",
+      "track_bias": {
+        "summary": "Bunbury 1200m - Fair.",
+        "details": "Standard."
+      },
+      "pace": "Good pace.",
+      "analysis": "#8 Ripper Rupert was dominant last start at this track/distance. Pike stays on. Draws barrier 1. Ticks every single box.",
+      "contenders": [
+        {
+          "number": 8,
+          "name": "Ripper Rupert",
+          "barrier": 1,
+          "weight": "57.5kg",
+          "jockey": {
+            "name": "William Pike",
+            "track_record": "Elite",
+            "recent_form": "Dominant"
+          },
+          "trainer": {
+            "name": "Luke Fernie",
+            "track_record": "11% Strike Rate",
+            "stable_form": "Strong"
+          },
+          "odds": {
+            "morning_line": "2/1",
+            "current_estimate": "2.00",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Fair"
+          },
+          "recent_form": [
+            {
+              "date": "2025-12-18",
+              "track": "Bunbury",
+              "distance": "1100m",
+              "finish": "1st",
+              "margin": "1.1L",
+              "speed_fig": "75"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "75",
+            "last_start": "75",
+            "average_last_3": "73",
+            "par_for_class": "68"
+          },
+          "days_since_last": 34,
+          "fitness_level": "Fresh",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 1 allows Pike to do whatever he wants.",
+          "analysis": "Last start winner with a high speed figure (75). Pike/Fernie combo. Drawn 1. Hard to find a negative.",
+          "hidden_factor": "Pike/Fernie Combo - High strike rate team.",
+          "verdict": [
+            "BEST BET",
+            "WINNER"
+          ],
+          "stars": 5,
+          "rating": 75,
+          "win_probability": "45%",
+          "place_probability": "80%",
+          "show_probability": "95%"
+        },
+        {
+          "number": 7,
+          "name": "Girls On Fire",
+          "barrier": 5,
+          "weight": "57.5kg",
+          "jockey": {
+            "name": "Brad Parnham",
+            "track_record": "13% Strike Rate",
+            "recent_form": "Solid"
+          },
+          "trainer": {
+            "name": "Michael Lane",
+            "track_record": "19% Strike Rate",
+            "stable_form": "Strong"
+          },
+          "odds": {
+            "morning_line": "3/1",
+            "current_estimate": "3.50",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [
+            {
+              "date": "2025-09-27",
+              "track": "Belmont",
+              "distance": "1400m",
+              "finish": "2nd",
+              "margin": "2.7L",
+              "speed_fig": "76"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "81",
+            "last_start": "76",
+            "average_last_3": "77",
+            "par_for_class": "68"
+          },
+          "days_since_last": 116,
+          "fitness_level": "Resuming",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 5 is good.",
+          "analysis": "Resuming. Has high peak figures (81) but might need the run compared to the fit favorite.",
+          "hidden_factor": null,
+          "verdict": [
+            "MAIN DANGER"
+          ],
+          "stars": 4,
+          "rating": 72,
+          "win_probability": "25%",
+          "place_probability": "60%",
+          "show_probability": "80%"
+        },
+        {
+          "number": 10,
+          "name": "Blue Can Talk",
+          "barrier": 2,
+          "weight": "55.5kg",
+          "jockey": {
+            "name": "Cassey Martinan (a)",
+            "track_record": "6% Strike Rate",
+            "recent_form": "Average"
+          },
+          "trainer": {
+            "name": "Neil Dellar",
+            "track_record": "11% Strike Rate",
+            "stable_form": "Average"
+          },
+          "odds": {
+            "morning_line": "13/1",
+            "current_estimate": "15.00",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-07",
+              "track": "Bunbury",
+              "distance": "1000m",
+              "finish": "3rd",
+              "margin": "1.0L",
+              "speed_fig": "60"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "69",
+            "last_start": "60",
+            "average_last_3": "55",
+            "par_for_class": "68"
+          },
+          "days_since_last": 14,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 2 is excellent.",
+          "analysis": "Improved last start. Good place value.",
+          "hidden_factor": null,
+          "verdict": [
+            "PLACE VALUE"
+          ],
+          "stars": 3,
+          "rating": 62,
+          "win_probability": "10%",
+          "place_probability": "30%",
+          "show_probability": "50%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "High",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "8",
+            "stake": "4 units",
+            "odds_range": "2.00+"
+          },
+          {
+            "type": "Exacta",
+            "selection": "8 / 7",
+            "stake": "1 unit"
+          }
+        ],
+        "key_bet": "Win #8 Ripper Rupert - Pike/Barrier 1"
+      }
+    }
+  ]
 }
