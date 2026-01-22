@@ -1,0 +1,365 @@
+{
+  "meta": {
+    "track": "Warwick",
+    "date": "2026-01-21",
+    "jurisdiction": "Australia",
+    "weather": "Fine",
+    "track_condition": "Good 4",
+    "rail_position": "True",
+    "track_category": "Saucer (Category B)"
+  },
+  "races": [
+    {
+      "number": 1,
+      "post_time": "10:32 PM ET",
+      "purse": "$15,000",
+      "distance": "1200m",
+      "conditions": "Maiden Handicap",
+      "field_size": 22,
+      "confidence": "Medium",
+      "analysis": "Large field maiden. Bay Of The South brings strong Gold Coast form and looks ready to win. Miss Highfalutin drops from metro grade. Chevallum is a trial winner from a top stable at huge odds.",
+      "contenders": [
+        {
+          "number": 4,
+          "name": "Bay Of The South",
+          "barrier": 18,
+          "weight": "128 lbs",
+          "rating": 96,
+          "odds": "13/2"
+        },
+        {
+          "number": 14,
+          "name": "Miss Highfalutin",
+          "barrier": 4,
+          "weight": "122 lbs",
+          "rating": 94,
+          "odds": "3/1"
+        },
+        {
+          "number": 2,
+          "name": "Chevallum",
+          "barrier": 6,
+          "weight": "129 lbs",
+          "rating": 90,
+          "odds": "51/1"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "Medium",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "4",
+            "stake": "2 units",
+            "odds_range": "5.00-7.00"
+          },
+          {
+            "type": "Place",
+            "selection": "2",
+            "stake": "0.5 units",
+            "odds_range": "10.00+"
+          }
+        ],
+        "key_bet": "Win #4 Bay Of The South"
+      }
+    },
+    {
+      "number": 2,
+      "post_time": "11:07 PM ET",
+      "purse": "$13,000",
+      "distance": "800m",
+      "conditions": "BM58 Handicap",
+      "field_size": 14,
+      "confidence": "High",
+      "analysis": "800m scamper. Diamantina Rose has the speed and recent form. Red Boomshakalaka has class but weight. Devil's Rite goes well fresh.",
+      "contenders": [
+        {
+          "number": 7,
+          "name": "Diamantina Rose",
+          "barrier": 11,
+          "weight": "129 lbs",
+          "rating": 98,
+          "odds": "4/1"
+        },
+        {
+          "number": 1,
+          "name": "Red Boomshakalaka",
+          "barrier": 7,
+          "weight": "140 lbs",
+          "rating": 92,
+          "odds": "16/1"
+        },
+        {
+          "number": 3,
+          "name": "Devil's Rite",
+          "barrier": 5,
+          "weight": "133 lbs",
+          "rating": 90,
+          "odds": "16/1"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "High",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "7",
+            "stake": "3 units",
+            "odds_range": "3.50-5.00"
+          }
+        ],
+        "key_bet": "Win #7 Diamantina Rose"
+      }
+    },
+    {
+      "number": 3,
+      "post_time": "11:42 PM ET",
+      "purse": "$13,000",
+      "distance": "1500m",
+      "conditions": "Class 3 Handicap",
+      "field_size": 12,
+      "confidence": "Medium",
+      "analysis": "Johnny The Kid drops significantly in class from Listed/Metro company. Arduous is the danger. Airswing consistent.",
+      "contenders": [
+        {
+          "number": 1,
+          "name": "Johnny The Kid",
+          "barrier": 7,
+          "weight": "132 lbs",
+          "rating": 95,
+          "odds": "17/1"
+        },
+        {
+          "number": 6,
+          "name": "Arduous",
+          "barrier": 8,
+          "weight": "123 lbs",
+          "rating": 93,
+          "odds": "7/2"
+        },
+        {
+          "number": 2,
+          "name": "Airswing",
+          "barrier": 2,
+          "weight": "129 lbs",
+          "rating": 90,
+          "odds": "10/1"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "Medium",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "1",
+            "stake": "1 unit",
+            "odds_range": "10.00+"
+          },
+          {
+            "type": "Quinella",
+            "selection": "1,6",
+            "stake": "1 unit"
+          }
+        ],
+        "key_bet": "Win #1 Johnny The Kid (Value)"
+      }
+    },
+    {
+      "number": 4,
+      "post_time": "12:17 AM ET",
+      "purse": "$15,000",
+      "distance": "1350m",
+      "conditions": "3yo Maiden Handicap",
+      "field_size": 22,
+      "confidence": "High",
+      "analysis": "Yeah Buddy has been knocking on the door with strong placings. Neweva brings metro form. Mishani Vision in the mix.",
+      "contenders": [
+        {
+          "number": 1,
+          "name": "Yeah Buddy",
+          "barrier": 4,
+          "weight": "132 lbs",
+          "rating": 97,
+          "odds": "7/1"
+        },
+        {
+          "number": 13,
+          "name": "Neweva",
+          "barrier": 7,
+          "weight": "123 lbs",
+          "rating": 94,
+          "odds": "7/2"
+        },
+        {
+          "number": 9,
+          "name": "Mishani Vision",
+          "barrier": 17,
+          "weight": "127 lbs",
+          "rating": 90,
+          "odds": "10/1"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "High",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "1",
+            "stake": "3 units",
+            "odds_range": "5.00-8.00"
+          }
+        ],
+        "key_bet": "Win #1 Yeah Buddy"
+      }
+    },
+    {
+      "number": 5,
+      "post_time": "12:52 AM ET",
+      "purse": "$13,000",
+      "distance": "1100m",
+      "conditions": "BM70 Handicap",
+      "field_size": 12,
+      "confidence": "High",
+      "analysis": "Streak Of Winning is in peak form and looks the one to beat. Dont Call Me Honey is a threat. Jacka Stands Alone consistent.",
+      "contenders": [
+        {
+          "number": 2,
+          "name": "Streak Of Winning",
+          "barrier": 6,
+          "weight": "133 lbs",
+          "rating": 99,
+          "odds": "9/5"
+        },
+        {
+          "number": 4,
+          "name": "Dont Call Me Honey",
+          "barrier": 1,
+          "weight": "130 lbs",
+          "rating": 94,
+          "odds": "9/1"
+        },
+        {
+          "number": 5,
+          "name": "Jacka Stands Alone",
+          "barrier": 4,
+          "weight": "130 lbs",
+          "rating": 92,
+          "odds": "9/2"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "High",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "2",
+            "stake": "4 units",
+            "odds_range": "2.50-3.50"
+          }
+        ],
+        "key_bet": "Win #2 Streak Of Winning"
+      }
+    },
+    {
+      "number": 6,
+      "post_time": "1:27 AM ET",
+      "purse": "$13,000",
+      "distance": "1200m",
+      "conditions": "CG&E 0-60 Handicap",
+      "field_size": 18,
+      "confidence": "Medium",
+      "analysis": "Je Reve has been close up and finds a winnable race. Lightning Strikes and Kingsland are the main dangers in a competitive field.",
+      "contenders": [
+        {
+          "number": 6,
+          "name": "Je Reve",
+          "barrier": 5,
+          "weight": "128 lbs",
+          "rating": 96,
+          "odds": "11/2"
+        },
+        {
+          "number": 3,
+          "name": "Lightning Strikes",
+          "barrier": 9,
+          "weight": "132 lbs",
+          "rating": 94,
+          "odds": "7/2"
+        },
+        {
+          "number": 2,
+          "name": "Kingsland",
+          "barrier": 2,
+          "weight": "132 lbs",
+          "rating": 92,
+          "odds": "9/2"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "Medium",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "6",
+            "stake": "2 units",
+            "odds_range": "4.50-6.00"
+          }
+        ],
+        "key_bet": "Win #6 Je Reve"
+      }
+    },
+    {
+      "number": 7,
+      "post_time": "2:03 AM ET",
+      "purse": "$13,000",
+      "distance": "1200m",
+      "conditions": "F&M 0-60 Handicap",
+      "field_size": 18,
+      "confidence": "Low",
+      "analysis": "Wide open race. Resolute Lady has ability. Ceekay's Choice is consistent. Zavega won well on debut.",
+      "contenders": [
+        {
+          "number": 12,
+          "name": "Resolute Lady",
+          "barrier": 12,
+          "weight": "128 lbs",
+          "rating": 95,
+          "odds": "13/2"
+        },
+        {
+          "number": 1,
+          "name": "Ceekay's Choice",
+          "barrier": 16,
+          "weight": "132 lbs",
+          "rating": 94,
+          "odds": "8/1"
+        },
+        {
+          "number": 18,
+          "name": "Zavega",
+          "barrier": 11,
+          "weight": "119 lbs",
+          "rating": 92,
+          "odds": "8/1"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "Low",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "12",
+            "stake": "1 unit",
+            "odds_range": "6.00-8.00"
+          },
+          {
+            "type": "Box Quinella",
+            "selection": "1,12,18",
+            "stake": "0.5 units"
+          }
+        ],
+        "key_bet": "Win #12 Resolute Lady"
+      }
+    }
+  ]
+}
