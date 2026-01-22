@@ -1,0 +1,1454 @@
+{
+  "meta": {
+    "track": "Kembla Grange",
+    "date": "2026-01-22",
+    "jurisdiction": "Australia",
+    "weather": "Overcast, Recent Rain (135mm)",
+    "track_condition": "Soft 7",
+    "rail_position": "+5m Entire",
+    "track_category": "Big Track (Category A)"
+  },
+  "races": [
+    {
+      "number": 1,
+      "post_time": "9:50 PM ET",
+      "purse": "$30,000",
+      "distance": "1200m",
+      "conditions": "4yo+ Maiden Plate",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 7,
+      "confidence": "High Confidence",
+      "track_bias": {
+        "summary": "Soft 7 track favors horses with proven wet form. Long straight allows closers.",
+        "details": "With the rail out 5m and a Soft 7 rating, look for horses that can handle the chop. The middle of the track in the straight might be the best going."
+      },
+      "pace": "Moderate pace expected. #1 Aldezor and #3 Zoustrong likely to push forward.",
+      "analysis": "Small field after scratches. Rubilace brings the best recent form and has placed on soft going. Share The Joy is a veteran who handles wet tracks well and could surprise at odds. Aldezor is third-up and ready to peak.",
+      "contenders": [
+        {
+          "number": 7,
+          "name": "Rubilace",
+          "barrier": 6,
+          "weight": "126 lbs",
+          "jockey": {
+            "name": "Jess Taylor",
+            "track_record": "Solid local record",
+            "recent_form": "Consistent"
+          },
+          "trainer": {
+            "name": "Theresa Bateup",
+            "track_record": "Local specialist",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": "4/1",
+            "current_estimate": "3.50",
+            "value_assessment": "Fair value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-05",
+              "track": "Moruya",
+              "distance": "1200m",
+              "finish": "5th",
+              "margin": "1.5L",
+              "speed_fig": "85"
+            },
+            {
+              "date": "2025-06-27",
+              "track": "Moruya",
+              "distance": "1200m",
+              "finish": "3rd",
+              "margin": "2.3L",
+              "speed_fig": "82"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "85",
+            "last_start": "85",
+            "average_last_3": "83",
+            "par_for_class": "80"
+          },
+          "days_since_last": 17,
+          "fitness_level": "Peak - 3rd-up",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 6 is fine in this small field.",
+          "analysis": "Third-up today. Ran well at Moruya last start. Proven on soft tracks (6:0-1-1). Local trainer advantage.",
+          "hidden_factor": "Local knowledge on a wet track.",
+          "verdict": [
+            "TOP PICK",
+            "BEST BET"
+          ],
+          "stars": 5,
+          "rating": 92,
+          "win_probability": "35%",
+          "place_probability": "75%",
+          "show_probability": "90%"
+        },
+        {
+          "number": 8,
+          "name": "Share The Joy",
+          "barrier": 5,
+          "weight": "126 lbs",
+          "jockey": {
+            "name": "Mitchell Bell",
+            "track_record": "19% strike rate",
+            "recent_form": "Solid"
+          },
+          "trainer": {
+            "name": "Mitchell & Desiree Kearney",
+            "track_record": "Average",
+            "stable_form": "Average"
+          },
+          "odds": {
+            "morning_line": "10/1",
+            "current_estimate": "8.00",
+            "value_assessment": "Value play",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-06",
+              "track": "Orange",
+              "distance": "1400m",
+              "finish": "5th",
+              "margin": "2.1L",
+              "speed_fig": "80"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "84",
+            "last_start": "80",
+            "average_last_3": "78",
+            "par_for_class": "80"
+          },
+          "days_since_last": 16,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Mid-field draw suits.",
+          "analysis": "Experienced mare with 12 starts on soft ground. Handles the conditions better than most here. Value runner.",
+          "hidden_factor": "Mudlark potential.",
+          "verdict": [
+            "VALUE",
+            "EXOTIC PLAYER"
+          ],
+          "stars": 3,
+          "rating": 86,
+          "win_probability": "15%",
+          "place_probability": "45%",
+          "show_probability": "60%"
+        },
+        {
+          "number": 1,
+          "name": "Aldezor",
+          "barrier": 1,
+          "weight": "130 lbs",
+          "jockey": {
+            "name": "Chad Lever",
+            "track_record": "11% strike rate",
+            "recent_form": "Okay"
+          },
+          "trainer": {
+            "name": "Kerry Parker",
+            "track_record": "Local",
+            "stable_form": "Okay"
+          },
+          "odds": {
+            "morning_line": "10/1",
+            "current_estimate": "6.00",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-05",
+              "track": "Moruya",
+              "distance": "1200m",
+              "finish": "6th",
+              "margin": "1.7L",
+              "speed_fig": "82"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "82",
+            "last_start": "82",
+            "average_last_3": "75",
+            "par_for_class": "80"
+          },
+          "days_since_last": 17,
+          "fitness_level": "Peak",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Inside draw, needs to jump well.",
+          "analysis": "Improved effort last start. 3rd up now. Unknown on heavy/soft but pedigree suggests okay.",
+          "hidden_factor": "Home track advantage.",
+          "verdict": [
+            "CONTENDER"
+          ],
+          "stars": 3,
+          "rating": 85,
+          "win_probability": "18%",
+          "place_probability": "50%",
+          "show_probability": "70%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "Medium",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "7",
+            "stake": "2 units",
+            "odds_range": "3.00+"
+          },
+          {
+            "type": "Quinella",
+            "selection": "7,8",
+            "stake": "0.5 units"
+          }
+        ],
+        "key_bet": "Win #7 Rubilace"
+      }
+    },
+    {
+      "number": 2,
+      "post_time": "10:25 PM ET",
+      "purse": "$28,000",
+      "distance": "1600m",
+      "conditions": "Maiden Plate",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 9,
+      "confidence": "High Confidence",
+      "track_bias": {
+        "summary": "Mile start at Kembla is fair. Soft track will test stamina.",
+        "details": "Backmarkers have a chance down the long straight if the pace is genuine."
+      },
+      "pace": "Moderate. #1 Marebello likely to be handy.",
+      "analysis": "Marebello brings strong form from Gosford and is trained by Chris Waller. Should handle the conditions and distance. Willie Or Wong He is the main danger, also from the Waller yard.",
+      "contenders": [
+        {
+          "number": 1,
+          "name": "Marebello",
+          "barrier": 10,
+          "weight": "130 lbs",
+          "jockey": {
+            "name": "Zac Lloyd",
+            "track_record": "18% strike rate",
+            "recent_form": "Excellent"
+          },
+          "trainer": {
+            "name": "Chris Waller",
+            "track_record": "Elite",
+            "stable_form": "Elite"
+          },
+          "odds": {
+            "morning_line": "6/5",
+            "current_estimate": "2.20",
+            "value_assessment": "Short but justified",
+            "overlay_underlay": "Fair"
+          },
+          "recent_form": [
+            {
+              "date": "2025-12-31",
+              "track": "Gosford",
+              "distance": "1600m",
+              "finish": "2nd",
+              "margin": "0.1L",
+              "speed_fig": "88"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "88",
+            "last_start": "88",
+            "average_last_3": "80",
+            "par_for_class": "82"
+          },
+          "days_since_last": 22,
+          "fitness_level": "Peak",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Wide gate less of an issue at the mile start.",
+          "analysis": "Narrowly beaten last start. Waller/Lloyd combination is lethal. The one to beat.",
+          "hidden_factor": "Class edge.",
+          "verdict": [
+            "BEST BET",
+            "WINNER"
+          ],
+          "stars": 5,
+          "rating": 95,
+          "win_probability": "45%",
+          "place_probability": "85%",
+          "show_probability": "95%"
+        },
+        {
+          "number": 10,
+          "name": "Willie Or Wong He",
+          "barrier": 2,
+          "weight": "127 lbs",
+          "jockey": {
+            "name": "Siena Grima",
+            "track_record": "Apprentice",
+            "recent_form": "Okay"
+          },
+          "trainer": {
+            "name": "Chris Waller",
+            "track_record": "Elite",
+            "stable_form": "Elite"
+          },
+          "odds": {
+            "morning_line": "9/1",
+            "current_estimate": "7.00",
+            "value_assessment": "Good value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2025-12-31",
+              "track": "Gosford",
+              "distance": "1600m",
+              "finish": "5th",
+              "margin": "4.4L",
+              "speed_fig": "82"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "82",
+            "last_start": "82",
+            "average_last_3": "75",
+            "par_for_class": "82"
+          },
+          "days_since_last": 22,
+          "fitness_level": "Improving",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Good draw.",
+          "analysis": "Stablemate to the favorite. Improving type. Can run into the money.",
+          "hidden_factor": "Waller second stringer often pops up.",
+          "verdict": [
+            "DANGER"
+          ],
+          "stars": 4,
+          "rating": 88,
+          "win_probability": "15%",
+          "place_probability": "50%",
+          "show_probability": "70%"
+        },
+        {
+          "number": 12,
+          "name": "Fiery Lass",
+          "barrier": 7,
+          "weight": "122 lbs",
+          "jockey": {
+            "name": "Mitchell Bell",
+            "track_record": "Solid",
+            "recent_form": "Good"
+          },
+          "trainer": {
+            "name": "Ron Quinton",
+            "track_record": "Experienced",
+            "stable_form": "Okay"
+          },
+          "odds": {
+            "morning_line": "18/1",
+            "current_estimate": "15.00",
+            "value_assessment": "Roughie",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-03",
+              "track": "Kembla",
+              "distance": "1600m",
+              "finish": "10th",
+              "margin": "6.6L",
+              "speed_fig": "75"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "80",
+            "last_start": "75",
+            "average_last_3": "78",
+            "par_for_class": "82"
+          },
+          "days_since_last": 19,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Mid draw.",
+          "analysis": "Disappointing last start but previous form was okay. Place chance at best.",
+          "hidden_factor": "None",
+          "verdict": [
+            "PLACE CHANCE"
+          ],
+          "stars": 2,
+          "rating": 80,
+          "win_probability": "5%",
+          "place_probability": "20%",
+          "show_probability": "35%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "High",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "1",
+            "stake": "4 units",
+            "odds_range": "2.00+"
+          },
+          {
+            "type": "Exacta",
+            "selection": "1 / 10",
+            "stake": "1 unit"
+          }
+        ],
+        "key_bet": "Win #1 Marebello"
+      }
+    },
+    {
+      "number": 3,
+      "post_time": "11:00 PM ET",
+      "purse": "$28,000",
+      "distance": "1000m",
+      "conditions": "BM64 Handicap",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 6,
+      "confidence": "Medium Confidence",
+      "track_bias": {
+        "summary": "1000m sprint on Soft 7. Speed is key.",
+        "details": "Small field. Leaders and on-pace runners favored."
+      },
+      "pace": "Fast. #1 Century Song and #9 Kattegat have speed.",
+      "analysis": "Century Song is in career best form with two wins in a row. Handles soft tracks well. Are Ee Que is a mudlark (4 wins on heavy) and is the value runner if the track is genuinely wet.",
+      "contenders": [
+        {
+          "number": 1,
+          "name": "Century Song",
+          "barrier": 8,
+          "weight": "133 lbs",
+          "jockey": {
+            "name": "Brock Ryan",
+            "track_record": "Good",
+            "recent_form": "Winning"
+          },
+          "trainer": {
+            "name": "Robert & Luke Price",
+            "track_record": "Local",
+            "stable_form": "Hot"
+          },
+          "odds": {
+            "morning_line": "5/2",
+            "current_estimate": "2.50",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Fair"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-03",
+              "track": "Kembla",
+              "distance": "1000m",
+              "finish": "1st",
+              "margin": "3L",
+              "speed_fig": "92"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "92",
+            "last_start": "92",
+            "average_last_3": "88",
+            "par_for_class": "88"
+          },
+          "days_since_last": 19,
+          "fitness_level": "Peak",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Wide draw but has speed to cross.",
+          "analysis": "Chasing a hat-trick. Won by 3L last start at this track/distance on Soft. Hard to knock despite weight.",
+          "hidden_factor": "Momentum runner.",
+          "verdict": [
+            "TOP PICK"
+          ],
+          "stars": 5,
+          "rating": 94,
+          "win_probability": "40%",
+          "place_probability": "80%",
+          "show_probability": "95%"
+        },
+        {
+          "number": 4,
+          "name": "Are Ee Que",
+          "barrier": 4,
+          "weight": "131 lbs",
+          "jockey": {
+            "name": "Mitch Stapleford",
+            "track_record": "Apprentice",
+            "recent_form": "Okay"
+          },
+          "trainer": {
+            "name": "Ron Quinton",
+            "track_record": "Experienced",
+            "stable_form": "Okay"
+          },
+          "odds": {
+            "morning_line": "18/1",
+            "current_estimate": "12.00",
+            "value_assessment": "Great Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2025-08-13",
+              "track": "Kensington",
+              "distance": "1000m",
+              "finish": "6th",
+              "margin": "4.6L",
+              "speed_fig": "85"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "90",
+            "last_start": "85",
+            "average_last_3": "86",
+            "par_for_class": "88"
+          },
+          "days_since_last": 162,
+          "fitness_level": "Resuming",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Good draw.",
+          "analysis": "Resuming. Loves the wet (4 wins on heavy). If the track is Soft 7 or worse, she is a massive player at odds.",
+          "hidden_factor": "Superior wet track stats.",
+          "verdict": [
+            "VALUE",
+            "WET TRACKER"
+          ],
+          "stars": 4,
+          "rating": 90,
+          "win_probability": "20%",
+          "place_probability": "50%",
+          "show_probability": "70%"
+        },
+        {
+          "number": 2,
+          "name": "Panic",
+          "barrier": 1,
+          "weight": "133 lbs",
+          "jockey": {
+            "name": "Shaun Guymer",
+            "track_record": "Solid",
+            "recent_form": "Okay"
+          },
+          "trainer": {
+            "name": "Matthew Kelley",
+            "track_record": "Okay",
+            "stable_form": "Okay"
+          },
+          "odds": {
+            "morning_line": "15/1",
+            "current_estimate": "10.00",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-18",
+              "track": "Cowra",
+              "distance": "1200m",
+              "finish": "8th",
+              "margin": "6.6L",
+              "speed_fig": "80"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "88",
+            "last_start": "80",
+            "average_last_3": "82",
+            "par_for_class": "88"
+          },
+          "days_since_last": 4,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Inside draw.",
+          "analysis": "On the quick backup. Form is mixed. Place chance.",
+          "hidden_factor": "Quick backup.",
+          "verdict": [
+            "PLACE CHANCE"
+          ],
+          "stars": 2,
+          "rating": 82,
+          "win_probability": "10%",
+          "place_probability": "30%",
+          "show_probability": "50%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "Medium",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "1",
+            "stake": "2 units",
+            "odds_range": "2.50+"
+          },
+          {
+            "type": "Each Way",
+            "selection": "4",
+            "stake": "1 unit",
+            "odds_range": "10.00+"
+          }
+        ],
+        "key_bet": "Win #1 Century Song"
+      }
+    },
+    {
+      "number": 4,
+      "post_time": "11:35 PM ET",
+      "purse": "$28,000",
+      "distance": "2400m",
+      "conditions": "BM64 Handicap",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 8,
+      "confidence": "High Confidence",
+      "track_bias": {
+        "summary": "2400m start. Stamina test on Soft 7.",
+        "details": "True stayers will come to the fore."
+      },
+      "pace": "Slow to Moderate.",
+      "analysis": "Stay Tuned won well last start at this track and distance. Proven on soft. The one to beat. Sweet Bubbles is consistent and handles the wet.",
+      "contenders": [
+        {
+          "number": 1,
+          "name": "Stay Tuned",
+          "barrier": 10,
+          "weight": "133 lbs",
+          "jockey": {
+            "name": "Andrew Calder",
+            "track_record": "Okay",
+            "recent_form": "Winning"
+          },
+          "trainer": {
+            "name": "Paul & Martha Cave",
+            "track_record": "Okay",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": "9/2",
+            "current_estimate": "3.50",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Fair"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-10",
+              "track": "Kembla",
+              "distance": "2400m",
+              "finish": "1st",
+              "margin": "2.3L",
+              "speed_fig": "90"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "90",
+            "last_start": "90",
+            "average_last_3": "85",
+            "par_for_class": "85"
+          },
+          "days_since_last": 12,
+          "fitness_level": "Peak",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Wide draw not an issue at 2400m.",
+          "analysis": "Last start winner at track/dist. Handles soft. Ticks all boxes.",
+          "hidden_factor": "Course and distance winner.",
+          "verdict": [
+            "BEST BET"
+          ],
+          "stars": 5,
+          "rating": 93,
+          "win_probability": "35%",
+          "place_probability": "70%",
+          "show_probability": "90%"
+        },
+        {
+          "number": 8,
+          "name": "Sweet Bubbles",
+          "barrier": 3,
+          "weight": "121 lbs",
+          "jockey": {
+            "name": "Siena Grima",
+            "track_record": "Apprentice",
+            "recent_form": "Okay"
+          },
+          "trainer": {
+            "name": "Gregory Mcfarlane",
+            "track_record": "Okay",
+            "stable_form": "Okay"
+          },
+          "odds": {
+            "morning_line": "10/1",
+            "current_estimate": "8.00",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2025-12-31",
+              "track": "Gosford",
+              "distance": "2100m",
+              "finish": "3rd",
+              "margin": "0.9L",
+              "speed_fig": "85"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "85",
+            "last_start": "85",
+            "average_last_3": "82",
+            "par_for_class": "85"
+          },
+          "days_since_last": 22,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Good draw.",
+          "analysis": "Consistent mare. Placed last start. Light weight. Handles soft.",
+          "hidden_factor": "Weight relief.",
+          "verdict": [
+            "CONTENDER"
+          ],
+          "stars": 4,
+          "rating": 88,
+          "win_probability": "20%",
+          "place_probability": "55%",
+          "show_probability": "75%"
+        },
+        {
+          "number": 5,
+          "name": "Old Gregg",
+          "barrier": 4,
+          "weight": "128 lbs",
+          "jockey": {
+            "name": "Alysha Collett",
+            "track_record": "Good",
+            "recent_form": "Okay"
+          },
+          "trainer": {
+            "name": "Mitchell Beer",
+            "track_record": "Local",
+            "stable_form": "Okay"
+          },
+          "odds": {
+            "morning_line": "5/1",
+            "current_estimate": "6.00",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-10",
+              "track": "Kembla",
+              "distance": "2400m",
+              "finish": "5th",
+              "margin": "2.7L",
+              "speed_fig": "84"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "88",
+            "last_start": "84",
+            "average_last_3": "85",
+            "par_for_class": "85"
+          },
+          "days_since_last": 12,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Good draw.",
+          "analysis": "Not far away last start. Veteran who knows the track.",
+          "hidden_factor": "Local knowledge.",
+          "verdict": [
+            "PLACE CHANCE"
+          ],
+          "stars": 3,
+          "rating": 84,
+          "win_probability": "12%",
+          "place_probability": "40%",
+          "show_probability": "60%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "High",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "1",
+            "stake": "3 units",
+            "odds_range": "3.00+"
+          },
+          {
+            "type": "Quinella",
+            "selection": "1,8",
+            "stake": "1 unit"
+          }
+        ],
+        "key_bet": "Win #1 Stay Tuned"
+      }
+    },
+    {
+      "number": 5,
+      "post_time": "12:10 AM ET",
+      "purse": "$40,000",
+      "distance": "1300m",
+      "conditions": "Super Maiden Plate",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 7,
+      "confidence": "High Confidence",
+      "track_bias": {
+        "summary": "Soft 7. 1300m start.",
+        "details": "Field decimated by scratchings. Form lines are clear."
+      },
+      "pace": "Uncertain due to scratchings.",
+      "analysis": "Go Glenn is the clear standout in a field depleted by scratchings. 2nd at Gosford last start is good enough to win this. Hush Hush is the danger from the Maher yard.",
+      "contenders": [
+        {
+          "number": 5,
+          "name": "Go Glenn",
+          "barrier": 9,
+          "weight": "127 lbs",
+          "jockey": {
+            "name": "Andrew Adkins",
+            "track_record": "Solid",
+            "recent_form": "Okay"
+          },
+          "trainer": {
+            "name": "Gregory Mcfarlane",
+            "track_record": "Okay",
+            "stable_form": "Okay"
+          },
+          "odds": {
+            "morning_line": "16/1",
+            "current_estimate": "2.50",
+            "value_assessment": "Short",
+            "overlay_underlay": "Underlay"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-17",
+              "track": "Gosford",
+              "distance": "1200m",
+              "finish": "2nd",
+              "margin": "3.4L",
+              "speed_fig": "85"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "85",
+            "last_start": "85",
+            "average_last_3": "80",
+            "par_for_class": "80"
+          },
+          "days_since_last": 5,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 9 becomes better with scratchings.",
+          "analysis": "On the backup. Placed on soft. The one to beat in a weak field.",
+          "hidden_factor": "Weak field strength.",
+          "verdict": [
+            "WINNER"
+          ],
+          "stars": 5,
+          "rating": 90,
+          "win_probability": "45%",
+          "place_probability": "85%",
+          "show_probability": "95%"
+        },
+        {
+          "number": 11,
+          "name": "Hush Hush",
+          "barrier": 12,
+          "weight": "122 lbs",
+          "jockey": {
+            "name": "Adam Farragher",
+            "track_record": "Okay",
+            "recent_form": "Okay"
+          },
+          "trainer": {
+            "name": "Ciaron Maher",
+            "track_record": "Elite",
+            "stable_form": "Elite"
+          },
+          "odds": {
+            "morning_line": "4/1",
+            "current_estimate": "3.50",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Fair"
+          },
+          "recent_form": [
+            {
+              "date": "2025-08-20",
+              "track": "Warwick Farm",
+              "distance": "1100m",
+              "finish": "2nd",
+              "margin": "3.7L",
+              "speed_fig": "82"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "82",
+            "last_start": "82",
+            "average_last_3": "82",
+            "par_for_class": "80"
+          },
+          "days_since_last": 155,
+          "fitness_level": "Resuming",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Wide draw.",
+          "analysis": "Resuming for top stable. Placed on heavy before. Big watch.",
+          "hidden_factor": "Maher stable first-up.",
+          "verdict": [
+            "DANGER"
+          ],
+          "stars": 4,
+          "rating": 88,
+          "win_probability": "25%",
+          "place_probability": "60%",
+          "show_probability": "80%"
+        },
+        {
+          "number": 19,
+          "name": "Zougotme",
+          "barrier": 6,
+          "weight": "127 lbs",
+          "jockey": {
+            "name": "Brock Ryan",
+            "track_record": "Local",
+            "recent_form": "Okay"
+          },
+          "trainer": {
+            "name": "Robert & Luke Price",
+            "track_record": "Local",
+            "stable_form": "Okay"
+          },
+          "odds": {
+            "morning_line": "45/1",
+            "current_estimate": "20.00",
+            "value_assessment": "Roughie",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [
+            {
+              "date": "2025-12-31",
+              "track": "Nowra",
+              "distance": "1200m",
+              "finish": "6th",
+              "margin": "2.9L",
+              "speed_fig": "75"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "75",
+            "last_start": "75",
+            "average_last_3": "70",
+            "par_for_class": "80"
+          },
+          "days_since_last": 22,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Mid draw.",
+          "analysis": "Local runner. Needs to improve but field is weak.",
+          "hidden_factor": "Local.",
+          "verdict": [
+            "PLACE CHANCE"
+          ],
+          "stars": 2,
+          "rating": 75,
+          "win_probability": "5%",
+          "place_probability": "20%",
+          "show_probability": "35%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "High",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "5",
+            "stake": "4 units",
+            "odds_range": "2.00+"
+          },
+          {
+            "type": "Quinella",
+            "selection": "5,11",
+            "stake": "1 unit"
+          }
+        ],
+        "key_bet": "Win #5 Go Glenn"
+      }
+    },
+    {
+      "number": 6,
+      "post_time": "12:45 AM ET",
+      "purse": "$30,000",
+      "distance": "1300m",
+      "conditions": "Midway BM68",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 7,
+      "confidence": "Medium Confidence",
+      "track_bias": {
+        "summary": "Soft 7. 1300m.",
+        "details": "Small field. Tactics will be crucial."
+      },
+      "pace": "Moderate.",
+      "analysis": "Tartana is a superior wet tracker (3 wins on soft). 2nd at Moruya last start shows she is in form. Kirkuk ran well here last start. Los Padres is consistent.",
+      "contenders": [
+        {
+          "number": 5,
+          "name": "Tartana",
+          "barrier": 2,
+          "weight": "127 lbs",
+          "jockey": {
+            "name": "Jess Taylor",
+            "track_record": "Good",
+            "recent_form": "Good"
+          },
+          "trainer": {
+            "name": "Theresa Bateup",
+            "track_record": "Local",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": "7/1",
+            "current_estimate": "4.50",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-05",
+              "track": "Moruya",
+              "distance": "1200m",
+              "finish": "2nd",
+              "margin": "0.1L",
+              "speed_fig": "88"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "90",
+            "last_start": "88",
+            "average_last_3": "85",
+            "par_for_class": "88"
+          },
+          "days_since_last": 17,
+          "fitness_level": "Peak",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Perfect draw in barrier 2.",
+          "analysis": "Loves the wet (3 wins). Great run last start. Local trainer. Ticks all boxes.",
+          "hidden_factor": "Wet track specialist.",
+          "verdict": [
+            "TOP PICK"
+          ],
+          "stars": 5,
+          "rating": 92,
+          "win_probability": "30%",
+          "place_probability": "70%",
+          "show_probability": "90%"
+        },
+        {
+          "number": 8,
+          "name": "Kirkuk",
+          "barrier": 12,
+          "weight": "125 lbs",
+          "jockey": {
+            "name": "Deon Le Roux",
+            "track_record": "Apprentice",
+            "recent_form": "Okay"
+          },
+          "trainer": {
+            "name": "Jim & Greg Lee",
+            "track_record": "Okay",
+            "stable_form": "Okay"
+          },
+          "odds": {
+            "morning_line": "13/2",
+            "current_estimate": "6.00",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-03",
+              "track": "Kembla",
+              "distance": "1400m",
+              "finish": "2nd",
+              "margin": "0.2L",
+              "speed_fig": "87"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "87",
+            "last_start": "87",
+            "average_last_3": "82",
+            "par_for_class": "88"
+          },
+          "days_since_last": 19,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Wide draw.",
+          "analysis": "Narrowly beaten here last start. Handles soft (2 wins). Danger.",
+          "hidden_factor": "Course form.",
+          "verdict": [
+            "CONTENDER"
+          ],
+          "stars": 4,
+          "rating": 89,
+          "win_probability": "20%",
+          "place_probability": "55%",
+          "show_probability": "75%"
+        },
+        {
+          "number": 1,
+          "name": "Los Padres",
+          "barrier": 6,
+          "weight": "133 lbs",
+          "jockey": {
+            "name": "Tyler Schiller",
+            "track_record": "Elite",
+            "recent_form": "Elite"
+          },
+          "trainer": {
+            "name": "Mitchell Beer",
+            "track_record": "Local",
+            "stable_form": "Okay"
+          },
+          "odds": {
+            "morning_line": "10/1",
+            "current_estimate": "8.00",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-03",
+              "track": "Kembla",
+              "distance": "1200m",
+              "finish": "4th",
+              "margin": "2.6L",
+              "speed_fig": "85"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "90",
+            "last_start": "85",
+            "average_last_3": "85",
+            "par_for_class": "88"
+          },
+          "days_since_last": 19,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Mid draw.",
+          "analysis": "Consistent. Schiller aboard is a plus. Handles soft.",
+          "hidden_factor": "Jockey upgrade.",
+          "verdict": [
+            "CONTENDER"
+          ],
+          "stars": 3,
+          "rating": 87,
+          "win_probability": "15%",
+          "place_probability": "45%",
+          "show_probability": "65%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "Medium",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "5",
+            "stake": "2 units",
+            "odds_range": "4.00+"
+          },
+          {
+            "type": "Box Quinella",
+            "selection": "5,8,1",
+            "stake": "0.5 units"
+          }
+        ],
+        "key_bet": "Win #5 Tartana"
+      }
+    },
+    {
+      "number": 7,
+      "post_time": "1:20 AM ET",
+      "purse": "$28,000",
+      "distance": "1400m",
+      "conditions": "Class 1 Handicap",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 10,
+      "confidence": "Medium Confidence",
+      "track_bias": {
+        "summary": "Soft 7. 1400m.",
+        "details": "Fair start. 1400m chute gives everyone a chance."
+      },
+      "pace": "Moderate.",
+      "analysis": "Fast Track has been consistent and handles soft. Elivina is fresh and has ability. Michelangelo is a Waller runner who won his maiden well.",
+      "contenders": [
+        {
+          "number": 6,
+          "name": "Fast Track",
+          "barrier": 11,
+          "weight": "126 lbs",
+          "jockey": {
+            "name": "Zac Lloyd",
+            "track_record": "Elite",
+            "recent_form": "Elite"
+          },
+          "trainer": {
+            "name": "John O'shea",
+            "track_record": "Elite",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": "7/2",
+            "current_estimate": "3.50",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Fair"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-03",
+              "track": "Kembla",
+              "distance": "1400m",
+              "finish": "3rd",
+              "margin": "0.3L",
+              "speed_fig": "88"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "88",
+            "last_start": "88",
+            "average_last_3": "85",
+            "par_for_class": "85"
+          },
+          "days_since_last": 19,
+          "fitness_level": "Peak",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Wide draw but has tactical speed.",
+          "analysis": "Placed here last start. Handles soft. Lloyd aboard. Hard to beat.",
+          "hidden_factor": "Consistency.",
+          "verdict": [
+            "TOP PICK"
+          ],
+          "stars": 5,
+          "rating": 92,
+          "win_probability": "30%",
+          "place_probability": "70%",
+          "show_probability": "90%"
+        },
+        {
+          "number": 9,
+          "name": "Elivina",
+          "barrier": 1,
+          "weight": "122 lbs",
+          "jockey": {
+            "name": "Chad Lever",
+            "track_record": "Solid",
+            "recent_form": "Okay"
+          },
+          "trainer": {
+            "name": "Kerry Parker",
+            "track_record": "Local",
+            "stable_form": "Okay"
+          },
+          "odds": {
+            "morning_line": "12/1",
+            "current_estimate": "10.00",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2025-06-07",
+              "track": "Randwick",
+              "distance": "2000m",
+              "finish": "5th",
+              "margin": "5.4L",
+              "speed_fig": "80"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "85",
+            "last_start": "80",
+            "average_last_3": "82",
+            "par_for_class": "85"
+          },
+          "days_since_last": 229,
+          "fitness_level": "Resuming",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Inside draw.",
+          "analysis": "Resuming. Has won on soft. Local trainer. Could sprint well fresh.",
+          "hidden_factor": "Fresh form.",
+          "verdict": [
+            "VALUE"
+          ],
+          "stars": 4,
+          "rating": 88,
+          "win_probability": "15%",
+          "place_probability": "45%",
+          "show_probability": "65%"
+        },
+        {
+          "number": 7,
+          "name": "Michelangelo",
+          "barrier": 9,
+          "weight": "126 lbs",
+          "jockey": {
+            "name": "Sam Clipperton",
+            "track_record": "Elite",
+            "recent_form": "Good"
+          },
+          "trainer": {
+            "name": "Chris Waller",
+            "track_record": "Elite",
+            "stable_form": "Elite"
+          },
+          "odds": {
+            "morning_line": "9/2",
+            "current_estimate": "5.00",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [
+            {
+              "date": "2025-12-10",
+              "track": "Wyong",
+              "distance": "1350m",
+              "finish": "1st",
+              "margin": "0.1L",
+              "speed_fig": "85"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "85",
+            "last_start": "85",
+            "average_last_3": "80",
+            "par_for_class": "85"
+          },
+          "days_since_last": 42,
+          "fitness_level": "Fresh",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Wide draw.",
+          "analysis": "Won maiden well. Waller stable. Soft track query (0/4).",
+          "hidden_factor": "Waller improver.",
+          "verdict": [
+            "CONTENDER"
+          ],
+          "stars": 3,
+          "rating": 86,
+          "win_probability": "15%",
+          "place_probability": "45%",
+          "show_probability": "65%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "Medium",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "6",
+            "stake": "2 units",
+            "odds_range": "3.00+"
+          },
+          {
+            "type": "Quinella",
+            "selection": "6,9",
+            "stake": "0.5 units"
+          }
+        ],
+        "key_bet": "Win #6 Fast Track"
+      }
+    }
+  ]
+}
