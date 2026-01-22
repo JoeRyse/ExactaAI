@@ -1,0 +1,1441 @@
+{
+  "meta": {
+    "track": "Tamworth",
+    "date": "2026-01-21",
+    "jurisdiction": "Australia",
+    "weather": "Fine",
+    "track_condition": "Good 4",
+    "rail_position": "True Entire",
+    "track_category": "Big Track (Category A)"
+  },
+  "races": [
+    {
+      "number": 1,
+      "post_time": "10:45 PM ET",
+      "purse": "$20,000",
+      "distance": "1600m",
+      "conditions": "Maiden Handicap",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 10,
+      "confidence": "High Confidence",
+      "track_bias": {
+        "summary": "Fair track, long straight. 1600m start allows time to find position.",
+        "details": "Tamworth 1600m start has a good run to the first turn. Barriers are less critical. Tempo should be genuine."
+      },
+      "pace": "Moderate pace expected. Takethemoneyandrun likely to go forward.",
+      "analysis": "Takethemoneyandrun brings the best form lines into this, with a solid 2nd at Gilgandra last start. The step up to 1600m suits. Stuck In The Gorge has been consistent without winning and gets a soft draw. Rufus Atticus has place claims on best form.",
+      "contenders": [
+        {
+          "number": 1,
+          "name": "Takethemoneyandrun",
+          "barrier": 9,
+          "weight": "128",
+          "jockey": {
+            "name": "Aaron Bullock",
+            "track_record": "Elite country jockey",
+            "recent_form": "Strong"
+          },
+          "trainer": {
+            "name": "Gavin Groth",
+            "track_record": "Local trainer",
+            "stable_form": "Solid"
+          },
+          "odds": {
+            "morning_line": "2.80",
+            "current_estimate": "2.60",
+            "value_assessment": "Fair value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [
+            {
+              "date": "2026-01-04",
+              "track": "Gilgandra",
+              "distance": "1600m",
+              "finish": "2nd",
+              "margin": "1.6L",
+              "speed_fig": "88"
+            }
+          ],
+          "speed_figures": {
+            "career_best": "88",
+            "last_start": "88",
+            "average_last_3": "85",
+            "par_for_class": "82"
+          },
+          "days_since_last": 17,
+          "fitness_level": "Peak",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 9 is manageable with the long run to the first turn.",
+          "analysis": "Consistent performer who found one better last time. Bullock aboard is a huge plus. Looks the winner.",
+          "hidden_factor": "Bullock strikes at high rate for stable.",
+          "verdict": [
+            "BEST BET",
+            "WINNER"
+          ],
+          "stars": 5,
+          "rating": 90,
+          "win_probability": "35%",
+          "place_probability": "75%",
+          "show_probability": "90%"
+        },
+        {
+          "number": 3,
+          "name": "Stuck In The Gorge",
+          "barrier": 2,
+          "weight": "127",
+          "jockey": {
+            "name": "Braith Nock",
+            "track_record": "Good strike rate",
+            "recent_form": "Solid"
+          },
+          "trainer": {
+            "name": "Brett & Georgie Cavanough",
+            "track_record": "Leading country stable",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": "3.50",
+            "current_estimate": "3.80",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [],
+          "speed_figures": {
+            "career_best": "84",
+            "last_start": "82",
+            "average_last_3": "83",
+            "par_for_class": "82"
+          },
+          "days_since_last": 8,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Perfect draw in barrier 2 to sit just behind the speed.",
+          "analysis": "Knocking on the door. Good run at Muswellbrook last time. Will be in the finish.",
+          "hidden_factor": "Quick backup indicates fitness.",
+          "verdict": [
+            "CONTENDER"
+          ],
+          "stars": 4,
+          "rating": 86,
+          "win_probability": "22%",
+          "place_probability": "60%",
+          "show_probability": "80%"
+        },
+        {
+          "number": 8,
+          "name": "Rufus Atticus",
+          "barrier": 11,
+          "weight": "122",
+          "jockey": {
+            "name": "Jenny Duggan",
+            "track_record": "Experienced",
+            "recent_form": "Okay"
+          },
+          "trainer": {
+            "name": "Sue Grills",
+            "track_record": "Local specialist",
+            "stable_form": "Average"
+          },
+          "odds": {
+            "morning_line": "3.50",
+            "current_estimate": "4.00",
+            "value_assessment": "Underlay",
+            "overlay_underlay": "Underlay"
+          },
+          "recent_form": [],
+          "speed_figures": {
+            "career_best": "82",
+            "last_start": "78",
+            "average_last_3": "80",
+            "par_for_class": "82"
+          },
+          "days_since_last": 20,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Wide gate makes it tough, will need luck.",
+          "analysis": "Has some ability but the draw is a concern. Place chance.",
+          "hidden_factor": null,
+          "verdict": [
+            "PLACE CHANCE"
+          ],
+          "stars": 3,
+          "rating": 85,
+          "win_probability": "15%",
+          "place_probability": "45%",
+          "show_probability": "65%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "High",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "1",
+            "stake": "3 units",
+            "odds_range": "2.50+"
+          },
+          {
+            "type": "Exacta",
+            "selection": "1 / 3,8",
+            "stake": "1 unit"
+          }
+        ],
+        "key_bet": "Win #1 Takethemoneyandrun"
+      }
+    },
+    {
+      "number": 2,
+      "post_time": "11:20 PM ET",
+      "purse": "$23,000",
+      "distance": "1400m",
+      "conditions": "Maiden Plate",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 8,
+      "confidence": "High Confidence",
+      "track_bias": {
+        "summary": "1400m chute start. Fair run to turn.",
+        "details": "Inside barriers have a slight advantage. Leaders can dictate."
+      },
+      "pace": "Moderate. Sipping Shamus likely to be handy.",
+      "analysis": "Sipping Shamus has been building nicely and this looks like his race. Dunstall The Gun is the main danger. Real Housewives has place claims.",
+      "contenders": [
+        {
+          "number": 4,
+          "name": "Sipping Shamus",
+          "barrier": 2,
+          "weight": "130",
+          "jockey": {
+            "name": "Chelsea Hillier",
+            "track_record": "Solid",
+            "recent_form": "Good"
+          },
+          "trainer": {
+            "name": "Rodney Northam",
+            "track_record": "Top stable",
+            "stable_form": "Excellent"
+          },
+          "odds": {
+            "morning_line": "2.20",
+            "current_estimate": "2.00",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [],
+          "speed_figures": {
+            "career_best": "90",
+            "last_start": "88",
+            "average_last_3": "89",
+            "par_for_class": "85"
+          },
+          "days_since_last": 16,
+          "fitness_level": "Peak",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 2 is ideal.",
+          "analysis": "Ready to win. Good run last start and finds a winnable maiden.",
+          "hidden_factor": "Northam stable firing.",
+          "verdict": [
+            "WINNER"
+          ],
+          "stars": 5,
+          "rating": 92,
+          "win_probability": "40%",
+          "place_probability": "85%",
+          "show_probability": "95%"
+        },
+        {
+          "number": 2,
+          "name": "Dunstall The Gun",
+          "barrier": 7,
+          "weight": "130",
+          "jockey": {
+            "name": "Braith Nock",
+            "track_record": "Good",
+            "recent_form": "Solid"
+          },
+          "trainer": {
+            "name": "Brett & Georgie Cavanough",
+            "track_record": "Strong",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": "4.00",
+            "current_estimate": "4.20",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [],
+          "speed_figures": {
+            "career_best": "85",
+            "last_start": "84",
+            "average_last_3": "84",
+            "par_for_class": "85"
+          },
+          "days_since_last": 16,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 7 is tricky but has speed.",
+          "analysis": "Solid effort last time. Will be competitive.",
+          "hidden_factor": null,
+          "verdict": [
+            "CONTENDER"
+          ],
+          "stars": 4,
+          "rating": 88,
+          "win_probability": "25%",
+          "place_probability": "70%",
+          "show_probability": "85%"
+        },
+        {
+          "number": 8,
+          "name": "Real Housewives",
+          "barrier": 9,
+          "weight": "126",
+          "jockey": {
+            "name": "Anna Roper",
+            "track_record": "Good",
+            "recent_form": "Okay"
+          },
+          "trainer": {
+            "name": "Sally Torrens",
+            "track_record": "Average",
+            "stable_form": "Okay"
+          },
+          "odds": {
+            "morning_line": "8.00",
+            "current_estimate": "9.00",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [],
+          "speed_figures": {
+            "career_best": "82",
+            "last_start": "80",
+            "average_last_3": "81",
+            "par_for_class": "85"
+          },
+          "days_since_last": 17,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Wide gate a negative.",
+          "analysis": "Place chance if she can overcome the draw.",
+          "hidden_factor": null,
+          "verdict": [
+            "PLACE CHANCE"
+          ],
+          "stars": 3,
+          "rating": 85,
+          "win_probability": "12%",
+          "place_probability": "40%",
+          "show_probability": "60%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "High",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "4",
+            "stake": "4 units",
+            "odds_range": "2.00+"
+          },
+          {
+            "type": "Quinella",
+            "selection": "4,2",
+            "stake": "1 unit"
+          }
+        ],
+        "key_bet": "Win #4 Sipping Shamus"
+      }
+    },
+    {
+      "number": 3,
+      "post_time": "11:55 PM ET",
+      "purse": "$33,000",
+      "distance": "1200m",
+      "conditions": "Super Maiden Plate",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 9,
+      "confidence": "Medium Confidence",
+      "track_bias": {
+        "summary": "1200m start. Fair track.",
+        "details": "Good run to the turn. Barriers less important than 1000m."
+      },
+      "pace": "Good pace expected.",
+      "analysis": "Siragusa is a first starter from a top stable (Archibald) and has trialled well. Already Blue has race experience and good form. Eagleturn is consistent.",
+      "contenders": [
+        {
+          "number": 10,
+          "name": "Siragusa",
+          "barrier": 9,
+          "weight": "127",
+          "jockey": {
+            "name": "Aaron Bullock",
+            "track_record": "Elite",
+            "recent_form": "Strong"
+          },
+          "trainer": {
+            "name": "Annabel & Rob Archibald",
+            "track_record": "Top stable",
+            "stable_form": "Excellent"
+          },
+          "odds": {
+            "morning_line": "4.50",
+            "current_estimate": "3.50",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [],
+          "speed_figures": {
+            "career_best": "Trial",
+            "last_start": "Trial",
+            "average_last_3": "Trial",
+            "par_for_class": "88"
+          },
+          "days_since_last": 0,
+          "fitness_level": "First Start",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 9 is okay for a horse with tactical speed.",
+          "analysis": "Well-bred debutant with Bullock aboard. Trial form is good. The one to beat.",
+          "hidden_factor": "Bullock booking signals intent.",
+          "verdict": [
+            "TOP PICK"
+          ],
+          "stars": 5,
+          "rating": 92,
+          "win_probability": "30%",
+          "place_probability": "70%",
+          "show_probability": "85%"
+        },
+        {
+          "number": 1,
+          "name": "Already Blue",
+          "barrier": 6,
+          "weight": "130",
+          "jockey": {
+            "name": "Shannen Llewellyn",
+            "track_record": "Good",
+            "recent_form": "Solid"
+          },
+          "trainer": {
+            "name": "Julia Presits",
+            "track_record": "Average",
+            "stable_form": "Okay"
+          },
+          "odds": {
+            "morning_line": "3.00",
+            "current_estimate": "3.20",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [],
+          "speed_figures": {
+            "career_best": "88",
+            "last_start": "86",
+            "average_last_3": "87",
+            "par_for_class": "88"
+          },
+          "days_since_last": 19,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Good draw.",
+          "analysis": "Solid 2nd last time. Has the experience edge.",
+          "hidden_factor": null,
+          "verdict": [
+            "CONTENDER"
+          ],
+          "stars": 4,
+          "rating": 90,
+          "win_probability": "25%",
+          "place_probability": "65%",
+          "show_probability": "80%"
+        },
+        {
+          "number": 3,
+          "name": "Eagleturn",
+          "barrier": 4,
+          "weight": "130",
+          "jockey": {
+            "name": "Mikayla Weir",
+            "track_record": "Solid",
+            "recent_form": "Okay"
+          },
+          "trainer": {
+            "name": "Lou Mary",
+            "track_record": "Capable",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": "3.50",
+            "current_estimate": "4.00",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [],
+          "speed_figures": {
+            "career_best": "85",
+            "last_start": "84",
+            "average_last_3": "84",
+            "par_for_class": "88"
+          },
+          "days_since_last": 150,
+          "fitness_level": "Resuming",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Good draw.",
+          "analysis": "Resuming. Has shown ability. Watch market.",
+          "hidden_factor": null,
+          "verdict": [
+            "CONTENDER"
+          ],
+          "stars": 4,
+          "rating": 88,
+          "win_probability": "20%",
+          "place_probability": "55%",
+          "show_probability": "75%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "Medium",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "10",
+            "stake": "2 units",
+            "odds_range": "3.50+"
+          },
+          {
+            "type": "Box Quinella",
+            "selection": "1,3,10",
+            "stake": "1 unit"
+          }
+        ],
+        "key_bet": "Win #10 Siragusa"
+      }
+    },
+    {
+      "number": 4,
+      "post_time": "12:30 AM ET",
+      "purse": "$20,000",
+      "distance": "1600m",
+      "conditions": "BM82 Handicap",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 10,
+      "confidence": "High Confidence",
+      "track_bias": {
+        "summary": "1600m start. Fair.",
+        "details": "Tactical race expected."
+      },
+      "pace": "Moderate.",
+      "analysis": "Haze drops significantly in class from Randwick BM78 to this Country BM82. Even with 55kg (after claim? No, 55kg base), he looks well placed. Wealthy Investor is the danger but carries big weight. Tainui is honest.",
+      "contenders": [
+        {
+          "number": 8,
+          "name": "Haze",
+          "barrier": 5,
+          "weight": "121",
+          "jockey": {
+            "name": "Anna Roper",
+            "track_record": "Good",
+            "recent_form": "Solid"
+          },
+          "trainer": {
+            "name": "Brett & Georgie Cavanough",
+            "track_record": "Top stable",
+            "stable_form": "Excellent"
+          },
+          "odds": {
+            "morning_line": "2.50",
+            "current_estimate": "2.40",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [],
+          "speed_figures": {
+            "career_best": "98",
+            "last_start": "92",
+            "average_last_3": "94",
+            "par_for_class": "90"
+          },
+          "days_since_last": 33,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 5 is perfect.",
+          "analysis": "Class runner of the field. Drops from metro grade. Hard to beat.",
+          "hidden_factor": "Class drop is significant.",
+          "verdict": [
+            "BEST BET",
+            "WINNER"
+          ],
+          "stars": 5,
+          "rating": 96,
+          "win_probability": "35%",
+          "place_probability": "80%",
+          "show_probability": "95%"
+        },
+        {
+          "number": 2,
+          "name": "Wealthy Investor",
+          "barrier": 10,
+          "weight": "129",
+          "jockey": {
+            "name": "Jake Pracey-Holmes",
+            "track_record": "Good",
+            "recent_form": "Solid"
+          },
+          "trainer": {
+            "name": "Damien Lane",
+            "track_record": "Strong",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": "8.50",
+            "current_estimate": "7.00",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [],
+          "speed_figures": {
+            "career_best": "96",
+            "last_start": "94",
+            "average_last_3": "92",
+            "par_for_class": "90"
+          },
+          "days_since_last": 17,
+          "fitness_level": "Peak",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Wide gate and big weight are the concerns.",
+          "analysis": "Won well last time but gives weight to Haze. Place chance.",
+          "hidden_factor": null,
+          "verdict": [
+            "CONTENDER"
+          ],
+          "stars": 4,
+          "rating": 94,
+          "win_probability": "20%",
+          "place_probability": "60%",
+          "show_probability": "80%"
+        },
+        {
+          "number": 3,
+          "name": "Tainui",
+          "barrier": 1,
+          "weight": "127",
+          "jockey": {
+            "name": "Kody Nestor",
+            "track_record": "Good",
+            "recent_form": "Solid"
+          },
+          "trainer": {
+            "name": "Geoff O'brien",
+            "track_record": "Capable",
+            "stable_form": "Okay"
+          },
+          "odds": {
+            "morning_line": "5.00",
+            "current_estimate": "5.50",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [],
+          "speed_figures": {
+            "career_best": "92",
+            "last_start": "90",
+            "average_last_3": "91",
+            "par_for_class": "90"
+          },
+          "days_since_last": 17,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 1 is a big plus.",
+          "analysis": "Consistent. Will be in the finish.",
+          "hidden_factor": null,
+          "verdict": [
+            "PLACE CHANCE"
+          ],
+          "stars": 4,
+          "rating": 92,
+          "win_probability": "15%",
+          "place_probability": "50%",
+          "show_probability": "70%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "High",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "8",
+            "stake": "3 units",
+            "odds_range": "2.40+"
+          },
+          {
+            "type": "Exacta",
+            "selection": "8 / 2,3",
+            "stake": "1 unit"
+          }
+        ],
+        "key_bet": "Win #8 Haze"
+      }
+    },
+    {
+      "number": 5,
+      "post_time": "1:05 AM ET",
+      "purse": "$20,000",
+      "distance": "1200m",
+      "conditions": "BM82 Handicap",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 9,
+      "confidence": "Medium Confidence",
+      "track_bias": {
+        "summary": "1200m start. Fair.",
+        "details": "Good pace expected."
+      },
+      "pace": "Fast.",
+      "analysis": "Kranich is resuming but has trialled well and has class. Night Fighter won well last start. Oakfield Badger is a threat fresh.",
+      "contenders": [
+        {
+          "number": 3,
+          "name": "Kranich",
+          "barrier": 7,
+          "weight": "127",
+          "jockey": {
+            "name": "Jacob Stiff",
+            "track_record": "Apprentice",
+            "recent_form": "Okay"
+          },
+          "trainer": {
+            "name": "Michael Mulholland",
+            "track_record": "Good",
+            "stable_form": "Solid"
+          },
+          "odds": {
+            "morning_line": "3.00",
+            "current_estimate": "3.20",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [],
+          "speed_figures": {
+            "career_best": "95",
+            "last_start": "Resuming",
+            "average_last_3": "92",
+            "par_for_class": "90"
+          },
+          "days_since_last": 158,
+          "fitness_level": "Resuming",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 7 is okay.",
+          "analysis": "Resuming. Trial winner. Has the class to win this.",
+          "hidden_factor": "Trial form is strong.",
+          "verdict": [
+            "TOP PICK"
+          ],
+          "stars": 5,
+          "rating": 94,
+          "win_probability": "28%",
+          "place_probability": "70%",
+          "show_probability": "85%"
+        },
+        {
+          "number": 5,
+          "name": "Night Fighter",
+          "barrier": 1,
+          "weight": "126",
+          "jockey": {
+            "name": "Jenny Duggan",
+            "track_record": "Solid",
+            "recent_form": "Good"
+          },
+          "trainer": {
+            "name": "Sue Grills",
+            "track_record": "Local",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": "5.00",
+            "current_estimate": "4.80",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [],
+          "speed_figures": {
+            "career_best": "93",
+            "last_start": "93",
+            "average_last_3": "90",
+            "par_for_class": "90"
+          },
+          "days_since_last": 30,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 1 is a huge advantage.",
+          "analysis": "Won well at this track/distance last time. Must be respected.",
+          "hidden_factor": null,
+          "verdict": [
+            "CONTENDER"
+          ],
+          "stars": 4,
+          "rating": 93,
+          "win_probability": "25%",
+          "place_probability": "65%",
+          "show_probability": "80%"
+        },
+        {
+          "number": 1,
+          "name": "Oakfield Badger",
+          "barrier": 10,
+          "weight": "133",
+          "jockey": {
+            "name": "Aaron Bullock",
+            "track_record": "Elite",
+            "recent_form": "Strong"
+          },
+          "trainer": {
+            "name": "Damien Lane",
+            "track_record": "Top",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": "9.00",
+            "current_estimate": "8.00",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [],
+          "speed_figures": {
+            "career_best": "94",
+            "last_start": "85",
+            "average_last_3": "90",
+            "par_for_class": "90"
+          },
+          "days_since_last": 18,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Wide gate is a negative.",
+          "analysis": "Class horse but the draw and weight make it tough. Bullock aboard helps.",
+          "hidden_factor": null,
+          "verdict": [
+            "CONTENDER"
+          ],
+          "stars": 4,
+          "rating": 92,
+          "win_probability": "20%",
+          "place_probability": "55%",
+          "show_probability": "75%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "Medium",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "3",
+            "stake": "2 units",
+            "odds_range": "3.00+"
+          },
+          {
+            "type": "Box Quinella",
+            "selection": "3,5,1",
+            "stake": "1 unit"
+          }
+        ],
+        "key_bet": "Win #3 Kranich"
+      }
+    },
+    {
+      "number": 6,
+      "post_time": "1:40 AM ET",
+      "purse": "$20,000",
+      "distance": "1200m",
+      "conditions": "Class 1 Handicap",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 11,
+      "confidence": "Low Confidence",
+      "track_bias": {
+        "summary": "1200m start. Fair.",
+        "details": "Open race."
+      },
+      "pace": "Moderate.",
+      "analysis": "Very open race. Blue De Beers is the favorite but drawn wide. Mirai San is consistent. It's A Tata won well last start.",
+      "contenders": [
+        {
+          "number": 4,
+          "name": "Blue De Beers",
+          "barrier": 13,
+          "weight": "127",
+          "jockey": {
+            "name": "Zoe Hunt",
+            "track_record": "Apprentice",
+            "recent_form": "Okay"
+          },
+          "trainer": {
+            "name": "Clint Lundholm",
+            "track_record": "Good",
+            "stable_form": "Solid"
+          },
+          "odds": {
+            "morning_line": "1.80",
+            "current_estimate": "2.00",
+            "value_assessment": "Underlay",
+            "overlay_underlay": "Underlay"
+          },
+          "recent_form": [],
+          "speed_figures": {
+            "career_best": "92",
+            "last_start": "90",
+            "average_last_3": "91",
+            "par_for_class": "85"
+          },
+          "days_since_last": 17,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 13 is a horror draw.",
+          "analysis": "Talented but the barrier is a major concern at this price. Risk.",
+          "hidden_factor": null,
+          "verdict": [
+            "RISK"
+          ],
+          "stars": 3,
+          "rating": 92,
+          "win_probability": "20%",
+          "place_probability": "50%",
+          "show_probability": "70%"
+        },
+        {
+          "number": 5,
+          "name": "It's A Tata",
+          "barrier": 5,
+          "weight": "126",
+          "jockey": {
+            "name": "Izzy Neale",
+            "track_record": "Apprentice",
+            "recent_form": "Good"
+          },
+          "trainer": {
+            "name": "Brett Robb",
+            "track_record": "Strong",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": "5.00",
+            "current_estimate": "5.50",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [],
+          "speed_figures": {
+            "career_best": "91",
+            "last_start": "91",
+            "average_last_3": "88",
+            "par_for_class": "85"
+          },
+          "days_since_last": 17,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 5 is ideal.",
+          "analysis": "Won well last time. Drawn to get a good run. Value play.",
+          "hidden_factor": null,
+          "verdict": [
+            "TOP PICK"
+          ],
+          "stars": 4,
+          "rating": 91,
+          "win_probability": "22%",
+          "place_probability": "60%",
+          "show_probability": "80%"
+        },
+        {
+          "number": 2,
+          "name": "Mirai San",
+          "barrier": 6,
+          "weight": "129",
+          "jockey": {
+            "name": "Ella Drew",
+            "track_record": "Apprentice",
+            "recent_form": "Okay"
+          },
+          "trainer": {
+            "name": "Scott Singleton",
+            "track_record": "Capable",
+            "stable_form": "Okay"
+          },
+          "odds": {
+            "morning_line": "5.00",
+            "current_estimate": "5.00",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [],
+          "speed_figures": {
+            "career_best": "90",
+            "last_start": "88",
+            "average_last_3": "89",
+            "par_for_class": "85"
+          },
+          "days_since_last": 19,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Good draw.",
+          "analysis": "Consistent type. Will be thereabouts.",
+          "hidden_factor": null,
+          "verdict": [
+            "CONTENDER"
+          ],
+          "stars": 4,
+          "rating": 90,
+          "win_probability": "18%",
+          "place_probability": "55%",
+          "show_probability": "75%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "Low",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "5",
+            "stake": "1 unit",
+            "odds_range": "5.00+"
+          },
+          {
+            "type": "Box Quinella",
+            "selection": "4,5,2",
+            "stake": "1 unit"
+          }
+        ],
+        "key_bet": "Win #5 It's A Tata"
+      }
+    },
+    {
+      "number": 7,
+      "post_time": "2:20 AM ET",
+      "purse": "$23,000",
+      "distance": "1400m",
+      "conditions": "BM58 Handicap",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 11,
+      "confidence": "Medium Confidence",
+      "track_bias": {
+        "summary": "1400m chute. Fair.",
+        "details": "Tactical race."
+      },
+      "pace": "Moderate.",
+      "analysis": "Mellencamp is in career best form and won well last start. Zoomorphic is a threat. Jasper's Way has claims.",
+      "contenders": [
+        {
+          "number": 1,
+          "name": "Mellencamp",
+          "barrier": 10,
+          "weight": "139",
+          "jockey": {
+            "name": "Ryan Bradley",
+            "track_record": "Apprentice",
+            "recent_form": "Good"
+          },
+          "trainer": {
+            "name": "Allan Boyle",
+            "track_record": "Capable",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": "4.50",
+            "current_estimate": "4.20",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [],
+          "speed_figures": {
+            "career_best": "94",
+            "last_start": "94",
+            "average_last_3": "92",
+            "par_for_class": "88"
+          },
+          "days_since_last": 8,
+          "fitness_level": "Peak",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Wide gate but has speed.",
+          "analysis": "Flying at the moment. Hard to go past despite the weight.",
+          "hidden_factor": "Form is strong.",
+          "verdict": [
+            "TOP PICK"
+          ],
+          "stars": 5,
+          "rating": 94,
+          "win_probability": "25%",
+          "place_probability": "65%",
+          "show_probability": "85%"
+        },
+        {
+          "number": 3,
+          "name": "Zoomorphic",
+          "barrier": 9,
+          "weight": "136",
+          "jockey": {
+            "name": "Ella Drew",
+            "track_record": "Apprentice",
+            "recent_form": "Okay"
+          },
+          "trainer": {
+            "name": "Scott Singleton",
+            "track_record": "Capable",
+            "stable_form": "Okay"
+          },
+          "odds": {
+            "morning_line": "4.00",
+            "current_estimate": "4.50",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [],
+          "speed_figures": {
+            "career_best": "92",
+            "last_start": "88",
+            "average_last_3": "90",
+            "par_for_class": "88"
+          },
+          "days_since_last": 8,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Wide gate.",
+          "analysis": "Consistent. Will be running on.",
+          "hidden_factor": null,
+          "verdict": [
+            "CONTENDER"
+          ],
+          "stars": 4,
+          "rating": 92,
+          "win_probability": "20%",
+          "place_probability": "60%",
+          "show_probability": "80%"
+        },
+        {
+          "number": 8,
+          "name": "Lucky Ozzie",
+          "barrier": 1,
+          "weight": "126",
+          "jockey": {
+            "name": "Aaron Bullock",
+            "track_record": "Elite",
+            "recent_form": "Strong"
+          },
+          "trainer": {
+            "name": "Gavin Groth",
+            "track_record": "Local",
+            "stable_form": "Solid"
+          },
+          "odds": {
+            "morning_line": "3.50",
+            "current_estimate": "3.80",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [],
+          "speed_figures": {
+            "career_best": "91",
+            "last_start": "89",
+            "average_last_3": "90",
+            "par_for_class": "88"
+          },
+          "days_since_last": 20,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 1 is a big plus.",
+          "analysis": "Bullock aboard. Drawn to get the run of the race.",
+          "hidden_factor": "Bullock factor.",
+          "verdict": [
+            "CONTENDER"
+          ],
+          "stars": 4,
+          "rating": 91,
+          "win_probability": "22%",
+          "place_probability": "60%",
+          "show_probability": "80%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "Medium",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "1",
+            "stake": "2 units",
+            "odds_range": "4.00+"
+          },
+          {
+            "type": "Box Quinella",
+            "selection": "1,3,8",
+            "stake": "1 unit"
+          }
+        ],
+        "key_bet": "Win #1 Mellencamp"
+      }
+    },
+    {
+      "number": 8,
+      "post_time": "2:55 AM ET",
+      "purse": "$20,000",
+      "distance": "1000m",
+      "conditions": "Class 3 Handicap",
+      "surface": "Turf",
+      "claiming_price": null,
+      "field_size": 9,
+      "confidence": "High Confidence",
+      "track_bias": {
+        "summary": "1000m sprint. Speed is key.",
+        "details": "Barriers are important. Leaders favored."
+      },
+      "pace": "Fast.",
+      "analysis": "Singing Star is resuming but has trialled brilliantly. Looks a class above these. Straand Care is the danger. This One Time has claims.",
+      "contenders": [
+        {
+          "number": 2,
+          "name": "Singing Star",
+          "barrier": 3,
+          "weight": "126",
+          "jockey": {
+            "name": "Anna Roper",
+            "track_record": "Good",
+            "recent_form": "Solid"
+          },
+          "trainer": {
+            "name": "Damien Lane",
+            "track_record": "Top",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": "5.00",
+            "current_estimate": "3.50",
+            "value_assessment": "Value",
+            "overlay_underlay": "Overlay"
+          },
+          "recent_form": [],
+          "speed_figures": {
+            "career_best": "94",
+            "last_start": "Resuming",
+            "average_last_3": "92",
+            "par_for_class": "90"
+          },
+          "days_since_last": 95,
+          "fitness_level": "Resuming",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 3 is perfect.",
+          "analysis": "Resuming. Trial winner. Looks ready to fire fresh.",
+          "hidden_factor": "Trial form is excellent.",
+          "verdict": [
+            "BEST BET",
+            "WINNER"
+          ],
+          "stars": 5,
+          "rating": 94,
+          "win_probability": "35%",
+          "place_probability": "80%",
+          "show_probability": "95%"
+        },
+        {
+          "number": 3,
+          "name": "Straand Care",
+          "barrier": 6,
+          "weight": "123",
+          "jockey": {
+            "name": "Braith Nock",
+            "track_record": "Good",
+            "recent_form": "Solid"
+          },
+          "trainer": {
+            "name": "Brett & Georgie Cavanough",
+            "track_record": "Strong",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": "2.00",
+            "current_estimate": "2.20",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [],
+          "speed_figures": {
+            "career_best": "92",
+            "last_start": "90",
+            "average_last_3": "91",
+            "par_for_class": "90"
+          },
+          "days_since_last": 42,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 6 is okay.",
+          "analysis": "Consistent. Will be in the finish.",
+          "hidden_factor": null,
+          "verdict": [
+            "CONTENDER"
+          ],
+          "stars": 4,
+          "rating": 92,
+          "win_probability": "25%",
+          "place_probability": "70%",
+          "show_probability": "85%"
+        },
+        {
+          "number": 7,
+          "name": "This One Time",
+          "barrier": 5,
+          "weight": "121",
+          "jockey": {
+            "name": "Leeshelle Small",
+            "track_record": "Apprentice",
+            "recent_form": "Okay"
+          },
+          "trainer": {
+            "name": "Rodney Northam",
+            "track_record": "Top",
+            "stable_form": "Good"
+          },
+          "odds": {
+            "morning_line": "6.00",
+            "current_estimate": "7.00",
+            "value_assessment": "Fair",
+            "overlay_underlay": "Neutral"
+          },
+          "recent_form": [],
+          "speed_figures": {
+            "career_best": "89",
+            "last_start": "87",
+            "average_last_3": "88",
+            "par_for_class": "90"
+          },
+          "days_since_last": 17,
+          "fitness_level": "Fit",
+          "equipment": {
+            "blinkers": false,
+            "tongue_tie": false,
+            "gear_changes": null
+          },
+          "post_position_analysis": "Barrier 5 is good.",
+          "analysis": "Place chance.",
+          "hidden_factor": null,
+          "verdict": [
+            "PLACE CHANCE"
+          ],
+          "stars": 3,
+          "rating": 89,
+          "win_probability": "15%",
+          "place_probability": "50%",
+          "show_probability": "70%"
+        }
+      ],
+      "betting_strategy": {
+        "confidence_level": "High",
+        "suggested_bets": [
+          {
+            "type": "Win",
+            "selection": "2",
+            "stake": "3 units",
+            "odds_range": "3.00+"
+          },
+          {
+            "type": "Exacta",
+            "selection": "2 / 3",
+            "stake": "1 unit"
+          }
+        ],
+        "key_bet": "Win #2 Singing Star"
+      }
+    }
+  ]
+}
